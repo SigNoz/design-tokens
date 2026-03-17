@@ -1,4 +1,54 @@
 {
+	"periscope": {
+		"lineHeightMedium": {
+			"value": "24px",
+			"type": "typography"
+		},
+		"lineHeightBase": {
+			"value": "20px",
+			"type": "typography"
+		},
+		"fontFamilySans": {
+			"value": "Inter, sans-serif",
+			"type": "typography"
+		},
+		"fontFamilySerif": {
+			"value": "Lora, serif",
+			"type": "typography"
+		},
+		"fontFamilyMono": {
+			"value": "SF Mono, monospace",
+			"type": "typography"
+		},
+		"fontWeightRegular": {
+			"value": "400",
+			"type": "typography"
+		},
+		"fontWeightMedium": {
+			"value": "500",
+			"type": "typography"
+		},
+		"fontWeightBold": {
+			"value": "600",
+			"type": "typography"
+		},
+		"fontSizeLarge": {
+			"value": "18px",
+			"type": "typography"
+		},
+		"fontSizeMedium": {
+			"value": "16px",
+			"type": "typography"
+		},
+		"fontSizeBase": {
+			"value": "13px",
+			"type": "typography"
+		},
+		"fontSizeSmall": {
+			"value": "11px",
+			"type": "typography"
+		}
+	},
 	"fontFamily": {
 		"inter": {
 			"value": "Inter, sans-serif",

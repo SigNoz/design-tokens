@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 27 Feb 2026 14:32:24 GMT
+ * Generated on Tue, 17 Mar 2026 17:49:01 GMT
  */
 
 [data-theme='default'] {
@@ -229,7 +229,7 @@
 	--base-white: var(--text-base-white);
 	--base-black: var(--text-base-black);
 	--l1-background: var(--bg-neutral-dark-1000);
-	--l2-background: var(--bg-neutral-dark-900);
+	--l2-background: var(--bg-neutral-dark-950);
 	--l3-background: var(--bg-neutral-dark-800);
 	--l1-background-hover: var(--bg-neutral-dark-900);
 	--l2-background-hover: var(--bg-neutral-dark-700);
@@ -247,19 +247,19 @@
 	--primary-background-hover: var(--bg-robin-400);
 	--primary-foreground: var(--text-neutral-dark-50);
 	--primary-foreground-hover: var(--text-base-white);
-	--secondary-background: var(--bg-neutral-dark-900);
+	--secondary-background: var(--bg-neutral-dark-950);
 	--secondary-background-hover: var(--bg-neutral-dark-700);
 	--secondary-foreground: var(--text-neutral-dark-100);
 	--secondary-foreground-hover: var(--text-neutral-dark-50);
 	--secondary-border: var(--bg-neutral-dark-800);
-	--success-background: var(--bg-forest-600);
+	--success-background: var(--bg-forest-500);
 	--success-background-hover: var(--bg-forest-400);
-	--success-foreground: var(--text-neutral-dark-50);
-	--success-foreground-hover: var(--text-base-white);
-	--warning-background: var(--bg-amber-600);
+	--success-foreground: var(--text-neutral-dark-1000);
+	--success-foreground-hover: var(--text-base-black);
+	--warning-background: var(--bg-amber-500);
 	--warning-background-hover: var(--bg-amber-400);
-	--warning-foreground: var(--text-neutral-dark-50);
-	--warning-foreground-hover: var(--text-base-white);
+	--warning-foreground: var(--text-neutral-dark-1000);
+	--warning-foreground-hover: var(--text-base-black);
 	--danger-background: var(--bg-cherry-500);
 	--danger-background-hover: var(--bg-cherry-400);
 	--danger-foreground: var(--text-neutral-dark-50);
@@ -276,12 +276,12 @@
 	);
 	--l2-background-transparent: color-mix(
 		in srgb,
-		var(--bg-neutral-dark-900),
+		var(--bg-neutral-dark-950),
 		transparent 100%
 	);
 	--l2-background-60: color-mix(
 		in srgb,
-		var(--bg-neutral-dark-900),
+		var(--bg-neutral-dark-950),
 		transparent 40%
 	);
 	--l3-background-transparent: color-mix(
