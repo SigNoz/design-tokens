@@ -1,9 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Mon, 02 Feb 2026 06:36:25 GMT
+ * Generated on Tue, 17 Mar 2026 17:49:01 GMT
  */
 
 :root {
+	--periscope-line-height-medium: 24px;
+	--periscope-line-height-base: 20px;
+	--periscope-font-family-sans: Inter, sans-serif;
+	--periscope-font-family-serif: Lora, serif;
+	--periscope-font-family-mono: SF Mono, monospace;
+	--periscope-font-weight-regular: 400;
+	--periscope-font-weight-medium: 500;
+	--periscope-font-weight-bold: 600;
+	--periscope-font-size-large: 18px;
+	--periscope-font-size-medium: 16px;
+	--periscope-font-size-base: 13px;
+	--periscope-font-size-small: 11px;
 	--font-family-inter: Inter, sans-serif;
 	--font-family-sf-mono: SF Mono, monospace;
 	--font-size-xs: 0.75rem;
