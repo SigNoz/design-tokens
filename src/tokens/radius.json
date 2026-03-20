@@ -1,0 +1,22 @@
+{
+	"radius_0": {
+		"value": "0px",
+		"type": "radius"
+	},
+	"radius_1": {
+		"value": "2px",
+		"type": "radius"
+	},
+	"radius_2": {
+		"value": "4px",
+		"type": "radius"
+	},
+	"radius_3": {
+		"value": "6px",
+		"type": "radius"
+	},
+	"radiusRound": {
+		"value": "999999px",
+		"type": "radius"
+	}
+}
