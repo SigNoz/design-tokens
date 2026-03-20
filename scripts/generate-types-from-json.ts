@@ -148,6 +148,13 @@ const configsWithTheme = [
 		isTailwind: false,
 		prefix: 'text',
 	},
+	{
+		inputPath: join(__dirname, '../src/tokens/radius.json'),
+		outputPath: join(__dirname, '../src/types/Radius.ts'),
+		enumName: 'Radius',
+		isTailwind: false,
+		prefix: 'radius',
+	},
 ];
 
 // Generate Color.ts and ColorTailwind.ts from color.json
@@ -236,12 +243,48 @@ export type TypographyType = (typeof Typography)[keyof typeof Typography];
 	}
 };
 
+// Generate Radius.ts from radius.json
+const generateRadiusFile = async () => {
+	try {
+		const radiusJsonPath = join(__dirname, '../src/tokens/radius.json');
+		const jsonData = JSON.parse(await fs.readFile(radiusJsonPath, 'utf-8'));
+
+		// Generate Radius.ts (with all radius tokens)
+		const radiusEnum = generateEnum(jsonData);
+		const radiusFileContent = `
+/**
+ * Do not edit directly
+ * Generated on ${new Date().toUTCString()}
+ */
+
+export const Radius = ${JSON.stringify(radiusEnum, null, '\t')};
+
+export type RadiusType = (typeof Radius)[keyof typeof Radius];
+`.trim();
+
+		await fs.writeFile(
+			join(__dirname, '../src/Radius/Radius.ts'),
+			radiusFileContent,
+		);
+		console.log('src/Radius/Radius.ts generated successfully');
+	} catch (error: unknown) {
+		if (error instanceof Error) {
+			console.error(`Error generating radius file: ${error.message}`);
+		} else {
+			console.error(`Error generating radius file: Unexpected error`);
+		}
+	}
+};
+
 (async () => {
 	// Generate Color.ts and ColorTailwind.ts
 	await generateColorFiles();
 
 	// Generate Typography.ts
 	await generateTypographyFile();
+
+	// Generate Radius.ts
+	await generateRadiusFile();
 
 	// Generate TypeScript types
 	for (const config of configsWithTheme) {

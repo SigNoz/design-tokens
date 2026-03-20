@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 17 Mar 2026 17:49:01 GMT
+ * Generated on Fri, 20 Mar 2026 16:34:30 GMT
  */
 @theme {
 	/* Colors */
@@ -435,4 +435,11 @@
 	--text-paragraph-small-600-lineheight: 18px;
 	--text-paragraph-small-600-letterspacing: -0.5px;
 	--text-paragraph-small-600-fontfamily: Inter, sans-serif;
+
+	/* Radius */
+	--radius-radius_0: 0px;
+	--radius-radius_1: 2px;
+	--radius-radius_2: 4px;
+	--radius-radius_3: 6px;
+	--radius-radiusround: 999999px;
 }

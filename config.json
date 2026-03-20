@@ -2,7 +2,8 @@
 	"source": [
 		"src/tokens/color.json",
 		"src/tokens/spacing.json",
-		"src/tokens/typography.json"
+		"src/tokens/typography.json",
+		"src/tokens/radius.json"
 	],
 	"platforms": {
 		"css_colors": {
@@ -48,6 +49,23 @@
 					"format": "css/variables",
 					"filter": {
 						"type": "typography"
+					}
+				},
+				{
+					"destination": "../style.css",
+					"format": "css/variables"
+				}
+			]
+		},
+		"css_radius": {
+			"transformGroup": "css",
+			"buildPath": "src/Radius/",
+			"files": [
+				{
+					"destination": "style.css",
+					"format": "css/variables",
+					"filter": {
+						"type": "radius"
 					}
 				},
 				{
