@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 20 Mar 2026 16:34:30 GMT
+ * Generated on Tue, 28 Apr 2026 18:30:26 GMT
  */
 
 export const Style = {
@@ -125,6 +125,29 @@ export const Style = {
 	ACCENT_SIENNA: 'var(--accent-sienna)',
 	ACCENT_SIENNA_HOVER: 'var(--accent-sienna-hover)',
 	ACCENT_SIENNA_FOREGROUND: 'var(--accent-sienna-foreground)',
+	GHOST_BACKGROUND: 'var(--ghost-background)',
+	GHOST_BACKGROUND_HOVER: 'var(--ghost-background-hover)',
+	GHOST_FOREGROUND: 'var(--ghost-foreground)',
+	GHOST_FOREGROUND_HOVER: 'var(--ghost-foreground-hover)',
+	GHOST_BORDER: 'var(--ghost-border)',
+	ACTION_BACKGROUND: 'var(--action-background)',
+	ACTION_BACKGROUND_HOVER: 'var(--action-background-hover)',
+	ACTION_BORDER: 'var(--action-border)',
+	ACTION_BORDER_HOVER: 'var(--action-border-hover)',
+	ACTION_FOREGROUND: 'var(--action-foreground)',
+	ACTION_FOREGROUND_HOVER: 'var(--action-foreground-hover)',
+	CALLOUT_SIENNA_BACKGROUND: 'var(--callout-sienna-background)',
+	CALLOUT_SIENNA_BORDER: 'var(--callout-sienna-border)',
+	CALLOUT_SIENNA_TITLE: 'var(--callout-sienna-title)',
+	CALLOUT_SIENNA_DESCRIPTION: 'var(--callout-sienna-description)',
+	CALLOUT_SIENNA_ICON: 'var(--callout-sienna-icon)',
+	CALLOUT_AQUA_BACKGROUND: 'var(--callout-aqua-background)',
+	CALLOUT_AQUA_BORDER: 'var(--callout-aqua-border)',
+	CALLOUT_AQUA_TITLE: 'var(--callout-aqua-title)',
+	CALLOUT_AQUA_DESCRIPTION: 'var(--callout-aqua-description)',
+	CALLOUT_AQUA_ICON: 'var(--callout-aqua-icon)',
+	CONTROL_ICON_FOREGROUND: 'var(--control-icon-foreground)',
+	CONTROL_ICON_FOREGROUND_CONTRAST: 'var(--control-icon-foreground-contrast)',
 } as const;
 
 export type StyleType = typeof Style;
