@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 20 Mar 2026 16:34:30 GMT
+ * Generated on Tue, 28 Apr 2026 18:30:26 GMT
  */
 
 export const StyleTailwind = {
@@ -125,6 +125,29 @@ export const StyleTailwind = {
 	'accent-sienna': 'var(--accent-sienna)',
 	'accent-sienna-hover': 'var(--accent-sienna-hover)',
 	'accent-sienna-foreground': 'var(--accent-sienna-foreground)',
+	'ghost-background': 'var(--ghost-background)',
+	'ghost-background-hover': 'var(--ghost-background-hover)',
+	'ghost-foreground': 'var(--ghost-foreground)',
+	'ghost-foreground-hover': 'var(--ghost-foreground-hover)',
+	'ghost-border': 'var(--ghost-border)',
+	'action-background': 'var(--action-background)',
+	'action-background-hover': 'var(--action-background-hover)',
+	'action-border': 'var(--action-border)',
+	'action-border-hover': 'var(--action-border-hover)',
+	'action-foreground': 'var(--action-foreground)',
+	'action-foreground-hover': 'var(--action-foreground-hover)',
+	'callout-sienna-background': 'var(--callout-sienna-background)',
+	'callout-sienna-border': 'var(--callout-sienna-border)',
+	'callout-sienna-title': 'var(--callout-sienna-title)',
+	'callout-sienna-description': 'var(--callout-sienna-description)',
+	'callout-sienna-icon': 'var(--callout-sienna-icon)',
+	'callout-aqua-background': 'var(--callout-aqua-background)',
+	'callout-aqua-border': 'var(--callout-aqua-border)',
+	'callout-aqua-title': 'var(--callout-aqua-title)',
+	'callout-aqua-description': 'var(--callout-aqua-description)',
+	'callout-aqua-icon': 'var(--callout-aqua-icon)',
+	'control-icon-foreground': 'var(--control-icon-foreground)',
+	'control-icon-foreground-contrast': 'var(--control-icon-foreground-contrast)',
 } as const;
 
 export type StyleTailwindType =

@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 20 Mar 2026 16:34:30 GMT
+ * Generated on Tue, 28 Apr 2026 18:30:26 GMT
  */
 
 [data-theme='default'] {
@@ -187,6 +187,41 @@
 	--accent-sienna: var(--bg-sienna-500);
 	--accent-sienna-hover: var(--bg-sienna-400);
 	--accent-sienna-foreground: var(--text-vanilla-100);
+	--ghost-background: transparent;
+	--ghost-background-hover: var(--bg-vanilla-300);
+	--ghost-foreground: var(--bg-slate-50);
+	--ghost-foreground-hover: var(--bg-slate-300);
+	--ghost-border: var(--bg-vanilla-300);
+	--action-background: transparent;
+	--action-background-hover: var(--bg-vanilla-300);
+	--action-border: var(--bg-vanilla-300);
+	--action-border-hover: var(--bg-vanilla-400);
+	--action-foreground: var(--bg-slate-50);
+	--action-foreground-hover: var(--bg-slate-300);
+	--callout-sienna-background: color-mix(
+		in srgb,
+		var(--bg-sienna-500) 10%,
+		transparent
+	);
+	--callout-sienna-border: color-mix(
+		in srgb,
+		var(--bg-sienna-500) 20%,
+		transparent
+	);
+	--callout-sienna-title: var(--bg-sienna-600);
+	--callout-sienna-description: var(--bg-sienna-600);
+	--callout-sienna-icon: var(--bg-sienna-600);
+	--callout-aqua-background: color-mix(
+		in srgb,
+		var(--bg-aqua-500) 10%,
+		transparent
+	);
+	--callout-aqua-border: color-mix(in srgb, var(--bg-aqua-500) 20%, transparent);
+	--callout-aqua-title: var(--bg-aqua-700);
+	--callout-aqua-description: var(--bg-aqua-700);
+	--callout-aqua-icon: var(--bg-aqua-600);
+	--control-icon-foreground: var(--text-base-white);
+	--control-icon-foreground-contrast: var(--text-base-black);
 }
 
 [data-theme='default'].dark {
@@ -367,4 +402,39 @@
 	--accent-sienna: var(--bg-sienna-500);
 	--accent-sienna-hover: var(--bg-sienna-400);
 	--accent-sienna-foreground: var(--text-ink-500);
+	--ghost-background: transparent;
+	--ghost-background-hover: var(--bg-slate-400);
+	--ghost-foreground: var(--bg-vanilla-400);
+	--ghost-foreground-hover: var(--bg-vanilla-100);
+	--ghost-border: var(--bg-slate-400);
+	--action-background: transparent;
+	--action-background-hover: var(--bg-slate-400);
+	--action-border: var(--bg-slate-400);
+	--action-border-hover: var(--bg-slate-300);
+	--action-foreground: var(--bg-vanilla-400);
+	--action-foreground-hover: var(--bg-vanilla-100);
+	--callout-sienna-background: color-mix(
+		in srgb,
+		var(--bg-sienna-500) 10%,
+		transparent
+	);
+	--callout-sienna-border: color-mix(
+		in srgb,
+		var(--bg-sienna-500) 20%,
+		transparent
+	);
+	--callout-sienna-title: var(--bg-sienna-100);
+	--callout-sienna-description: var(--bg-sienna-300);
+	--callout-sienna-icon: var(--bg-sienna-300);
+	--callout-aqua-background: color-mix(
+		in srgb,
+		var(--bg-aqua-500) 10%,
+		transparent
+	);
+	--callout-aqua-border: color-mix(in srgb, var(--bg-aqua-500) 20%, transparent);
+	--callout-aqua-title: var(--bg-aqua-100);
+	--callout-aqua-description: var(--bg-aqua-300);
+	--callout-aqua-icon: var(--bg-aqua-300);
+	--control-icon-foreground: var(--text-base-white);
+	--control-icon-foreground-contrast: var(--text-base-black);
 }

@@ -757,6 +757,144 @@
 					"description": "Text color on sienna accent backgrounds",
 					"category": "foreground",
 					"group": "accents"
+				},
+				"ghost-background": {
+					"value": "transparent",
+					"description": "Background for ghost buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"ghost-background-hover": {
+					"value": "var(--bg-vanilla-300)",
+					"description": "Hover background for ghost buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"ghost-foreground": {
+					"value": "var(--bg-slate-50)",
+					"description": "Text color for ghost buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"ghost-foreground-hover": {
+					"value": "var(--bg-slate-300)",
+					"description": "Hover text color for ghost buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"ghost-border": {
+					"value": "var(--bg-vanilla-300)",
+					"description": "Border color for ghost buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-background": {
+					"value": "transparent",
+					"description": "Background for action buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"action-background-hover": {
+					"value": "var(--bg-vanilla-300)",
+					"description": "Hover background for action buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"action-border": {
+					"value": "var(--bg-vanilla-300)",
+					"description": "Border color for action buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-border-hover": {
+					"value": "var(--bg-vanilla-400)",
+					"description": "Hover border color for action buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-foreground": {
+					"value": "var(--bg-slate-50)",
+					"description": "Text color for action buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"action-foreground-hover": {
+					"value": "var(--bg-slate-300)",
+					"description": "Hover text color for action buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"callout-sienna-background": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500) 10%, transparent)",
+					"description": "Background for sienna callout boxes",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-sienna-border": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500) 20%, transparent)",
+					"description": "Border for sienna callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-sienna-title": {
+					"value": "var(--bg-sienna-600)",
+					"description": "Title text color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-sienna-description": {
+					"value": "var(--bg-sienna-600)",
+					"description": "Description text color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-sienna-icon": {
+					"value": "var(--bg-sienna-600)",
+					"description": "Icon color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-background": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500) 10%, transparent)",
+					"description": "Background for aqua callout boxes",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-aqua-border": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500) 20%, transparent)",
+					"description": "Border for aqua callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-aqua-title": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Title text color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-description": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Description text color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-icon": {
+					"value": "var(--bg-aqua-600)",
+					"description": "Icon color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"control-icon-foreground": {
+					"value": "var(--text-base-white)",
+					"description": "Icon/thumb color on colored control backgrounds",
+					"category": "foreground",
+					"group": "controls"
+				},
+				"control-icon-foreground-contrast": {
+					"value": "var(--text-base-black)",
+					"description": "High-contrast icon color for controls",
+					"category": "foreground",
+					"group": "controls"
 				}
 			}
 		},
@@ -1511,6 +1649,144 @@
 					"description": "Text color on sienna accent backgrounds",
 					"category": "foreground",
 					"group": "accents"
+				},
+				"ghost-background": {
+					"value": "transparent",
+					"description": "Background for ghost buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"ghost-background-hover": {
+					"value": "var(--bg-slate-400)",
+					"description": "Hover background for ghost buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"ghost-foreground": {
+					"value": "var(--bg-vanilla-400)",
+					"description": "Text color for ghost buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"ghost-foreground-hover": {
+					"value": "var(--bg-vanilla-100)",
+					"description": "Hover text color for ghost buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"ghost-border": {
+					"value": "var(--bg-slate-400)",
+					"description": "Border color for ghost buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-background": {
+					"value": "transparent",
+					"description": "Background for action buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"action-background-hover": {
+					"value": "var(--bg-slate-400)",
+					"description": "Hover background for action buttons",
+					"category": "background",
+					"group": "buttons"
+				},
+				"action-border": {
+					"value": "var(--bg-slate-400)",
+					"description": "Border color for action buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-border-hover": {
+					"value": "var(--bg-slate-300)",
+					"description": "Hover border color for action buttons",
+					"category": "border",
+					"group": "buttons"
+				},
+				"action-foreground": {
+					"value": "var(--bg-vanilla-400)",
+					"description": "Text color for action buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"action-foreground-hover": {
+					"value": "var(--bg-vanilla-100)",
+					"description": "Hover text color for action buttons",
+					"category": "foreground",
+					"group": "buttons"
+				},
+				"callout-sienna-background": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500) 10%, transparent)",
+					"description": "Background for sienna callout boxes",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-sienna-border": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500) 20%, transparent)",
+					"description": "Border for sienna callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-sienna-title": {
+					"value": "var(--bg-sienna-100)",
+					"description": "Title text color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-sienna-description": {
+					"value": "var(--bg-sienna-300)",
+					"description": "Description text color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-sienna-icon": {
+					"value": "var(--bg-sienna-300)",
+					"description": "Icon color for sienna callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-background": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500) 10%, transparent)",
+					"description": "Background for aqua callout boxes",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-aqua-border": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500) 20%, transparent)",
+					"description": "Border for aqua callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-aqua-title": {
+					"value": "var(--bg-aqua-100)",
+					"description": "Title text color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-description": {
+					"value": "var(--bg-aqua-300)",
+					"description": "Description text color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-aqua-icon": {
+					"value": "var(--bg-aqua-300)",
+					"description": "Icon color for aqua callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"control-icon-foreground": {
+					"value": "var(--text-base-white)",
+					"description": "Icon/thumb color on colored control backgrounds",
+					"category": "foreground",
+					"group": "controls"
+				},
+				"control-icon-foreground-contrast": {
+					"value": "var(--text-base-black)",
+					"description": "High-contrast icon color for controls",
+					"category": "foreground",
+					"group": "controls"
 				}
 			}
 		}
