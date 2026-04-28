@@ -3,11 +3,47 @@ name: release
 on:
  push:
   branches:
-   - 'design-tokens-initial-setup'
+   - main
+ workflow_dispatch:
+
+concurrency:
+ group: release-${{ github.ref }}
+ cancel-in-progress: false
 
 jobs:
  release:
-  uses: signoz/primus.workflows/.github/workflows/js-release.yaml@js-release
-  secrets: inherit
-  with:
-   PRIMUS_REF: git
+  runs-on: ubuntu-latest
+  permissions:
+   contents: write
+   pull-requests: write
+  steps:
+   - name: Checkout repository
+     uses: actions/checkout@v4
+     with:
+      fetch-depth: 0
+
+   - name: Setup pnpm
+     uses: pnpm/action-setup@v4
+     with:
+      version: 9
+
+   - name: Setup Node.js
+     uses: actions/setup-node@v4
+     with:
+      node-version: 20
+      cache: pnpm
+      registry-url: https://registry.npmjs.org
+
+   - name: Install dependencies
+     run: pnpm install --frozen-lockfile
+
+   - name: Create release PR or publish package
+     uses: changesets/action@v1
+     with:
+      version: pnpm changeset version
+      publish: pnpm release
+      commit: 'chore: release versions'
+      title: 'chore: release versions'
+     env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
