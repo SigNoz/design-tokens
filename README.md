@@ -144,3 +144,61 @@ To regenerate tokens from JSON sources:
 ```bash
 pnpm generate-tokens
 ```
+
+---
+
+## Release Process
+
+Releases are managed by [Changesets](https://github.com/changesets/changesets) and published automatically by the `release` GitHub Actions workflow.
+
+### 1. Add a changeset to your PR
+
+Any PR that affects published code must include a changeset. From the repo root:
+
+```bash
+pnpm changeset
+```
+
+Pick the bump type and write a short summary:
+
+- `patch` — bug fixes, internal token tweaks that don't change the public API
+- `minor` — new tokens or backwards-compatible additions
+- `major` — breaking changes (renamed/removed tokens, changed exports)
+
+This creates a file under `.changeset/` (e.g. `.changeset/honest-needles-switch.md`). Commit it alongside your code changes.
+
+> Tooling/CI/docs-only PRs that don't ship to consumers can skip the changeset.
+
+### 2. Merge your PR to `main`
+
+Once merged, the [`release` workflow](.github/workflows/release.yml) runs and opens (or updates) a PR titled **"chore: release versions"** which:
+
+- Bumps `package.json` to the next version
+- Updates `CHANGELOG.md`
+- Removes the consumed `.changeset/*.md` files
+
+### 3. Merge the release PR to publish
+
+Merging the release PR triggers the workflow again. With no pending changesets, it runs `pnpm release` which:
+
+- Builds the package (`pnpm build`)
+- Publishes to npm via `changeset publish` (using the `NPM_TOKEN` secret)
+- Pushes a git tag for the new version
+
+You can also trigger the workflow manually from **Actions → release → Run workflow**.
+
+### Local commands
+
+```bash
+pnpm changeset          # add a changeset for the current change (commit the generated .md file)
+pnpm release            # build + publish — DO NOT run manually; CI handles this
+```
+
+> Avoid running `pnpm update-version` locally — it consumes pending changesets and rewrites `package.json` / `CHANGELOG.md` immediately, bypassing the release-PR review.
+
+### One-time repo setup
+
+For the workflow to open the release PR, ensure the following in the repository:
+
+- **Settings → Actions → General → Workflow permissions:** enable "Allow GitHub Actions to create and approve pull requests".
+- **Secrets:** an `NPM_TOKEN` with publish access to `@signozhq/design-tokens` is configured under **Settings → Secrets and variables → Actions**.
