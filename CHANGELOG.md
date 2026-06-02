@@ -1,5 +1,12 @@
 # @signoz/design-tokens
 
+## 2.1.7
+
+### Patch Changes
+
+- ff64e30: Expose semantic tokens with docs
+- correct dark-mode success-foreground token
+
 ## 2.1.1
 
 ### Patch Changes
