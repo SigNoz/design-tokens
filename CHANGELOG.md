@@ -1,5 +1,11 @@
 # @signoz/design-tokens
 
+## 2.1.7
+
+### Patch Changes
+
+- 2af04a5: Expose semantic tokens with docs
+
 ## 2.1.1
 
 ### Patch Changes
