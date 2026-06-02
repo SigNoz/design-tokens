@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 28 Apr 2026 18:30:26 GMT
+ * Generated on Tue, 02 Jun 2026 15:48:23 GMT
  */
 
 [data-theme='default'] {
@@ -69,8 +69,8 @@
 	--secondary-border: var(--bg-neutral-light-800);
 	--success-background: var(--bg-forest-600);
 	--success-background-hover: var(--bg-forest-400);
-	--success-foreground: var(--text-neutral-light-50);
-	--success-foreground-hover: var(--text-base-black);
+	--success-foreground: var(--text-forest-500);
+	--success-foreground-hover: var(--text-forest-400);
 	--warning-background: var(--bg-amber-600);
 	--warning-background-hover: var(--bg-amber-400);
 	--warning-foreground: var(--text-neutral-light-50);
@@ -289,8 +289,8 @@
 	--secondary-border: var(--bg-neutral-dark-800);
 	--success-background: var(--bg-forest-500);
 	--success-background-hover: var(--bg-forest-400);
-	--success-foreground: var(--text-neutral-dark-1000);
-	--success-foreground-hover: var(--text-base-black);
+	--success-foreground: var(--text-forest-500);
+	--success-foreground-hover: var(--text-forest-400);
 	--warning-background: var(--bg-amber-500);
 	--warning-background-hover: var(--bg-amber-400);
 	--warning-foreground: var(--text-neutral-dark-1000);
