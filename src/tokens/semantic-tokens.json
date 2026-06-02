@@ -398,13 +398,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-neutral-light-50)",
+					"value": "var(--text-forest-500)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-base-black)",
+					"value": "var(--text-forest-400)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
@@ -1296,13 +1296,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-neutral-dark-1000)",
+					"value": "var(--text-forest-500)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-base-black)",
+					"value": "var(--text-forest-400)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
