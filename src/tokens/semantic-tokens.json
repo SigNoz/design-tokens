@@ -466,7 +466,7 @@
 					"group": "surface-levels"
 				},
 				"l1-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
@@ -478,7 +478,7 @@
 					"group": "surface-levels"
 				},
 				"l2-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-950), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-950), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
@@ -490,10 +490,40 @@
 					"group": "surface-levels"
 				},
 				"l3-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
+				},
+				"l3-background-30": {
+					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 70%)",
+					"description": "",
+					"category": "background",
+					"group": "surface-levels"
+				},
+				"surface-1": {
+					"value": "var(--l1-background)",
+					"description": "Primary surface for outermost containers",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-2": {
+					"value": "var(--l1-background)",
+					"description": "Secondary surface for cards",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-3": {
+					"value": "var(--l1-background)",
+					"description": "Tertiary surface for nested elements",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-static": {
+					"value": "var(--bg-neutral-dark-800)",
+					"description": "Static dark surface that stays same across themes",
+					"category": "background",
+					"group": "surfaces"
 				},
 				"alert-strip-button-background": {
 					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
@@ -527,7 +557,7 @@
 					"group": "callouts"
 				},
 				"callout-primary-icon": {
-					"value": "var(--bg-robin-300)",
+					"value": "var(--bg-robin-600)",
 					"description": "Icon color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1393,6 +1423,36 @@
 					"category": "background",
 					"group": "surface-levels"
 				},
+				"l3-background-30": {
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-800), transparent 70%)",
+					"description": "",
+					"category": "background",
+					"group": "surface-levels"
+				},
+				"surface-1": {
+					"value": "var(--l1-background)",
+					"description": "Primary surface for outermost containers",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-2": {
+					"value": "var(--l2-background)",
+					"description": "Secondary surface for cards",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-3": {
+					"value": "var(--l3-background-60)",
+					"description": "Tertiary surface for nested elements",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-static": {
+					"value": "var(--l3-background-60)",
+					"description": "Static dark surface that stays same across themes",
+					"category": "background",
+					"group": "surfaces"
+				},
 				"callout-primary-background": {
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
 					"description": "Background for informational callout boxes",
@@ -1407,13 +1467,13 @@
 					"group": "callouts"
 				},
 				"callout-primary-title": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-100)",
 					"description": "Title text color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-primary-description": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-300)",
 					"description": "Description text color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1425,63 +1485,63 @@
 					"group": "callouts"
 				},
 				"callout-success-background": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
 					"description": "Background for success callout boxes",
 					"usage": "Use for success messages and positive confirmations",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-success-border": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
 					"description": "Border for success callout boxes",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-success-title": {
-					"value": "var(--bg-forest-400)",
+					"value": "var(--bg-forest-100)",
 					"description": "Title text color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-success-description": {
-					"value": "var(--bg-forest-400)",
+					"value": "var(--bg-forest-300)",
 					"description": "Description text color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-success-icon": {
-					"value": "var(--bg-forest-300)",
+					"value": "var(--bg-forest-200)",
 					"description": "Icon color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-background": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
 					"description": "Background for warning callout boxes",
 					"usage": "Use for warning messages and cautionary information",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-warning-border": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
 					"description": "Border for warning callout boxes",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-warning-title": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-100)",
 					"description": "Title text color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-description": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-300)",
 					"description": "Description text color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-icon": {
-					"value": "var(--bg-amber-300)",
+					"value": "var(--bg-amber-200)",
 					"description": "Icon color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1500,19 +1560,19 @@
 					"group": "callouts"
 				},
 				"callout-error-title": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-100)",
 					"description": "Title text color for error callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-description": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-300)",
 					"description": "Description text color for error callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-icon": {
-					"value": "var(--bg-cherry-300)",
+					"value": "var(--bg-cherry-200)",
 					"description": "Icon color for error callouts",
 					"category": "foreground",
 					"group": "callouts"

@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 28 Apr 2026 18:30:26 GMT
+ * Generated on Wed, 19 Aug 2026 19:28:05 GMT
  */
 
 export const Style = {
@@ -83,6 +83,11 @@ export const Style = {
 	L2_BACKGROUND_60: 'var(--l2-background-60)',
 	L3_BACKGROUND_TRANSPARENT: 'var(--l3-background-transparent)',
 	L3_BACKGROUND_60: 'var(--l3-background-60)',
+	L3_BACKGROUND_30: 'var(--l3-background-30)',
+	SURFACE_1: 'var(--surface-1)',
+	SURFACE_2: 'var(--surface-2)',
+	SURFACE_3: 'var(--surface-3)',
+	SURFACE_STATIC: 'var(--surface-static)',
 	ALERT_STRIP_BUTTON_BACKGROUND: 'var(--alert-strip-button-background)',
 	CALLOUT_PRIMARY_BACKGROUND: 'var(--callout-primary-background)',
 	CALLOUT_PRIMARY_BORDER: 'var(--callout-primary-border)',

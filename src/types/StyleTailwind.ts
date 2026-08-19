@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 28 Apr 2026 18:30:26 GMT
+ * Generated on Wed, 19 Aug 2026 19:28:05 GMT
  */
 
 export const StyleTailwind = {
@@ -83,6 +83,11 @@ export const StyleTailwind = {
 	'l2-background-60': 'var(--l2-background-60)',
 	'l3-background-transparent': 'var(--l3-background-transparent)',
 	'l3-background-60': 'var(--l3-background-60)',
+	'l3-background-30': 'var(--l3-background-30)',
+	'surface-1': 'var(--surface-1)',
+	'surface-2': 'var(--surface-2)',
+	'surface-3': 'var(--surface-3)',
+	'surface-static': 'var(--surface-static)',
 	'alert-strip-button-background': 'var(--alert-strip-button-background)',
 	'callout-primary-background': 'var(--callout-primary-background)',
 	'callout-primary-border': 'var(--callout-primary-border)',
