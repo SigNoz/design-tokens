@@ -40,8 +40,8 @@ export default defineConfig({
 	plugins: [
 		dts({
 			include: ['src/**/*'],
-			outDir: 'dist',
-			rollupTypes: true,
+			outDirs: 'dist',
+			bundleTypes: true,
 		}),
 		{
 			name: 'copy-css',
