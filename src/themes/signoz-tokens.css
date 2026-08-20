@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 19 Aug 2026 19:28:05 GMT
+ * Generated on Thu, 20 Aug 2026 17:31:31 GMT
  */
 
 [data-theme='default'] {
@@ -231,6 +231,30 @@
 	--callout-aqua-icon: var(--bg-aqua-600);
 	--control-icon-foreground: var(--text-base-white);
 	--control-icon-foreground-contrast: var(--text-base-black);
+	--shadow-sidebar:
+		33px 365px 103px 0 rgba(0, 0, 0, 0), 21px 234px 94px 0 rgba(0, 0, 0, 0.01),
+		12px 132px 79px 0 rgba(0, 0, 0, 0.05), 5px 58px 59px 0 rgba(0, 0, 0, 0.03),
+		1px 15px 32px 0 rgba(0, 0, 0, 0.04);
+	--shadow-dropdown:
+		0 105px 29px 0 rgba(0, 0, 0, 0), 0 67px 27px 0 rgba(0, 0, 0, 0.01),
+		0 38px 23px 0 rgba(0, 0, 0, 0.02), 0 17px 17px 0 rgba(0, 0, 0, 0.04),
+		0 4px 9px 0 rgba(0, 0, 0, 0.05);
+	--shadow-drawer:
+		-59px 771px 216px 0 rgba(0, 0, 0, 0), -37px 493px 198px 0 rgba(0, 0, 0, 0.01),
+		-21px 278px 167px 0 rgba(0, 0, 0, 0.05),
+		-9px 123px 124px 0 rgba(0, 0, 0, 0.09), -2px 31px 68px 0 rgba(0, 0, 0, 0.1);
+	--shadow-dialog:
+		0 343px 96px 0 rgba(0, 0, 0, 0), 0 220px 88px 0 rgba(0, 0, 0, 0.01),
+		0 123px 74px 0 rgba(0, 0, 0, 0.03), 0 55px 55px 0 rgba(0, 0, 0, 0.04),
+		0 14px 30px 0 rgba(0, 0, 0, 0.04);
+	--shadow-toast:
+		138px 129px 53px 0 rgba(0, 0, 0, 0), 89px 82px 48px 0 rgba(0, 0, 0, 0.01),
+		50px 46px 41px 0 rgba(0, 0, 0, 0.05), 22px 21px 30px 0 rgba(0, 0, 0, 0.09),
+		6px 5px 17px 0 rgba(0, 0, 0, 0.1);
+	--shadow-tooltip:
+		0 14px 4px 0 rgba(0, 0, 0, 0), 0 9px 4px 0 rgba(0, 0, 0, 0.01),
+		0 5px 3px 0 rgba(0, 0, 0, 0.03), 0 2px 2px 0 rgba(0, 0, 0, 0.05),
+		0 1px 1px 0 rgba(0, 0, 0, 0.08);
 }
 
 [data-theme='default'].dark {
@@ -455,4 +479,29 @@
 	--callout-aqua-icon: var(--bg-aqua-300);
 	--control-icon-foreground: var(--text-base-white);
 	--control-icon-foreground-contrast: var(--text-base-black);
+	--shadow-sidebar:
+		33px 365px 103px 0 rgba(0, 0, 0, 0.1), 21px 234px 94px 0 rgba(0, 0, 0, 0.1),
+		12px 132px 79px 0 rgba(0, 0, 0, 0.3), 5px 58px 59px 0 rgba(0, 0, 0, 0.2),
+		1px 15px 32px 0 rgba(0, 0, 0, 0.1);
+	--shadow-dropdown:
+		0 214px 60px 0 rgba(0, 0, 0, 0.05), 0 137px 55px 0 rgba(0, 0, 0, 0.1),
+		0 77px 46px 0 rgba(0, 0, 0, 0.1), 0 34px 34px 0 rgba(0, 0, 0, 0.2),
+		0 9px 19px 0 rgba(0, 0, 0, 0.1);
+	--shadow-drawer:
+		-59px 771px 216px 0 rgba(0, 0, 0, 0.2),
+		-37px 493px 198px 0 rgba(0, 0, 0, 0.1),
+		-21px 278px 167px 0 rgba(0, 0, 0, 0.3), -9px 123px 124px 0 rgba(0, 0, 0, 0.1),
+		-2px 31px 68px 0 rgba(0, 0, 0, 0.2);
+	--shadow-dialog:
+		0 343px 96px 0 rgba(0, 0, 0, 0), 0 220px 88px 0 rgba(0, 0, 0, 0.01),
+		0 123px 74px 0 rgba(0, 0, 0, 0.03), 0 55px 55px 0 rgba(0, 0, 0, 0.04),
+		0 14px 30px 0 rgba(0, 0, 0, 0.04);
+	--shadow-toast:
+		144px 114px 51px 0 rgba(0, 0, 0, 0), 92px 73px 47px 0 rgba(0, 0, 0, 0.01),
+		52px 41px 40px 0 rgba(0, 0, 0, 0.05), 23px 18px 29px 0 rgba(0, 0, 0, 0.09),
+		6px 5px 16px 0 rgba(0, 0, 0, 0.1);
+	--shadow-tooltip:
+		6px 105px 30px 0 rgba(0, 0, 0, 0.05), 4px 67px 27px 0 rgba(0, 0, 0, 0.1),
+		2px 38px 23px 0 rgba(0, 0, 0, 0.2), 1px 17px 17px 0 rgba(0, 0, 0, 0.3),
+		0 4px 9px 0 rgba(0, 0, 0, 0.2);
 }

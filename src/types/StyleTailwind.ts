@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 19 Aug 2026 19:28:05 GMT
+ * Generated on Thu, 20 Aug 2026 17:31:31 GMT
  */
 
 export const StyleTailwind = {
@@ -153,6 +153,12 @@ export const StyleTailwind = {
 	'callout-aqua-icon': 'var(--callout-aqua-icon)',
 	'control-icon-foreground': 'var(--control-icon-foreground)',
 	'control-icon-foreground-contrast': 'var(--control-icon-foreground-contrast)',
+	'shadow-sidebar': 'var(--shadow-sidebar)',
+	'shadow-dropdown': 'var(--shadow-dropdown)',
+	'shadow-drawer': 'var(--shadow-drawer)',
+	'shadow-dialog': 'var(--shadow-dialog)',
+	'shadow-toast': 'var(--shadow-toast)',
+	'shadow-tooltip': 'var(--shadow-tooltip)',
 } as const;
 
 export type StyleTailwindType =

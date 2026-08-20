@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 19 Aug 2026 19:28:05 GMT
+ * Generated on Thu, 20 Aug 2026 17:31:31 GMT
  */
 
 export const Style = {
@@ -153,6 +153,12 @@ export const Style = {
 	CALLOUT_AQUA_ICON: 'var(--callout-aqua-icon)',
 	CONTROL_ICON_FOREGROUND: 'var(--control-icon-foreground)',
 	CONTROL_ICON_FOREGROUND_CONTRAST: 'var(--control-icon-foreground-contrast)',
+	SHADOW_SIDEBAR: 'var(--shadow-sidebar)',
+	SHADOW_DROPDOWN: 'var(--shadow-dropdown)',
+	SHADOW_DRAWER: 'var(--shadow-drawer)',
+	SHADOW_DIALOG: 'var(--shadow-dialog)',
+	SHADOW_TOAST: 'var(--shadow-toast)',
+	SHADOW_TOOLTIP: 'var(--shadow-tooltip)',
 } as const;
 
 export type StyleType = typeof Style;
