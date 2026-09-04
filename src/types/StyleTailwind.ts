@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 20 Aug 2026 17:31:31 GMT
+ * Generated on Fri, 04 Sep 2026 18:40:24 GMT
  */
 
 export const StyleTailwind = {
@@ -77,6 +77,16 @@ export const StyleTailwind = {
 	'danger-background-hover': 'var(--danger-background-hover)',
 	'danger-foreground': 'var(--danger-foreground)',
 	'danger-foreground-hover': 'var(--danger-foreground-hover)',
+	'primary-link': 'var(--primary-link)',
+	'primary-link-hover': 'var(--primary-link-hover)',
+	'secondary-link': 'var(--secondary-link)',
+	'secondary-link-hover': 'var(--secondary-link-hover)',
+	'success-link': 'var(--success-link)',
+	'success-link-hover': 'var(--success-link-hover)',
+	'warning-link': 'var(--warning-link)',
+	'warning-link-hover': 'var(--warning-link-hover)',
+	'danger-link': 'var(--danger-link)',
+	'danger-link-hover': 'var(--danger-link-hover)',
 	'l1-background-transparent': 'var(--l1-background-transparent)',
 	'l1-background-60': 'var(--l1-background-60)',
 	'l2-background-transparent': 'var(--l2-background-transparent)',

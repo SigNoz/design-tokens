@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 20 Aug 2026 17:31:31 GMT
+ * Generated on Fri, 04 Sep 2026 18:40:24 GMT
  */
 
 [data-theme='default'] {
@@ -79,6 +79,16 @@
 	--danger-background-hover: var(--bg-cherry-400);
 	--danger-foreground: var(--text-neutral-light-1000);
 	--danger-foreground-hover: var(--text-base-white);
+	--primary-link: var(--bg-robin-600);
+	--primary-link-hover: var(--bg-robin-700);
+	--secondary-link: var(--l2-foreground);
+	--secondary-link-hover: var(--l1-foreground-hover);
+	--success-link: var(--bg-forest-600);
+	--success-link-hover: var(--bg-forest-700);
+	--warning-link: var(--bg-amber-800);
+	--warning-link-hover: var(--bg-amber-900);
+	--danger-link: var(--bg-cherry-600);
+	--danger-link-hover: var(--bg-cherry-700);
 	--l1-background-transparent: color-mix(
 		in srgb,
 		var(--bg-neutral-light-1000),
@@ -332,6 +342,16 @@
 	--danger-background-hover: var(--bg-cherry-400);
 	--danger-foreground: var(--text-neutral-dark-50);
 	--danger-foreground-hover: var(--text-base-white);
+	--primary-link: var(--bg-robin-400);
+	--primary-link-hover: var(--bg-robin-200);
+	--secondary-link: var(--l2-foreground);
+	--secondary-link-hover: var(--l1-foreground-hover);
+	--success-link: var(--bg-forest-400);
+	--success-link-hover: var(--bg-forest-500);
+	--warning-link: var(--bg-amber-400);
+	--warning-link-hover: var(--bg-amber-500);
+	--danger-link: var(--bg-cherry-400);
+	--danger-link-hover: var(--bg-cherry-500);
 	--l1-background-transparent: color-mix(
 		in srgb,
 		var(--bg-neutral-dark-1000),

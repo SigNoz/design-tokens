@@ -459,6 +459,66 @@
 					"category": "foreground",
 					"group": "actions"
 				},
+				"primary-link": {
+					"value": "var(--bg-robin-600)",
+					"description": "Link foreground for primary. Light: robin/600, Dark: robin/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link-hover": {
+					"value": "var(--bg-robin-700)",
+					"description": "Hover link foreground for primary. Light: robin/700, Dark: robin/200",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link": {
+					"value": "var(--l2-foreground)",
+					"description": "Link foreground for secondary (neutral). Aliases l2-foreground",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover link foreground for secondary. Aliases l1-foreground-hover",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link": {
+					"value": "var(--bg-forest-600)",
+					"description": "Link foreground for success. Light: forest/600, Dark: forest/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link-hover": {
+					"value": "var(--bg-forest-700)",
+					"description": "Hover link foreground for success. Light: forest/700, Dark: forest/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link": {
+					"value": "var(--bg-amber-800)",
+					"description": "Link foreground for warning. Light: amber/800, Dark: amber/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link-hover": {
+					"value": "var(--bg-amber-900)",
+					"description": "Hover link foreground for warning. Light: amber/900, Dark: amber/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Link foreground for danger. Light: cherry/600, Dark: cherry/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link-hover": {
+					"value": "var(--bg-cherry-700)",
+					"description": "Hover link foreground for danger. Light: cherry/700, Dark: cherry/500",
+					"category": "foreground",
+					"group": "actions"
+				},
 				"l1-background-transparent": {
 					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 100%)",
 					"description": "",
@@ -1420,6 +1480,66 @@
 				"danger-foreground-hover": {
 					"value": "var(--text-base-white)",
 					"description": "Hover text color for danger elements",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link": {
+					"value": "var(--bg-robin-400)",
+					"description": "Link foreground for primary. Light: robin/600, Dark: robin/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link-hover": {
+					"value": "var(--bg-robin-200)",
+					"description": "Hover link foreground for primary. Light: robin/700, Dark: robin/200",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link": {
+					"value": "var(--l2-foreground)",
+					"description": "Link foreground for secondary (neutral). Aliases l2-foreground",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover link foreground for secondary. Aliases l1-foreground-hover",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link": {
+					"value": "var(--bg-forest-400)",
+					"description": "Link foreground for success. Light: forest/600, Dark: forest/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link-hover": {
+					"value": "var(--bg-forest-500)",
+					"description": "Hover link foreground for success. Light: forest/700, Dark: forest/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link": {
+					"value": "var(--bg-amber-400)",
+					"description": "Link foreground for warning. Light: amber/800, Dark: amber/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link-hover": {
+					"value": "var(--bg-amber-500)",
+					"description": "Hover link foreground for warning. Light: amber/900, Dark: amber/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Link foreground for danger. Light: cherry/600, Dark: cherry/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link-hover": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Hover link foreground for danger. Light: cherry/700, Dark: cherry/500",
 					"category": "foreground",
 					"group": "actions"
 				},

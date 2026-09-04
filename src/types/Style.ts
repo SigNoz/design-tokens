@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 20 Aug 2026 17:31:31 GMT
+ * Generated on Fri, 04 Sep 2026 18:40:24 GMT
  */
 
 export const Style = {
@@ -77,6 +77,16 @@ export const Style = {
 	DANGER_BACKGROUND_HOVER: 'var(--danger-background-hover)',
 	DANGER_FOREGROUND: 'var(--danger-foreground)',
 	DANGER_FOREGROUND_HOVER: 'var(--danger-foreground-hover)',
+	PRIMARY_LINK: 'var(--primary-link)',
+	PRIMARY_LINK_HOVER: 'var(--primary-link-hover)',
+	SECONDARY_LINK: 'var(--secondary-link)',
+	SECONDARY_LINK_HOVER: 'var(--secondary-link-hover)',
+	SUCCESS_LINK: 'var(--success-link)',
+	SUCCESS_LINK_HOVER: 'var(--success-link-hover)',
+	WARNING_LINK: 'var(--warning-link)',
+	WARNING_LINK_HOVER: 'var(--warning-link-hover)',
+	DANGER_LINK: 'var(--danger-link)',
+	DANGER_LINK_HOVER: 'var(--danger-link-hover)',
 	L1_BACKGROUND_TRANSPARENT: 'var(--l1-background-transparent)',
 	L1_BACKGROUND_60: 'var(--l1-background-60)',
 	L2_BACKGROUND_TRANSPARENT: 'var(--l2-background-transparent)',
