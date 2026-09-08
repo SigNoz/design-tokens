@@ -334,7 +334,7 @@
 					"group": "actions"
 				},
 				"primary-background-hover": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-600)",
 					"description": "Hover state for primary action elements",
 					"category": "background",
 					"group": "actions"
@@ -353,32 +353,32 @@
 					"group": "actions"
 				},
 				"secondary-background": {
-					"value": "var(--bg-neutral-light-950)",
+					"value": "var(--l3-background-60)",
 					"description": "Secondary action background color",
 					"usage": "Use for secondary buttons and less prominent actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-background-hover": {
-					"value": "var(--bg-neutral-light-700)",
+					"value": "var(--l3-background-hover)",
 					"description": "Hover state for secondary action elements",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-foreground": {
-					"value": "var(--text-neutral-light-100)",
+					"value": "var(--l2-foreground)",
 					"description": "Text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-foreground-hover": {
-					"value": "var(--text-neutral-light-50)",
+					"value": "var(--l1-foreground-hover)",
 					"description": "Hover text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-border": {
-					"value": "var(--bg-neutral-light-800)",
+					"value": "var(--l3-border)",
 					"description": "Border color for secondary buttons",
 					"usage": "Use for outlined secondary buttons",
 					"category": "border",
@@ -410,14 +410,14 @@
 					"group": "actions"
 				},
 				"warning-background": {
-					"value": "var(--bg-amber-600)",
+					"value": "var(--bg-amber-500)",
 					"description": "Warning action background color",
 					"usage": "Use for warning states and cautionary actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"warning-background-hover": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-600)",
 					"description": "Hover state for warning elements",
 					"category": "background",
 					"group": "actions"
@@ -442,7 +442,7 @@
 					"group": "actions"
 				},
 				"danger-background-hover": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-600)",
 					"description": "Hover state for danger elements",
 					"category": "background",
 					"group": "actions"
@@ -1358,7 +1358,7 @@
 					"group": "actions"
 				},
 				"primary-background-hover": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-600)",
 					"description": "Hover state for primary action elements",
 					"category": "background",
 					"group": "actions"
@@ -1377,32 +1377,32 @@
 					"group": "actions"
 				},
 				"secondary-background": {
-					"value": "var(--bg-neutral-dark-950)",
+					"value": "var(--l3-background-60)",
 					"description": "Secondary action background color",
 					"usage": "Use for secondary buttons and less prominent actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-background-hover": {
-					"value": "var(--bg-neutral-dark-700)",
+					"value": "var(--l3-background-hover)",
 					"description": "Hover state for secondary action elements",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-foreground": {
-					"value": "var(--text-neutral-dark-100)",
+					"value": "var(--l2-foreground)",
 					"description": "Text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-foreground-hover": {
-					"value": "var(--text-neutral-dark-50)",
+					"value": "var(--l1-foreground-hover)",
 					"description": "Hover text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-border": {
-					"value": "var(--bg-neutral-dark-800)",
+					"value": "var(--l3-border)",
 					"description": "Border color for secondary buttons",
 					"usage": "Use for outlined secondary buttons",
 					"category": "border",
@@ -1441,7 +1441,7 @@
 					"group": "actions"
 				},
 				"warning-background-hover": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-600)",
 					"description": "Hover state for warning elements",
 					"category": "background",
 					"group": "actions"
@@ -1466,7 +1466,7 @@
 					"group": "actions"
 				},
 				"danger-background-hover": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-600)",
 					"description": "Hover state for danger elements",
 					"category": "background",
 					"group": "actions"
