@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 04 Sep 2026 18:40:24 GMT
+ * Generated on Tue, 08 Sep 2026 19:30:13 GMT
  */
 
 [data-theme='default'] {
@@ -59,24 +59,24 @@
 	--l2-border: var(--bg-neutral-light-800);
 	--l3-border: var(--bg-neutral-light-700);
 	--primary-background: var(--bg-robin-500);
-	--primary-background-hover: var(--bg-robin-400);
+	--primary-background-hover: var(--bg-robin-600);
 	--primary-foreground: var(--text-neutral-light-1000);
 	--primary-foreground-hover: var(--text-base-white);
-	--secondary-background: var(--bg-neutral-light-950);
-	--secondary-background-hover: var(--bg-neutral-light-700);
-	--secondary-foreground: var(--text-neutral-light-100);
-	--secondary-foreground-hover: var(--text-neutral-light-50);
-	--secondary-border: var(--bg-neutral-light-800);
+	--secondary-background: var(--l3-background-60);
+	--secondary-background-hover: var(--l3-background-hover);
+	--secondary-foreground: var(--l2-foreground);
+	--secondary-foreground-hover: var(--l1-foreground-hover);
+	--secondary-border: var(--l3-border);
 	--success-background: var(--bg-forest-600);
 	--success-background-hover: var(--bg-forest-400);
 	--success-foreground: var(--text-forest-500);
 	--success-foreground-hover: var(--text-forest-400);
-	--warning-background: var(--bg-amber-600);
-	--warning-background-hover: var(--bg-amber-400);
+	--warning-background: var(--bg-amber-500);
+	--warning-background-hover: var(--bg-amber-600);
 	--warning-foreground: var(--text-neutral-light-50);
 	--warning-foreground-hover: var(--text-base-black);
 	--danger-background: var(--bg-cherry-500);
-	--danger-background-hover: var(--bg-cherry-400);
+	--danger-background-hover: var(--bg-cherry-600);
 	--danger-foreground: var(--text-neutral-light-1000);
 	--danger-foreground-hover: var(--text-base-white);
 	--primary-link: var(--bg-robin-600);
@@ -322,24 +322,24 @@
 	--l2-border: var(--bg-neutral-dark-800);
 	--l3-border: var(--bg-neutral-dark-700);
 	--primary-background: var(--bg-robin-500);
-	--primary-background-hover: var(--bg-robin-400);
+	--primary-background-hover: var(--bg-robin-600);
 	--primary-foreground: var(--text-neutral-dark-50);
 	--primary-foreground-hover: var(--text-base-white);
-	--secondary-background: var(--bg-neutral-dark-950);
-	--secondary-background-hover: var(--bg-neutral-dark-700);
-	--secondary-foreground: var(--text-neutral-dark-100);
-	--secondary-foreground-hover: var(--text-neutral-dark-50);
-	--secondary-border: var(--bg-neutral-dark-800);
+	--secondary-background: var(--l3-background-60);
+	--secondary-background-hover: var(--l3-background-hover);
+	--secondary-foreground: var(--l2-foreground);
+	--secondary-foreground-hover: var(--l1-foreground-hover);
+	--secondary-border: var(--l3-border);
 	--success-background: var(--bg-forest-500);
 	--success-background-hover: var(--bg-forest-400);
 	--success-foreground: var(--text-forest-500);
 	--success-foreground-hover: var(--text-forest-400);
 	--warning-background: var(--bg-amber-500);
-	--warning-background-hover: var(--bg-amber-400);
+	--warning-background-hover: var(--bg-amber-600);
 	--warning-foreground: var(--text-neutral-dark-1000);
 	--warning-foreground-hover: var(--text-base-black);
 	--danger-background: var(--bg-cherry-500);
-	--danger-background-hover: var(--bg-cherry-400);
+	--danger-background-hover: var(--bg-cherry-600);
 	--danger-foreground: var(--text-neutral-dark-50);
 	--danger-foreground-hover: var(--text-base-white);
 	--primary-link: var(--bg-robin-400);
