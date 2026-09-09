@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 08 Sep 2026 19:30:13 GMT
+ * Generated on Fri, 11 Sep 2026 15:47:26 GMT
  */
 
 export const Style = {
@@ -169,6 +169,67 @@ export const Style = {
 	SHADOW_DIALOG: 'var(--shadow-dialog)',
 	SHADOW_TOAST: 'var(--shadow-toast)',
 	SHADOW_TOOLTIP: 'var(--shadow-tooltip)',
+	PILL_PRIMARY_BACKGROUND: 'var(--pill-primary-background)',
+	PILL_PRIMARY_BORDER: 'var(--pill-primary-border)',
+	PILL_PRIMARY_LABEL: 'var(--pill-primary-label)',
+	PILL_PRIMARY_LABEL_HOVER: 'var(--pill-primary-label-hover)',
+	PILL_SUCCESS_BACKGROUND: 'var(--pill-success-background)',
+	PILL_SUCCESS_BORDER: 'var(--pill-success-border)',
+	PILL_SUCCESS_LABEL: 'var(--pill-success-label)',
+	PILL_SUCCESS_LABEL_HOVER: 'var(--pill-success-label-hover)',
+	PILL_WARNING_BACKGROUND: 'var(--pill-warning-background)',
+	PILL_WARNING_BORDER: 'var(--pill-warning-border)',
+	PILL_WARNING_LABEL: 'var(--pill-warning-label)',
+	PILL_WARNING_LABEL_HOVER: 'var(--pill-warning-label-hover)',
+	PILL_DANGER_BACKGROUND: 'var(--pill-danger-background)',
+	PILL_DANGER_BORDER: 'var(--pill-danger-border)',
+	PILL_DANGER_LABEL: 'var(--pill-danger-label)',
+	PILL_DANGER_LABEL_HOVER: 'var(--pill-danger-label-hover)',
+	PILL_OUTLINED_BACKGROUND: 'var(--pill-outlined-background)',
+	PILL_OUTLINED_BACKGROUND_HOVER: 'var(--pill-outlined-background-hover)',
+	PILL_OUTLINED_BORDER: 'var(--pill-outlined-border)',
+	PILL_OUTLINED_LABEL: 'var(--pill-outlined-label)',
+	PILL_OUTLINED_LABEL_HOVER: 'var(--pill-outlined-label-hover)',
+	PILL_RECT_SOLID_BACKGROUND: 'var(--pill-rect-solid-background)',
+	PILL_RECT_SOLID_BACKGROUND_HOVER: 'var(--pill-rect-solid-background-hover)',
+	PILL_RECT_SOLID_LABEL: 'var(--pill-rect-solid-label)',
+	PILL_RECT_SOLID_LABEL_HOVER: 'var(--pill-rect-solid-label-hover)',
+	PILL_RECT_SOLID_DISMISS_ICON: 'var(--pill-rect-solid-dismiss-icon)',
+	PILL_RECT_SOLID_DISMISS_ICON_HOVER:
+		'var(--pill-rect-solid-dismiss-icon-hover)',
+	PILL_INFO_BACKGROUND: 'var(--pill-info-background)',
+	PILL_INFO_BORDER: 'var(--pill-info-border)',
+	PILL_INFO_LABEL: 'var(--pill-info-label)',
+	PILL_INFO_LABEL_HOVER: 'var(--pill-info-label-hover)',
+	PILL_ARCHIVE_BACKGROUND: 'var(--pill-archive-background)',
+	PILL_ARCHIVE_BORDER: 'var(--pill-archive-border)',
+	PILL_ARCHIVE_LABEL: 'var(--pill-archive-label)',
+	PILL_ARCHIVE_LABEL_HOVER: 'var(--pill-archive-label-hover)',
+	PILL_HIGHLIGHT_DANGER_BACKGROUND: 'var(--pill-highlight-danger-background)',
+	PILL_HIGHLIGHT_DANGER_BORDER: 'var(--pill-highlight-danger-border)',
+	PILL_HIGHLIGHT_DANGER_LABEL: 'var(--pill-highlight-danger-label)',
+	PILL_HIGHLIGHT_DANGER_LABEL_HOVER: 'var(--pill-highlight-danger-label-hover)',
+	BADGE_PRIMARY_OUTLINED_BACKGROUND: 'var(--badge-primary-outlined-background)',
+	BADGE_PRIMARY_OUTLINED_BORDER: 'var(--badge-primary-outlined-border)',
+	BADGE_PRIMARY_OUTLINED_LABEL: 'var(--badge-primary-outlined-label)',
+	BADGE_PRIMARY_OUTLINED_ICON: 'var(--badge-primary-outlined-icon)',
+	BADGE_SUCCESS_OUTLINED_BACKGROUND: 'var(--badge-success-outlined-background)',
+	BADGE_SUCCESS_OUTLINED_BORDER: 'var(--badge-success-outlined-border)',
+	BADGE_SUCCESS_OUTLINED_LABEL: 'var(--badge-success-outlined-label)',
+	BADGE_SUCCESS_OUTLINED_ICON: 'var(--badge-success-outlined-icon)',
+	BADGE_WARNING_OUTLINED_BACKGROUND: 'var(--badge-warning-outlined-background)',
+	BADGE_WARNING_OUTLINED_BORDER: 'var(--badge-warning-outlined-border)',
+	BADGE_WARNING_OUTLINED_LABEL: 'var(--badge-warning-outlined-label)',
+	BADGE_WARNING_OUTLINED_ICON: 'var(--badge-warning-outlined-icon)',
+	BADGE_DANGER_OUTLINED_BACKGROUND: 'var(--badge-danger-outlined-background)',
+	BADGE_DANGER_OUTLINED_BORDER: 'var(--badge-danger-outlined-border)',
+	BADGE_DANGER_OUTLINED_LABEL: 'var(--badge-danger-outlined-label)',
+	BADGE_DANGER_OUTLINED_ICON: 'var(--badge-danger-outlined-icon)',
+	BADGE_SECONDARY_OUTLINED_BACKGROUND:
+		'var(--badge-secondary-outlined-background)',
+	BADGE_SECONDARY_OUTLINED_BORDER: 'var(--badge-secondary-outlined-border)',
+	BADGE_SECONDARY_OUTLINED_LABEL: 'var(--badge-secondary-outlined-label)',
+	BADGE_SECONDARY_OUTLINED_ICON: 'var(--badge-secondary-outlined-icon)',
 } as const;
 
 export type StyleType = typeof Style;

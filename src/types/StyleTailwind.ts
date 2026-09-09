@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 08 Sep 2026 19:30:13 GMT
+ * Generated on Fri, 11 Sep 2026 15:47:26 GMT
  */
 
 export const StyleTailwind = {
@@ -169,6 +169,71 @@ export const StyleTailwind = {
 	'shadow-dialog': 'var(--shadow-dialog)',
 	'shadow-toast': 'var(--shadow-toast)',
 	'shadow-tooltip': 'var(--shadow-tooltip)',
+	'pill-primary-background': 'var(--pill-primary-background)',
+	'pill-primary-border': 'var(--pill-primary-border)',
+	'pill-primary-label': 'var(--pill-primary-label)',
+	'pill-primary-label-hover': 'var(--pill-primary-label-hover)',
+	'pill-success-background': 'var(--pill-success-background)',
+	'pill-success-border': 'var(--pill-success-border)',
+	'pill-success-label': 'var(--pill-success-label)',
+	'pill-success-label-hover': 'var(--pill-success-label-hover)',
+	'pill-warning-background': 'var(--pill-warning-background)',
+	'pill-warning-border': 'var(--pill-warning-border)',
+	'pill-warning-label': 'var(--pill-warning-label)',
+	'pill-warning-label-hover': 'var(--pill-warning-label-hover)',
+	'pill-danger-background': 'var(--pill-danger-background)',
+	'pill-danger-border': 'var(--pill-danger-border)',
+	'pill-danger-label': 'var(--pill-danger-label)',
+	'pill-danger-label-hover': 'var(--pill-danger-label-hover)',
+	'pill-outlined-background': 'var(--pill-outlined-background)',
+	'pill-outlined-background-hover': 'var(--pill-outlined-background-hover)',
+	'pill-outlined-border': 'var(--pill-outlined-border)',
+	'pill-outlined-label': 'var(--pill-outlined-label)',
+	'pill-outlined-label-hover': 'var(--pill-outlined-label-hover)',
+	'pill-rect-solid-background': 'var(--pill-rect-solid-background)',
+	'pill-rect-solid-background-hover': 'var(--pill-rect-solid-background-hover)',
+	'pill-rect-solid-label': 'var(--pill-rect-solid-label)',
+	'pill-rect-solid-label-hover': 'var(--pill-rect-solid-label-hover)',
+	'pill-rect-solid-dismiss-icon': 'var(--pill-rect-solid-dismiss-icon)',
+	'pill-rect-solid-dismiss-icon-hover':
+		'var(--pill-rect-solid-dismiss-icon-hover)',
+	'pill-info-background': 'var(--pill-info-background)',
+	'pill-info-border': 'var(--pill-info-border)',
+	'pill-info-label': 'var(--pill-info-label)',
+	'pill-info-label-hover': 'var(--pill-info-label-hover)',
+	'pill-archive-background': 'var(--pill-archive-background)',
+	'pill-archive-border': 'var(--pill-archive-border)',
+	'pill-archive-label': 'var(--pill-archive-label)',
+	'pill-archive-label-hover': 'var(--pill-archive-label-hover)',
+	'pill-highlight-danger-background': 'var(--pill-highlight-danger-background)',
+	'pill-highlight-danger-border': 'var(--pill-highlight-danger-border)',
+	'pill-highlight-danger-label': 'var(--pill-highlight-danger-label)',
+	'pill-highlight-danger-label-hover':
+		'var(--pill-highlight-danger-label-hover)',
+	'badge-primary-outlined-background':
+		'var(--badge-primary-outlined-background)',
+	'badge-primary-outlined-border': 'var(--badge-primary-outlined-border)',
+	'badge-primary-outlined-label': 'var(--badge-primary-outlined-label)',
+	'badge-primary-outlined-icon': 'var(--badge-primary-outlined-icon)',
+	'badge-success-outlined-background':
+		'var(--badge-success-outlined-background)',
+	'badge-success-outlined-border': 'var(--badge-success-outlined-border)',
+	'badge-success-outlined-label': 'var(--badge-success-outlined-label)',
+	'badge-success-outlined-icon': 'var(--badge-success-outlined-icon)',
+	'badge-warning-outlined-background':
+		'var(--badge-warning-outlined-background)',
+	'badge-warning-outlined-border': 'var(--badge-warning-outlined-border)',
+	'badge-warning-outlined-label': 'var(--badge-warning-outlined-label)',
+	'badge-warning-outlined-icon': 'var(--badge-warning-outlined-icon)',
+	'badge-danger-outlined-background': 'var(--badge-danger-outlined-background)',
+	'badge-danger-outlined-border': 'var(--badge-danger-outlined-border)',
+	'badge-danger-outlined-label': 'var(--badge-danger-outlined-label)',
+	'badge-danger-outlined-icon': 'var(--badge-danger-outlined-icon)',
+	'badge-secondary-outlined-background':
+		'var(--badge-secondary-outlined-background)',
+	'badge-secondary-outlined-border': 'var(--badge-secondary-outlined-border)',
+	'badge-secondary-outlined-label': 'var(--badge-secondary-outlined-label)',
+	'badge-secondary-outlined-icon': 'var(--badge-secondary-outlined-icon)',
 } as const;
 
 export type StyleTailwindType =

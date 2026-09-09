@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 08 Sep 2026 19:30:13 GMT
+ * Generated on Fri, 11 Sep 2026 15:47:26 GMT
  */
 
 [data-theme='default'] {
@@ -69,8 +69,8 @@
 	--secondary-border: var(--l3-border);
 	--success-background: var(--bg-forest-600);
 	--success-background-hover: var(--bg-forest-400);
-	--success-foreground: var(--text-forest-500);
-	--success-foreground-hover: var(--text-forest-400);
+	--success-foreground: var(--text-neutral-light-50);
+	--success-foreground-hover: var(--text-base-black);
 	--warning-background: var(--bg-amber-500);
 	--warning-background-hover: var(--bg-amber-600);
 	--warning-foreground: var(--text-neutral-light-50);
@@ -265,6 +265,65 @@
 		0 14px 4px 0 rgba(0, 0, 0, 0), 0 9px 4px 0 rgba(0, 0, 0, 0.01),
 		0 5px 3px 0 rgba(0, 0, 0, 0.03), 0 2px 2px 0 rgba(0, 0, 0, 0.05),
 		0 1px 1px 0 rgba(0, 0, 0, 0.08);
+	--pill-primary-background: var(--bg-robin-500);
+	--pill-primary-border: var(--bg-robin-500);
+	--pill-primary-label: var(--bg-robin-600);
+	--pill-primary-label-hover: var(--bg-robin-600);
+	--pill-success-background: var(--bg-forest-600);
+	--pill-success-border: var(--bg-forest-600);
+	--pill-success-label: var(--bg-forest-700);
+	--pill-success-label-hover: var(--bg-forest-700);
+	--pill-warning-background: var(--bg-amber-500);
+	--pill-warning-border: var(--bg-amber-500);
+	--pill-warning-label: var(--bg-amber-700);
+	--pill-warning-label-hover: var(--bg-amber-700);
+	--pill-danger-background: var(--bg-cherry-500);
+	--pill-danger-border: var(--bg-cherry-500);
+	--pill-danger-label: var(--bg-cherry-600);
+	--pill-danger-label-hover: var(--bg-cherry-600);
+	--pill-outlined-background: var(--l1-background-transparent);
+	--pill-outlined-background-hover: var(--surface-3);
+	--pill-outlined-border: var(--l3-border);
+	--pill-outlined-label: var(--secondary-foreground);
+	--pill-outlined-label-hover: var(--secondary-foreground-hover);
+	--pill-rect-solid-background: var(--secondary-border);
+	--pill-rect-solid-background-hover: var(--bg-neutral-light-600);
+	--pill-rect-solid-label: var(--l1-foreground);
+	--pill-rect-solid-label-hover: var(--l1-foreground-hover);
+	--pill-rect-solid-dismiss-icon: var(--l2-foreground);
+	--pill-rect-solid-dismiss-icon-hover: var(--l1-foreground);
+	--pill-info-background: var(--bg-aqua-500);
+	--pill-info-border: var(--bg-aqua-500);
+	--pill-info-label: var(--bg-aqua-700);
+	--pill-info-label-hover: var(--bg-aqua-700);
+	--pill-archive-background: var(--bg-sienna-500);
+	--pill-archive-border: var(--bg-sienna-500);
+	--pill-archive-label: var(--bg-sienna-700);
+	--pill-archive-label-hover: var(--bg-sienna-700);
+	--pill-highlight-danger-background: var(--bg-sakura-500);
+	--pill-highlight-danger-border: var(--bg-sakura-500);
+	--pill-highlight-danger-label: var(--bg-sakura-700);
+	--pill-highlight-danger-label-hover: var(--bg-sakura-700);
+	--badge-primary-outlined-background: var(--bg-robin-500);
+	--badge-primary-outlined-border: var(--bg-robin-500);
+	--badge-primary-outlined-label: var(--bg-robin-600);
+	--badge-primary-outlined-icon: var(--bg-robin-600);
+	--badge-success-outlined-background: var(--bg-forest-600);
+	--badge-success-outlined-border: var(--bg-forest-600);
+	--badge-success-outlined-label: var(--bg-forest-700);
+	--badge-success-outlined-icon: var(--bg-forest-700);
+	--badge-warning-outlined-background: var(--bg-amber-500);
+	--badge-warning-outlined-border: var(--bg-amber-500);
+	--badge-warning-outlined-label: var(--bg-amber-700);
+	--badge-warning-outlined-icon: var(--bg-amber-700);
+	--badge-danger-outlined-background: var(--bg-cherry-500);
+	--badge-danger-outlined-border: var(--bg-cherry-500);
+	--badge-danger-outlined-label: var(--bg-cherry-600);
+	--badge-danger-outlined-icon: var(--bg-cherry-600);
+	--badge-secondary-outlined-background: var(--l1-background-transparent);
+	--badge-secondary-outlined-border: var(--l3-border);
+	--badge-secondary-outlined-label: var(--secondary-foreground);
+	--badge-secondary-outlined-icon: var(--secondary-foreground);
 }
 
 [data-theme='default'].dark {
@@ -332,8 +391,8 @@
 	--secondary-border: var(--l3-border);
 	--success-background: var(--bg-forest-500);
 	--success-background-hover: var(--bg-forest-400);
-	--success-foreground: var(--text-forest-500);
-	--success-foreground-hover: var(--text-forest-400);
+	--success-foreground: var(--text-neutral-dark-1000);
+	--success-foreground-hover: var(--text-base-black);
 	--warning-background: var(--bg-amber-500);
 	--warning-background-hover: var(--bg-amber-600);
 	--warning-foreground: var(--text-neutral-dark-1000);
@@ -524,4 +583,63 @@
 		6px 105px 30px 0 rgba(0, 0, 0, 0.05), 4px 67px 27px 0 rgba(0, 0, 0, 0.1),
 		2px 38px 23px 0 rgba(0, 0, 0, 0.2), 1px 17px 17px 0 rgba(0, 0, 0, 0.3),
 		0 4px 9px 0 rgba(0, 0, 0, 0.2);
+	--pill-primary-background: var(--bg-robin-500);
+	--pill-primary-border: var(--bg-robin-500);
+	--pill-primary-label: var(--bg-robin-400);
+	--pill-primary-label-hover: var(--bg-robin-400);
+	--pill-success-background: var(--bg-forest-500);
+	--pill-success-border: var(--bg-forest-500);
+	--pill-success-label: var(--bg-forest-400);
+	--pill-success-label-hover: var(--bg-forest-400);
+	--pill-warning-background: var(--bg-amber-500);
+	--pill-warning-border: var(--bg-amber-500);
+	--pill-warning-label: var(--bg-amber-400);
+	--pill-warning-label-hover: var(--bg-amber-400);
+	--pill-danger-background: var(--bg-cherry-500);
+	--pill-danger-border: var(--bg-cherry-500);
+	--pill-danger-label: var(--bg-cherry-400);
+	--pill-danger-label-hover: var(--bg-cherry-400);
+	--pill-outlined-background: var(--l1-background-transparent);
+	--pill-outlined-background-hover: var(--surface-3);
+	--pill-outlined-border: var(--l3-border);
+	--pill-outlined-label: var(--secondary-foreground);
+	--pill-outlined-label-hover: var(--secondary-foreground-hover);
+	--pill-rect-solid-background: var(--secondary-border);
+	--pill-rect-solid-background-hover: var(--bg-neutral-dark-500);
+	--pill-rect-solid-label: var(--l1-foreground);
+	--pill-rect-solid-label-hover: var(--l1-foreground-hover);
+	--pill-rect-solid-dismiss-icon: var(--l2-foreground);
+	--pill-rect-solid-dismiss-icon-hover: var(--l1-foreground);
+	--pill-info-background: var(--bg-aqua-500);
+	--pill-info-border: var(--bg-aqua-500);
+	--pill-info-label: var(--bg-aqua-400);
+	--pill-info-label-hover: var(--bg-aqua-400);
+	--pill-archive-background: var(--bg-sienna-500);
+	--pill-archive-border: var(--bg-sienna-500);
+	--pill-archive-label: var(--bg-sienna-400);
+	--pill-archive-label-hover: var(--bg-sienna-400);
+	--pill-highlight-danger-background: var(--bg-sakura-500);
+	--pill-highlight-danger-border: var(--bg-sakura-500);
+	--pill-highlight-danger-label: var(--bg-sakura-400);
+	--pill-highlight-danger-label-hover: var(--bg-sakura-400);
+	--badge-primary-outlined-background: var(--bg-robin-500);
+	--badge-primary-outlined-border: var(--bg-robin-500);
+	--badge-primary-outlined-label: var(--bg-robin-400);
+	--badge-primary-outlined-icon: var(--bg-robin-400);
+	--badge-success-outlined-background: var(--bg-forest-500);
+	--badge-success-outlined-border: var(--bg-forest-500);
+	--badge-success-outlined-label: var(--bg-forest-400);
+	--badge-success-outlined-icon: var(--bg-forest-400);
+	--badge-warning-outlined-background: var(--bg-amber-500);
+	--badge-warning-outlined-border: var(--bg-amber-500);
+	--badge-warning-outlined-label: var(--bg-amber-400);
+	--badge-warning-outlined-icon: var(--bg-amber-400);
+	--badge-danger-outlined-background: var(--bg-cherry-500);
+	--badge-danger-outlined-border: var(--bg-cherry-500);
+	--badge-danger-outlined-label: var(--bg-cherry-400);
+	--badge-danger-outlined-icon: var(--bg-cherry-400);
+	--badge-secondary-outlined-background: var(--l1-background-transparent);
+	--badge-secondary-outlined-border: var(--l3-border);
+	--badge-secondary-outlined-label: var(--secondary-foreground);
+	--badge-secondary-outlined-icon: var(--secondary-foreground);
 }

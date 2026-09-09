@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Sep 2026 19:30:13 GMT
+ * Generated on Fri, 11 Sep 2026 15:47:26 GMT
  */
 
 :root {
 	--radius-0: 0px;
 	--radius-1: 2px;
+	--radius-1-5: 3px;
 	--radius-2: 4px;
 	--radius-3: 6px;
 	--radius-round: 999999px;
