@@ -398,13 +398,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-forest-500)",
+					"value": "var(--text-neutral-light-50)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-forest-400)",
+					"value": "var(--text-base-black)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
@@ -1021,6 +1021,360 @@
 					"description": "Shadow for tooltip elements",
 					"category": "shadow",
 					"group": "shadows"
+				},
+				"pill-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for primary pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-primary-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for primary pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-primary-label": {
+					"value": "var(--bg-robin-600)",
+					"description": "Label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-primary-label-hover": {
+					"value": "var(--bg-robin-600)",
+					"description": "Hover label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Background color for success pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-success-border": {
+					"value": "var(--bg-forest-600)",
+					"description": "Border color for success pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-success-label": {
+					"value": "var(--bg-forest-700)",
+					"description": "Label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-label-hover": {
+					"value": "var(--bg-forest-700)",
+					"description": "Hover label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for warning pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-warning-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for warning pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-warning-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-label-hover": {
+					"value": "var(--bg-amber-700)",
+					"description": "Hover label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-danger-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-danger-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-label-hover": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Hover label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-background-hover": {
+					"value": "var(--surface-3)",
+					"description": "Hover background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Hover label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-background-hover": {
+					"value": "var(--bg-neutral-light-600)",
+					"description": "Hover background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Hover dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Background color for info pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-info-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border color for info pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-info-label": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-label-hover": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Hover label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Background color for archive pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-archive-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border color for archive pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-archive-label": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-label-hover": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Hover label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Background color for highlight-danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-highlight-danger-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border color for highlight-danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label-hover": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Hover label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"badge-primary-outlined-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for outlined primary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-outlined-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for outlined primary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-primary-outlined-label": {
+					"value": "var(--bg-robin-600)",
+					"description": "Label text color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-outlined-icon": {
+					"value": "var(--bg-robin-600)",
+					"description": "Icon color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Background color for outlined success badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-outlined-border": {
+					"value": "var(--bg-forest-600)",
+					"description": "Border color for outlined success badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-success-outlined-label": {
+					"value": "var(--bg-forest-700)",
+					"description": "Label text color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-icon": {
+					"value": "var(--bg-forest-700)",
+					"description": "Icon color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for outlined warning badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-outlined-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for outlined warning badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-warning-outlined-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Label text color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-icon": {
+					"value": "var(--bg-amber-700)",
+					"description": "Icon color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for outlined danger badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-outlined-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for outlined danger badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-danger-outlined-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Label text color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-icon": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Icon color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined secondary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined secondary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
 				}
 			}
 		},
@@ -1422,13 +1776,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-forest-500)",
+					"value": "var(--text-neutral-dark-1000)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-forest-400)",
+					"value": "var(--text-base-black)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
@@ -2039,6 +2393,360 @@
 					"description": "Shadow for tooltip elements",
 					"category": "shadow",
 					"group": "shadows"
+				},
+				"pill-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for primary pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-primary-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for primary pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-primary-label": {
+					"value": "var(--bg-robin-400)",
+					"description": "Label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-primary-label-hover": {
+					"value": "var(--bg-robin-400)",
+					"description": "Hover label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Background color for success pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-success-border": {
+					"value": "var(--bg-forest-500)",
+					"description": "Border color for success pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-success-label": {
+					"value": "var(--bg-forest-400)",
+					"description": "Label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-label-hover": {
+					"value": "var(--bg-forest-400)",
+					"description": "Hover label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for warning pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-warning-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for warning pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-warning-label": {
+					"value": "var(--bg-amber-400)",
+					"description": "Label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-label-hover": {
+					"value": "var(--bg-amber-400)",
+					"description": "Hover label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-danger-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-danger-label": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-label-hover": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Hover label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-background-hover": {
+					"value": "var(--surface-3)",
+					"description": "Hover background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Hover label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-background-hover": {
+					"value": "var(--bg-neutral-dark-500)",
+					"description": "Hover background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Hover dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Background color for info pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-info-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border color for info pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-info-label": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-label-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Background color for archive pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-archive-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border color for archive pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-archive-label": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-label-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Background color for highlight-danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-highlight-danger-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border color for highlight-danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"badge-primary-outlined-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for outlined primary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-outlined-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for outlined primary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-primary-outlined-label": {
+					"value": "var(--bg-robin-400)",
+					"description": "Label text color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-outlined-icon": {
+					"value": "var(--bg-robin-400)",
+					"description": "Icon color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Background color for outlined success badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-outlined-border": {
+					"value": "var(--bg-forest-500)",
+					"description": "Border color for outlined success badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-success-outlined-label": {
+					"value": "var(--bg-forest-400)",
+					"description": "Label text color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-icon": {
+					"value": "var(--bg-forest-400)",
+					"description": "Icon color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for outlined warning badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-outlined-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for outlined warning badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-warning-outlined-label": {
+					"value": "var(--bg-amber-400)",
+					"description": "Label text color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-icon": {
+					"value": "var(--bg-amber-400)",
+					"description": "Icon color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for outlined danger badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-outlined-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for outlined danger badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-danger-outlined-label": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Label text color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-icon": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Icon color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined secondary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined secondary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
 				}
 			}
 		}

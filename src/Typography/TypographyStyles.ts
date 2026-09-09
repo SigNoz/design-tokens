@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 08 Sep 2026 19:30:13 GMT
+ * Generated on Fri, 11 Sep 2026 15:47:26 GMT
  *
  * Use these constants to apply complete typography styles in your components
  *
