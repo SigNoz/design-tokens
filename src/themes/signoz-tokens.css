@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 11 Sep 2026 15:47:26 GMT
+ * Generated on Tue, 15 Sep 2026 19:30:18 GMT
  */
 
 [data-theme='default'] {
@@ -324,6 +324,33 @@
 	--badge-secondary-outlined-border: var(--l3-border);
 	--badge-secondary-outlined-label: var(--secondary-foreground);
 	--badge-secondary-outlined-icon: var(--secondary-foreground);
+	--radio-group-border: var(--l3-foreground);
+	--radio-group-label: var(--l2-foreground);
+	--radio-group-label-hover: var(--l1-foreground-hover);
+	--radio-group-primary-background: var(--primary-background);
+	--radio-group-primary-border-hover: var(--primary-background-hover);
+	--radio-group-primary-dot: var(--primary-foreground);
+	--radio-group-secondary-background: var(--l2-foreground);
+	--radio-group-secondary-border-hover: var(--l1-foreground-hover);
+	--radio-group-secondary-dot: var(--l1-foreground);
+	--radio-group-success-background: var(--success-background);
+	--radio-group-success-border-hover: var(--success-background-hover);
+	--radio-group-success-dot: var(--success-foreground);
+	--radio-group-warning-background: var(--warning-background);
+	--radio-group-warning-border-hover: var(--warning-background-hover);
+	--radio-group-warning-dot: var(--warning-foreground);
+	--radio-group-danger-background: var(--danger-background);
+	--radio-group-danger-border-hover: var(--danger-background-hover);
+	--radio-group-danger-dot: var(--danger-foreground);
+	--radio-group-info-background: var(--bg-aqua-500);
+	--radio-group-info-border-hover: var(--bg-aqua-400);
+	--radio-group-info-dot: var(--text-ink-500);
+	--radio-group-archive-background: var(--bg-sienna-500);
+	--radio-group-archive-border-hover: var(--bg-sienna-400);
+	--radio-group-archive-dot: var(--text-ink-500);
+	--radio-group-highlight-danger-background: var(--bg-sakura-500);
+	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
+	--radio-group-highlight-danger-dot: var(--text-ink-500);
 }
 
 [data-theme='default'].dark {
@@ -642,4 +669,31 @@
 	--badge-secondary-outlined-border: var(--l3-border);
 	--badge-secondary-outlined-label: var(--secondary-foreground);
 	--badge-secondary-outlined-icon: var(--secondary-foreground);
+	--radio-group-border: var(--l3-foreground);
+	--radio-group-label: var(--l2-foreground);
+	--radio-group-label-hover: var(--l1-foreground-hover);
+	--radio-group-primary-background: var(--primary-background);
+	--radio-group-primary-border-hover: var(--primary-background-hover);
+	--radio-group-primary-dot: var(--primary-foreground);
+	--radio-group-secondary-background: var(--l2-foreground);
+	--radio-group-secondary-border-hover: var(--l1-foreground-hover);
+	--radio-group-secondary-dot: var(--l1-foreground);
+	--radio-group-success-background: var(--success-background);
+	--radio-group-success-border-hover: var(--success-background-hover);
+	--radio-group-success-dot: var(--success-foreground);
+	--radio-group-warning-background: var(--warning-background);
+	--radio-group-warning-border-hover: var(--warning-background-hover);
+	--radio-group-warning-dot: var(--warning-foreground);
+	--radio-group-danger-background: var(--danger-background);
+	--radio-group-danger-border-hover: var(--danger-background-hover);
+	--radio-group-danger-dot: var(--danger-foreground);
+	--radio-group-info-background: var(--bg-aqua-500);
+	--radio-group-info-border-hover: var(--bg-aqua-400);
+	--radio-group-info-dot: var(--text-ink-500);
+	--radio-group-archive-background: var(--bg-sienna-500);
+	--radio-group-archive-border-hover: var(--bg-sienna-400);
+	--radio-group-archive-dot: var(--text-ink-500);
+	--radio-group-highlight-danger-background: var(--bg-sakura-500);
+	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
+	--radio-group-highlight-danger-dot: var(--text-ink-500);
 }

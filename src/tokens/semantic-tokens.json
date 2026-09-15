@@ -1375,6 +1375,168 @@
 					"description": "Icon color for outlined secondary badges",
 					"category": "foreground",
 					"group": "badges"
+				},
+				"radio-group-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked radio dials",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label text color for unchecked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label text color for hovered and checked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill color for checked primary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border color for hovered unchecked primary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-primary-dot": {
+					"value": "var(--primary-foreground)",
+					"description": "Inner dot color for checked primary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Fill color for checked secondary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Border color for hovered unchecked secondary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-secondary-dot": {
+					"value": "var(--l1-foreground)",
+					"description": "Inner dot color for checked secondary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill color for checked success radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Border color for hovered unchecked success radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-success-dot": {
+					"value": "var(--success-foreground)",
+					"description": "Inner dot color for checked success radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill color for checked warning radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Border color for hovered unchecked warning radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-warning-dot": {
+					"value": "var(--warning-foreground)",
+					"description": "Inner dot color for checked warning radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill color for checked danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Border color for hovered unchecked danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-danger-dot": {
+					"value": "var(--danger-foreground)",
+					"description": "Inner dot color for checked danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill color for checked info radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Border color for hovered unchecked info radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-info-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked info radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill color for checked archive radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Border color for hovered unchecked archive radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-archive-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked archive radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill color for checked highlight-danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Border color for hovered unchecked highlight-danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked highlight-danger radios",
+					"category": "foreground",
+					"group": "radios"
 				}
 			}
 		},
@@ -2747,6 +2909,168 @@
 					"description": "Icon color for outlined secondary badges",
 					"category": "foreground",
 					"group": "badges"
+				},
+				"radio-group-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked radio dials",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label text color for unchecked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label text color for hovered and checked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill color for checked primary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border color for hovered unchecked primary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-primary-dot": {
+					"value": "var(--primary-foreground)",
+					"description": "Inner dot color for checked primary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Fill color for checked secondary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Border color for hovered unchecked secondary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-secondary-dot": {
+					"value": "var(--l1-foreground)",
+					"description": "Inner dot color for checked secondary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill color for checked success radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Border color for hovered unchecked success radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-success-dot": {
+					"value": "var(--success-foreground)",
+					"description": "Inner dot color for checked success radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill color for checked warning radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Border color for hovered unchecked warning radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-warning-dot": {
+					"value": "var(--warning-foreground)",
+					"description": "Inner dot color for checked warning radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill color for checked danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Border color for hovered unchecked danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-danger-dot": {
+					"value": "var(--danger-foreground)",
+					"description": "Inner dot color for checked danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill color for checked info radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Border color for hovered unchecked info radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-info-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked info radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill color for checked archive radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Border color for hovered unchecked archive radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-archive-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked archive radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill color for checked highlight-danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Border color for hovered unchecked highlight-danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked highlight-danger radios",
+					"category": "foreground",
+					"group": "radios"
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 11 Sep 2026 15:47:26 GMT
+ * Generated on Tue, 15 Sep 2026 19:30:18 GMT
  */
 
 export const StyleTailwind = {
@@ -234,6 +234,36 @@ export const StyleTailwind = {
 	'badge-secondary-outlined-border': 'var(--badge-secondary-outlined-border)',
 	'badge-secondary-outlined-label': 'var(--badge-secondary-outlined-label)',
 	'badge-secondary-outlined-icon': 'var(--badge-secondary-outlined-icon)',
+	'radio-group-border': 'var(--radio-group-border)',
+	'radio-group-label': 'var(--radio-group-label)',
+	'radio-group-label-hover': 'var(--radio-group-label-hover)',
+	'radio-group-primary-background': 'var(--radio-group-primary-background)',
+	'radio-group-primary-border-hover': 'var(--radio-group-primary-border-hover)',
+	'radio-group-primary-dot': 'var(--radio-group-primary-dot)',
+	'radio-group-secondary-background': 'var(--radio-group-secondary-background)',
+	'radio-group-secondary-border-hover':
+		'var(--radio-group-secondary-border-hover)',
+	'radio-group-secondary-dot': 'var(--radio-group-secondary-dot)',
+	'radio-group-success-background': 'var(--radio-group-success-background)',
+	'radio-group-success-border-hover': 'var(--radio-group-success-border-hover)',
+	'radio-group-success-dot': 'var(--radio-group-success-dot)',
+	'radio-group-warning-background': 'var(--radio-group-warning-background)',
+	'radio-group-warning-border-hover': 'var(--radio-group-warning-border-hover)',
+	'radio-group-warning-dot': 'var(--radio-group-warning-dot)',
+	'radio-group-danger-background': 'var(--radio-group-danger-background)',
+	'radio-group-danger-border-hover': 'var(--radio-group-danger-border-hover)',
+	'radio-group-danger-dot': 'var(--radio-group-danger-dot)',
+	'radio-group-info-background': 'var(--radio-group-info-background)',
+	'radio-group-info-border-hover': 'var(--radio-group-info-border-hover)',
+	'radio-group-info-dot': 'var(--radio-group-info-dot)',
+	'radio-group-archive-background': 'var(--radio-group-archive-background)',
+	'radio-group-archive-border-hover': 'var(--radio-group-archive-border-hover)',
+	'radio-group-archive-dot': 'var(--radio-group-archive-dot)',
+	'radio-group-highlight-danger-background':
+		'var(--radio-group-highlight-danger-background)',
+	'radio-group-highlight-danger-border-hover':
+		'var(--radio-group-highlight-danger-border-hover)',
+	'radio-group-highlight-danger-dot': 'var(--radio-group-highlight-danger-dot)',
 } as const;
 
 export type StyleTailwindType =
