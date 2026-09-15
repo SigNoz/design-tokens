@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 11 Sep 2026 15:47:26 GMT
+ * Generated on Tue, 15 Sep 2026 19:30:18 GMT
  */
 
 export const Style = {
@@ -230,6 +230,36 @@ export const Style = {
 	BADGE_SECONDARY_OUTLINED_BORDER: 'var(--badge-secondary-outlined-border)',
 	BADGE_SECONDARY_OUTLINED_LABEL: 'var(--badge-secondary-outlined-label)',
 	BADGE_SECONDARY_OUTLINED_ICON: 'var(--badge-secondary-outlined-icon)',
+	RADIO_GROUP_BORDER: 'var(--radio-group-border)',
+	RADIO_GROUP_LABEL: 'var(--radio-group-label)',
+	RADIO_GROUP_LABEL_HOVER: 'var(--radio-group-label-hover)',
+	RADIO_GROUP_PRIMARY_BACKGROUND: 'var(--radio-group-primary-background)',
+	RADIO_GROUP_PRIMARY_BORDER_HOVER: 'var(--radio-group-primary-border-hover)',
+	RADIO_GROUP_PRIMARY_DOT: 'var(--radio-group-primary-dot)',
+	RADIO_GROUP_SECONDARY_BACKGROUND: 'var(--radio-group-secondary-background)',
+	RADIO_GROUP_SECONDARY_BORDER_HOVER:
+		'var(--radio-group-secondary-border-hover)',
+	RADIO_GROUP_SECONDARY_DOT: 'var(--radio-group-secondary-dot)',
+	RADIO_GROUP_SUCCESS_BACKGROUND: 'var(--radio-group-success-background)',
+	RADIO_GROUP_SUCCESS_BORDER_HOVER: 'var(--radio-group-success-border-hover)',
+	RADIO_GROUP_SUCCESS_DOT: 'var(--radio-group-success-dot)',
+	RADIO_GROUP_WARNING_BACKGROUND: 'var(--radio-group-warning-background)',
+	RADIO_GROUP_WARNING_BORDER_HOVER: 'var(--radio-group-warning-border-hover)',
+	RADIO_GROUP_WARNING_DOT: 'var(--radio-group-warning-dot)',
+	RADIO_GROUP_DANGER_BACKGROUND: 'var(--radio-group-danger-background)',
+	RADIO_GROUP_DANGER_BORDER_HOVER: 'var(--radio-group-danger-border-hover)',
+	RADIO_GROUP_DANGER_DOT: 'var(--radio-group-danger-dot)',
+	RADIO_GROUP_INFO_BACKGROUND: 'var(--radio-group-info-background)',
+	RADIO_GROUP_INFO_BORDER_HOVER: 'var(--radio-group-info-border-hover)',
+	RADIO_GROUP_INFO_DOT: 'var(--radio-group-info-dot)',
+	RADIO_GROUP_ARCHIVE_BACKGROUND: 'var(--radio-group-archive-background)',
+	RADIO_GROUP_ARCHIVE_BORDER_HOVER: 'var(--radio-group-archive-border-hover)',
+	RADIO_GROUP_ARCHIVE_DOT: 'var(--radio-group-archive-dot)',
+	RADIO_GROUP_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--radio-group-highlight-danger-background)',
+	RADIO_GROUP_HIGHLIGHT_DANGER_BORDER_HOVER:
+		'var(--radio-group-highlight-danger-border-hover)',
+	RADIO_GROUP_HIGHLIGHT_DANGER_DOT: 'var(--radio-group-highlight-danger-dot)',
 } as const;
 
 export type StyleType = typeof Style;

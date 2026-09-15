@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 11 Sep 2026 15:47:25 GMT
+ * Generated on Tue, 15 Sep 2026 19:30:18 GMT
  */
 
 export const Colors = {
