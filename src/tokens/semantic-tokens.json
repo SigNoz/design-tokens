@@ -1664,6 +1664,84 @@
 					"category": "foreground",
 					"group": "switches"
 				},
+				"tabs-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider color for the tab bar rule and secondary tab borders",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-primary-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for default primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered and active primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Container background color for hovered primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Active indicator color for primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-radius": {
+					"value": "var(--radius-2)",
+					"description": "Corner radius for primary tab triggers",
+					"category": "radius",
+					"group": "tabs"
+				},
+				"tabs-secondary-background": {
+					"value": "var(--l3-background-30)",
+					"description": "Background color for default secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-background-hover": {
+					"value": "var(--l2-background)",
+					"description": "Background color for hovered secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label color for default secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-active": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for the active secondary tab",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label color for disabled secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-stripe-disabled": {
+					"value": "linear-gradient(180deg, var(--l3-background) 0%, rgba(231, 232, 236, 0.00) 100%)",
+					"description": "Stripe color for the disabled secondary tab hatching",
+					"category": "foreground",
+					"group": "tabs"
+				},
 				"toggle-group-border": {
 					"value": "var(--l2-border)",
 					"description": "Border of the segmented button bar",
@@ -3401,6 +3479,84 @@
 					"description": "Description text color under switch labels",
 					"category": "foreground",
 					"group": "switches"
+				},
+				"tabs-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider color for the tab bar rule and secondary tab borders",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-primary-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for default primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered and active primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Container background color for hovered primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Active indicator color for primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-radius": {
+					"value": "var(--radius-2)",
+					"description": "Corner radius for primary tab triggers",
+					"category": "radius",
+					"group": "tabs"
+				},
+				"tabs-secondary-background": {
+					"value": "var(--l3-background-30)",
+					"description": "Background color for default secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-background-hover": {
+					"value": "var(--l2-background)",
+					"description": "Background color for hovered secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label color for default secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-active": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for the active secondary tab",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label color for disabled secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-stripe-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Stripe color for the disabled secondary tab hatching",
+					"category": "foreground",
+					"group": "tabs"
 				},
 				"toggle-group-border": {
 					"value": "var(--l2-border)",

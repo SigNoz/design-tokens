@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 21 Sep 2026 17:58:30 GMT
+ * Generated on Mon, 21 Sep 2026 17:58:49 GMT
  */
 
 export const Style = {
@@ -283,6 +283,19 @@ export const Style = {
 	SWITCH_THUMB_BACKGROUND: 'var(--switch-thumb-background)',
 	SWITCH_LABEL_COLOR: 'var(--switch-label-color)',
 	SWITCH_DESCRIPTION_COLOR: 'var(--switch-description-color)',
+	TABS_BORDER: 'var(--tabs-border)',
+	TABS_PRIMARY_LABEL: 'var(--tabs-primary-label)',
+	TABS_PRIMARY_LABEL_HOVER: 'var(--tabs-primary-label-hover)',
+	TABS_PRIMARY_BACKGROUND_HOVER: 'var(--tabs-primary-background-hover)',
+	TABS_PRIMARY_INDICATOR: 'var(--tabs-primary-indicator)',
+	TABS_PRIMARY_RADIUS: 'var(--tabs-primary-radius)',
+	TABS_SECONDARY_BACKGROUND: 'var(--tabs-secondary-background)',
+	TABS_SECONDARY_BACKGROUND_HOVER: 'var(--tabs-secondary-background-hover)',
+	TABS_SECONDARY_LABEL: 'var(--tabs-secondary-label)',
+	TABS_SECONDARY_LABEL_HOVER: 'var(--tabs-secondary-label-hover)',
+	TABS_SECONDARY_LABEL_ACTIVE: 'var(--tabs-secondary-label-active)',
+	TABS_SECONDARY_LABEL_DISABLED: 'var(--tabs-secondary-label-disabled)',
+	TABS_SECONDARY_STRIPE_DISABLED: 'var(--tabs-secondary-stripe-disabled)',
 	TOGGLE_GROUP_BORDER: 'var(--toggle-group-border)',
 	TOGGLE_GROUP_SECONDARY_OUTLINED_BACKGROUND:
 		'var(--toggle-group-secondary-outlined-background)',
