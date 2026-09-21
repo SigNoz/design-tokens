@@ -1663,6 +1663,84 @@
 					"description": "Description text color under switch labels",
 					"category": "foreground",
 					"group": "switches"
+				},
+				"toggle-group-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the segmented button bar",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background": {
+					"value": "transparent",
+					"description": "Background of an unpressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Background of a hovered segment, half the pressed fill",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-active": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the pressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of an unpressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-active": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the pressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a segment that cannot be pressed",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background": {
+					"value": "var(--l1-background)",
+					"description": "Surface of the overflow arrow, opaque so the strip scrolls under it",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Surface of a hovered overflow arrow",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Chevron of a hovered overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-shadow-color": {
+					"value": "rgba(0, 0, 0, 0.16)",
+					"description": "Shadow the overflow arrow casts over the strip",
+					"category": "shadow",
+					"group": "toggle-group"
 				}
 			}
 		},
@@ -3323,6 +3401,84 @@
 					"description": "Description text color under switch labels",
 					"category": "foreground",
 					"group": "switches"
+				},
+				"toggle-group-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the segmented button bar",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background": {
+					"value": "transparent",
+					"description": "Background of an unpressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Background of a hovered segment, half the pressed fill",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-active": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the pressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of an unpressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-active": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the pressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a segment that cannot be pressed",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background": {
+					"value": "var(--l1-background)",
+					"description": "Surface of the overflow arrow, opaque so the strip scrolls under it",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Surface of a hovered overflow arrow",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Chevron of a hovered overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-shadow-color": {
+					"value": "rgba(0, 0, 0, 0.48)",
+					"description": "Shadow the overflow arrow casts over the strip",
+					"category": "shadow",
+					"group": "toggle-group"
 				}
 			}
 		}
