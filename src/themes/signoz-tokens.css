@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 15 Sep 2026 19:30:18 GMT
+ * Generated on Mon, 21 Sep 2026 15:42:22 GMT
  */
 
 [data-theme='default'] {
@@ -351,6 +351,27 @@
 	--radio-group-highlight-danger-background: var(--bg-sakura-500);
 	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
 	--radio-group-highlight-danger-dot: var(--text-ink-500);
+	--switch-track-background: var(--l3-border);
+	--switch-track-hover-background: var(--l3-background-hover);
+	--switch-primary-background: var(--primary-background);
+	--switch-primary-hover-background: var(--primary-background-hover);
+	--switch-secondary-background: var(--l2-foreground);
+	--switch-secondary-hover-background: var(--l1-foreground-hover);
+	--switch-success-background: var(--success-background);
+	--switch-success-hover-background: var(--success-background-hover);
+	--switch-warning-background: var(--warning-background);
+	--switch-warning-hover-background: var(--warning-background-hover);
+	--switch-danger-background: var(--danger-background);
+	--switch-danger-hover-background: var(--danger-background-hover);
+	--switch-info-background: var(--bg-aqua-500);
+	--switch-info-hover-background: var(--bg-aqua-400);
+	--switch-archive-background: var(--bg-sienna-500);
+	--switch-archive-hover-background: var(--bg-sienna-400);
+	--switch-highlight-danger-background: var(--bg-sakura-500);
+	--switch-highlight-danger-hover-background: var(--bg-sakura-400);
+	--switch-thumb-background: var(--primary-foreground);
+	--switch-label-color: var(--l1-foreground);
+	--switch-description-color: var(--l2-foreground);
 }
 
 [data-theme='default'].dark {
@@ -696,4 +717,25 @@
 	--radio-group-highlight-danger-background: var(--bg-sakura-500);
 	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
 	--radio-group-highlight-danger-dot: var(--text-ink-500);
+	--switch-track-background: var(--l3-border);
+	--switch-track-hover-background: var(--l3-background-hover);
+	--switch-primary-background: var(--primary-background);
+	--switch-primary-hover-background: var(--primary-background-hover);
+	--switch-secondary-background: var(--l2-foreground);
+	--switch-secondary-hover-background: var(--l1-foreground-hover);
+	--switch-success-background: var(--success-background);
+	--switch-success-hover-background: var(--success-background-hover);
+	--switch-warning-background: var(--warning-background);
+	--switch-warning-hover-background: var(--warning-background-hover);
+	--switch-danger-background: var(--danger-background);
+	--switch-danger-hover-background: var(--danger-background-hover);
+	--switch-info-background: var(--bg-aqua-500);
+	--switch-info-hover-background: var(--bg-aqua-400);
+	--switch-archive-background: var(--bg-sienna-500);
+	--switch-archive-hover-background: var(--bg-sienna-400);
+	--switch-highlight-danger-background: var(--bg-sakura-500);
+	--switch-highlight-danger-hover-background: var(--bg-sakura-400);
+	--switch-thumb-background: var(--primary-foreground);
+	--switch-label-color: var(--l1-foreground);
+	--switch-description-color: var(--l2-foreground);
 }

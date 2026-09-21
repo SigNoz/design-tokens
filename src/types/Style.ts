@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 15 Sep 2026 19:30:18 GMT
+ * Generated on Mon, 21 Sep 2026 15:42:22 GMT
  */
 
 export const Style = {
@@ -260,6 +260,29 @@ export const Style = {
 	RADIO_GROUP_HIGHLIGHT_DANGER_BORDER_HOVER:
 		'var(--radio-group-highlight-danger-border-hover)',
 	RADIO_GROUP_HIGHLIGHT_DANGER_DOT: 'var(--radio-group-highlight-danger-dot)',
+	SWITCH_TRACK_BACKGROUND: 'var(--switch-track-background)',
+	SWITCH_TRACK_HOVER_BACKGROUND: 'var(--switch-track-hover-background)',
+	SWITCH_PRIMARY_BACKGROUND: 'var(--switch-primary-background)',
+	SWITCH_PRIMARY_HOVER_BACKGROUND: 'var(--switch-primary-hover-background)',
+	SWITCH_SECONDARY_BACKGROUND: 'var(--switch-secondary-background)',
+	SWITCH_SECONDARY_HOVER_BACKGROUND: 'var(--switch-secondary-hover-background)',
+	SWITCH_SUCCESS_BACKGROUND: 'var(--switch-success-background)',
+	SWITCH_SUCCESS_HOVER_BACKGROUND: 'var(--switch-success-hover-background)',
+	SWITCH_WARNING_BACKGROUND: 'var(--switch-warning-background)',
+	SWITCH_WARNING_HOVER_BACKGROUND: 'var(--switch-warning-hover-background)',
+	SWITCH_DANGER_BACKGROUND: 'var(--switch-danger-background)',
+	SWITCH_DANGER_HOVER_BACKGROUND: 'var(--switch-danger-hover-background)',
+	SWITCH_INFO_BACKGROUND: 'var(--switch-info-background)',
+	SWITCH_INFO_HOVER_BACKGROUND: 'var(--switch-info-hover-background)',
+	SWITCH_ARCHIVE_BACKGROUND: 'var(--switch-archive-background)',
+	SWITCH_ARCHIVE_HOVER_BACKGROUND: 'var(--switch-archive-hover-background)',
+	SWITCH_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--switch-highlight-danger-background)',
+	SWITCH_HIGHLIGHT_DANGER_HOVER_BACKGROUND:
+		'var(--switch-highlight-danger-hover-background)',
+	SWITCH_THUMB_BACKGROUND: 'var(--switch-thumb-background)',
+	SWITCH_LABEL_COLOR: 'var(--switch-label-color)',
+	SWITCH_DESCRIPTION_COLOR: 'var(--switch-description-color)',
 } as const;
 
 export type StyleType = typeof Style;

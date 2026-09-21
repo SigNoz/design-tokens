@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 15 Sep 2026 19:30:18 GMT
+ * Generated on Mon, 21 Sep 2026 15:42:22 GMT
  */
 
 export const StyleTailwind = {
@@ -264,6 +264,30 @@ export const StyleTailwind = {
 	'radio-group-highlight-danger-border-hover':
 		'var(--radio-group-highlight-danger-border-hover)',
 	'radio-group-highlight-danger-dot': 'var(--radio-group-highlight-danger-dot)',
+	'switch-track-background': 'var(--switch-track-background)',
+	'switch-track-hover-background': 'var(--switch-track-hover-background)',
+	'switch-primary-background': 'var(--switch-primary-background)',
+	'switch-primary-hover-background': 'var(--switch-primary-hover-background)',
+	'switch-secondary-background': 'var(--switch-secondary-background)',
+	'switch-secondary-hover-background':
+		'var(--switch-secondary-hover-background)',
+	'switch-success-background': 'var(--switch-success-background)',
+	'switch-success-hover-background': 'var(--switch-success-hover-background)',
+	'switch-warning-background': 'var(--switch-warning-background)',
+	'switch-warning-hover-background': 'var(--switch-warning-hover-background)',
+	'switch-danger-background': 'var(--switch-danger-background)',
+	'switch-danger-hover-background': 'var(--switch-danger-hover-background)',
+	'switch-info-background': 'var(--switch-info-background)',
+	'switch-info-hover-background': 'var(--switch-info-hover-background)',
+	'switch-archive-background': 'var(--switch-archive-background)',
+	'switch-archive-hover-background': 'var(--switch-archive-hover-background)',
+	'switch-highlight-danger-background':
+		'var(--switch-highlight-danger-background)',
+	'switch-highlight-danger-hover-background':
+		'var(--switch-highlight-danger-hover-background)',
+	'switch-thumb-background': 'var(--switch-thumb-background)',
+	'switch-label-color': 'var(--switch-label-color)',
+	'switch-description-color': 'var(--switch-description-color)',
 } as const;
 
 export type StyleTailwindType =

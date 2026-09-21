@@ -1537,6 +1537,132 @@
 					"description": "Inner dot color for checked highlight-danger radios",
 					"category": "foreground",
 					"group": "radios"
+				},
+				"switch-track-background": {
+					"value": "var(--l3-border)",
+					"description": "Track fill for unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-track-hover-background": {
+					"value": "var(--l3-background-hover)",
+					"description": "Track fill for hovered unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Track fill for checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-hover-background": {
+					"value": "var(--primary-background-hover)",
+					"description": "Track fill for hovered checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Track fill for checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-hover-background": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Track fill for hovered checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-background": {
+					"value": "var(--success-background)",
+					"description": "Track fill for checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-hover-background": {
+					"value": "var(--success-background-hover)",
+					"description": "Track fill for hovered checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Track fill for checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-hover-background": {
+					"value": "var(--warning-background-hover)",
+					"description": "Track fill for hovered checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Track fill for checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-hover-background": {
+					"value": "var(--danger-background-hover)",
+					"description": "Track fill for hovered checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Track fill for checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-hover-background": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Track fill for hovered checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Track fill for checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-hover-background": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Track fill for hovered checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Track fill for checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-hover-background": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Track fill for hovered checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-thumb-background": {
+					"value": "var(--primary-foreground)",
+					"description": "Knob fill for switches, one color across the whole palette",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-label-color": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for switches",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-description-color": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color under switch labels",
+					"category": "foreground",
+					"group": "switches"
 				}
 			}
 		},
@@ -3071,6 +3197,132 @@
 					"description": "Inner dot color for checked highlight-danger radios",
 					"category": "foreground",
 					"group": "radios"
+				},
+				"switch-track-background": {
+					"value": "var(--l3-border)",
+					"description": "Track fill for unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-track-hover-background": {
+					"value": "var(--l3-background-hover)",
+					"description": "Track fill for hovered unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Track fill for checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-hover-background": {
+					"value": "var(--primary-background-hover)",
+					"description": "Track fill for hovered checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Track fill for checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-hover-background": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Track fill for hovered checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-background": {
+					"value": "var(--success-background)",
+					"description": "Track fill for checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-hover-background": {
+					"value": "var(--success-background-hover)",
+					"description": "Track fill for hovered checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Track fill for checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-hover-background": {
+					"value": "var(--warning-background-hover)",
+					"description": "Track fill for hovered checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Track fill for checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-hover-background": {
+					"value": "var(--danger-background-hover)",
+					"description": "Track fill for hovered checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Track fill for checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-hover-background": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Track fill for hovered checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Track fill for checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-hover-background": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Track fill for hovered checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Track fill for checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-hover-background": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Track fill for hovered checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-thumb-background": {
+					"value": "var(--primary-foreground)",
+					"description": "Knob fill for switches, one color across the whole palette",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-label-color": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for switches",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-description-color": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color under switch labels",
+					"category": "foreground",
+					"group": "switches"
 				}
 			}
 		}
