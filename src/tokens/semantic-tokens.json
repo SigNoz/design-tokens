@@ -1820,6 +1820,132 @@
 					"category": "shadow",
 					"group": "toggle-group"
 				},
+				"dropdown-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the dropdown popup",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the dropdown popup",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the dropdown popup casts over the page",
+					"category": "shadow",
+					"group": "dropdown"
+				},
+				"dropdown-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a dropdown row that cannot be picked",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-background": {
+					"value": "transparent",
+					"description": "Fill of a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Fill of a hovered or highlighted dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a danger dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a hovered danger dropdown row, which keeps its colour because the fill carries the hover",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-background-hover": {
+					"value": "var(--callout-error-background)",
+					"description": "Fill of a hovered danger dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Leading and trailing glyph of a dropdown row, which tracks the label rather than dimming under it",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Leading and trailing glyph of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Section header inside the dropdown popup",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-separator": {
+					"value": "var(--l2-border)",
+					"description": "Rule between two dropdown sections",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder text of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Search glyph of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Rule under the pinned search row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the spinner row shown while a menu is fetching its items",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Inset ring on the focused dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-scroll-fade": {
+					"value": "var(--dropdown-background)",
+					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
+					"category": "background",
+					"group": "dropdown"
+				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",
 					"description": "Border color for unchecked checkbox boxes",
@@ -3791,6 +3917,132 @@
 					"description": "Shadow the overflow arrow casts over the strip",
 					"category": "shadow",
 					"group": "toggle-group"
+				},
+				"dropdown-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the dropdown popup",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the dropdown popup",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the dropdown popup casts over the page",
+					"category": "shadow",
+					"group": "dropdown"
+				},
+				"dropdown-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a dropdown row that cannot be picked",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-background": {
+					"value": "transparent",
+					"description": "Fill of a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Fill of a hovered or highlighted dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a danger dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a hovered danger dropdown row, which keeps its colour because the fill carries the hover",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-background-hover": {
+					"value": "var(--callout-error-background)",
+					"description": "Fill of a hovered danger dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Leading and trailing glyph of a dropdown row, which tracks the label rather than dimming under it",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Leading and trailing glyph of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Section header inside the dropdown popup",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-separator": {
+					"value": "var(--l2-border)",
+					"description": "Rule between two dropdown sections",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder text of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Search glyph of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Rule under the pinned search row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the spinner row shown while a menu is fetching its items",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Inset ring on the focused dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-scroll-fade": {
+					"value": "var(--dropdown-background)",
+					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
+					"category": "background",
+					"group": "dropdown"
 				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",

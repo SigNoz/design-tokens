@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:17 GMT
  */
 
 export const StyleTailwind = {
@@ -325,6 +325,28 @@ export const StyleTailwind = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	'toggle-group-scroll-button-shadow-color':
 		'var(--toggle-group-scroll-button-shadow-color)',
+	'dropdown-background': 'var(--dropdown-background)',
+	'dropdown-border': 'var(--dropdown-border)',
+	'dropdown-shadow': 'var(--dropdown-shadow)',
+	'dropdown-item-label': 'var(--dropdown-item-label)',
+	'dropdown-item-label-hover': 'var(--dropdown-item-label-hover)',
+	'dropdown-item-label-disabled': 'var(--dropdown-item-label-disabled)',
+	'dropdown-item-background': 'var(--dropdown-item-background)',
+	'dropdown-item-background-hover': 'var(--dropdown-item-background-hover)',
+	'dropdown-item-danger-label': 'var(--dropdown-item-danger-label)',
+	'dropdown-item-danger-label-hover': 'var(--dropdown-item-danger-label-hover)',
+	'dropdown-item-danger-background-hover':
+		'var(--dropdown-item-danger-background-hover)',
+	'dropdown-item-icon': 'var(--dropdown-item-icon)',
+	'dropdown-item-icon-hover': 'var(--dropdown-item-icon-hover)',
+	'dropdown-group-label': 'var(--dropdown-group-label)',
+	'dropdown-separator': 'var(--dropdown-separator)',
+	'dropdown-search-placeholder': 'var(--dropdown-search-placeholder)',
+	'dropdown-search-icon': 'var(--dropdown-search-icon)',
+	'dropdown-search-border': 'var(--dropdown-search-border)',
+	'dropdown-loading-label': 'var(--dropdown-loading-label)',
+	'dropdown-item-focus-ring': 'var(--dropdown-item-focus-ring)',
+	'dropdown-scroll-fade': 'var(--dropdown-scroll-fade)',
 	'checkbox-border': 'var(--checkbox-border)',
 	'checkbox-label': 'var(--checkbox-label)',
 	'checkbox-primary-background': 'var(--checkbox-primary-background)',

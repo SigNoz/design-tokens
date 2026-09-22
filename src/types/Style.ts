@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:17 GMT
  */
 
 export const Style = {
@@ -320,6 +320,28 @@ export const Style = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	TOGGLE_GROUP_SCROLL_BUTTON_SHADOW_COLOR:
 		'var(--toggle-group-scroll-button-shadow-color)',
+	DROPDOWN_BACKGROUND: 'var(--dropdown-background)',
+	DROPDOWN_BORDER: 'var(--dropdown-border)',
+	DROPDOWN_SHADOW: 'var(--dropdown-shadow)',
+	DROPDOWN_ITEM_LABEL: 'var(--dropdown-item-label)',
+	DROPDOWN_ITEM_LABEL_HOVER: 'var(--dropdown-item-label-hover)',
+	DROPDOWN_ITEM_LABEL_DISABLED: 'var(--dropdown-item-label-disabled)',
+	DROPDOWN_ITEM_BACKGROUND: 'var(--dropdown-item-background)',
+	DROPDOWN_ITEM_BACKGROUND_HOVER: 'var(--dropdown-item-background-hover)',
+	DROPDOWN_ITEM_DANGER_LABEL: 'var(--dropdown-item-danger-label)',
+	DROPDOWN_ITEM_DANGER_LABEL_HOVER: 'var(--dropdown-item-danger-label-hover)',
+	DROPDOWN_ITEM_DANGER_BACKGROUND_HOVER:
+		'var(--dropdown-item-danger-background-hover)',
+	DROPDOWN_ITEM_ICON: 'var(--dropdown-item-icon)',
+	DROPDOWN_ITEM_ICON_HOVER: 'var(--dropdown-item-icon-hover)',
+	DROPDOWN_GROUP_LABEL: 'var(--dropdown-group-label)',
+	DROPDOWN_SEPARATOR: 'var(--dropdown-separator)',
+	DROPDOWN_SEARCH_PLACEHOLDER: 'var(--dropdown-search-placeholder)',
+	DROPDOWN_SEARCH_ICON: 'var(--dropdown-search-icon)',
+	DROPDOWN_SEARCH_BORDER: 'var(--dropdown-search-border)',
+	DROPDOWN_LOADING_LABEL: 'var(--dropdown-loading-label)',
+	DROPDOWN_ITEM_FOCUS_RING: 'var(--dropdown-item-focus-ring)',
+	DROPDOWN_SCROLL_FADE: 'var(--dropdown-scroll-fade)',
 	CHECKBOX_BORDER: 'var(--checkbox-border)',
 	CHECKBOX_LABEL: 'var(--checkbox-label)',
 	CHECKBOX_PRIMARY_BACKGROUND: 'var(--checkbox-primary-background)',

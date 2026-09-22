@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:17 GMT
  */
 
 [data-theme='default'] {
@@ -402,6 +402,27 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.16);
+	--dropdown-background: var(--surface-3);
+	--dropdown-border: var(--l2-border);
+	--dropdown-shadow: var(--shadow-dropdown);
+	--dropdown-item-label: var(--l2-foreground);
+	--dropdown-item-label-hover: var(--l1-foreground-hover);
+	--dropdown-item-label-disabled: var(--l3-foreground);
+	--dropdown-item-background: transparent;
+	--dropdown-item-background-hover: var(--l3-background-60);
+	--dropdown-item-danger-label: var(--danger-background-hover);
+	--dropdown-item-danger-label-hover: var(--danger-background-hover);
+	--dropdown-item-danger-background-hover: var(--callout-error-background);
+	--dropdown-item-icon: var(--l2-foreground);
+	--dropdown-item-icon-hover: var(--l1-foreground-hover);
+	--dropdown-group-label: var(--l3-foreground);
+	--dropdown-separator: var(--l2-border);
+	--dropdown-search-placeholder: var(--l3-foreground);
+	--dropdown-search-icon: var(--l3-foreground);
+	--dropdown-search-border: var(--l2-border);
+	--dropdown-loading-label: var(--l1-foreground);
+	--dropdown-item-focus-ring: var(--primary-background);
+	--dropdown-scroll-fade: var(--dropdown-background);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);
@@ -820,6 +841,27 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.48);
+	--dropdown-background: var(--surface-3);
+	--dropdown-border: var(--l2-border);
+	--dropdown-shadow: var(--shadow-dropdown);
+	--dropdown-item-label: var(--l2-foreground);
+	--dropdown-item-label-hover: var(--l1-foreground-hover);
+	--dropdown-item-label-disabled: var(--l3-foreground);
+	--dropdown-item-background: transparent;
+	--dropdown-item-background-hover: var(--l3-background-60);
+	--dropdown-item-danger-label: var(--danger-background-hover);
+	--dropdown-item-danger-label-hover: var(--danger-background-hover);
+	--dropdown-item-danger-background-hover: var(--callout-error-background);
+	--dropdown-item-icon: var(--l2-foreground);
+	--dropdown-item-icon-hover: var(--l1-foreground-hover);
+	--dropdown-group-label: var(--l3-foreground);
+	--dropdown-separator: var(--l2-border);
+	--dropdown-search-placeholder: var(--l3-foreground);
+	--dropdown-search-icon: var(--l3-foreground);
+	--dropdown-search-border: var(--l2-border);
+	--dropdown-loading-label: var(--l1-foreground);
+	--dropdown-item-focus-ring: var(--primary-background);
+	--dropdown-scroll-fade: var(--dropdown-background);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);
