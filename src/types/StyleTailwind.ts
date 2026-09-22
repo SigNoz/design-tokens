@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:17 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:31 GMT
  */
 
 export const StyleTailwind = {
@@ -347,6 +347,40 @@ export const StyleTailwind = {
 	'dropdown-loading-label': 'var(--dropdown-loading-label)',
 	'dropdown-item-focus-ring': 'var(--dropdown-item-focus-ring)',
 	'dropdown-scroll-fade': 'var(--dropdown-scroll-fade)',
+	'calendar-background': 'var(--calendar-background)',
+	'calendar-button-background': 'var(--calendar-button-background)',
+	'calendar-button-background-hover': 'var(--calendar-button-background-hover)',
+	'calendar-button-background-active':
+		'var(--calendar-button-background-active)',
+	'calendar-button-label': 'var(--calendar-button-label)',
+	'calendar-button-label-hover': 'var(--calendar-button-label-hover)',
+	'calendar-button-focus-ring': 'var(--calendar-button-focus-ring)',
+	'calendar-day-selected-background': 'var(--calendar-day-selected-background)',
+	'calendar-day-selected-background-hover':
+		'var(--calendar-day-selected-background-hover)',
+	'calendar-day-selected-label': 'var(--calendar-day-selected-label)',
+	'calendar-day-range-edge-background':
+		'var(--calendar-day-range-edge-background)',
+	'calendar-day-range-edge-background-hover':
+		'var(--calendar-day-range-edge-background-hover)',
+	'calendar-day-range-edge-label': 'var(--calendar-day-range-edge-label)',
+	'calendar-day-range-middle-background':
+		'var(--calendar-day-range-middle-background)',
+	'calendar-day-range-middle-background-hover':
+		'var(--calendar-day-range-middle-background-hover)',
+	'calendar-day-range-middle-label': 'var(--calendar-day-range-middle-label)',
+	'calendar-day-today-background': 'var(--calendar-day-today-background)',
+	'calendar-day-today-label': 'var(--calendar-day-today-label)',
+	'calendar-day-outside-label': 'var(--calendar-day-outside-label)',
+	'calendar-day-disabled-label': 'var(--calendar-day-disabled-label)',
+	'calendar-weekday-label': 'var(--calendar-weekday-label)',
+	'calendar-week-number-label': 'var(--calendar-week-number-label)',
+	'calendar-select-background': 'var(--calendar-select-background)',
+	'calendar-select-border': 'var(--calendar-select-border)',
+	'calendar-select-border-focus': 'var(--calendar-select-border-focus)',
+	'calendar-select-icon': 'var(--calendar-select-icon)',
+	'calendar-select-shadow': 'var(--calendar-select-shadow)',
+	'calendar-select-shadow-focus': 'var(--calendar-select-shadow-focus)',
 	'checkbox-border': 'var(--checkbox-border)',
 	'checkbox-label': 'var(--checkbox-label)',
 	'checkbox-primary-background': 'var(--checkbox-primary-background)',

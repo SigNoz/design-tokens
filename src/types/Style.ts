@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:17 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:31 GMT
  */
 
 export const Style = {
@@ -342,6 +342,39 @@ export const Style = {
 	DROPDOWN_LOADING_LABEL: 'var(--dropdown-loading-label)',
 	DROPDOWN_ITEM_FOCUS_RING: 'var(--dropdown-item-focus-ring)',
 	DROPDOWN_SCROLL_FADE: 'var(--dropdown-scroll-fade)',
+	CALENDAR_BACKGROUND: 'var(--calendar-background)',
+	CALENDAR_BUTTON_BACKGROUND: 'var(--calendar-button-background)',
+	CALENDAR_BUTTON_BACKGROUND_HOVER: 'var(--calendar-button-background-hover)',
+	CALENDAR_BUTTON_BACKGROUND_ACTIVE: 'var(--calendar-button-background-active)',
+	CALENDAR_BUTTON_LABEL: 'var(--calendar-button-label)',
+	CALENDAR_BUTTON_LABEL_HOVER: 'var(--calendar-button-label-hover)',
+	CALENDAR_BUTTON_FOCUS_RING: 'var(--calendar-button-focus-ring)',
+	CALENDAR_DAY_SELECTED_BACKGROUND: 'var(--calendar-day-selected-background)',
+	CALENDAR_DAY_SELECTED_BACKGROUND_HOVER:
+		'var(--calendar-day-selected-background-hover)',
+	CALENDAR_DAY_SELECTED_LABEL: 'var(--calendar-day-selected-label)',
+	CALENDAR_DAY_RANGE_EDGE_BACKGROUND:
+		'var(--calendar-day-range-edge-background)',
+	CALENDAR_DAY_RANGE_EDGE_BACKGROUND_HOVER:
+		'var(--calendar-day-range-edge-background-hover)',
+	CALENDAR_DAY_RANGE_EDGE_LABEL: 'var(--calendar-day-range-edge-label)',
+	CALENDAR_DAY_RANGE_MIDDLE_BACKGROUND:
+		'var(--calendar-day-range-middle-background)',
+	CALENDAR_DAY_RANGE_MIDDLE_BACKGROUND_HOVER:
+		'var(--calendar-day-range-middle-background-hover)',
+	CALENDAR_DAY_RANGE_MIDDLE_LABEL: 'var(--calendar-day-range-middle-label)',
+	CALENDAR_DAY_TODAY_BACKGROUND: 'var(--calendar-day-today-background)',
+	CALENDAR_DAY_TODAY_LABEL: 'var(--calendar-day-today-label)',
+	CALENDAR_DAY_OUTSIDE_LABEL: 'var(--calendar-day-outside-label)',
+	CALENDAR_DAY_DISABLED_LABEL: 'var(--calendar-day-disabled-label)',
+	CALENDAR_WEEKDAY_LABEL: 'var(--calendar-weekday-label)',
+	CALENDAR_WEEK_NUMBER_LABEL: 'var(--calendar-week-number-label)',
+	CALENDAR_SELECT_BACKGROUND: 'var(--calendar-select-background)',
+	CALENDAR_SELECT_BORDER: 'var(--calendar-select-border)',
+	CALENDAR_SELECT_BORDER_FOCUS: 'var(--calendar-select-border-focus)',
+	CALENDAR_SELECT_ICON: 'var(--calendar-select-icon)',
+	CALENDAR_SELECT_SHADOW: 'var(--calendar-select-shadow)',
+	CALENDAR_SELECT_SHADOW_FOCUS: 'var(--calendar-select-shadow-focus)',
 	CHECKBOX_BORDER: 'var(--checkbox-border)',
 	CHECKBOX_LABEL: 'var(--checkbox-label)',
 	CHECKBOX_PRIMARY_BACKGROUND: 'var(--checkbox-primary-background)',

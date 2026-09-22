@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:17 GMT
+ * Generated on Wed, 23 Sep 2026 15:05:31 GMT
  */
 
 [data-theme='default'] {
@@ -423,6 +423,52 @@
 	--dropdown-loading-label: var(--l1-foreground);
 	--dropdown-item-focus-ring: var(--primary-background);
 	--dropdown-scroll-fade: var(--dropdown-background);
+	--calendar-background: var(--background);
+	--calendar-button-background: transparent;
+	--calendar-button-background-hover: var(--secondary-background-hover);
+	--calendar-button-background-active: color-mix(
+		in srgb,
+		var(--secondary-background-hover) 85%,
+		var(--foreground)
+	);
+	--calendar-button-label: var(--secondary-foreground);
+	--calendar-button-label-hover: var(--secondary-foreground-hover);
+	--calendar-button-focus-ring: var(--ring);
+	--calendar-day-selected-background: var(--primary);
+	--calendar-day-selected-background-hover: color-mix(
+		in srgb,
+		var(--primary) 85%,
+		var(--foreground)
+	);
+	--calendar-day-selected-label: var(--primary-foreground);
+	--calendar-day-range-edge-background: var(--primary);
+	--calendar-day-range-edge-background-hover: color-mix(
+		in srgb,
+		var(--primary) 85%,
+		var(--foreground)
+	);
+	--calendar-day-range-edge-label: var(--primary-foreground);
+	--calendar-day-range-middle-background: var(--accent);
+	--calendar-day-range-middle-background-hover: color-mix(
+		in srgb,
+		var(--accent) 85%,
+		var(--foreground)
+	);
+	--calendar-day-range-middle-label: var(--accent-foreground);
+	--calendar-day-today-background: var(--accent);
+	--calendar-day-today-label: var(--accent-foreground);
+	--calendar-day-outside-label: var(--muted-foreground);
+	--calendar-day-disabled-label: var(--muted-foreground);
+	--calendar-weekday-label: var(--muted-foreground);
+	--calendar-week-number-label: var(--muted-foreground);
+	--calendar-select-background: var(--popover);
+	--calendar-select-border: var(--input);
+	--calendar-select-border-focus: var(--ring);
+	--calendar-select-icon: var(--muted-foreground);
+	--calendar-select-shadow: 0 1px 2px 0
+		color-mix(in srgb, var(--foreground) 5%, transparent);
+	--calendar-select-shadow-focus: 0 0 0 3px
+		color-mix(in srgb, var(--ring) 50%, transparent);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);
@@ -862,6 +908,52 @@
 	--dropdown-loading-label: var(--l1-foreground);
 	--dropdown-item-focus-ring: var(--primary-background);
 	--dropdown-scroll-fade: var(--dropdown-background);
+	--calendar-background: var(--background);
+	--calendar-button-background: transparent;
+	--calendar-button-background-hover: var(--secondary-background-hover);
+	--calendar-button-background-active: color-mix(
+		in srgb,
+		var(--secondary-background-hover) 85%,
+		var(--foreground)
+	);
+	--calendar-button-label: var(--secondary-foreground);
+	--calendar-button-label-hover: var(--secondary-foreground-hover);
+	--calendar-button-focus-ring: var(--ring);
+	--calendar-day-selected-background: var(--primary);
+	--calendar-day-selected-background-hover: color-mix(
+		in srgb,
+		var(--primary) 85%,
+		var(--foreground)
+	);
+	--calendar-day-selected-label: var(--primary-foreground);
+	--calendar-day-range-edge-background: var(--primary);
+	--calendar-day-range-edge-background-hover: color-mix(
+		in srgb,
+		var(--primary) 85%,
+		var(--foreground)
+	);
+	--calendar-day-range-edge-label: var(--primary-foreground);
+	--calendar-day-range-middle-background: var(--accent);
+	--calendar-day-range-middle-background-hover: color-mix(
+		in srgb,
+		var(--accent) 85%,
+		var(--foreground)
+	);
+	--calendar-day-range-middle-label: var(--accent-foreground);
+	--calendar-day-today-background: var(--accent);
+	--calendar-day-today-label: var(--accent-foreground);
+	--calendar-day-outside-label: var(--muted-foreground);
+	--calendar-day-disabled-label: var(--muted-foreground);
+	--calendar-weekday-label: var(--muted-foreground);
+	--calendar-week-number-label: var(--muted-foreground);
+	--calendar-select-background: var(--popover);
+	--calendar-select-border: var(--input);
+	--calendar-select-border-focus: var(--ring);
+	--calendar-select-icon: var(--muted-foreground);
+	--calendar-select-shadow: 0 1px 2px 0
+		color-mix(in srgb, var(--foreground) 5%, transparent);
+	--calendar-select-shadow-focus: 0 0 0 3px
+		color-mix(in srgb, var(--ring) 50%, transparent);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);

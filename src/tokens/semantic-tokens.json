@@ -1946,6 +1946,174 @@
 					"category": "background",
 					"group": "dropdown"
 				},
+				"calendar-background": {
+					"value": "var(--background)",
+					"description": "Fill behind the month grid",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background": {
+					"value": "transparent",
+					"description": "Fill of a month arrow or a date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered month arrow or date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-active": {
+					"value": "color-mix(in srgb, var(--secondary-background-hover) 85%, var(--foreground))",
+					"description": "Fill of a month arrow or date cell while it is pressed",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of a month arrow or a date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of a hovered month arrow or date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a month arrow or a date cell",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background": {
+					"value": "var(--primary)",
+					"description": "Fill of a selected day outside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered selected day",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of a selected day outside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background": {
+					"value": "var(--primary)",
+					"description": "Fill of the first and last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered first or last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of the first and last day of a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background": {
+					"value": "var(--accent)",
+					"description": "Fill of a day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background-hover": {
+					"value": "color-mix(in srgb, var(--accent) 85%, var(--foreground))",
+					"description": "Fill of a hovered day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of a day inside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-today-background": {
+					"value": "var(--accent)",
+					"description": "Fill of today's cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-today-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of today's cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-outside-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day belonging to a neighbouring month",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-disabled-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day that cannot be picked",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-weekday-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a weekday name above the grid",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-week-number-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of the week number heading a row",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-background": {
+					"value": "var(--popover)",
+					"description": "Fill of the month and year selects in the caption",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-select-border": {
+					"value": "var(--input)",
+					"description": "Border of the month and year selects in the caption",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-border-focus": {
+					"value": "var(--ring)",
+					"description": "Border of a focused month or year select",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-icon": {
+					"value": "var(--muted-foreground)",
+					"description": "Chevron of the month and year selects",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-shadow": {
+					"value": "0 1px 2px 0 color-mix(in srgb, var(--foreground) 5%, transparent)",
+					"description": "Shadow of the month and year selects",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"calendar-select-shadow-focus": {
+					"value": "0 0 0 3px color-mix(in srgb, var(--ring) 50%, transparent)",
+					"description": "Shadow of a focused month or year select",
+					"category": "shadow",
+					"group": "calendar"
+				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",
 					"description": "Border color for unchecked checkbox boxes",
@@ -4043,6 +4211,174 @@
 					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
 					"category": "background",
 					"group": "dropdown"
+				},
+				"calendar-background": {
+					"value": "var(--background)",
+					"description": "Fill behind the month grid",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background": {
+					"value": "transparent",
+					"description": "Fill of a month arrow or a date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered month arrow or date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-active": {
+					"value": "color-mix(in srgb, var(--secondary-background-hover) 85%, var(--foreground))",
+					"description": "Fill of a month arrow or date cell while it is pressed",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of a month arrow or a date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of a hovered month arrow or date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a month arrow or a date cell",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background": {
+					"value": "var(--primary)",
+					"description": "Fill of a selected day outside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered selected day",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of a selected day outside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background": {
+					"value": "var(--primary)",
+					"description": "Fill of the first and last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered first or last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of the first and last day of a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background": {
+					"value": "var(--accent)",
+					"description": "Fill of a day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background-hover": {
+					"value": "color-mix(in srgb, var(--accent) 85%, var(--foreground))",
+					"description": "Fill of a hovered day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of a day inside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-today-background": {
+					"value": "var(--accent)",
+					"description": "Fill of today's cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-today-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of today's cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-outside-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day belonging to a neighbouring month",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-disabled-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day that cannot be picked",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-weekday-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a weekday name above the grid",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-week-number-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of the week number heading a row",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-background": {
+					"value": "var(--popover)",
+					"description": "Fill of the month and year selects in the caption",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-select-border": {
+					"value": "var(--input)",
+					"description": "Border of the month and year selects in the caption",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-border-focus": {
+					"value": "var(--ring)",
+					"description": "Border of a focused month or year select",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-icon": {
+					"value": "var(--muted-foreground)",
+					"description": "Chevron of the month and year selects",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-shadow": {
+					"value": "0 1px 2px 0 color-mix(in srgb, var(--foreground) 5%, transparent)",
+					"description": "Shadow of the month and year selects",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"calendar-select-shadow-focus": {
+					"value": "0 0 0 3px color-mix(in srgb, var(--ring) 50%, transparent)",
+					"description": "Shadow of a focused month or year select",
+					"category": "shadow",
+					"group": "calendar"
 				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",
