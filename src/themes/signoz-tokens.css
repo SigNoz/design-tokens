@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:11:03 GMT
+ * Generated on Wed, 23 Sep 2026 08:20:36 GMT
  */
 
 [data-theme='default'] {
@@ -402,6 +402,32 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.16);
+	--checkbox-border: var(--l3-foreground);
+	--checkbox-label: var(--l1-foreground);
+	--checkbox-primary-background: var(--primary-background);
+	--checkbox-primary-foreground: var(--primary-foreground);
+	--checkbox-primary-border-hover: var(--primary-background-hover);
+	--checkbox-secondary-background: var(--l2-foreground);
+	--checkbox-secondary-foreground: var(--l1-background);
+	--checkbox-secondary-border-hover: var(--l1-foreground-hover);
+	--checkbox-success-background: var(--success-background);
+	--checkbox-success-foreground: var(--success-foreground);
+	--checkbox-success-border-hover: var(--success-background-hover);
+	--checkbox-warning-background: var(--warning-background);
+	--checkbox-warning-foreground: var(--warning-foreground);
+	--checkbox-warning-border-hover: var(--warning-background-hover);
+	--checkbox-danger-background: var(--danger-background);
+	--checkbox-danger-foreground: var(--danger-foreground);
+	--checkbox-danger-border-hover: var(--danger-background-hover);
+	--checkbox-info-background: var(--bg-aqua-500);
+	--checkbox-info-foreground: var(--text-ink-500);
+	--checkbox-info-border-hover: var(--bg-aqua-400);
+	--checkbox-archive-background: var(--bg-sienna-500);
+	--checkbox-archive-foreground: var(--text-ink-500);
+	--checkbox-archive-border-hover: var(--bg-sienna-400);
+	--checkbox-highlight-danger-background: var(--bg-sakura-500);
+	--checkbox-highlight-danger-foreground: var(--text-ink-500);
+	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
 }
 
 [data-theme='default'].dark {
@@ -794,4 +820,30 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.48);
+	--checkbox-border: var(--l3-foreground);
+	--checkbox-label: var(--l1-foreground);
+	--checkbox-primary-background: var(--primary-background);
+	--checkbox-primary-foreground: var(--primary-foreground);
+	--checkbox-primary-border-hover: var(--primary-background-hover);
+	--checkbox-secondary-background: var(--l2-foreground);
+	--checkbox-secondary-foreground: var(--l1-background);
+	--checkbox-secondary-border-hover: var(--l1-foreground-hover);
+	--checkbox-success-background: var(--success-background);
+	--checkbox-success-foreground: var(--success-foreground);
+	--checkbox-success-border-hover: var(--success-background-hover);
+	--checkbox-warning-background: var(--warning-background);
+	--checkbox-warning-foreground: var(--warning-foreground);
+	--checkbox-warning-border-hover: var(--warning-background-hover);
+	--checkbox-danger-background: var(--danger-background);
+	--checkbox-danger-foreground: var(--danger-foreground);
+	--checkbox-danger-border-hover: var(--danger-background-hover);
+	--checkbox-info-background: var(--bg-aqua-500);
+	--checkbox-info-foreground: var(--text-ink-500);
+	--checkbox-info-border-hover: var(--bg-aqua-400);
+	--checkbox-archive-background: var(--bg-sienna-500);
+	--checkbox-archive-foreground: var(--text-ink-500);
+	--checkbox-archive-border-hover: var(--bg-sienna-400);
+	--checkbox-highlight-danger-background: var(--bg-sakura-500);
+	--checkbox-highlight-danger-foreground: var(--text-ink-500);
+	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
 }

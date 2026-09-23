@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:11:03 GMT
+ * Generated on Wed, 23 Sep 2026 08:20:36 GMT
  */
 
 export const StyleTailwind = {
@@ -325,6 +325,35 @@ export const StyleTailwind = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	'toggle-group-scroll-button-shadow-color':
 		'var(--toggle-group-scroll-button-shadow-color)',
+	'checkbox-border': 'var(--checkbox-border)',
+	'checkbox-label': 'var(--checkbox-label)',
+	'checkbox-primary-background': 'var(--checkbox-primary-background)',
+	'checkbox-primary-foreground': 'var(--checkbox-primary-foreground)',
+	'checkbox-primary-border-hover': 'var(--checkbox-primary-border-hover)',
+	'checkbox-secondary-background': 'var(--checkbox-secondary-background)',
+	'checkbox-secondary-foreground': 'var(--checkbox-secondary-foreground)',
+	'checkbox-secondary-border-hover': 'var(--checkbox-secondary-border-hover)',
+	'checkbox-success-background': 'var(--checkbox-success-background)',
+	'checkbox-success-foreground': 'var(--checkbox-success-foreground)',
+	'checkbox-success-border-hover': 'var(--checkbox-success-border-hover)',
+	'checkbox-warning-background': 'var(--checkbox-warning-background)',
+	'checkbox-warning-foreground': 'var(--checkbox-warning-foreground)',
+	'checkbox-warning-border-hover': 'var(--checkbox-warning-border-hover)',
+	'checkbox-danger-background': 'var(--checkbox-danger-background)',
+	'checkbox-danger-foreground': 'var(--checkbox-danger-foreground)',
+	'checkbox-danger-border-hover': 'var(--checkbox-danger-border-hover)',
+	'checkbox-info-background': 'var(--checkbox-info-background)',
+	'checkbox-info-foreground': 'var(--checkbox-info-foreground)',
+	'checkbox-info-border-hover': 'var(--checkbox-info-border-hover)',
+	'checkbox-archive-background': 'var(--checkbox-archive-background)',
+	'checkbox-archive-foreground': 'var(--checkbox-archive-foreground)',
+	'checkbox-archive-border-hover': 'var(--checkbox-archive-border-hover)',
+	'checkbox-highlight-danger-background':
+		'var(--checkbox-highlight-danger-background)',
+	'checkbox-highlight-danger-foreground':
+		'var(--checkbox-highlight-danger-foreground)',
+	'checkbox-highlight-danger-border-hover':
+		'var(--checkbox-highlight-danger-border-hover)',
 } as const;
 
 export type StyleTailwindType =

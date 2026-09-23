@@ -1819,6 +1819,162 @@
 					"description": "Shadow the overflow arrow casts over the strip",
 					"category": "shadow",
 					"group": "toggle-group"
+				},
+				"checkbox-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked checkbox boxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for checkbox rows",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Checked and indeterminate fill for primary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check and dash glyph color for primary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Hover border for unchecked primary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Checked and indeterminate fill for secondary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-foreground": {
+					"value": "var(--l1-background)",
+					"description": "Check and dash glyph color for secondary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover border for unchecked secondary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-success-background": {
+					"value": "var(--success-background)",
+					"description": "Checked and indeterminate fill for success checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Check and dash glyph color for success checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Hover border for unchecked success checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Checked and indeterminate fill for warning checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Check and dash glyph color for warning checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Hover border for unchecked warning checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Checked and indeterminate fill for danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Check and dash glyph color for danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Hover border for unchecked danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Checked and indeterminate fill for info checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for info checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover border for unchecked info checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Checked and indeterminate fill for archive checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for archive checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover border for unchecked archive checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Checked and indeterminate fill for highlight-danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for highlight-danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover border for unchecked highlight-danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
 				}
 			}
 		},
@@ -3635,6 +3791,162 @@
 					"description": "Shadow the overflow arrow casts over the strip",
 					"category": "shadow",
 					"group": "toggle-group"
+				},
+				"checkbox-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked checkbox boxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for checkbox rows",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Checked and indeterminate fill for primary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check and dash glyph color for primary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Hover border for unchecked primary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Checked and indeterminate fill for secondary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-foreground": {
+					"value": "var(--l1-background)",
+					"description": "Check and dash glyph color for secondary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover border for unchecked secondary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-success-background": {
+					"value": "var(--success-background)",
+					"description": "Checked and indeterminate fill for success checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Check and dash glyph color for success checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Hover border for unchecked success checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Checked and indeterminate fill for warning checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Check and dash glyph color for warning checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Hover border for unchecked warning checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Checked and indeterminate fill for danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Check and dash glyph color for danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Hover border for unchecked danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Checked and indeterminate fill for info checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for info checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover border for unchecked info checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Checked and indeterminate fill for archive checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for archive checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover border for unchecked archive checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Checked and indeterminate fill for highlight-danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for highlight-danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover border for unchecked highlight-danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
 				}
 			}
 		}

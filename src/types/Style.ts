@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:11:03 GMT
+ * Generated on Wed, 23 Sep 2026 08:20:36 GMT
  */
 
 export const Style = {
@@ -320,6 +320,35 @@ export const Style = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	TOGGLE_GROUP_SCROLL_BUTTON_SHADOW_COLOR:
 		'var(--toggle-group-scroll-button-shadow-color)',
+	CHECKBOX_BORDER: 'var(--checkbox-border)',
+	CHECKBOX_LABEL: 'var(--checkbox-label)',
+	CHECKBOX_PRIMARY_BACKGROUND: 'var(--checkbox-primary-background)',
+	CHECKBOX_PRIMARY_FOREGROUND: 'var(--checkbox-primary-foreground)',
+	CHECKBOX_PRIMARY_BORDER_HOVER: 'var(--checkbox-primary-border-hover)',
+	CHECKBOX_SECONDARY_BACKGROUND: 'var(--checkbox-secondary-background)',
+	CHECKBOX_SECONDARY_FOREGROUND: 'var(--checkbox-secondary-foreground)',
+	CHECKBOX_SECONDARY_BORDER_HOVER: 'var(--checkbox-secondary-border-hover)',
+	CHECKBOX_SUCCESS_BACKGROUND: 'var(--checkbox-success-background)',
+	CHECKBOX_SUCCESS_FOREGROUND: 'var(--checkbox-success-foreground)',
+	CHECKBOX_SUCCESS_BORDER_HOVER: 'var(--checkbox-success-border-hover)',
+	CHECKBOX_WARNING_BACKGROUND: 'var(--checkbox-warning-background)',
+	CHECKBOX_WARNING_FOREGROUND: 'var(--checkbox-warning-foreground)',
+	CHECKBOX_WARNING_BORDER_HOVER: 'var(--checkbox-warning-border-hover)',
+	CHECKBOX_DANGER_BACKGROUND: 'var(--checkbox-danger-background)',
+	CHECKBOX_DANGER_FOREGROUND: 'var(--checkbox-danger-foreground)',
+	CHECKBOX_DANGER_BORDER_HOVER: 'var(--checkbox-danger-border-hover)',
+	CHECKBOX_INFO_BACKGROUND: 'var(--checkbox-info-background)',
+	CHECKBOX_INFO_FOREGROUND: 'var(--checkbox-info-foreground)',
+	CHECKBOX_INFO_BORDER_HOVER: 'var(--checkbox-info-border-hover)',
+	CHECKBOX_ARCHIVE_BACKGROUND: 'var(--checkbox-archive-background)',
+	CHECKBOX_ARCHIVE_FOREGROUND: 'var(--checkbox-archive-foreground)',
+	CHECKBOX_ARCHIVE_BORDER_HOVER: 'var(--checkbox-archive-border-hover)',
+	CHECKBOX_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--checkbox-highlight-danger-background)',
+	CHECKBOX_HIGHLIGHT_DANGER_FOREGROUND:
+		'var(--checkbox-highlight-danger-foreground)',
+	CHECKBOX_HIGHLIGHT_DANGER_BORDER_HOVER:
+		'var(--checkbox-highlight-danger-border-hover)',
 } as const;
 
 export type StyleType = typeof Style;
