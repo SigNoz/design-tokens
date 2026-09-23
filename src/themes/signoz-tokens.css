@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 21 Sep 2026 15:42:22 GMT
+ * Generated on Wed, 23 Sep 2026 08:11:03 GMT
  */
 
 [data-theme='default'] {
@@ -372,6 +372,36 @@
 	--switch-thumb-background: var(--primary-foreground);
 	--switch-label-color: var(--l1-foreground);
 	--switch-description-color: var(--l2-foreground);
+	--tabs-border: var(--l2-border);
+	--tabs-primary-label: var(--l1-foreground);
+	--tabs-primary-label-hover: var(--l1-foreground-hover);
+	--tabs-primary-background-hover: var(--l3-background-60);
+	--tabs-primary-indicator: var(--primary-background);
+	--tabs-primary-radius: var(--radius-2);
+	--tabs-secondary-background: var(--l3-background-30);
+	--tabs-secondary-background-hover: var(--l2-background);
+	--tabs-secondary-label: var(--l2-foreground);
+	--tabs-secondary-label-hover: var(--l1-foreground-hover);
+	--tabs-secondary-label-active: var(--l1-foreground);
+	--tabs-secondary-label-disabled: var(--l3-foreground);
+	--tabs-secondary-stripe-disabled: linear-gradient(
+		180deg,
+		var(--l3-background) 0%,
+		rgba(231, 232, 236, 0) 100%
+	);
+	--toggle-group-border: var(--l2-border);
+	--toggle-group-secondary-outlined-background: transparent;
+	--toggle-group-secondary-outlined-background-hover: var(--l3-background-30);
+	--toggle-group-secondary-outlined-background-active: var(--l3-background-60);
+	--toggle-group-secondary-outlined-label: var(--l2-foreground);
+	--toggle-group-secondary-outlined-label-hover: var(--l1-foreground-hover);
+	--toggle-group-secondary-outlined-label-active: var(--l1-foreground-hover);
+	--toggle-group-secondary-outlined-label-disabled: var(--l3-foreground);
+	--toggle-group-scroll-button-background: var(--l1-background);
+	--toggle-group-scroll-button-background-hover: var(--l1-background-hover);
+	--toggle-group-scroll-button-label: var(--l1-foreground);
+	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
+	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.16);
 }
 
 [data-theme='default'].dark {
@@ -738,4 +768,30 @@
 	--switch-thumb-background: var(--primary-foreground);
 	--switch-label-color: var(--l1-foreground);
 	--switch-description-color: var(--l2-foreground);
+	--tabs-border: var(--l2-border);
+	--tabs-primary-label: var(--l1-foreground);
+	--tabs-primary-label-hover: var(--l1-foreground-hover);
+	--tabs-primary-background-hover: var(--l3-background-60);
+	--tabs-primary-indicator: var(--primary-background);
+	--tabs-primary-radius: var(--radius-2);
+	--tabs-secondary-background: var(--l3-background-30);
+	--tabs-secondary-background-hover: var(--l2-background);
+	--tabs-secondary-label: var(--l2-foreground);
+	--tabs-secondary-label-hover: var(--l1-foreground-hover);
+	--tabs-secondary-label-active: var(--l1-foreground);
+	--tabs-secondary-label-disabled: var(--l3-foreground);
+	--tabs-secondary-stripe-disabled: var(--l3-foreground);
+	--toggle-group-border: var(--l2-border);
+	--toggle-group-secondary-outlined-background: transparent;
+	--toggle-group-secondary-outlined-background-hover: var(--l3-background-30);
+	--toggle-group-secondary-outlined-background-active: var(--l3-background-60);
+	--toggle-group-secondary-outlined-label: var(--l2-foreground);
+	--toggle-group-secondary-outlined-label-hover: var(--l1-foreground-hover);
+	--toggle-group-secondary-outlined-label-active: var(--l1-foreground-hover);
+	--toggle-group-secondary-outlined-label-disabled: var(--l3-foreground);
+	--toggle-group-scroll-button-background: var(--l1-background);
+	--toggle-group-scroll-button-background-hover: var(--l1-background-hover);
+	--toggle-group-scroll-button-label: var(--l1-foreground);
+	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
+	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.48);
 }

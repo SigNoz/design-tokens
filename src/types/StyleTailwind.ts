@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 21 Sep 2026 15:42:22 GMT
+ * Generated on Wed, 23 Sep 2026 08:11:03 GMT
  */
 
 export const StyleTailwind = {
@@ -288,6 +288,43 @@ export const StyleTailwind = {
 	'switch-thumb-background': 'var(--switch-thumb-background)',
 	'switch-label-color': 'var(--switch-label-color)',
 	'switch-description-color': 'var(--switch-description-color)',
+	'tabs-border': 'var(--tabs-border)',
+	'tabs-primary-label': 'var(--tabs-primary-label)',
+	'tabs-primary-label-hover': 'var(--tabs-primary-label-hover)',
+	'tabs-primary-background-hover': 'var(--tabs-primary-background-hover)',
+	'tabs-primary-indicator': 'var(--tabs-primary-indicator)',
+	'tabs-primary-radius': 'var(--tabs-primary-radius)',
+	'tabs-secondary-background': 'var(--tabs-secondary-background)',
+	'tabs-secondary-background-hover': 'var(--tabs-secondary-background-hover)',
+	'tabs-secondary-label': 'var(--tabs-secondary-label)',
+	'tabs-secondary-label-hover': 'var(--tabs-secondary-label-hover)',
+	'tabs-secondary-label-active': 'var(--tabs-secondary-label-active)',
+	'tabs-secondary-label-disabled': 'var(--tabs-secondary-label-disabled)',
+	'tabs-secondary-stripe-disabled': 'var(--tabs-secondary-stripe-disabled)',
+	'toggle-group-border': 'var(--toggle-group-border)',
+	'toggle-group-secondary-outlined-background':
+		'var(--toggle-group-secondary-outlined-background)',
+	'toggle-group-secondary-outlined-background-hover':
+		'var(--toggle-group-secondary-outlined-background-hover)',
+	'toggle-group-secondary-outlined-background-active':
+		'var(--toggle-group-secondary-outlined-background-active)',
+	'toggle-group-secondary-outlined-label':
+		'var(--toggle-group-secondary-outlined-label)',
+	'toggle-group-secondary-outlined-label-hover':
+		'var(--toggle-group-secondary-outlined-label-hover)',
+	'toggle-group-secondary-outlined-label-active':
+		'var(--toggle-group-secondary-outlined-label-active)',
+	'toggle-group-secondary-outlined-label-disabled':
+		'var(--toggle-group-secondary-outlined-label-disabled)',
+	'toggle-group-scroll-button-background':
+		'var(--toggle-group-scroll-button-background)',
+	'toggle-group-scroll-button-background-hover':
+		'var(--toggle-group-scroll-button-background-hover)',
+	'toggle-group-scroll-button-label': 'var(--toggle-group-scroll-button-label)',
+	'toggle-group-scroll-button-label-hover':
+		'var(--toggle-group-scroll-button-label-hover)',
+	'toggle-group-scroll-button-shadow-color':
+		'var(--toggle-group-scroll-button-shadow-color)',
 } as const;
 
 export type StyleTailwindType =

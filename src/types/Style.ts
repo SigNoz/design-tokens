@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 21 Sep 2026 15:42:22 GMT
+ * Generated on Wed, 23 Sep 2026 08:11:03 GMT
  */
 
 export const Style = {
@@ -283,6 +283,43 @@ export const Style = {
 	SWITCH_THUMB_BACKGROUND: 'var(--switch-thumb-background)',
 	SWITCH_LABEL_COLOR: 'var(--switch-label-color)',
 	SWITCH_DESCRIPTION_COLOR: 'var(--switch-description-color)',
+	TABS_BORDER: 'var(--tabs-border)',
+	TABS_PRIMARY_LABEL: 'var(--tabs-primary-label)',
+	TABS_PRIMARY_LABEL_HOVER: 'var(--tabs-primary-label-hover)',
+	TABS_PRIMARY_BACKGROUND_HOVER: 'var(--tabs-primary-background-hover)',
+	TABS_PRIMARY_INDICATOR: 'var(--tabs-primary-indicator)',
+	TABS_PRIMARY_RADIUS: 'var(--tabs-primary-radius)',
+	TABS_SECONDARY_BACKGROUND: 'var(--tabs-secondary-background)',
+	TABS_SECONDARY_BACKGROUND_HOVER: 'var(--tabs-secondary-background-hover)',
+	TABS_SECONDARY_LABEL: 'var(--tabs-secondary-label)',
+	TABS_SECONDARY_LABEL_HOVER: 'var(--tabs-secondary-label-hover)',
+	TABS_SECONDARY_LABEL_ACTIVE: 'var(--tabs-secondary-label-active)',
+	TABS_SECONDARY_LABEL_DISABLED: 'var(--tabs-secondary-label-disabled)',
+	TABS_SECONDARY_STRIPE_DISABLED: 'var(--tabs-secondary-stripe-disabled)',
+	TOGGLE_GROUP_BORDER: 'var(--toggle-group-border)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_BACKGROUND:
+		'var(--toggle-group-secondary-outlined-background)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_BACKGROUND_HOVER:
+		'var(--toggle-group-secondary-outlined-background-hover)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_BACKGROUND_ACTIVE:
+		'var(--toggle-group-secondary-outlined-background-active)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_LABEL:
+		'var(--toggle-group-secondary-outlined-label)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_LABEL_HOVER:
+		'var(--toggle-group-secondary-outlined-label-hover)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_LABEL_ACTIVE:
+		'var(--toggle-group-secondary-outlined-label-active)',
+	TOGGLE_GROUP_SECONDARY_OUTLINED_LABEL_DISABLED:
+		'var(--toggle-group-secondary-outlined-label-disabled)',
+	TOGGLE_GROUP_SCROLL_BUTTON_BACKGROUND:
+		'var(--toggle-group-scroll-button-background)',
+	TOGGLE_GROUP_SCROLL_BUTTON_BACKGROUND_HOVER:
+		'var(--toggle-group-scroll-button-background-hover)',
+	TOGGLE_GROUP_SCROLL_BUTTON_LABEL: 'var(--toggle-group-scroll-button-label)',
+	TOGGLE_GROUP_SCROLL_BUTTON_LABEL_HOVER:
+		'var(--toggle-group-scroll-button-label-hover)',
+	TOGGLE_GROUP_SCROLL_BUTTON_SHADOW_COLOR:
+		'var(--toggle-group-scroll-button-shadow-color)',
 } as const;
 
 export type StyleType = typeof Style;
