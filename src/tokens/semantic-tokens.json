@@ -2114,6 +2114,48 @@
 					"category": "shadow",
 					"group": "calendar"
 				},
+				"button-group-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered or pressed button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered or pressed button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a button group member, shared with its neighbours as one hairline",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button group member",
+					"category": "border",
+					"group": "button-group"
+				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",
 					"description": "Border color for unchecked checkbox boxes",
@@ -4379,6 +4421,48 @@
 					"description": "Shadow of a focused month or year select",
 					"category": "shadow",
 					"group": "calendar"
+				},
+				"button-group-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered or pressed button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered or pressed button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a button group member, shared with its neighbours as one hairline",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button group member",
+					"category": "border",
+					"group": "button-group"
 				},
 				"checkbox-border": {
 					"value": "var(--l3-foreground)",

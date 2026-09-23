@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:31 GMT
+ * Generated on Wed, 23 Sep 2026 19:40:15 GMT
  */
 
 export const Style = {
@@ -375,6 +375,19 @@ export const Style = {
 	CALENDAR_SELECT_ICON: 'var(--calendar-select-icon)',
 	CALENDAR_SELECT_SHADOW: 'var(--calendar-select-shadow)',
 	CALENDAR_SELECT_SHADOW_FOCUS: 'var(--calendar-select-shadow-focus)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_BACKGROUND:
+		'var(--button-group-secondary-outlined-background)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_BACKGROUND_HOVER:
+		'var(--button-group-secondary-outlined-background-hover)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_LABEL:
+		'var(--button-group-secondary-outlined-label)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_LABEL_HOVER:
+		'var(--button-group-secondary-outlined-label-hover)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_BORDER:
+		'var(--button-group-secondary-outlined-border)',
+	BUTTON_GROUP_SECONDARY_OUTLINED_DISABLED_STRIPE:
+		'var(--button-group-secondary-outlined-disabled-stripe)',
+	BUTTON_GROUP_FOCUS_RING: 'var(--button-group-focus-ring)',
 	CHECKBOX_BORDER: 'var(--checkbox-border)',
 	CHECKBOX_LABEL: 'var(--checkbox-label)',
 	CHECKBOX_PRIMARY_BACKGROUND: 'var(--checkbox-primary-background)',

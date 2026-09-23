@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:31 GMT
+ * Generated on Wed, 23 Sep 2026 19:40:15 GMT
  */
 
 [data-theme='default'] {
@@ -469,6 +469,17 @@
 		color-mix(in srgb, var(--foreground) 5%, transparent);
 	--calendar-select-shadow-focus: 0 0 0 3px
 		color-mix(in srgb, var(--ring) 50%, transparent);
+	--button-group-secondary-outlined-background: var(--secondary-background);
+	--button-group-secondary-outlined-background-hover: var(
+		--secondary-background-hover
+	);
+	--button-group-secondary-outlined-label: var(--secondary-foreground);
+	--button-group-secondary-outlined-label-hover: var(
+		--secondary-foreground-hover
+	);
+	--button-group-secondary-outlined-border: var(--secondary-border);
+	--button-group-secondary-outlined-disabled-stripe: var(--secondary-border);
+	--button-group-focus-ring: var(--ring);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);
@@ -954,6 +965,17 @@
 		color-mix(in srgb, var(--foreground) 5%, transparent);
 	--calendar-select-shadow-focus: 0 0 0 3px
 		color-mix(in srgb, var(--ring) 50%, transparent);
+	--button-group-secondary-outlined-background: var(--secondary-background);
+	--button-group-secondary-outlined-background-hover: var(
+		--secondary-background-hover
+	);
+	--button-group-secondary-outlined-label: var(--secondary-foreground);
+	--button-group-secondary-outlined-label-hover: var(
+		--secondary-foreground-hover
+	);
+	--button-group-secondary-outlined-border: var(--secondary-border);
+	--button-group-secondary-outlined-disabled-stripe: var(--secondary-border);
+	--button-group-focus-ring: var(--ring);
 	--checkbox-border: var(--l3-foreground);
 	--checkbox-label: var(--l1-foreground);
 	--checkbox-primary-background: var(--primary-background);

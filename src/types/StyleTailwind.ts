@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 15:05:31 GMT
+ * Generated on Wed, 23 Sep 2026 19:40:15 GMT
  */
 
 export const StyleTailwind = {
@@ -381,6 +381,19 @@ export const StyleTailwind = {
 	'calendar-select-icon': 'var(--calendar-select-icon)',
 	'calendar-select-shadow': 'var(--calendar-select-shadow)',
 	'calendar-select-shadow-focus': 'var(--calendar-select-shadow-focus)',
+	'button-group-secondary-outlined-background':
+		'var(--button-group-secondary-outlined-background)',
+	'button-group-secondary-outlined-background-hover':
+		'var(--button-group-secondary-outlined-background-hover)',
+	'button-group-secondary-outlined-label':
+		'var(--button-group-secondary-outlined-label)',
+	'button-group-secondary-outlined-label-hover':
+		'var(--button-group-secondary-outlined-label-hover)',
+	'button-group-secondary-outlined-border':
+		'var(--button-group-secondary-outlined-border)',
+	'button-group-secondary-outlined-disabled-stripe':
+		'var(--button-group-secondary-outlined-disabled-stripe)',
+	'button-group-focus-ring': 'var(--button-group-focus-ring)',
 	'checkbox-border': 'var(--checkbox-border)',
 	'checkbox-label': 'var(--checkbox-label)',
 	'checkbox-primary-background': 'var(--checkbox-primary-background)',
