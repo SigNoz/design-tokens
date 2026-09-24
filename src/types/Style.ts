@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:46 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:50 GMT
  */
 
 export const Style = {
@@ -354,6 +354,7 @@ export const Style = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	TOGGLE_GROUP_SCROLL_BUTTON_SHADOW_COLOR:
 		'var(--toggle-group-scroll-button-shadow-color)',
+	TOGGLE_GROUP_FOCUS_RING: 'var(--toggle-group-focus-ring)',
 	DROPDOWN_BACKGROUND: 'var(--dropdown-background)',
 	DROPDOWN_BORDER: 'var(--dropdown-border)',
 	DROPDOWN_SHADOW: 'var(--dropdown-shadow)',

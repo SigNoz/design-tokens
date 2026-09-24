@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:46 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:50 GMT
  */
 
 [data-theme='default'] {
@@ -433,6 +433,7 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.16);
+	--toggle-group-focus-ring: var(--ring);
 	--dropdown-background: var(--surface-3);
 	--dropdown-border: var(--l2-border);
 	--dropdown-shadow: var(--shadow-dropdown);
@@ -960,6 +961,7 @@
 	--toggle-group-scroll-button-label: var(--l1-foreground);
 	--toggle-group-scroll-button-label-hover: var(--l1-foreground-hover);
 	--toggle-group-scroll-button-shadow-color: rgba(0, 0, 0, 0.48);
+	--toggle-group-focus-ring: var(--ring);
 	--dropdown-background: var(--surface-3);
 	--dropdown-border: var(--l2-border);
 	--dropdown-shadow: var(--shadow-dropdown);

@@ -2006,6 +2006,12 @@
 					"category": "shadow",
 					"group": "toggle-group"
 				},
+				"toggle-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toggle group item and its scroll buttons",
+					"category": "border",
+					"group": "toggle-group"
+				},
 				"dropdown-background": {
 					"value": "var(--surface-3)",
 					"description": "Fill of the dropdown popup",
@@ -4498,6 +4504,12 @@
 					"value": "rgba(0, 0, 0, 0.48)",
 					"description": "Shadow the overflow arrow casts over the strip",
 					"category": "shadow",
+					"group": "toggle-group"
+				},
+				"toggle-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toggle group item and its scroll buttons",
+					"category": "border",
 					"group": "toggle-group"
 				},
 				"dropdown-background": {

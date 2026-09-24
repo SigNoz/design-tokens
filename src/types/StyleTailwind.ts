@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:46 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:50 GMT
  */
 
 export const StyleTailwind = {
@@ -362,6 +362,7 @@ export const StyleTailwind = {
 		'var(--toggle-group-scroll-button-label-hover)',
 	'toggle-group-scroll-button-shadow-color':
 		'var(--toggle-group-scroll-button-shadow-color)',
+	'toggle-group-focus-ring': 'var(--toggle-group-focus-ring)',
 	'dropdown-background': 'var(--dropdown-background)',
 	'dropdown-border': 'var(--dropdown-border)',
 	'dropdown-shadow': 'var(--dropdown-shadow)',
