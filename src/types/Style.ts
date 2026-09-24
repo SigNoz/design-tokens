@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:40 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:43 GMT
  */
 
 export const Style = {
@@ -292,6 +292,7 @@ export const Style = {
 	RADIO_GROUP_HIGHLIGHT_DANGER_BORDER_HOVER:
 		'var(--radio-group-highlight-danger-border-hover)',
 	RADIO_GROUP_HIGHLIGHT_DANGER_DOT: 'var(--radio-group-highlight-danger-dot)',
+	RADIO_GROUP_FOCUS_RING: 'var(--radio-group-focus-ring)',
 	SWITCH_TRACK_BACKGROUND: 'var(--switch-track-background)',
 	SWITCH_TRACK_HOVER_BACKGROUND: 'var(--switch-track-hover-background)',
 	SWITCH_PRIMARY_BACKGROUND: 'var(--switch-primary-background)',

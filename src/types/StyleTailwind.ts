@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:40 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:43 GMT
  */
 
 export const StyleTailwind = {
@@ -299,6 +299,7 @@ export const StyleTailwind = {
 	'radio-group-highlight-danger-border-hover':
 		'var(--radio-group-highlight-danger-border-hover)',
 	'radio-group-highlight-danger-dot': 'var(--radio-group-highlight-danger-dot)',
+	'radio-group-focus-ring': 'var(--radio-group-focus-ring)',
 	'switch-track-background': 'var(--switch-track-background)',
 	'switch-track-hover-background': 'var(--switch-track-hover-background)',
 	'switch-primary-background': 'var(--switch-primary-background)',

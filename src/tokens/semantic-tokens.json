@@ -1712,6 +1712,12 @@
 					"category": "foreground",
 					"group": "radios"
 				},
+				"radio-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a radio",
+					"category": "border",
+					"group": "radios"
+				},
 				"switch-track-background": {
 					"value": "var(--l3-border)",
 					"description": "Track fill for unchecked switches",
@@ -4192,6 +4198,12 @@
 					"value": "var(--text-ink-500)",
 					"description": "Inner dot color for checked highlight-danger radios",
 					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a radio",
+					"category": "border",
 					"group": "radios"
 				},
 				"switch-track-background": {

@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:40 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:43 GMT
  */
 
 [data-theme='default'] {
@@ -380,6 +380,7 @@
 	--radio-group-highlight-danger-background: var(--bg-sakura-500);
 	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
 	--radio-group-highlight-danger-dot: var(--text-ink-500);
+	--radio-group-focus-ring: var(--ring);
 	--switch-track-background: var(--l3-border);
 	--switch-track-hover-background: var(--l3-background-hover);
 	--switch-primary-background: var(--primary-background);
@@ -909,6 +910,7 @@
 	--radio-group-highlight-danger-background: var(--bg-sakura-500);
 	--radio-group-highlight-danger-border-hover: var(--bg-sakura-400);
 	--radio-group-highlight-danger-dot: var(--text-ink-500);
+	--radio-group-focus-ring: var(--ring);
 	--switch-track-background: var(--l3-border);
 	--switch-track-hover-background: var(--l3-background-hover);
 	--switch-primary-background: var(--primary-background);
