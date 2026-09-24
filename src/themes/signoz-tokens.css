@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:43 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:46 GMT
  */
 
 [data-theme='default'] {
@@ -400,8 +400,9 @@
 	--switch-highlight-danger-background: var(--bg-sakura-500);
 	--switch-highlight-danger-hover-background: var(--bg-sakura-400);
 	--switch-thumb-background: var(--primary-foreground);
-	--switch-label-color: var(--l1-foreground);
-	--switch-description-color: var(--l2-foreground);
+	--switch-label: var(--l1-foreground);
+	--switch-description: var(--l2-foreground);
+	--switch-focus-ring: var(--ring);
 	--tabs-border: var(--l2-border);
 	--tabs-primary-label: var(--l1-foreground);
 	--tabs-primary-label-hover: var(--l1-foreground-hover);
@@ -930,8 +931,9 @@
 	--switch-highlight-danger-background: var(--bg-sakura-500);
 	--switch-highlight-danger-hover-background: var(--bg-sakura-400);
 	--switch-thumb-background: var(--primary-foreground);
-	--switch-label-color: var(--l1-foreground);
-	--switch-description-color: var(--l2-foreground);
+	--switch-label: var(--l1-foreground);
+	--switch-description: var(--l2-foreground);
+	--switch-focus-ring: var(--ring);
 	--tabs-border: var(--l2-border);
 	--tabs-primary-label: var(--l1-foreground);
 	--tabs-primary-label-hover: var(--l1-foreground-hover);

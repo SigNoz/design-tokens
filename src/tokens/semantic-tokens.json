@@ -1832,16 +1832,22 @@
 					"category": "foreground",
 					"group": "switches"
 				},
-				"switch-label-color": {
+				"switch-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Label text color for switches",
 					"category": "foreground",
 					"group": "switches"
 				},
-				"switch-description-color": {
+				"switch-description": {
 					"value": "var(--l2-foreground)",
 					"description": "Description text color under switch labels",
 					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a switch",
+					"category": "border",
 					"group": "switches"
 				},
 				"tabs-border": {
@@ -4320,16 +4326,22 @@
 					"category": "foreground",
 					"group": "switches"
 				},
-				"switch-label-color": {
+				"switch-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Label text color for switches",
 					"category": "foreground",
 					"group": "switches"
 				},
-				"switch-description-color": {
+				"switch-description": {
 					"value": "var(--l2-foreground)",
 					"description": "Description text color under switch labels",
 					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a switch",
+					"category": "border",
 					"group": "switches"
 				},
 				"tabs-border": {

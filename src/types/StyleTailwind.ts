@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:43 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:46 GMT
  */
 
 export const StyleTailwind = {
@@ -322,8 +322,9 @@ export const StyleTailwind = {
 	'switch-highlight-danger-hover-background':
 		'var(--switch-highlight-danger-hover-background)',
 	'switch-thumb-background': 'var(--switch-thumb-background)',
-	'switch-label-color': 'var(--switch-label-color)',
-	'switch-description-color': 'var(--switch-description-color)',
+	'switch-label': 'var(--switch-label)',
+	'switch-description': 'var(--switch-description)',
+	'switch-focus-ring': 'var(--switch-focus-ring)',
 	'tabs-border': 'var(--tabs-border)',
 	'tabs-primary-label': 'var(--tabs-primary-label)',
 	'tabs-primary-label-hover': 'var(--tabs-primary-label-hover)',

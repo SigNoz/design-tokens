@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:43 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:46 GMT
  */
 
 export const Style = {
@@ -314,8 +314,9 @@ export const Style = {
 	SWITCH_HIGHLIGHT_DANGER_HOVER_BACKGROUND:
 		'var(--switch-highlight-danger-hover-background)',
 	SWITCH_THUMB_BACKGROUND: 'var(--switch-thumb-background)',
-	SWITCH_LABEL_COLOR: 'var(--switch-label-color)',
-	SWITCH_DESCRIPTION_COLOR: 'var(--switch-description-color)',
+	SWITCH_LABEL: 'var(--switch-label)',
+	SWITCH_DESCRIPTION: 'var(--switch-description)',
+	SWITCH_FOCUS_RING: 'var(--switch-focus-ring)',
 	TABS_BORDER: 'var(--tabs-border)',
 	TABS_PRIMARY_LABEL: 'var(--tabs-primary-label)',
 	TABS_PRIMARY_LABEL_HOVER: 'var(--tabs-primary-label-hover)',
