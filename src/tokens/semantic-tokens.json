@@ -2563,6 +2563,36 @@
 					"description": "Focus ring around a checkbox",
 					"category": "border",
 					"group": "checkboxes"
+				},
+				"tooltip-background": {
+					"value": "var(--surface-1)",
+					"description": "Fill of a tooltip",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Text of a tooltip",
+					"category": "foreground",
+					"group": "tooltip"
+				},
+				"tooltip-border": {
+					"value": "var(--l3-border)",
+					"description": "Border of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-divider": {
+					"value": "var(--l2-border)",
+					"description": "Divider between the sections of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-shadow": {
+					"value": "var(--shadow-tooltip)",
+					"description": "Shadow under a tooltip",
+					"category": "shadow",
+					"group": "tooltip"
 				}
 			}
 		},
@@ -5123,6 +5153,36 @@
 					"description": "Focus ring around a checkbox",
 					"category": "border",
 					"group": "checkboxes"
+				},
+				"tooltip-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a tooltip",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Text of a tooltip",
+					"category": "foreground",
+					"group": "tooltip"
+				},
+				"tooltip-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-divider": {
+					"value": "var(--l2-border)",
+					"description": "Divider between the sections of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-shadow": {
+					"value": "var(--shadow-tooltip)",
+					"description": "Shadow under a tooltip",
+					"category": "shadow",
+					"group": "tooltip"
 				}
 			}
 		}

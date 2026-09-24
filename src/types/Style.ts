@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:00 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:03 GMT
  */
 
 export const Style = {
@@ -465,6 +465,11 @@ export const Style = {
 	CHECKBOX_HIGHLIGHT_DANGER_BORDER_HOVER:
 		'var(--checkbox-highlight-danger-border-hover)',
 	CHECKBOX_FOCUS_RING: 'var(--checkbox-focus-ring)',
+	TOOLTIP_BACKGROUND: 'var(--tooltip-background)',
+	TOOLTIP_LABEL: 'var(--tooltip-label)',
+	TOOLTIP_BORDER: 'var(--tooltip-border)',
+	TOOLTIP_DIVIDER: 'var(--tooltip-divider)',
+	TOOLTIP_SHADOW: 'var(--tooltip-shadow)',
 } as const;
 
 export type StyleType = typeof Style;

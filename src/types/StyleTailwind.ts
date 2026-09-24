@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:00 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:03 GMT
  */
 
 export const StyleTailwind = {
@@ -474,6 +474,11 @@ export const StyleTailwind = {
 	'checkbox-highlight-danger-border-hover':
 		'var(--checkbox-highlight-danger-border-hover)',
 	'checkbox-focus-ring': 'var(--checkbox-focus-ring)',
+	'tooltip-background': 'var(--tooltip-background)',
+	'tooltip-label': 'var(--tooltip-label)',
+	'tooltip-border': 'var(--tooltip-border)',
+	'tooltip-divider': 'var(--tooltip-divider)',
+	'tooltip-shadow': 'var(--tooltip-shadow)',
 } as const;
 
 export type StyleTailwindType =
