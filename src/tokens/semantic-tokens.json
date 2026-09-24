@@ -2923,6 +2923,30 @@
 					"description": "Shadow under a tooltip",
 					"category": "shadow",
 					"group": "tooltip"
+				},
+				"breadcrumb-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hovered link or overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Fill of a hovered link or overflow trigger of a breadcrumb",
+					"category": "background",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a breadcrumb link",
+					"category": "border",
+					"group": "breadcrumb"
 				}
 			}
 		},
@@ -5843,6 +5867,30 @@
 					"description": "Shadow under a tooltip",
 					"category": "shadow",
 					"group": "tooltip"
+				},
+				"breadcrumb-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hovered link or overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Fill of a hovered link or overflow trigger of a breadcrumb",
+					"category": "background",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a breadcrumb link",
+					"category": "border",
+					"group": "breadcrumb"
 				}
 			}
 		}

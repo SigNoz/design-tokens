@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:06 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:28 GMT
  */
 
 [data-theme='default'] {
@@ -614,6 +614,10 @@
 	--tooltip-border: var(--l3-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--breadcrumb-label: var(--l1-foreground);
+	--breadcrumb-label-hover: var(--l1-foreground-hover);
+	--breadcrumb-background-hover: var(--l1-background-hover);
+	--breadcrumb-focus-ring: var(--ring);
 }
 
 [data-theme='default'].dark {
@@ -1218,4 +1222,8 @@
 	--tooltip-border: var(--l2-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--breadcrumb-label: var(--l1-foreground);
+	--breadcrumb-label-hover: var(--l1-foreground-hover);
+	--breadcrumb-background-hover: var(--l1-background-hover);
+	--breadcrumb-focus-ring: var(--ring);
 }

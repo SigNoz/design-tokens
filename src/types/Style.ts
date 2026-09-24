@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:06 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:28 GMT
  */
 
 export const Style = {
@@ -536,6 +536,10 @@ export const Style = {
 	TOOLTIP_BORDER: 'var(--tooltip-border)',
 	TOOLTIP_DIVIDER: 'var(--tooltip-divider)',
 	TOOLTIP_SHADOW: 'var(--tooltip-shadow)',
+	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
+	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
+	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',
+	BREADCRUMB_FOCUS_RING: 'var(--breadcrumb-focus-ring)',
 } as const;
 
 export type StyleType = typeof Style;
