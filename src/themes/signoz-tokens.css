@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:50 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:53 GMT
  */
 
 [data-theme='default'] {
@@ -420,6 +420,15 @@
 		var(--l3-background) 0%,
 		rgba(231, 232, 236, 0) 100%
 	);
+	--tabs-label: var(--l1-foreground);
+	--tabs-label-hover: var(--l1-foreground-hover);
+	--tabs-hover-slider-background: color-mix(
+		in srgb,
+		var(--l1-foreground) 10%,
+		transparent
+	);
+	--tabs-focus-ring: var(--ring);
+	--tabs-focus-ring-offset: var(--l1-background);
 	--toggle-group-border: var(--l2-border);
 	--toggle-group-secondary-outlined-background: transparent;
 	--toggle-group-secondary-outlined-background-hover: var(--l3-background-30);
@@ -948,6 +957,15 @@
 	--tabs-secondary-label-active: var(--l1-foreground);
 	--tabs-secondary-label-disabled: var(--l3-foreground);
 	--tabs-secondary-stripe-disabled: var(--l3-foreground);
+	--tabs-label: var(--l1-foreground);
+	--tabs-label-hover: var(--l1-foreground-hover);
+	--tabs-hover-slider-background: color-mix(
+		in srgb,
+		var(--l1-foreground) 10%,
+		transparent
+	);
+	--tabs-focus-ring: var(--ring);
+	--tabs-focus-ring-offset: var(--l1-background);
 	--toggle-group-border: var(--l2-border);
 	--toggle-group-secondary-outlined-background: transparent;
 	--toggle-group-secondary-outlined-background-hover: var(--l3-background-30);

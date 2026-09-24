@@ -1928,6 +1928,36 @@
 					"category": "foreground",
 					"group": "tabs"
 				},
+				"tabs-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a tab and of the scroll buttons",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or active tab and of a hovered scroll button",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-hover-slider-background": {
+					"value": "color-mix(in srgb, var(--l1-foreground) 10%, transparent)",
+					"description": "Fill of the slider that follows the hovered tab",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a tab, a scroll button and the tab panel",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-focus-ring-offset": {
+					"value": "var(--l1-background)",
+					"description": "Gap between the tab panel and its focus ring",
+					"category": "border",
+					"group": "tabs"
+				},
 				"toggle-group-border": {
 					"value": "var(--l2-border)",
 					"description": "Border of the segmented button bar",
@@ -4426,6 +4456,36 @@
 					"value": "var(--l3-foreground)",
 					"description": "Stripe color for the disabled secondary tab hatching",
 					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a tab and of the scroll buttons",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or active tab and of a hovered scroll button",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-hover-slider-background": {
+					"value": "color-mix(in srgb, var(--l1-foreground) 10%, transparent)",
+					"description": "Fill of the slider that follows the hovered tab",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a tab, a scroll button and the tab panel",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-focus-ring-offset": {
+					"value": "var(--l1-background)",
+					"description": "Gap between the tab panel and its focus ring",
+					"category": "border",
 					"group": "tabs"
 				},
 				"toggle-group-border": {

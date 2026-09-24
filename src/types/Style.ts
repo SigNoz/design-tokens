@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:50 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:53 GMT
  */
 
 export const Style = {
@@ -330,6 +330,11 @@ export const Style = {
 	TABS_SECONDARY_LABEL_ACTIVE: 'var(--tabs-secondary-label-active)',
 	TABS_SECONDARY_LABEL_DISABLED: 'var(--tabs-secondary-label-disabled)',
 	TABS_SECONDARY_STRIPE_DISABLED: 'var(--tabs-secondary-stripe-disabled)',
+	TABS_LABEL: 'var(--tabs-label)',
+	TABS_LABEL_HOVER: 'var(--tabs-label-hover)',
+	TABS_HOVER_SLIDER_BACKGROUND: 'var(--tabs-hover-slider-background)',
+	TABS_FOCUS_RING: 'var(--tabs-focus-ring)',
+	TABS_FOCUS_RING_OFFSET: 'var(--tabs-focus-ring-offset)',
 	TOGGLE_GROUP_BORDER: 'var(--toggle-group-border)',
 	TOGGLE_GROUP_SECONDARY_OUTLINED_BACKGROUND:
 		'var(--toggle-group-secondary-outlined-background)',

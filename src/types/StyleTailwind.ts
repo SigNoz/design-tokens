@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:50 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:53 GMT
  */
 
 export const StyleTailwind = {
@@ -338,6 +338,11 @@ export const StyleTailwind = {
 	'tabs-secondary-label-active': 'var(--tabs-secondary-label-active)',
 	'tabs-secondary-label-disabled': 'var(--tabs-secondary-label-disabled)',
 	'tabs-secondary-stripe-disabled': 'var(--tabs-secondary-stripe-disabled)',
+	'tabs-label': 'var(--tabs-label)',
+	'tabs-label-hover': 'var(--tabs-label-hover)',
+	'tabs-hover-slider-background': 'var(--tabs-hover-slider-background)',
+	'tabs-focus-ring': 'var(--tabs-focus-ring)',
+	'tabs-focus-ring-offset': 'var(--tabs-focus-ring-offset)',
 	'toggle-group-border': 'var(--toggle-group-border)',
 	'toggle-group-secondary-outlined-background':
 		'var(--toggle-group-secondary-outlined-background)',
