@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:53 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:56 GMT
  */
 
 [data-theme='default'] {
@@ -547,6 +547,7 @@
 	--checkbox-highlight-danger-background: var(--bg-sakura-500);
 	--checkbox-highlight-danger-foreground: var(--text-ink-500);
 	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
+	--checkbox-focus-ring: var(--ring);
 }
 
 [data-theme='default'].dark {
@@ -1084,4 +1085,5 @@
 	--checkbox-highlight-danger-background: var(--bg-sakura-500);
 	--checkbox-highlight-danger-foreground: var(--text-ink-500);
 	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
+	--checkbox-focus-ring: var(--ring);
 }

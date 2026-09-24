@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:53 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:56 GMT
  */
 
 export const Style = {
@@ -457,6 +457,7 @@ export const Style = {
 		'var(--checkbox-highlight-danger-foreground)',
 	CHECKBOX_HIGHLIGHT_DANGER_BORDER_HOVER:
 		'var(--checkbox-highlight-danger-border-hover)',
+	CHECKBOX_FOCUS_RING: 'var(--checkbox-focus-ring)',
 } as const;
 
 export type StyleType = typeof Style;

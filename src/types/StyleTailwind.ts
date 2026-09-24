@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:53 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:56 GMT
  */
 
 export const StyleTailwind = {
@@ -466,6 +466,7 @@ export const StyleTailwind = {
 		'var(--checkbox-highlight-danger-foreground)',
 	'checkbox-highlight-danger-border-hover':
 		'var(--checkbox-highlight-danger-border-hover)',
+	'checkbox-focus-ring': 'var(--checkbox-focus-ring)',
 } as const;
 
 export type StyleTailwindType =

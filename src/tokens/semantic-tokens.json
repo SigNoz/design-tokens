@@ -2533,6 +2533,12 @@
 					"description": "Hover border for unchecked highlight-danger checkboxes",
 					"category": "border",
 					"group": "checkboxes"
+				},
+				"checkbox-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a checkbox",
+					"category": "border",
+					"group": "checkboxes"
 				}
 			}
 		},
@@ -5061,6 +5067,12 @@
 				"checkbox-highlight-danger-border-hover": {
 					"value": "var(--bg-sakura-400)",
 					"description": "Hover border for unchecked highlight-danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a checkbox",
 					"category": "border",
 					"group": "checkboxes"
 				}
