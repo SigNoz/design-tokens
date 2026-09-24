@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Apr 2026 18:30:26 GMT
+ * Generated on Wed, 23 Sep 2026 08:20:36 GMT
  */
 
 export const ColorTailwind = {

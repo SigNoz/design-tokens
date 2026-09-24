@@ -334,7 +334,7 @@
 					"group": "actions"
 				},
 				"primary-background-hover": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-600)",
 					"description": "Hover state for primary action elements",
 					"category": "background",
 					"group": "actions"
@@ -353,32 +353,32 @@
 					"group": "actions"
 				},
 				"secondary-background": {
-					"value": "var(--bg-neutral-light-950)",
+					"value": "var(--l3-background-60)",
 					"description": "Secondary action background color",
 					"usage": "Use for secondary buttons and less prominent actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-background-hover": {
-					"value": "var(--bg-neutral-light-700)",
+					"value": "var(--l3-background-hover)",
 					"description": "Hover state for secondary action elements",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-foreground": {
-					"value": "var(--text-neutral-light-100)",
+					"value": "var(--l2-foreground)",
 					"description": "Text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-foreground-hover": {
-					"value": "var(--text-neutral-light-50)",
+					"value": "var(--l1-foreground-hover)",
 					"description": "Hover text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-border": {
-					"value": "var(--bg-neutral-light-800)",
+					"value": "var(--l3-border)",
 					"description": "Border color for secondary buttons",
 					"usage": "Use for outlined secondary buttons",
 					"category": "border",
@@ -398,26 +398,26 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-forest-500)",
+					"value": "var(--text-neutral-light-50)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-forest-400)",
+					"value": "var(--text-base-black)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"warning-background": {
-					"value": "var(--bg-amber-600)",
+					"value": "var(--bg-amber-500)",
 					"description": "Warning action background color",
 					"usage": "Use for warning states and cautionary actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"warning-background-hover": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-600)",
 					"description": "Hover state for warning elements",
 					"category": "background",
 					"group": "actions"
@@ -442,7 +442,7 @@
 					"group": "actions"
 				},
 				"danger-background-hover": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-600)",
 					"description": "Hover state for danger elements",
 					"category": "background",
 					"group": "actions"
@@ -459,6 +459,66 @@
 					"category": "foreground",
 					"group": "actions"
 				},
+				"primary-link": {
+					"value": "var(--bg-robin-600)",
+					"description": "Link foreground for primary. Light: robin/600, Dark: robin/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link-hover": {
+					"value": "var(--bg-robin-700)",
+					"description": "Hover link foreground for primary. Light: robin/700, Dark: robin/200",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link": {
+					"value": "var(--l2-foreground)",
+					"description": "Link foreground for secondary (neutral). Aliases l2-foreground",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover link foreground for secondary. Aliases l1-foreground-hover",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link": {
+					"value": "var(--bg-forest-600)",
+					"description": "Link foreground for success. Light: forest/600, Dark: forest/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link-hover": {
+					"value": "var(--bg-forest-700)",
+					"description": "Hover link foreground for success. Light: forest/700, Dark: forest/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link": {
+					"value": "var(--bg-amber-800)",
+					"description": "Link foreground for warning. Light: amber/800, Dark: amber/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link-hover": {
+					"value": "var(--bg-amber-900)",
+					"description": "Hover link foreground for warning. Light: amber/900, Dark: amber/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Link foreground for danger. Light: cherry/600, Dark: cherry/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link-hover": {
+					"value": "var(--bg-cherry-700)",
+					"description": "Hover link foreground for danger. Light: cherry/700, Dark: cherry/500",
+					"category": "foreground",
+					"group": "actions"
+				},
 				"l1-background-transparent": {
 					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 100%)",
 					"description": "",
@@ -466,7 +526,7 @@
 					"group": "surface-levels"
 				},
 				"l1-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
@@ -478,7 +538,7 @@
 					"group": "surface-levels"
 				},
 				"l2-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-950), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-950), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
@@ -490,10 +550,40 @@
 					"group": "surface-levels"
 				},
 				"l3-background-60": {
-					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 40%)",
+					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 20%)",
 					"description": "",
 					"category": "background",
 					"group": "surface-levels"
+				},
+				"l3-background-30": {
+					"value": "color-mix(in srgb, var(--bg-neutral-light-800), transparent 70%)",
+					"description": "",
+					"category": "background",
+					"group": "surface-levels"
+				},
+				"surface-1": {
+					"value": "var(--l1-background)",
+					"description": "Primary surface for outermost containers",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-2": {
+					"value": "var(--l1-background)",
+					"description": "Secondary surface for cards",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-3": {
+					"value": "var(--l1-background)",
+					"description": "Tertiary surface for nested elements",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-static": {
+					"value": "var(--bg-neutral-dark-800)",
+					"description": "Static dark surface that stays same across themes",
+					"category": "background",
+					"group": "surfaces"
 				},
 				"alert-strip-button-background": {
 					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
@@ -527,7 +617,7 @@
 					"group": "callouts"
 				},
 				"callout-primary-icon": {
-					"value": "var(--bg-robin-300)",
+					"value": "var(--bg-robin-600)",
 					"description": "Icon color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -895,6 +985,1968 @@
 					"description": "High-contrast icon color for controls",
 					"category": "foreground",
 					"group": "controls"
+				},
+				"shadow-sidebar": {
+					"value": "33px 365px 103px 0 rgba(0, 0, 0, 0.00), 21px 234px 94px 0 rgba(0, 0, 0, 0.01), 12px 132px 79px 0 rgba(0, 0, 0, 0.05), 5px 58px 59px 0 rgba(0, 0, 0, 0.03), 1px 15px 32px 0 rgba(0, 0, 0, 0.04)",
+					"description": "Shadow for sidebar elements",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-dropdown": {
+					"value": "0 105px 29px 0 rgba(0, 0, 0, 0.00), 0 67px 27px 0 rgba(0, 0, 0, 0.01), 0 38px 23px 0 rgba(0, 0, 0, 0.02), 0 17px 17px 0 rgba(0, 0, 0, 0.04), 0 4px 9px 0 rgba(0, 0, 0, 0.05)",
+					"description": "Shadow for dropdown menus",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-drawer": {
+					"value": "-59px 771px 216px 0 rgba(0, 0, 0, 0.00), -37px 493px 198px 0 rgba(0, 0, 0, 0.01), -21px 278px 167px 0 rgba(0, 0, 0, 0.05), -9px 123px 124px 0 rgba(0, 0, 0, 0.09), -2px 31px 68px 0 rgba(0, 0, 0, 0.10)",
+					"description": "Shadow for drawer panels",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-dialog": {
+					"value": "0 343px 96px 0 rgba(0, 0, 0, 0.00), 0 220px 88px 0 rgba(0, 0, 0, 0.01), 0 123px 74px 0 rgba(0, 0, 0, 0.03), 0 55px 55px 0 rgba(0, 0, 0, 0.04), 0 14px 30px 0 rgba(0, 0, 0, 0.04)",
+					"description": "Shadow for dialog/modal windows",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-toast": {
+					"value": "138px 129px 53px 0 rgba(0, 0, 0, 0.00), 89px 82px 48px 0 rgba(0, 0, 0, 0.01), 50px 46px 41px 0 rgba(0, 0, 0, 0.05), 22px 21px 30px 0 rgba(0, 0, 0, 0.09), 6px 5px 17px 0 rgba(0, 0, 0, 0.10)",
+					"description": "Shadow for toast notifications",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-tooltip": {
+					"value": "0 14px 4px 0 rgba(0, 0, 0, 0.00), 0 9px 4px 0 rgba(0, 0, 0, 0.01), 0 5px 3px 0 rgba(0, 0, 0, 0.03), 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 1px 0 rgba(0, 0, 0, 0.08)",
+					"description": "Shadow for tooltip elements",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"pill-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for primary pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-primary-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for primary pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-primary-label": {
+					"value": "var(--bg-robin-600)",
+					"description": "Label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-primary-label-hover": {
+					"value": "var(--bg-robin-600)",
+					"description": "Hover label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Background color for success pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-success-border": {
+					"value": "var(--bg-forest-600)",
+					"description": "Border color for success pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-success-label": {
+					"value": "var(--bg-forest-700)",
+					"description": "Label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-label-hover": {
+					"value": "var(--bg-forest-700)",
+					"description": "Hover label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for warning pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-warning-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for warning pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-warning-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-label-hover": {
+					"value": "var(--bg-amber-700)",
+					"description": "Hover label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-danger-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-danger-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-label-hover": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Hover label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-background-hover": {
+					"value": "var(--surface-3)",
+					"description": "Hover background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Hover label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-background-hover": {
+					"value": "var(--bg-neutral-light-600)",
+					"description": "Hover background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Hover dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Background color for info pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-info-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border color for info pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-info-label": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-label-hover": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Hover label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Background color for archive pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-archive-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border color for archive pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-archive-label": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-label-hover": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Hover label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Background color for highlight-danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-highlight-danger-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border color for highlight-danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label-hover": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Hover label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-invalid-border": {
+					"value": "var(--destructive)",
+					"description": "Border of an invalid pill",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-invalid-label": {
+					"value": "var(--destructive)",
+					"description": "Label of an invalid pill",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a pill and its close button",
+					"category": "border",
+					"group": "pills"
+				},
+				"badge-primary-outlined-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for outlined primary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-outlined-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for outlined primary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-primary-outlined-label": {
+					"value": "var(--bg-robin-600)",
+					"description": "Label text color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-outlined-icon": {
+					"value": "var(--bg-robin-600)",
+					"description": "Icon color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Background color for outlined success badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-outlined-border": {
+					"value": "var(--bg-forest-600)",
+					"description": "Border color for outlined success badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-success-outlined-label": {
+					"value": "var(--bg-forest-700)",
+					"description": "Label text color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-icon": {
+					"value": "var(--bg-forest-700)",
+					"description": "Icon color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for outlined warning badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-outlined-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for outlined warning badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-warning-outlined-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Label text color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-icon": {
+					"value": "var(--bg-amber-700)",
+					"description": "Icon color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for outlined danger badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-outlined-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for outlined danger badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-danger-outlined-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Label text color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-icon": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Icon color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined secondary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined secondary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a solid secondary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a solid secondary badge",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an outlined info badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-outlined-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border of an outlined info badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-label": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Label of an outlined info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-outlined-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an outlined archive badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-outlined-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border of an outlined archive badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-archive-outlined-label": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Label of an outlined archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of an outlined highlight danger badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border of an outlined highlight danger badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-label": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Label of an outlined highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"radio-group-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked radio dials",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label text color for unchecked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label text color for hovered and checked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill color for checked primary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border color for hovered unchecked primary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-primary-dot": {
+					"value": "var(--primary-foreground)",
+					"description": "Inner dot color for checked primary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Fill color for checked secondary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Border color for hovered unchecked secondary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-secondary-dot": {
+					"value": "var(--l1-foreground)",
+					"description": "Inner dot color for checked secondary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill color for checked success radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Border color for hovered unchecked success radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-success-dot": {
+					"value": "var(--success-foreground)",
+					"description": "Inner dot color for checked success radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill color for checked warning radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Border color for hovered unchecked warning radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-warning-dot": {
+					"value": "var(--warning-foreground)",
+					"description": "Inner dot color for checked warning radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill color for checked danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Border color for hovered unchecked danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-danger-dot": {
+					"value": "var(--danger-foreground)",
+					"description": "Inner dot color for checked danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill color for checked info radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Border color for hovered unchecked info radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-info-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked info radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill color for checked archive radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Border color for hovered unchecked archive radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-archive-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked archive radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill color for checked highlight-danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Border color for hovered unchecked highlight-danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked highlight-danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a radio",
+					"category": "border",
+					"group": "radios"
+				},
+				"switch-track-background": {
+					"value": "var(--l3-border)",
+					"description": "Track fill for unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-track-hover-background": {
+					"value": "var(--l3-background-hover)",
+					"description": "Track fill for hovered unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Track fill for checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-hover-background": {
+					"value": "var(--primary-background-hover)",
+					"description": "Track fill for hovered checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Track fill for checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-hover-background": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Track fill for hovered checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-background": {
+					"value": "var(--success-background)",
+					"description": "Track fill for checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-hover-background": {
+					"value": "var(--success-background-hover)",
+					"description": "Track fill for hovered checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Track fill for checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-hover-background": {
+					"value": "var(--warning-background-hover)",
+					"description": "Track fill for hovered checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Track fill for checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-hover-background": {
+					"value": "var(--danger-background-hover)",
+					"description": "Track fill for hovered checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Track fill for checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-hover-background": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Track fill for hovered checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Track fill for checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-hover-background": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Track fill for hovered checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Track fill for checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-hover-background": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Track fill for hovered checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-thumb-background": {
+					"value": "var(--primary-foreground)",
+					"description": "Knob fill for switches, one color across the whole palette",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for switches",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color under switch labels",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a switch",
+					"category": "border",
+					"group": "switches"
+				},
+				"tabs-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider color for the tab bar rule and secondary tab borders",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-primary-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for default primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered and active primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Container background color for hovered primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Active indicator color for primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-radius": {
+					"value": "var(--radius-2)",
+					"description": "Corner radius for primary tab triggers",
+					"category": "radius",
+					"group": "tabs"
+				},
+				"tabs-secondary-background": {
+					"value": "var(--l3-background-30)",
+					"description": "Background color for default secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-background-hover": {
+					"value": "var(--l2-background)",
+					"description": "Background color for hovered secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label color for default secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-active": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for the active secondary tab",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label color for disabled secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-stripe-disabled": {
+					"value": "linear-gradient(180deg, var(--l3-background) 0%, rgba(231, 232, 236, 0.00) 100%)",
+					"description": "Stripe color for the disabled secondary tab hatching",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a tab and of the scroll buttons",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or active tab and of a hovered scroll button",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-hover-slider-background": {
+					"value": "color-mix(in srgb, var(--l1-foreground) 10%, transparent)",
+					"description": "Fill of the slider that follows the hovered tab",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a tab, a scroll button and the tab panel",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-focus-ring-offset": {
+					"value": "var(--l1-background)",
+					"description": "Gap between the tab panel and its focus ring",
+					"category": "border",
+					"group": "tabs"
+				},
+				"toggle-group-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the segmented button bar",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background": {
+					"value": "transparent",
+					"description": "Background of an unpressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Background of a hovered segment, half the pressed fill",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-active": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the pressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of an unpressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-active": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the pressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a segment that cannot be pressed",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background": {
+					"value": "var(--l1-background)",
+					"description": "Surface of the overflow arrow, opaque so the strip scrolls under it",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Surface of a hovered overflow arrow",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Chevron of a hovered overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-shadow-color": {
+					"value": "rgba(0, 0, 0, 0.16)",
+					"description": "Shadow the overflow arrow casts over the strip",
+					"category": "shadow",
+					"group": "toggle-group"
+				},
+				"toggle-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toggle group item and its scroll buttons",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"dropdown-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the dropdown popup",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the dropdown popup",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the dropdown popup casts over the page",
+					"category": "shadow",
+					"group": "dropdown"
+				},
+				"dropdown-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a dropdown row that cannot be picked",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-background": {
+					"value": "transparent",
+					"description": "Fill of a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Fill of a hovered or highlighted dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a danger dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a hovered danger dropdown row, which keeps its colour because the fill carries the hover",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-background-hover": {
+					"value": "var(--callout-error-background)",
+					"description": "Fill of a hovered danger dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Leading and trailing glyph of a dropdown row, which tracks the label rather than dimming under it",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Leading and trailing glyph of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Section header inside the dropdown popup",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-separator": {
+					"value": "var(--l2-border)",
+					"description": "Rule between two dropdown sections",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder text of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Search glyph of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Rule under the pinned search row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the spinner row shown while a menu is fetching its items",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Inset ring on the focused dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-scroll-fade": {
+					"value": "var(--dropdown-background)",
+					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border of an unchecked checkbox or radio inside a dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border of a checkbox or radio inside a hovered dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a checked checkbox or radio inside a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark or dot of a checked control inside a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"calendar-background": {
+					"value": "var(--background)",
+					"description": "Fill behind the month grid",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background": {
+					"value": "transparent",
+					"description": "Fill of a month arrow or a date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered month arrow or date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-active": {
+					"value": "color-mix(in srgb, var(--secondary-background-hover) 85%, var(--foreground))",
+					"description": "Fill of a month arrow or date cell while it is pressed",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of a month arrow or a date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of a hovered month arrow or date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a month arrow or a date cell",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background": {
+					"value": "var(--primary)",
+					"description": "Fill of a selected day outside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered selected day",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of a selected day outside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background": {
+					"value": "var(--primary)",
+					"description": "Fill of the first and last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered first or last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of the first and last day of a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background": {
+					"value": "var(--accent)",
+					"description": "Fill of a day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background-hover": {
+					"value": "color-mix(in srgb, var(--accent) 85%, var(--foreground))",
+					"description": "Fill of a hovered day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of a day inside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-today-background": {
+					"value": "var(--accent)",
+					"description": "Fill of today's cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-today-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of today's cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-outside-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day belonging to a neighbouring month",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-disabled-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day that cannot be picked",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-weekday-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a weekday name above the grid",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-week-number-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of the week number heading a row",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-background": {
+					"value": "var(--popover)",
+					"description": "Fill of the month and year selects in the caption",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-select-border": {
+					"value": "var(--input)",
+					"description": "Border of the month and year selects in the caption",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-border-focus": {
+					"value": "var(--ring)",
+					"description": "Border of a focused month or year select",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-icon": {
+					"value": "var(--muted-foreground)",
+					"description": "Chevron of the month and year selects",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-shadow": {
+					"value": "0 1px 2px 0 color-mix(in srgb, var(--foreground) 5%, transparent)",
+					"description": "Shadow of the month and year selects",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"calendar-select-shadow-focus": {
+					"value": "0 0 0 3px color-mix(in srgb, var(--ring) 50%, transparent)",
+					"description": "Shadow of a focused month or year select",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"button-group-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered or pressed button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered or pressed button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a button group member, shared with its neighbours as one hairline",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"checkbox-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked checkbox boxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for checkbox rows",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Checked and indeterminate fill for primary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check and dash glyph color for primary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Hover border for unchecked primary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Checked and indeterminate fill for secondary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-foreground": {
+					"value": "var(--l1-background)",
+					"description": "Check and dash glyph color for secondary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover border for unchecked secondary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-success-background": {
+					"value": "var(--success-background)",
+					"description": "Checked and indeterminate fill for success checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Check and dash glyph color for success checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Hover border for unchecked success checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Checked and indeterminate fill for warning checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Check and dash glyph color for warning checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Hover border for unchecked warning checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Checked and indeterminate fill for danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Check and dash glyph color for danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Hover border for unchecked danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Checked and indeterminate fill for info checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for info checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover border for unchecked info checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Checked and indeterminate fill for archive checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for archive checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover border for unchecked archive checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Checked and indeterminate fill for highlight-danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for highlight-danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover border for unchecked highlight-danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a checkbox",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"button-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-background-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Fill of a hovered solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link": {
+					"value": "var(--primary-link)",
+					"description": "Label of a primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link-hover": {
+					"value": "var(--primary-link-hover)",
+					"description": "Label of a hovered primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link": {
+					"value": "var(--secondary-link)",
+					"description": "Label of a secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link-hover": {
+					"value": "var(--secondary-link-hover)",
+					"description": "Label of a hovered secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-background-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Fill of a hovered solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-label": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link": {
+					"value": "var(--success-link)",
+					"description": "Label of a success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link-hover": {
+					"value": "var(--success-link-hover)",
+					"description": "Label of a hovered success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-background-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Fill of a hovered solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-label": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link": {
+					"value": "var(--warning-link)",
+					"description": "Label of a warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link-hover": {
+					"value": "var(--warning-link-hover)",
+					"description": "Label of a hovered warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-background-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Fill of a hovered solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-label": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link": {
+					"value": "var(--danger-link)",
+					"description": "Label of a danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link-hover": {
+					"value": "var(--danger-link-hover)",
+					"description": "Label of a hovered danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-background-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Fill of a hovered solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of a info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link-hover": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Label of a hovered info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-background-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Fill of a hovered solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of a archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link-hover": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Label of a hovered archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-background-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Fill of a hovered solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of a highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Label of a hovered highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of an outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke": {
+					"value": "var(--secondary-border)",
+					"description": "Dashed border of a dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Dashed border of a hovered or loading dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-ghost-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered ghost button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-ghost-glow-opacity": {
+					"value": "12%",
+					"description": "Strength of the colour glow behind a pressed or loading ghost button",
+					"category": "other",
+					"group": "button"
+				},
+				"button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button",
+					"category": "border",
+					"group": "button"
+				},
+				"tooltip-background": {
+					"value": "var(--surface-1)",
+					"description": "Fill of a tooltip",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Text of a tooltip",
+					"category": "foreground",
+					"group": "tooltip"
+				},
+				"tooltip-border": {
+					"value": "var(--l3-border)",
+					"description": "Border of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-divider": {
+					"value": "var(--l2-border)",
+					"description": "Divider between the sections of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-shadow": {
+					"value": "var(--shadow-tooltip)",
+					"description": "Shadow under a tooltip",
+					"category": "shadow",
+					"group": "tooltip"
+				},
+				"breadcrumb-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hovered link or overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Fill of a hovered link or overflow trigger of a breadcrumb",
+					"category": "background",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a breadcrumb link",
+					"category": "border",
+					"group": "breadcrumb"
 				}
 			}
 		},
@@ -1232,7 +3284,7 @@
 					"group": "actions"
 				},
 				"primary-background-hover": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-600)",
 					"description": "Hover state for primary action elements",
 					"category": "background",
 					"group": "actions"
@@ -1251,32 +3303,32 @@
 					"group": "actions"
 				},
 				"secondary-background": {
-					"value": "var(--bg-neutral-dark-950)",
+					"value": "var(--l3-background-60)",
 					"description": "Secondary action background color",
 					"usage": "Use for secondary buttons and less prominent actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-background-hover": {
-					"value": "var(--bg-neutral-dark-700)",
+					"value": "var(--l3-background-hover)",
 					"description": "Hover state for secondary action elements",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-foreground": {
-					"value": "var(--text-neutral-dark-100)",
+					"value": "var(--l2-foreground)",
 					"description": "Text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-foreground-hover": {
-					"value": "var(--text-neutral-dark-50)",
+					"value": "var(--l1-foreground-hover)",
 					"description": "Hover text color for secondary action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"secondary-border": {
-					"value": "var(--bg-neutral-dark-800)",
+					"value": "var(--l3-border)",
 					"description": "Border color for secondary buttons",
 					"usage": "Use for outlined secondary buttons",
 					"category": "border",
@@ -1296,13 +3348,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-forest-500)",
+					"value": "var(--text-neutral-dark-1000)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-forest-400)",
+					"value": "var(--text-base-black)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
@@ -1315,7 +3367,7 @@
 					"group": "actions"
 				},
 				"warning-background-hover": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-600)",
 					"description": "Hover state for warning elements",
 					"category": "background",
 					"group": "actions"
@@ -1340,7 +3392,7 @@
 					"group": "actions"
 				},
 				"danger-background-hover": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-600)",
 					"description": "Hover state for danger elements",
 					"category": "background",
 					"group": "actions"
@@ -1354,6 +3406,66 @@
 				"danger-foreground-hover": {
 					"value": "var(--text-base-white)",
 					"description": "Hover text color for danger elements",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link": {
+					"value": "var(--bg-robin-400)",
+					"description": "Link foreground for primary. Light: robin/600, Dark: robin/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"primary-link-hover": {
+					"value": "var(--bg-robin-200)",
+					"description": "Hover link foreground for primary. Light: robin/700, Dark: robin/200",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link": {
+					"value": "var(--l2-foreground)",
+					"description": "Link foreground for secondary (neutral). Aliases l2-foreground",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"secondary-link-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover link foreground for secondary. Aliases l1-foreground-hover",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link": {
+					"value": "var(--bg-forest-400)",
+					"description": "Link foreground for success. Light: forest/600, Dark: forest/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"success-link-hover": {
+					"value": "var(--bg-forest-500)",
+					"description": "Hover link foreground for success. Light: forest/700, Dark: forest/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link": {
+					"value": "var(--bg-amber-400)",
+					"description": "Link foreground for warning. Light: amber/800, Dark: amber/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"warning-link-hover": {
+					"value": "var(--bg-amber-500)",
+					"description": "Hover link foreground for warning. Light: amber/900, Dark: amber/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Link foreground for danger. Light: cherry/600, Dark: cherry/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"danger-link-hover": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Hover link foreground for danger. Light: cherry/700, Dark: cherry/500",
 					"category": "foreground",
 					"group": "actions"
 				},
@@ -1393,6 +3505,36 @@
 					"category": "background",
 					"group": "surface-levels"
 				},
+				"l3-background-30": {
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-800), transparent 70%)",
+					"description": "",
+					"category": "background",
+					"group": "surface-levels"
+				},
+				"surface-1": {
+					"value": "var(--l1-background)",
+					"description": "Primary surface for outermost containers",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-2": {
+					"value": "var(--l2-background)",
+					"description": "Secondary surface for cards",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-3": {
+					"value": "var(--l3-background-60)",
+					"description": "Tertiary surface for nested elements",
+					"category": "background",
+					"group": "surfaces"
+				},
+				"surface-static": {
+					"value": "var(--l3-background-60)",
+					"description": "Static dark surface that stays same across themes",
+					"category": "background",
+					"group": "surfaces"
+				},
 				"callout-primary-background": {
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
 					"description": "Background for informational callout boxes",
@@ -1407,13 +3549,13 @@
 					"group": "callouts"
 				},
 				"callout-primary-title": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-100)",
 					"description": "Title text color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-primary-description": {
-					"value": "var(--bg-robin-400)",
+					"value": "var(--bg-robin-300)",
 					"description": "Description text color for informational callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1425,63 +3567,63 @@
 					"group": "callouts"
 				},
 				"callout-success-background": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
 					"description": "Background for success callout boxes",
 					"usage": "Use for success messages and positive confirmations",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-success-border": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
 					"description": "Border for success callout boxes",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-success-title": {
-					"value": "var(--bg-forest-400)",
+					"value": "var(--bg-forest-100)",
 					"description": "Title text color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-success-description": {
-					"value": "var(--bg-forest-400)",
+					"value": "var(--bg-forest-300)",
 					"description": "Description text color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-success-icon": {
-					"value": "var(--bg-forest-300)",
+					"value": "var(--bg-forest-200)",
 					"description": "Icon color for success callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-background": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
 					"description": "Background for warning callout boxes",
 					"usage": "Use for warning messages and cautionary information",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-warning-border": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
 					"description": "Border for warning callout boxes",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-warning-title": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-100)",
 					"description": "Title text color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-description": {
-					"value": "var(--bg-amber-400)",
+					"value": "var(--bg-amber-300)",
 					"description": "Description text color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-warning-icon": {
-					"value": "var(--bg-amber-300)",
+					"value": "var(--bg-amber-200)",
 					"description": "Icon color for warning callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1500,19 +3642,19 @@
 					"group": "callouts"
 				},
 				"callout-error-title": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-100)",
 					"description": "Title text color for error callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-description": {
-					"value": "var(--bg-cherry-400)",
+					"value": "var(--bg-cherry-300)",
 					"description": "Description text color for error callouts",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-icon": {
-					"value": "var(--bg-cherry-300)",
+					"value": "var(--bg-cherry-200)",
 					"description": "Icon color for error callouts",
 					"category": "foreground",
 					"group": "callouts"
@@ -1787,6 +3929,1968 @@
 					"description": "High-contrast icon color for controls",
 					"category": "foreground",
 					"group": "controls"
+				},
+				"shadow-sidebar": {
+					"value": "33px 365px 103px 0 rgba(0, 0, 0, 0.10), 21px 234px 94px 0 rgba(0, 0, 0, 0.10), 12px 132px 79px 0 rgba(0, 0, 0, 0.30), 5px 58px 59px 0 rgba(0, 0, 0, 0.20), 1px 15px 32px 0 rgba(0, 0, 0, 0.10)",
+					"description": "Shadow for sidebar elements",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-dropdown": {
+					"value": "0 214px 60px 0 rgba(0, 0, 0, 0.05), 0 137px 55px 0 rgba(0, 0, 0, 0.10), 0 77px 46px 0 rgba(0, 0, 0, 0.10), 0 34px 34px 0 rgba(0, 0, 0, 0.20), 0 9px 19px 0 rgba(0, 0, 0, 0.10)",
+					"description": "Shadow for dropdown menus",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-drawer": {
+					"value": "-59px 771px 216px 0 rgba(0, 0, 0, 0.20), -37px 493px 198px 0 rgba(0, 0, 0, 0.10), -21px 278px 167px 0 rgba(0, 0, 0, 0.30), -9px 123px 124px 0 rgba(0, 0, 0, 0.10), -2px 31px 68px 0 rgba(0, 0, 0, 0.20)",
+					"description": "Shadow for drawer panels",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-dialog": {
+					"value": "0 343px 96px 0 rgba(0, 0, 0, 0.00), 0 220px 88px 0 rgba(0, 0, 0, 0.01), 0 123px 74px 0 rgba(0, 0, 0, 0.03), 0 55px 55px 0 rgba(0, 0, 0, 0.04), 0 14px 30px 0 rgba(0, 0, 0, 0.04)",
+					"description": "Shadow for dialog/modal windows",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-toast": {
+					"value": "144px 114px 51px 0 rgba(0, 0, 0, 0.00), 92px 73px 47px 0 rgba(0, 0, 0, 0.01), 52px 41px 40px 0 rgba(0, 0, 0, 0.05), 23px 18px 29px 0 rgba(0, 0, 0, 0.09), 6px 5px 16px 0 rgba(0, 0, 0, 0.10)",
+					"description": "Shadow for toast notifications",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"shadow-tooltip": {
+					"value": "6px 105px 30px 0 rgba(0, 0, 0, 0.05), 4px 67px 27px 0 rgba(0, 0, 0, 0.10), 2px 38px 23px 0 rgba(0, 0, 0, 0.20), 1px 17px 17px 0 rgba(0, 0, 0, 0.30), 0 4px 9px 0 rgba(0, 0, 0, 0.20)",
+					"description": "Shadow for tooltip elements",
+					"category": "shadow",
+					"group": "shadows"
+				},
+				"pill-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for primary pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-primary-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for primary pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-primary-label": {
+					"value": "var(--bg-robin-400)",
+					"description": "Label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-primary-label-hover": {
+					"value": "var(--bg-robin-400)",
+					"description": "Hover label text color for primary pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Background color for success pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-success-border": {
+					"value": "var(--bg-forest-500)",
+					"description": "Border color for success pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-success-label": {
+					"value": "var(--bg-forest-400)",
+					"description": "Label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-success-label-hover": {
+					"value": "var(--bg-forest-400)",
+					"description": "Hover label text color for success pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for warning pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-warning-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for warning pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-warning-label": {
+					"value": "var(--bg-amber-400)",
+					"description": "Label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-warning-label-hover": {
+					"value": "var(--bg-amber-400)",
+					"description": "Hover label text color for warning pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-danger-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-danger-label": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-danger-label-hover": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Hover label text color for danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-background-hover": {
+					"value": "var(--surface-3)",
+					"description": "Hover background color for outlined pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Hover label text color for outlined pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-background-hover": {
+					"value": "var(--bg-neutral-dark-500)",
+					"description": "Hover background color for solid rect pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-rect-solid-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover label text color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-rect-solid-dismiss-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Hover dismiss icon color for solid rect pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Background color for info pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-info-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border color for info pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-info-label": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-info-label-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover label text color for info pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Background color for archive pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-archive-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border color for archive pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-archive-label": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-archive-label-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover label text color for archive pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Background color for highlight-danger pills",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-highlight-danger-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border color for highlight-danger pills",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-highlight-danger-label-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover label text color for highlight-danger pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-invalid-border": {
+					"value": "var(--destructive)",
+					"description": "Border of an invalid pill",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-invalid-label": {
+					"value": "var(--destructive)",
+					"description": "Label of an invalid pill",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a pill and its close button",
+					"category": "border",
+					"group": "pills"
+				},
+				"badge-primary-outlined-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Background color for outlined primary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-outlined-border": {
+					"value": "var(--bg-robin-500)",
+					"description": "Border color for outlined primary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-primary-outlined-label": {
+					"value": "var(--bg-robin-400)",
+					"description": "Label text color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-outlined-icon": {
+					"value": "var(--bg-robin-400)",
+					"description": "Icon color for outlined primary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Background color for outlined success badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-outlined-border": {
+					"value": "var(--bg-forest-500)",
+					"description": "Border color for outlined success badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-success-outlined-label": {
+					"value": "var(--bg-forest-400)",
+					"description": "Label text color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-outlined-icon": {
+					"value": "var(--bg-forest-400)",
+					"description": "Icon color for outlined success badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Background color for outlined warning badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-outlined-border": {
+					"value": "var(--bg-amber-500)",
+					"description": "Border color for outlined warning badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-warning-outlined-label": {
+					"value": "var(--bg-amber-400)",
+					"description": "Label text color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-outlined-icon": {
+					"value": "var(--bg-amber-400)",
+					"description": "Icon color for outlined warning badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Background color for outlined danger badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-outlined-border": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Border color for outlined danger badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-danger-outlined-label": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Label text color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-outlined-icon": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Icon color for outlined danger badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-background": {
+					"value": "var(--l1-background-transparent)",
+					"description": "Background color for outlined secondary badges",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-border": {
+					"value": "var(--l3-border)",
+					"description": "Border color for outlined secondary badges",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label text color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-outlined-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a solid secondary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a solid secondary badge",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an outlined info badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-outlined-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border of an outlined info badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-label": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of an outlined info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-outlined-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an outlined archive badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-outlined-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border of an outlined archive badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-archive-outlined-label": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of an outlined archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of an outlined highlight danger badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border of an outlined highlight danger badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-label": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of an outlined highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"radio-group-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked radio dials",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label text color for unchecked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label text color for hovered and checked radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill color for checked primary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border color for hovered unchecked primary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-primary-dot": {
+					"value": "var(--primary-foreground)",
+					"description": "Inner dot color for checked primary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Fill color for checked secondary radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Border color for hovered unchecked secondary radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-secondary-dot": {
+					"value": "var(--l1-foreground)",
+					"description": "Inner dot color for checked secondary radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill color for checked success radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Border color for hovered unchecked success radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-success-dot": {
+					"value": "var(--success-foreground)",
+					"description": "Inner dot color for checked success radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill color for checked warning radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Border color for hovered unchecked warning radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-warning-dot": {
+					"value": "var(--warning-foreground)",
+					"description": "Inner dot color for checked warning radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill color for checked danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Border color for hovered unchecked danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-danger-dot": {
+					"value": "var(--danger-foreground)",
+					"description": "Inner dot color for checked danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill color for checked info radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Border color for hovered unchecked info radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-info-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked info radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill color for checked archive radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Border color for hovered unchecked archive radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-archive-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked archive radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill color for checked highlight-danger radios",
+					"category": "background",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Border color for hovered unchecked highlight-danger radios",
+					"category": "border",
+					"group": "radios"
+				},
+				"radio-group-highlight-danger-dot": {
+					"value": "var(--text-ink-500)",
+					"description": "Inner dot color for checked highlight-danger radios",
+					"category": "foreground",
+					"group": "radios"
+				},
+				"radio-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a radio",
+					"category": "border",
+					"group": "radios"
+				},
+				"switch-track-background": {
+					"value": "var(--l3-border)",
+					"description": "Track fill for unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-track-hover-background": {
+					"value": "var(--l3-background-hover)",
+					"description": "Track fill for hovered unchecked switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Track fill for checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-primary-hover-background": {
+					"value": "var(--primary-background-hover)",
+					"description": "Track fill for hovered checked primary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Track fill for checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-secondary-hover-background": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Track fill for hovered checked secondary switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-background": {
+					"value": "var(--success-background)",
+					"description": "Track fill for checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-success-hover-background": {
+					"value": "var(--success-background-hover)",
+					"description": "Track fill for hovered checked success switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Track fill for checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-warning-hover-background": {
+					"value": "var(--warning-background-hover)",
+					"description": "Track fill for hovered checked warning switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Track fill for checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-danger-hover-background": {
+					"value": "var(--danger-background-hover)",
+					"description": "Track fill for hovered checked danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Track fill for checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-info-hover-background": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Track fill for hovered checked info switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Track fill for checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-archive-hover-background": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Track fill for hovered checked archive switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Track fill for checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-highlight-danger-hover-background": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Track fill for hovered checked highlight-danger switches",
+					"category": "background",
+					"group": "switches"
+				},
+				"switch-thumb-background": {
+					"value": "var(--primary-foreground)",
+					"description": "Knob fill for switches, one color across the whole palette",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label text color for switches",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color under switch labels",
+					"category": "foreground",
+					"group": "switches"
+				},
+				"switch-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a switch",
+					"category": "border",
+					"group": "switches"
+				},
+				"tabs-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider color for the tab bar rule and secondary tab borders",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-primary-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for default primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered and active primary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-primary-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Container background color for hovered primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Active indicator color for primary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-primary-radius": {
+					"value": "var(--radius-2)",
+					"description": "Corner radius for primary tab triggers",
+					"category": "radius",
+					"group": "tabs"
+				},
+				"tabs-secondary-background": {
+					"value": "var(--l3-background-30)",
+					"description": "Background color for default secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-background-hover": {
+					"value": "var(--l2-background)",
+					"description": "Background color for hovered secondary tabs",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-secondary-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label color for default secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label color for hovered secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-active": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for the active secondary tab",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label color for disabled secondary tabs",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-secondary-stripe-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Stripe color for the disabled secondary tab hatching",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a tab and of the scroll buttons",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or active tab and of a hovered scroll button",
+					"category": "foreground",
+					"group": "tabs"
+				},
+				"tabs-hover-slider-background": {
+					"value": "color-mix(in srgb, var(--l1-foreground) 10%, transparent)",
+					"description": "Fill of the slider that follows the hovered tab",
+					"category": "background",
+					"group": "tabs"
+				},
+				"tabs-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a tab, a scroll button and the tab panel",
+					"category": "border",
+					"group": "tabs"
+				},
+				"tabs-focus-ring-offset": {
+					"value": "var(--l1-background)",
+					"description": "Gap between the tab panel and its focus ring",
+					"category": "border",
+					"group": "tabs"
+				},
+				"toggle-group-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the segmented button bar",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background": {
+					"value": "transparent",
+					"description": "Background of an unpressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Background of a hovered segment, half the pressed fill",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-background-active": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the pressed segment",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of an unpressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-active": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the pressed segment",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-secondary-outlined-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a segment that cannot be pressed",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background": {
+					"value": "var(--l1-background)",
+					"description": "Surface of the overflow arrow, opaque so the strip scrolls under it",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Surface of a hovered overflow arrow",
+					"category": "background",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Chevron of a hovered overflow arrow",
+					"category": "foreground",
+					"group": "toggle-group"
+				},
+				"toggle-group-scroll-button-shadow-color": {
+					"value": "rgba(0, 0, 0, 0.48)",
+					"description": "Shadow the overflow arrow casts over the strip",
+					"category": "shadow",
+					"group": "toggle-group"
+				},
+				"toggle-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toggle group item and its scroll buttons",
+					"category": "border",
+					"group": "toggle-group"
+				},
+				"dropdown-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the dropdown popup",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the dropdown popup",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the dropdown popup casts over the page",
+					"category": "shadow",
+					"group": "dropdown"
+				},
+				"dropdown-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a dropdown row that cannot be picked",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-background": {
+					"value": "transparent",
+					"description": "Fill of a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Fill of a hovered or highlighted dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a danger dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-label-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Label of a hovered danger dropdown row, which keeps its colour because the fill carries the hover",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-danger-background-hover": {
+					"value": "var(--callout-error-background)",
+					"description": "Fill of a hovered danger dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Leading and trailing glyph of a dropdown row, which tracks the label rather than dimming under it",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Leading and trailing glyph of a hovered or highlighted dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Section header inside the dropdown popup",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-separator": {
+					"value": "var(--l2-border)",
+					"description": "Rule between two dropdown sections",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder text of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Search glyph of the pinned search row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Rule under the pinned search row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the spinner row shown while a menu is fetching its items",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"dropdown-item-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Inset ring on the focused dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-scroll-fade": {
+					"value": "var(--dropdown-background)",
+					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border of an unchecked checkbox or radio inside a dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border of a checkbox or radio inside a hovered dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a checked checkbox or radio inside a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark or dot of a checked control inside a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
+				"calendar-background": {
+					"value": "var(--background)",
+					"description": "Fill behind the month grid",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background": {
+					"value": "transparent",
+					"description": "Fill of a month arrow or a date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered month arrow or date cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-background-active": {
+					"value": "color-mix(in srgb, var(--secondary-background-hover) 85%, var(--foreground))",
+					"description": "Fill of a month arrow or date cell while it is pressed",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-button-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of a month arrow or a date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of a hovered month arrow or date cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a month arrow or a date cell",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background": {
+					"value": "var(--primary)",
+					"description": "Fill of a selected day outside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered selected day",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-selected-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of a selected day outside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background": {
+					"value": "var(--primary)",
+					"description": "Fill of the first and last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-background-hover": {
+					"value": "color-mix(in srgb, var(--primary) 85%, var(--foreground))",
+					"description": "Fill of a hovered first or last day of a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-edge-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label of the first and last day of a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background": {
+					"value": "var(--accent)",
+					"description": "Fill of a day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-background-hover": {
+					"value": "color-mix(in srgb, var(--accent) 85%, var(--foreground))",
+					"description": "Fill of a hovered day inside a range",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-range-middle-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of a day inside a range",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-today-background": {
+					"value": "var(--accent)",
+					"description": "Fill of today's cell",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-day-today-label": {
+					"value": "var(--accent-foreground)",
+					"description": "Label of today's cell",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-outside-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day belonging to a neighbouring month",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-day-disabled-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a day that cannot be picked",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-weekday-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of a weekday name above the grid",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-week-number-label": {
+					"value": "var(--muted-foreground)",
+					"description": "Label of the week number heading a row",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-background": {
+					"value": "var(--popover)",
+					"description": "Fill of the month and year selects in the caption",
+					"category": "background",
+					"group": "calendar"
+				},
+				"calendar-select-border": {
+					"value": "var(--input)",
+					"description": "Border of the month and year selects in the caption",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-border-focus": {
+					"value": "var(--ring)",
+					"description": "Border of a focused month or year select",
+					"category": "border",
+					"group": "calendar"
+				},
+				"calendar-select-icon": {
+					"value": "var(--muted-foreground)",
+					"description": "Chevron of the month and year selects",
+					"category": "foreground",
+					"group": "calendar"
+				},
+				"calendar-select-shadow": {
+					"value": "0 1px 2px 0 color-mix(in srgb, var(--foreground) 5%, transparent)",
+					"description": "Shadow of the month and year selects",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"calendar-select-shadow-focus": {
+					"value": "0 0 0 3px color-mix(in srgb, var(--ring) 50%, transparent)",
+					"description": "Shadow of a focused month or year select",
+					"category": "shadow",
+					"group": "calendar"
+				},
+				"button-group-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered or pressed button group member",
+					"category": "background",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered or pressed button group member",
+					"category": "foreground",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a button group member, shared with its neighbours as one hairline",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"button-group-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button group member",
+					"category": "border",
+					"group": "button-group"
+				},
+				"checkbox-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border color for unchecked checkbox boxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label color for checkbox rows",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Checked and indeterminate fill for primary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check and dash glyph color for primary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-primary-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Hover border for unchecked primary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-background": {
+					"value": "var(--l2-foreground)",
+					"description": "Checked and indeterminate fill for secondary checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-foreground": {
+					"value": "var(--l1-background)",
+					"description": "Check and dash glyph color for secondary checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-secondary-border-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hover border for unchecked secondary checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-success-background": {
+					"value": "var(--success-background)",
+					"description": "Checked and indeterminate fill for success checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Check and dash glyph color for success checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-success-border-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Hover border for unchecked success checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Checked and indeterminate fill for warning checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Check and dash glyph color for warning checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-warning-border-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Hover border for unchecked warning checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Checked and indeterminate fill for danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Check and dash glyph color for danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-danger-border-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Hover border for unchecked danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Checked and indeterminate fill for info checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for info checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-info-border-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Hover border for unchecked info checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Checked and indeterminate fill for archive checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for archive checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-archive-border-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Hover border for unchecked archive checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Checked and indeterminate fill for highlight-danger checkboxes",
+					"category": "background",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Check and dash glyph color for highlight-danger checkboxes",
+					"category": "text",
+					"group": "checkboxes"
+				},
+				"checkbox-highlight-danger-border-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Hover border for unchecked highlight-danger checkboxes",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"checkbox-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a checkbox",
+					"category": "border",
+					"group": "checkboxes"
+				},
+				"button-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-background-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Fill of a hovered solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link": {
+					"value": "var(--primary-link)",
+					"description": "Label of a primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link-hover": {
+					"value": "var(--primary-link-hover)",
+					"description": "Label of a hovered primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link": {
+					"value": "var(--secondary-link)",
+					"description": "Label of a secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link-hover": {
+					"value": "var(--secondary-link-hover)",
+					"description": "Label of a hovered secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-background-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Fill of a hovered solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-label": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link": {
+					"value": "var(--success-link)",
+					"description": "Label of a success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link-hover": {
+					"value": "var(--success-link-hover)",
+					"description": "Label of a hovered success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-background-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Fill of a hovered solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-label": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link": {
+					"value": "var(--warning-link)",
+					"description": "Label of a warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link-hover": {
+					"value": "var(--warning-link-hover)",
+					"description": "Label of a hovered warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-background-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Fill of a hovered solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-label": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link": {
+					"value": "var(--danger-link)",
+					"description": "Label of a danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link-hover": {
+					"value": "var(--danger-link-hover)",
+					"description": "Label of a hovered danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-background-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Fill of a hovered solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of a info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link-hover": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Label of a hovered info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-background-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Fill of a hovered solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of a archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link-hover": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Label of a hovered archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-background-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Fill of a hovered solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of a highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Label of a hovered highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of an outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke": {
+					"value": "var(--secondary-border)",
+					"description": "Dashed border of a dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Dashed border of a hovered or loading dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-ghost-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered ghost button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-ghost-glow-opacity": {
+					"value": "22%",
+					"description": "Strength of the colour glow behind a pressed or loading ghost button",
+					"category": "other",
+					"group": "button"
+				},
+				"button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button",
+					"category": "border",
+					"group": "button"
+				},
+				"tooltip-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a tooltip",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Text of a tooltip",
+					"category": "foreground",
+					"group": "tooltip"
+				},
+				"tooltip-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-divider": {
+					"value": "var(--l2-border)",
+					"description": "Divider between the sections of a tooltip",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-shadow": {
+					"value": "var(--shadow-tooltip)",
+					"description": "Shadow under a tooltip",
+					"category": "shadow",
+					"group": "tooltip"
+				},
+				"breadcrumb-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Hovered link or overflow trigger of a breadcrumb",
+					"category": "foreground",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-background-hover": {
+					"value": "var(--l1-background-hover)",
+					"description": "Fill of a hovered link or overflow trigger of a breadcrumb",
+					"category": "background",
+					"group": "breadcrumb"
+				},
+				"breadcrumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a breadcrumb link",
+					"category": "border",
+					"group": "breadcrumb"
 				}
 			}
 		}

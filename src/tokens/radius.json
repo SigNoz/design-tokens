@@ -7,6 +7,10 @@
 		"value": "2px",
 		"type": "radius"
 	},
+	"radius_1_5": {
+		"value": "3px",
+		"type": "radius"
+	},
 	"radius_2": {
 		"value": "4px",
 		"type": "radius"
