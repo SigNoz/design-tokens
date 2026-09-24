@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:56 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:00 GMT
  */
 
 [data-theme='default'] {
@@ -464,6 +464,10 @@
 	--dropdown-loading-label: var(--l1-foreground);
 	--dropdown-item-focus-ring: var(--primary-background);
 	--dropdown-scroll-fade: var(--dropdown-background);
+	--dropdown-item-control-border: var(--l3-foreground);
+	--dropdown-item-control-border-hover: var(--primary-background-hover);
+	--dropdown-item-control-checked-background: var(--primary-background);
+	--dropdown-item-control-checked-foreground: var(--primary-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);
@@ -1002,6 +1006,10 @@
 	--dropdown-loading-label: var(--l1-foreground);
 	--dropdown-item-focus-ring: var(--primary-background);
 	--dropdown-scroll-fade: var(--dropdown-background);
+	--dropdown-item-control-border: var(--l3-foreground);
+	--dropdown-item-control-border-hover: var(--primary-background-hover);
+	--dropdown-item-control-checked-background: var(--primary-background);
+	--dropdown-item-control-checked-foreground: var(--primary-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);

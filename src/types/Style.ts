@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:56 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:00 GMT
  */
 
 export const Style = {
@@ -382,6 +382,13 @@ export const Style = {
 	DROPDOWN_LOADING_LABEL: 'var(--dropdown-loading-label)',
 	DROPDOWN_ITEM_FOCUS_RING: 'var(--dropdown-item-focus-ring)',
 	DROPDOWN_SCROLL_FADE: 'var(--dropdown-scroll-fade)',
+	DROPDOWN_ITEM_CONTROL_BORDER: 'var(--dropdown-item-control-border)',
+	DROPDOWN_ITEM_CONTROL_BORDER_HOVER:
+		'var(--dropdown-item-control-border-hover)',
+	DROPDOWN_ITEM_CONTROL_CHECKED_BACKGROUND:
+		'var(--dropdown-item-control-checked-background)',
+	DROPDOWN_ITEM_CONTROL_CHECKED_FOREGROUND:
+		'var(--dropdown-item-control-checked-foreground)',
 	CALENDAR_BACKGROUND: 'var(--calendar-background)',
 	CALENDAR_BUTTON_BACKGROUND: 'var(--calendar-button-background)',
 	CALENDAR_BUTTON_BACKGROUND_HOVER: 'var(--calendar-button-background-hover)',

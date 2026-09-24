@@ -2168,6 +2168,30 @@
 					"category": "background",
 					"group": "dropdown"
 				},
+				"dropdown-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border of an unchecked checkbox or radio inside a dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border of a checkbox or radio inside a hovered dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a checked checkbox or radio inside a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark or dot of a checked control inside a dropdown row",
+					"category": "foreground",
+					"group": "dropdown"
+				},
 				"calendar-background": {
 					"value": "var(--background)",
 					"description": "Fill behind the month grid",
@@ -4702,6 +4726,30 @@
 					"value": "var(--dropdown-background)",
 					"description": "Gradient start at the clipped edge of a scrolling dropdown, fading to transparent",
 					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Border of an unchecked checkbox or radio inside a dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Border of a checkbox or radio inside a hovered dropdown row",
+					"category": "border",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a checked checkbox or radio inside a dropdown row",
+					"category": "background",
+					"group": "dropdown"
+				},
+				"dropdown-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark or dot of a checked control inside a dropdown row",
+					"category": "foreground",
 					"group": "dropdown"
 				},
 				"calendar-background": {

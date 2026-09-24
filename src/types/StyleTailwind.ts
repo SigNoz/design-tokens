@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:58:56 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:00 GMT
  */
 
 export const StyleTailwind = {
@@ -390,6 +390,13 @@ export const StyleTailwind = {
 	'dropdown-loading-label': 'var(--dropdown-loading-label)',
 	'dropdown-item-focus-ring': 'var(--dropdown-item-focus-ring)',
 	'dropdown-scroll-fade': 'var(--dropdown-scroll-fade)',
+	'dropdown-item-control-border': 'var(--dropdown-item-control-border)',
+	'dropdown-item-control-border-hover':
+		'var(--dropdown-item-control-border-hover)',
+	'dropdown-item-control-checked-background':
+		'var(--dropdown-item-control-checked-background)',
+	'dropdown-item-control-checked-foreground':
+		'var(--dropdown-item-control-checked-foreground)',
 	'calendar-background': 'var(--calendar-background)',
 	'calendar-button-background': 'var(--calendar-button-background)',
 	'calendar-button-background-hover': 'var(--calendar-button-background-hover)',
