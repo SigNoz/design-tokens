@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 19:40:15 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:40 GMT
  */
 
 [data-theme='default'] {
@@ -304,6 +304,9 @@
 	--pill-highlight-danger-border: var(--bg-sakura-500);
 	--pill-highlight-danger-label: var(--bg-sakura-700);
 	--pill-highlight-danger-label-hover: var(--bg-sakura-700);
+	--pill-invalid-border: var(--destructive);
+	--pill-invalid-label: var(--destructive);
+	--pill-focus-ring: var(--ring);
 	--badge-primary-outlined-background: var(--bg-robin-500);
 	--badge-primary-outlined-border: var(--bg-robin-500);
 	--badge-primary-outlined-label: var(--bg-robin-600);
@@ -324,6 +327,32 @@
 	--badge-secondary-outlined-border: var(--l3-border);
 	--badge-secondary-outlined-label: var(--secondary-foreground);
 	--badge-secondary-outlined-icon: var(--secondary-foreground);
+	--badge-primary-background: var(--primary-background);
+	--badge-primary-foreground: var(--primary-foreground);
+	--badge-secondary-background: var(--surface-3);
+	--badge-secondary-foreground: var(--secondary-foreground);
+	--badge-success-background: var(--success-background);
+	--badge-success-foreground: var(--success-foreground);
+	--badge-warning-background: var(--warning-background);
+	--badge-warning-foreground: var(--warning-foreground);
+	--badge-danger-background: var(--danger-background);
+	--badge-danger-foreground: var(--danger-foreground);
+	--badge-info-background: var(--bg-aqua-500);
+	--badge-info-foreground: var(--text-ink-500);
+	--badge-archive-background: var(--bg-sienna-500);
+	--badge-archive-foreground: var(--text-ink-500);
+	--badge-highlight-danger-background: var(--bg-sakura-500);
+	--badge-highlight-danger-foreground: var(--text-ink-500);
+	--badge-secondary-border: var(--secondary-border);
+	--badge-info-outlined-background: var(--bg-aqua-500);
+	--badge-info-outlined-border: var(--bg-aqua-500);
+	--badge-info-outlined-label: var(--bg-aqua-700);
+	--badge-archive-outlined-background: var(--bg-sienna-500);
+	--badge-archive-outlined-border: var(--bg-sienna-500);
+	--badge-archive-outlined-label: var(--bg-sienna-700);
+	--badge-highlight-danger-outlined-background: var(--bg-sakura-500);
+	--badge-highlight-danger-outlined-border: var(--bg-sakura-500);
+	--badge-highlight-danger-outlined-label: var(--bg-sakura-700);
 	--radio-group-border: var(--l3-foreground);
 	--radio-group-label: var(--l2-foreground);
 	--radio-group-label-hover: var(--l1-foreground-hover);
@@ -804,6 +833,9 @@
 	--pill-highlight-danger-border: var(--bg-sakura-500);
 	--pill-highlight-danger-label: var(--bg-sakura-400);
 	--pill-highlight-danger-label-hover: var(--bg-sakura-400);
+	--pill-invalid-border: var(--destructive);
+	--pill-invalid-label: var(--destructive);
+	--pill-focus-ring: var(--ring);
 	--badge-primary-outlined-background: var(--bg-robin-500);
 	--badge-primary-outlined-border: var(--bg-robin-500);
 	--badge-primary-outlined-label: var(--bg-robin-400);
@@ -824,6 +856,32 @@
 	--badge-secondary-outlined-border: var(--l3-border);
 	--badge-secondary-outlined-label: var(--secondary-foreground);
 	--badge-secondary-outlined-icon: var(--secondary-foreground);
+	--badge-primary-background: var(--primary-background);
+	--badge-primary-foreground: var(--primary-foreground);
+	--badge-secondary-background: var(--surface-3);
+	--badge-secondary-foreground: var(--secondary-foreground);
+	--badge-success-background: var(--success-background);
+	--badge-success-foreground: var(--success-foreground);
+	--badge-warning-background: var(--warning-background);
+	--badge-warning-foreground: var(--warning-foreground);
+	--badge-danger-background: var(--danger-background);
+	--badge-danger-foreground: var(--danger-foreground);
+	--badge-info-background: var(--bg-aqua-500);
+	--badge-info-foreground: var(--text-ink-500);
+	--badge-archive-background: var(--bg-sienna-500);
+	--badge-archive-foreground: var(--text-ink-500);
+	--badge-highlight-danger-background: var(--bg-sakura-500);
+	--badge-highlight-danger-foreground: var(--text-ink-500);
+	--badge-secondary-border: var(--secondary-border);
+	--badge-info-outlined-background: var(--bg-aqua-500);
+	--badge-info-outlined-border: var(--bg-aqua-500);
+	--badge-info-outlined-label: var(--bg-aqua-400);
+	--badge-archive-outlined-background: var(--bg-sienna-500);
+	--badge-archive-outlined-border: var(--bg-sienna-500);
+	--badge-archive-outlined-label: var(--bg-sienna-400);
+	--badge-highlight-danger-outlined-background: var(--bg-sakura-500);
+	--badge-highlight-danger-outlined-border: var(--bg-sakura-500);
+	--badge-highlight-danger-outlined-label: var(--bg-sakura-400);
 	--radio-group-border: var(--l3-foreground);
 	--radio-group-label: var(--l2-foreground);
 	--radio-group-label-hover: var(--l1-foreground-hover);

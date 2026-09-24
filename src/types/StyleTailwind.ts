@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 19:40:15 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:40 GMT
  */
 
 export const StyleTailwind = {
@@ -210,6 +210,9 @@ export const StyleTailwind = {
 	'pill-highlight-danger-label': 'var(--pill-highlight-danger-label)',
 	'pill-highlight-danger-label-hover':
 		'var(--pill-highlight-danger-label-hover)',
+	'pill-invalid-border': 'var(--pill-invalid-border)',
+	'pill-invalid-label': 'var(--pill-invalid-label)',
+	'pill-focus-ring': 'var(--pill-focus-ring)',
 	'badge-primary-outlined-background':
 		'var(--badge-primary-outlined-background)',
 	'badge-primary-outlined-border': 'var(--badge-primary-outlined-border)',
@@ -234,6 +237,38 @@ export const StyleTailwind = {
 	'badge-secondary-outlined-border': 'var(--badge-secondary-outlined-border)',
 	'badge-secondary-outlined-label': 'var(--badge-secondary-outlined-label)',
 	'badge-secondary-outlined-icon': 'var(--badge-secondary-outlined-icon)',
+	'badge-primary-background': 'var(--badge-primary-background)',
+	'badge-primary-foreground': 'var(--badge-primary-foreground)',
+	'badge-secondary-background': 'var(--badge-secondary-background)',
+	'badge-secondary-foreground': 'var(--badge-secondary-foreground)',
+	'badge-success-background': 'var(--badge-success-background)',
+	'badge-success-foreground': 'var(--badge-success-foreground)',
+	'badge-warning-background': 'var(--badge-warning-background)',
+	'badge-warning-foreground': 'var(--badge-warning-foreground)',
+	'badge-danger-background': 'var(--badge-danger-background)',
+	'badge-danger-foreground': 'var(--badge-danger-foreground)',
+	'badge-info-background': 'var(--badge-info-background)',
+	'badge-info-foreground': 'var(--badge-info-foreground)',
+	'badge-archive-background': 'var(--badge-archive-background)',
+	'badge-archive-foreground': 'var(--badge-archive-foreground)',
+	'badge-highlight-danger-background':
+		'var(--badge-highlight-danger-background)',
+	'badge-highlight-danger-foreground':
+		'var(--badge-highlight-danger-foreground)',
+	'badge-secondary-border': 'var(--badge-secondary-border)',
+	'badge-info-outlined-background': 'var(--badge-info-outlined-background)',
+	'badge-info-outlined-border': 'var(--badge-info-outlined-border)',
+	'badge-info-outlined-label': 'var(--badge-info-outlined-label)',
+	'badge-archive-outlined-background':
+		'var(--badge-archive-outlined-background)',
+	'badge-archive-outlined-border': 'var(--badge-archive-outlined-border)',
+	'badge-archive-outlined-label': 'var(--badge-archive-outlined-label)',
+	'badge-highlight-danger-outlined-background':
+		'var(--badge-highlight-danger-outlined-background)',
+	'badge-highlight-danger-outlined-border':
+		'var(--badge-highlight-danger-outlined-border)',
+	'badge-highlight-danger-outlined-label':
+		'var(--badge-highlight-danger-outlined-label)',
 	'radio-group-border': 'var(--radio-group-border)',
 	'radio-group-label': 'var(--radio-group-label)',
 	'radio-group-label-hover': 'var(--radio-group-label-hover)',

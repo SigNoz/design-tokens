@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 19:40:15 GMT
+ * Generated on Thu, 24 Sep 2026 14:58:40 GMT
  */
 
 export const Style = {
@@ -209,6 +209,9 @@ export const Style = {
 	PILL_HIGHLIGHT_DANGER_BORDER: 'var(--pill-highlight-danger-border)',
 	PILL_HIGHLIGHT_DANGER_LABEL: 'var(--pill-highlight-danger-label)',
 	PILL_HIGHLIGHT_DANGER_LABEL_HOVER: 'var(--pill-highlight-danger-label-hover)',
+	PILL_INVALID_BORDER: 'var(--pill-invalid-border)',
+	PILL_INVALID_LABEL: 'var(--pill-invalid-label)',
+	PILL_FOCUS_RING: 'var(--pill-focus-ring)',
 	BADGE_PRIMARY_OUTLINED_BACKGROUND: 'var(--badge-primary-outlined-background)',
 	BADGE_PRIMARY_OUTLINED_BORDER: 'var(--badge-primary-outlined-border)',
 	BADGE_PRIMARY_OUTLINED_LABEL: 'var(--badge-primary-outlined-label)',
@@ -230,6 +233,35 @@ export const Style = {
 	BADGE_SECONDARY_OUTLINED_BORDER: 'var(--badge-secondary-outlined-border)',
 	BADGE_SECONDARY_OUTLINED_LABEL: 'var(--badge-secondary-outlined-label)',
 	BADGE_SECONDARY_OUTLINED_ICON: 'var(--badge-secondary-outlined-icon)',
+	BADGE_PRIMARY_BACKGROUND: 'var(--badge-primary-background)',
+	BADGE_PRIMARY_FOREGROUND: 'var(--badge-primary-foreground)',
+	BADGE_SECONDARY_BACKGROUND: 'var(--badge-secondary-background)',
+	BADGE_SECONDARY_FOREGROUND: 'var(--badge-secondary-foreground)',
+	BADGE_SUCCESS_BACKGROUND: 'var(--badge-success-background)',
+	BADGE_SUCCESS_FOREGROUND: 'var(--badge-success-foreground)',
+	BADGE_WARNING_BACKGROUND: 'var(--badge-warning-background)',
+	BADGE_WARNING_FOREGROUND: 'var(--badge-warning-foreground)',
+	BADGE_DANGER_BACKGROUND: 'var(--badge-danger-background)',
+	BADGE_DANGER_FOREGROUND: 'var(--badge-danger-foreground)',
+	BADGE_INFO_BACKGROUND: 'var(--badge-info-background)',
+	BADGE_INFO_FOREGROUND: 'var(--badge-info-foreground)',
+	BADGE_ARCHIVE_BACKGROUND: 'var(--badge-archive-background)',
+	BADGE_ARCHIVE_FOREGROUND: 'var(--badge-archive-foreground)',
+	BADGE_HIGHLIGHT_DANGER_BACKGROUND: 'var(--badge-highlight-danger-background)',
+	BADGE_HIGHLIGHT_DANGER_FOREGROUND: 'var(--badge-highlight-danger-foreground)',
+	BADGE_SECONDARY_BORDER: 'var(--badge-secondary-border)',
+	BADGE_INFO_OUTLINED_BACKGROUND: 'var(--badge-info-outlined-background)',
+	BADGE_INFO_OUTLINED_BORDER: 'var(--badge-info-outlined-border)',
+	BADGE_INFO_OUTLINED_LABEL: 'var(--badge-info-outlined-label)',
+	BADGE_ARCHIVE_OUTLINED_BACKGROUND: 'var(--badge-archive-outlined-background)',
+	BADGE_ARCHIVE_OUTLINED_BORDER: 'var(--badge-archive-outlined-border)',
+	BADGE_ARCHIVE_OUTLINED_LABEL: 'var(--badge-archive-outlined-label)',
+	BADGE_HIGHLIGHT_DANGER_OUTLINED_BACKGROUND:
+		'var(--badge-highlight-danger-outlined-background)',
+	BADGE_HIGHLIGHT_DANGER_OUTLINED_BORDER:
+		'var(--badge-highlight-danger-outlined-border)',
+	BADGE_HIGHLIGHT_DANGER_OUTLINED_LABEL:
+		'var(--badge-highlight-danger-outlined-label)',
 	RADIO_GROUP_BORDER: 'var(--radio-group-border)',
 	RADIO_GROUP_LABEL: 'var(--radio-group-label)',
 	RADIO_GROUP_LABEL_HOVER: 'var(--radio-group-label-hover)',

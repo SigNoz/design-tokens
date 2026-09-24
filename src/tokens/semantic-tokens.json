@@ -1256,6 +1256,24 @@
 					"category": "foreground",
 					"group": "pills"
 				},
+				"pill-invalid-border": {
+					"value": "var(--destructive)",
+					"description": "Border of an invalid pill",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-invalid-label": {
+					"value": "var(--destructive)",
+					"description": "Label of an invalid pill",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a pill and its close button",
+					"category": "border",
+					"group": "pills"
+				},
 				"badge-primary-outlined-background": {
 					"value": "var(--bg-robin-500)",
 					"description": "Background color for outlined primary badges",
@@ -1373,6 +1391,162 @@
 				"badge-secondary-outlined-icon": {
 					"value": "var(--secondary-foreground)",
 					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a solid secondary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a solid secondary badge",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an outlined info badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-outlined-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border of an outlined info badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-label": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Label of an outlined info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-outlined-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an outlined archive badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-outlined-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border of an outlined archive badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-archive-outlined-label": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Label of an outlined archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of an outlined highlight danger badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border of an outlined highlight danger badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-label": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Label of an outlined highlight danger badge",
 					"category": "foreground",
 					"group": "badges"
 				},
@@ -3564,6 +3738,24 @@
 					"category": "foreground",
 					"group": "pills"
 				},
+				"pill-invalid-border": {
+					"value": "var(--destructive)",
+					"description": "Border of an invalid pill",
+					"category": "border",
+					"group": "pills"
+				},
+				"pill-invalid-label": {
+					"value": "var(--destructive)",
+					"description": "Label of an invalid pill",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a pill and its close button",
+					"category": "border",
+					"group": "pills"
+				},
 				"badge-primary-outlined-background": {
 					"value": "var(--bg-robin-500)",
 					"description": "Background color for outlined primary badges",
@@ -3681,6 +3873,162 @@
 				"badge-secondary-outlined-icon": {
 					"value": "var(--secondary-foreground)",
 					"description": "Icon color for outlined secondary badges",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of a solid secondary badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger badge",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of a solid secondary badge",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an outlined info badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-info-outlined-border": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Border of an outlined info badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-info-outlined-label": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of an outlined info badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-archive-outlined-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an outlined archive badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-archive-outlined-border": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Border of an outlined archive badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-archive-outlined-label": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of an outlined archive badge",
+					"category": "foreground",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of an outlined highlight danger badge, tinted before use",
+					"category": "background",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-border": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Border of an outlined highlight danger badge, tinted before use",
+					"category": "border",
+					"group": "badges"
+				},
+				"badge-highlight-danger-outlined-label": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of an outlined highlight danger badge",
 					"category": "foreground",
 					"group": "badges"
 				},
