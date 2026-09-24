@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:03 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:06 GMT
  */
 
 [data-theme='default'] {
@@ -552,6 +552,63 @@
 	--checkbox-highlight-danger-foreground: var(--text-ink-500);
 	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
 	--checkbox-focus-ring: var(--ring);
+	--button-primary-background: var(--primary-background);
+	--button-primary-background-hover: var(--primary-background-hover);
+	--button-primary-label: var(--primary-foreground);
+	--button-primary-link: var(--primary-link);
+	--button-primary-link-hover: var(--primary-link-hover);
+	--button-secondary-background: var(--secondary-background);
+	--button-secondary-background-hover: var(--secondary-background-hover);
+	--button-secondary-label: var(--secondary-foreground);
+	--button-secondary-link: var(--secondary-link);
+	--button-secondary-link-hover: var(--secondary-link-hover);
+	--button-success-background: var(--success-background);
+	--button-success-background-hover: var(--success-background-hover);
+	--button-success-label: var(--success-foreground);
+	--button-success-link: var(--success-link);
+	--button-success-link-hover: var(--success-link-hover);
+	--button-warning-background: var(--warning-background);
+	--button-warning-background-hover: var(--warning-background-hover);
+	--button-warning-label: var(--warning-foreground);
+	--button-warning-link: var(--warning-link);
+	--button-warning-link-hover: var(--warning-link-hover);
+	--button-danger-background: var(--danger-background);
+	--button-danger-background-hover: var(--danger-background-hover);
+	--button-danger-label: var(--danger-foreground);
+	--button-danger-link: var(--danger-link);
+	--button-danger-link-hover: var(--danger-link-hover);
+	--button-info-background: var(--bg-aqua-500);
+	--button-info-background-hover: var(--bg-aqua-400);
+	--button-info-label: var(--text-ink-500);
+	--button-info-link: var(--bg-aqua-400);
+	--button-info-link-hover: var(--bg-aqua-500);
+	--button-archive-background: var(--bg-sienna-500);
+	--button-archive-background-hover: var(--bg-sienna-400);
+	--button-archive-label: var(--text-ink-500);
+	--button-archive-link: var(--bg-sienna-400);
+	--button-archive-link-hover: var(--bg-sienna-500);
+	--button-highlight-danger-background: var(--bg-sakura-500);
+	--button-highlight-danger-background-hover: var(--bg-sakura-400);
+	--button-highlight-danger-label: var(--text-ink-500);
+	--button-highlight-danger-link: var(--bg-sakura-400);
+	--button-highlight-danger-link-hover: var(--bg-sakura-500);
+	--button-secondary-outlined-background: var(--secondary-background);
+	--button-secondary-outlined-background-hover: var(
+		--secondary-background-hover
+	);
+	--button-secondary-outlined-label: var(--secondary-foreground);
+	--button-secondary-outlined-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-outlined-border: var(--secondary-border);
+	--button-secondary-outlined-disabled-stripe: var(--secondary-border);
+	--button-secondary-dashed-label: var(--secondary-foreground);
+	--button-secondary-dashed-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-dashed-stroke: var(--secondary-border);
+	--button-secondary-dashed-stroke-hover: var(--secondary-background-hover);
+	--button-secondary-ghost-label: var(--secondary-foreground);
+	--button-secondary-ghost-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-ghost-background-hover: var(--secondary-background-hover);
+	--button-ghost-glow-opacity: 12%;
+	--button-focus-ring: var(--ring);
 	--tooltip-background: var(--surface-1);
 	--tooltip-label: var(--l1-foreground);
 	--tooltip-border: var(--l3-border);
@@ -1099,6 +1156,63 @@
 	--checkbox-highlight-danger-foreground: var(--text-ink-500);
 	--checkbox-highlight-danger-border-hover: var(--bg-sakura-400);
 	--checkbox-focus-ring: var(--ring);
+	--button-primary-background: var(--primary-background);
+	--button-primary-background-hover: var(--primary-background-hover);
+	--button-primary-label: var(--primary-foreground);
+	--button-primary-link: var(--primary-link);
+	--button-primary-link-hover: var(--primary-link-hover);
+	--button-secondary-background: var(--secondary-background);
+	--button-secondary-background-hover: var(--secondary-background-hover);
+	--button-secondary-label: var(--secondary-foreground);
+	--button-secondary-link: var(--secondary-link);
+	--button-secondary-link-hover: var(--secondary-link-hover);
+	--button-success-background: var(--success-background);
+	--button-success-background-hover: var(--success-background-hover);
+	--button-success-label: var(--success-foreground);
+	--button-success-link: var(--success-link);
+	--button-success-link-hover: var(--success-link-hover);
+	--button-warning-background: var(--warning-background);
+	--button-warning-background-hover: var(--warning-background-hover);
+	--button-warning-label: var(--warning-foreground);
+	--button-warning-link: var(--warning-link);
+	--button-warning-link-hover: var(--warning-link-hover);
+	--button-danger-background: var(--danger-background);
+	--button-danger-background-hover: var(--danger-background-hover);
+	--button-danger-label: var(--danger-foreground);
+	--button-danger-link: var(--danger-link);
+	--button-danger-link-hover: var(--danger-link-hover);
+	--button-info-background: var(--bg-aqua-500);
+	--button-info-background-hover: var(--bg-aqua-400);
+	--button-info-label: var(--text-ink-500);
+	--button-info-link: var(--bg-aqua-400);
+	--button-info-link-hover: var(--bg-aqua-500);
+	--button-archive-background: var(--bg-sienna-500);
+	--button-archive-background-hover: var(--bg-sienna-400);
+	--button-archive-label: var(--text-ink-500);
+	--button-archive-link: var(--bg-sienna-400);
+	--button-archive-link-hover: var(--bg-sienna-500);
+	--button-highlight-danger-background: var(--bg-sakura-500);
+	--button-highlight-danger-background-hover: var(--bg-sakura-400);
+	--button-highlight-danger-label: var(--text-ink-500);
+	--button-highlight-danger-link: var(--bg-sakura-400);
+	--button-highlight-danger-link-hover: var(--bg-sakura-500);
+	--button-secondary-outlined-background: var(--secondary-background);
+	--button-secondary-outlined-background-hover: var(
+		--secondary-background-hover
+	);
+	--button-secondary-outlined-label: var(--secondary-foreground);
+	--button-secondary-outlined-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-outlined-border: var(--secondary-border);
+	--button-secondary-outlined-disabled-stripe: var(--secondary-border);
+	--button-secondary-dashed-label: var(--secondary-foreground);
+	--button-secondary-dashed-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-dashed-stroke: var(--secondary-border);
+	--button-secondary-dashed-stroke-hover: var(--secondary-background-hover);
+	--button-secondary-ghost-label: var(--secondary-foreground);
+	--button-secondary-ghost-label-hover: var(--secondary-foreground-hover);
+	--button-secondary-ghost-background-hover: var(--secondary-background-hover);
+	--button-ghost-glow-opacity: 22%;
+	--button-focus-ring: var(--ring);
 	--tooltip-background: var(--surface-3);
 	--tooltip-label: var(--l1-foreground);
 	--tooltip-border: var(--l2-border);

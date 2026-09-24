@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:03 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:06 GMT
  */
 
 export const Style = {
@@ -465,6 +465,72 @@ export const Style = {
 	CHECKBOX_HIGHLIGHT_DANGER_BORDER_HOVER:
 		'var(--checkbox-highlight-danger-border-hover)',
 	CHECKBOX_FOCUS_RING: 'var(--checkbox-focus-ring)',
+	BUTTON_PRIMARY_BACKGROUND: 'var(--button-primary-background)',
+	BUTTON_PRIMARY_BACKGROUND_HOVER: 'var(--button-primary-background-hover)',
+	BUTTON_PRIMARY_LABEL: 'var(--button-primary-label)',
+	BUTTON_PRIMARY_LINK: 'var(--button-primary-link)',
+	BUTTON_PRIMARY_LINK_HOVER: 'var(--button-primary-link-hover)',
+	BUTTON_SECONDARY_BACKGROUND: 'var(--button-secondary-background)',
+	BUTTON_SECONDARY_BACKGROUND_HOVER: 'var(--button-secondary-background-hover)',
+	BUTTON_SECONDARY_LABEL: 'var(--button-secondary-label)',
+	BUTTON_SECONDARY_LINK: 'var(--button-secondary-link)',
+	BUTTON_SECONDARY_LINK_HOVER: 'var(--button-secondary-link-hover)',
+	BUTTON_SUCCESS_BACKGROUND: 'var(--button-success-background)',
+	BUTTON_SUCCESS_BACKGROUND_HOVER: 'var(--button-success-background-hover)',
+	BUTTON_SUCCESS_LABEL: 'var(--button-success-label)',
+	BUTTON_SUCCESS_LINK: 'var(--button-success-link)',
+	BUTTON_SUCCESS_LINK_HOVER: 'var(--button-success-link-hover)',
+	BUTTON_WARNING_BACKGROUND: 'var(--button-warning-background)',
+	BUTTON_WARNING_BACKGROUND_HOVER: 'var(--button-warning-background-hover)',
+	BUTTON_WARNING_LABEL: 'var(--button-warning-label)',
+	BUTTON_WARNING_LINK: 'var(--button-warning-link)',
+	BUTTON_WARNING_LINK_HOVER: 'var(--button-warning-link-hover)',
+	BUTTON_DANGER_BACKGROUND: 'var(--button-danger-background)',
+	BUTTON_DANGER_BACKGROUND_HOVER: 'var(--button-danger-background-hover)',
+	BUTTON_DANGER_LABEL: 'var(--button-danger-label)',
+	BUTTON_DANGER_LINK: 'var(--button-danger-link)',
+	BUTTON_DANGER_LINK_HOVER: 'var(--button-danger-link-hover)',
+	BUTTON_INFO_BACKGROUND: 'var(--button-info-background)',
+	BUTTON_INFO_BACKGROUND_HOVER: 'var(--button-info-background-hover)',
+	BUTTON_INFO_LABEL: 'var(--button-info-label)',
+	BUTTON_INFO_LINK: 'var(--button-info-link)',
+	BUTTON_INFO_LINK_HOVER: 'var(--button-info-link-hover)',
+	BUTTON_ARCHIVE_BACKGROUND: 'var(--button-archive-background)',
+	BUTTON_ARCHIVE_BACKGROUND_HOVER: 'var(--button-archive-background-hover)',
+	BUTTON_ARCHIVE_LABEL: 'var(--button-archive-label)',
+	BUTTON_ARCHIVE_LINK: 'var(--button-archive-link)',
+	BUTTON_ARCHIVE_LINK_HOVER: 'var(--button-archive-link-hover)',
+	BUTTON_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--button-highlight-danger-background)',
+	BUTTON_HIGHLIGHT_DANGER_BACKGROUND_HOVER:
+		'var(--button-highlight-danger-background-hover)',
+	BUTTON_HIGHLIGHT_DANGER_LABEL: 'var(--button-highlight-danger-label)',
+	BUTTON_HIGHLIGHT_DANGER_LINK: 'var(--button-highlight-danger-link)',
+	BUTTON_HIGHLIGHT_DANGER_LINK_HOVER:
+		'var(--button-highlight-danger-link-hover)',
+	BUTTON_SECONDARY_OUTLINED_BACKGROUND:
+		'var(--button-secondary-outlined-background)',
+	BUTTON_SECONDARY_OUTLINED_BACKGROUND_HOVER:
+		'var(--button-secondary-outlined-background-hover)',
+	BUTTON_SECONDARY_OUTLINED_LABEL: 'var(--button-secondary-outlined-label)',
+	BUTTON_SECONDARY_OUTLINED_LABEL_HOVER:
+		'var(--button-secondary-outlined-label-hover)',
+	BUTTON_SECONDARY_OUTLINED_BORDER: 'var(--button-secondary-outlined-border)',
+	BUTTON_SECONDARY_OUTLINED_DISABLED_STRIPE:
+		'var(--button-secondary-outlined-disabled-stripe)',
+	BUTTON_SECONDARY_DASHED_LABEL: 'var(--button-secondary-dashed-label)',
+	BUTTON_SECONDARY_DASHED_LABEL_HOVER:
+		'var(--button-secondary-dashed-label-hover)',
+	BUTTON_SECONDARY_DASHED_STROKE: 'var(--button-secondary-dashed-stroke)',
+	BUTTON_SECONDARY_DASHED_STROKE_HOVER:
+		'var(--button-secondary-dashed-stroke-hover)',
+	BUTTON_SECONDARY_GHOST_LABEL: 'var(--button-secondary-ghost-label)',
+	BUTTON_SECONDARY_GHOST_LABEL_HOVER:
+		'var(--button-secondary-ghost-label-hover)',
+	BUTTON_SECONDARY_GHOST_BACKGROUND_HOVER:
+		'var(--button-secondary-ghost-background-hover)',
+	BUTTON_GHOST_GLOW_OPACITY: 'var(--button-ghost-glow-opacity)',
+	BUTTON_FOCUS_RING: 'var(--button-focus-ring)',
 	TOOLTIP_BACKGROUND: 'var(--tooltip-background)',
 	TOOLTIP_LABEL: 'var(--tooltip-label)',
 	TOOLTIP_BORDER: 'var(--tooltip-border)',

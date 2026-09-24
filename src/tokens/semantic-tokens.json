@@ -2564,6 +2564,336 @@
 					"category": "border",
 					"group": "checkboxes"
 				},
+				"button-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-background-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Fill of a hovered solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link": {
+					"value": "var(--primary-link)",
+					"description": "Label of a primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link-hover": {
+					"value": "var(--primary-link-hover)",
+					"description": "Label of a hovered primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link": {
+					"value": "var(--secondary-link)",
+					"description": "Label of a secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link-hover": {
+					"value": "var(--secondary-link-hover)",
+					"description": "Label of a hovered secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-background-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Fill of a hovered solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-label": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link": {
+					"value": "var(--success-link)",
+					"description": "Label of a success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link-hover": {
+					"value": "var(--success-link-hover)",
+					"description": "Label of a hovered success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-background-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Fill of a hovered solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-label": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link": {
+					"value": "var(--warning-link)",
+					"description": "Label of a warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link-hover": {
+					"value": "var(--warning-link-hover)",
+					"description": "Label of a hovered warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-background-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Fill of a hovered solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-label": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link": {
+					"value": "var(--danger-link)",
+					"description": "Label of a danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link-hover": {
+					"value": "var(--danger-link-hover)",
+					"description": "Label of a hovered danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-background-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Fill of a hovered solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of a info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link-hover": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Label of a hovered info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-background-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Fill of a hovered solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of a archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link-hover": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Label of a hovered archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-background-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Fill of a hovered solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of a highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Label of a hovered highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of an outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke": {
+					"value": "var(--secondary-border)",
+					"description": "Dashed border of a dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Dashed border of a hovered or loading dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-ghost-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered ghost button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-ghost-glow-opacity": {
+					"value": "12%",
+					"description": "Strength of the colour glow behind a pressed or loading ghost button",
+					"category": "other",
+					"group": "button"
+				},
+				"button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button",
+					"category": "border",
+					"group": "button"
+				},
 				"tooltip-background": {
 					"value": "var(--surface-1)",
 					"description": "Fill of a tooltip",
@@ -5153,6 +5483,336 @@
 					"description": "Focus ring around a checkbox",
 					"category": "border",
 					"group": "checkboxes"
+				},
+				"button-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-background-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Fill of a hovered solid primary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-primary-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Label and icons of a solid primary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link": {
+					"value": "var(--primary-link)",
+					"description": "Label of a primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-primary-link-hover": {
+					"value": "var(--primary-link-hover)",
+					"description": "Label of a hovered primary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of a solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered solid secondary button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a solid secondary button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link": {
+					"value": "var(--secondary-link)",
+					"description": "Label of a secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-link-hover": {
+					"value": "var(--secondary-link-hover)",
+					"description": "Label of a hovered secondary link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill of a solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-background-hover": {
+					"value": "var(--success-background-hover)",
+					"description": "Fill of a hovered solid success button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-success-label": {
+					"value": "var(--success-foreground)",
+					"description": "Label and icons of a solid success button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link": {
+					"value": "var(--success-link)",
+					"description": "Label of a success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-success-link-hover": {
+					"value": "var(--success-link-hover)",
+					"description": "Label of a hovered success link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-background-hover": {
+					"value": "var(--warning-background-hover)",
+					"description": "Fill of a hovered solid warning button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-warning-label": {
+					"value": "var(--warning-foreground)",
+					"description": "Label and icons of a solid warning button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link": {
+					"value": "var(--warning-link)",
+					"description": "Label of a warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-warning-link-hover": {
+					"value": "var(--warning-link-hover)",
+					"description": "Label of a hovered warning link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-background-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Fill of a hovered solid danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-danger-label": {
+					"value": "var(--danger-foreground)",
+					"description": "Label and icons of a solid danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link": {
+					"value": "var(--danger-link)",
+					"description": "Label of a danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-danger-link-hover": {
+					"value": "var(--danger-link-hover)",
+					"description": "Label of a hovered danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of a solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-background-hover": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Fill of a hovered solid info button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-info-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid info button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Label of a info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-info-link-hover": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Label of a hovered info link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of a solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-background-hover": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Fill of a hovered solid archive button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-archive-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid archive button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Label of a archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-archive-link-hover": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Label of a hovered archive link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-background-hover": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Fill of a hovered solid highlight danger button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-highlight-danger-label": {
+					"value": "var(--text-ink-500)",
+					"description": "Label and icons of a solid highlight danger button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Label of a highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Label of a hovered highlight danger link button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered outlined button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-secondary-outlined-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of an outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered outlined button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-outlined-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-outlined-disabled-stripe": {
+					"value": "var(--secondary-border)",
+					"description": "Hatch lines on both edges of a disabled outlined button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered dashed button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke": {
+					"value": "var(--secondary-border)",
+					"description": "Dashed border of a dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-dashed-stroke-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Dashed border of a hovered or loading dashed button",
+					"category": "border",
+					"group": "button"
+				},
+				"button-secondary-ghost-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label and icons of a ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label and icons of a hovered ghost button",
+					"category": "foreground",
+					"group": "button"
+				},
+				"button-secondary-ghost-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered ghost button",
+					"category": "background",
+					"group": "button"
+				},
+				"button-ghost-glow-opacity": {
+					"value": "22%",
+					"description": "Strength of the colour glow behind a pressed or loading ghost button",
+					"category": "other",
+					"group": "button"
+				},
+				"button-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a button",
+					"category": "border",
+					"group": "button"
 				},
 				"tooltip-background": {
 					"value": "var(--surface-3)",

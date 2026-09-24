@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:03 GMT
+ * Generated on Thu, 24 Sep 2026 14:59:06 GMT
  */
 
 export const StyleTailwind = {
@@ -474,6 +474,73 @@ export const StyleTailwind = {
 	'checkbox-highlight-danger-border-hover':
 		'var(--checkbox-highlight-danger-border-hover)',
 	'checkbox-focus-ring': 'var(--checkbox-focus-ring)',
+	'button-primary-background': 'var(--button-primary-background)',
+	'button-primary-background-hover': 'var(--button-primary-background-hover)',
+	'button-primary-label': 'var(--button-primary-label)',
+	'button-primary-link': 'var(--button-primary-link)',
+	'button-primary-link-hover': 'var(--button-primary-link-hover)',
+	'button-secondary-background': 'var(--button-secondary-background)',
+	'button-secondary-background-hover':
+		'var(--button-secondary-background-hover)',
+	'button-secondary-label': 'var(--button-secondary-label)',
+	'button-secondary-link': 'var(--button-secondary-link)',
+	'button-secondary-link-hover': 'var(--button-secondary-link-hover)',
+	'button-success-background': 'var(--button-success-background)',
+	'button-success-background-hover': 'var(--button-success-background-hover)',
+	'button-success-label': 'var(--button-success-label)',
+	'button-success-link': 'var(--button-success-link)',
+	'button-success-link-hover': 'var(--button-success-link-hover)',
+	'button-warning-background': 'var(--button-warning-background)',
+	'button-warning-background-hover': 'var(--button-warning-background-hover)',
+	'button-warning-label': 'var(--button-warning-label)',
+	'button-warning-link': 'var(--button-warning-link)',
+	'button-warning-link-hover': 'var(--button-warning-link-hover)',
+	'button-danger-background': 'var(--button-danger-background)',
+	'button-danger-background-hover': 'var(--button-danger-background-hover)',
+	'button-danger-label': 'var(--button-danger-label)',
+	'button-danger-link': 'var(--button-danger-link)',
+	'button-danger-link-hover': 'var(--button-danger-link-hover)',
+	'button-info-background': 'var(--button-info-background)',
+	'button-info-background-hover': 'var(--button-info-background-hover)',
+	'button-info-label': 'var(--button-info-label)',
+	'button-info-link': 'var(--button-info-link)',
+	'button-info-link-hover': 'var(--button-info-link-hover)',
+	'button-archive-background': 'var(--button-archive-background)',
+	'button-archive-background-hover': 'var(--button-archive-background-hover)',
+	'button-archive-label': 'var(--button-archive-label)',
+	'button-archive-link': 'var(--button-archive-link)',
+	'button-archive-link-hover': 'var(--button-archive-link-hover)',
+	'button-highlight-danger-background':
+		'var(--button-highlight-danger-background)',
+	'button-highlight-danger-background-hover':
+		'var(--button-highlight-danger-background-hover)',
+	'button-highlight-danger-label': 'var(--button-highlight-danger-label)',
+	'button-highlight-danger-link': 'var(--button-highlight-danger-link)',
+	'button-highlight-danger-link-hover':
+		'var(--button-highlight-danger-link-hover)',
+	'button-secondary-outlined-background':
+		'var(--button-secondary-outlined-background)',
+	'button-secondary-outlined-background-hover':
+		'var(--button-secondary-outlined-background-hover)',
+	'button-secondary-outlined-label': 'var(--button-secondary-outlined-label)',
+	'button-secondary-outlined-label-hover':
+		'var(--button-secondary-outlined-label-hover)',
+	'button-secondary-outlined-border': 'var(--button-secondary-outlined-border)',
+	'button-secondary-outlined-disabled-stripe':
+		'var(--button-secondary-outlined-disabled-stripe)',
+	'button-secondary-dashed-label': 'var(--button-secondary-dashed-label)',
+	'button-secondary-dashed-label-hover':
+		'var(--button-secondary-dashed-label-hover)',
+	'button-secondary-dashed-stroke': 'var(--button-secondary-dashed-stroke)',
+	'button-secondary-dashed-stroke-hover':
+		'var(--button-secondary-dashed-stroke-hover)',
+	'button-secondary-ghost-label': 'var(--button-secondary-ghost-label)',
+	'button-secondary-ghost-label-hover':
+		'var(--button-secondary-ghost-label-hover)',
+	'button-secondary-ghost-background-hover':
+		'var(--button-secondary-ghost-background-hover)',
+	'button-ghost-glow-opacity': 'var(--button-ghost-glow-opacity)',
+	'button-focus-ring': 'var(--button-focus-ring)',
 	'tooltip-background': 'var(--tooltip-background)',
 	'tooltip-label': 'var(--tooltip-label)',
 	'tooltip-border': 'var(--tooltip-border)',
