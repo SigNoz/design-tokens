@@ -398,13 +398,13 @@
 					"group": "actions"
 				},
 				"success-foreground": {
-					"value": "var(--text-neutral-light-50)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Text color for success action elements",
 					"category": "foreground",
 					"group": "actions"
 				},
 				"success-foreground-hover": {
-					"value": "var(--text-base-black)",
+					"value": "var(--text-neutral-light-1000)",
 					"description": "Hover text color for success elements",
 					"category": "foreground",
 					"group": "actions"
@@ -1268,6 +1268,24 @@
 					"category": "foreground",
 					"group": "pills"
 				},
+				"pill-invalid-background": {
+					"value": "var(--destructive)",
+					"description": "Fill of an invalid closeable pill, tinted before use",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-invalid-dismiss-icon": {
+					"value": "var(--destructive)",
+					"description": "Dismiss icon color for invalid closeable pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-invalid-dismiss-icon-hover": {
+					"value": "var(--destructive)",
+					"description": "Hover dismiss icon color for invalid closeable pills",
+					"category": "foreground",
+					"group": "pills"
+				},
 				"pill-focus-ring": {
 					"value": "var(--ring)",
 					"description": "Focus ring around a pill and its close button",
@@ -1461,7 +1479,7 @@
 					"group": "badges"
 				},
 				"badge-info-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Label and icons of a solid info badge",
 					"category": "foreground",
 					"group": "badges"
@@ -1473,7 +1491,7 @@
 					"group": "badges"
 				},
 				"badge-archive-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Label and icons of a solid archive badge",
 					"category": "foreground",
 					"group": "badges"
@@ -1485,7 +1503,7 @@
 					"group": "badges"
 				},
 				"badge-highlight-danger-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Label and icons of a solid highlight danger badge",
 					"category": "foreground",
 					"group": "badges"
@@ -1671,7 +1689,7 @@
 					"group": "radios"
 				},
 				"radio-group-info-dot": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Inner dot color for checked info radios",
 					"category": "foreground",
 					"group": "radios"
@@ -1689,7 +1707,7 @@
 					"group": "radios"
 				},
 				"radio-group-archive-dot": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Inner dot color for checked archive radios",
 					"category": "foreground",
 					"group": "radios"
@@ -1707,7 +1725,7 @@
 					"group": "radios"
 				},
 				"radio-group-highlight-danger-dot": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Inner dot color for checked highlight-danger radios",
 					"category": "foreground",
 					"group": "radios"
@@ -2511,7 +2529,7 @@
 					"group": "checkboxes"
 				},
 				"checkbox-info-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Check and dash glyph color for info checkboxes",
 					"category": "text",
 					"group": "checkboxes"
@@ -2529,7 +2547,7 @@
 					"group": "checkboxes"
 				},
 				"checkbox-archive-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Check and dash glyph color for archive checkboxes",
 					"category": "text",
 					"group": "checkboxes"
@@ -2547,7 +2565,7 @@
 					"group": "checkboxes"
 				},
 				"checkbox-highlight-danger-foreground": {
-					"value": "var(--text-ink-500)",
+					"value": "var(--text-neutral-light-950)",
 					"description": "Check and dash glyph color for highlight-danger checkboxes",
 					"category": "text",
 					"group": "checkboxes"
@@ -4212,6 +4230,24 @@
 					"category": "foreground",
 					"group": "pills"
 				},
+				"pill-invalid-background": {
+					"value": "var(--destructive)",
+					"description": "Fill of an invalid closeable pill, tinted before use",
+					"category": "background",
+					"group": "pills"
+				},
+				"pill-invalid-dismiss-icon": {
+					"value": "var(--destructive)",
+					"description": "Dismiss icon color for invalid closeable pills",
+					"category": "foreground",
+					"group": "pills"
+				},
+				"pill-invalid-dismiss-icon-hover": {
+					"value": "var(--destructive)",
+					"description": "Hover dismiss icon color for invalid closeable pills",
+					"category": "foreground",
+					"group": "pills"
+				},
 				"pill-focus-ring": {
 					"value": "var(--ring)",
 					"description": "Focus ring around a pill and its close button",
@@ -4681,7 +4717,7 @@
 					"group": "switches"
 				},
 				"switch-primary-hover-background": {
-					"value": "var(--primary-background-hover)",
+					"value": "var(--bg-robin-400)",
 					"description": "Track fill for hovered checked primary switches",
 					"category": "background",
 					"group": "switches"
@@ -4717,7 +4753,7 @@
 					"group": "switches"
 				},
 				"switch-warning-hover-background": {
-					"value": "var(--warning-background-hover)",
+					"value": "var(--bg-amber-400)",
 					"description": "Track fill for hovered checked warning switches",
 					"category": "background",
 					"group": "switches"
@@ -4729,7 +4765,7 @@
 					"group": "switches"
 				},
 				"switch-danger-hover-background": {
-					"value": "var(--danger-background-hover)",
+					"value": "var(--bg-cherry-400)",
 					"description": "Track fill for hovered checked danger switches",
 					"category": "background",
 					"group": "switches"
