@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:28 GMT
+ * Generated on Tue, 29 Sep 2026 20:52:13 GMT
  */
 
 export const Style = {
@@ -211,6 +211,9 @@ export const Style = {
 	PILL_HIGHLIGHT_DANGER_LABEL_HOVER: 'var(--pill-highlight-danger-label-hover)',
 	PILL_INVALID_BORDER: 'var(--pill-invalid-border)',
 	PILL_INVALID_LABEL: 'var(--pill-invalid-label)',
+	PILL_INVALID_BACKGROUND: 'var(--pill-invalid-background)',
+	PILL_INVALID_DISMISS_ICON: 'var(--pill-invalid-dismiss-icon)',
+	PILL_INVALID_DISMISS_ICON_HOVER: 'var(--pill-invalid-dismiss-icon-hover)',
 	PILL_FOCUS_RING: 'var(--pill-focus-ring)',
 	BADGE_PRIMARY_OUTLINED_BACKGROUND: 'var(--badge-primary-outlined-background)',
 	BADGE_PRIMARY_OUTLINED_BORDER: 'var(--badge-primary-outlined-border)',

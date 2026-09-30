@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 24 Sep 2026 14:59:28 GMT
+ * Generated on Tue, 29 Sep 2026 20:52:13 GMT
  */
 
 export const StyleTailwind = {
@@ -212,6 +212,9 @@ export const StyleTailwind = {
 		'var(--pill-highlight-danger-label-hover)',
 	'pill-invalid-border': 'var(--pill-invalid-border)',
 	'pill-invalid-label': 'var(--pill-invalid-label)',
+	'pill-invalid-background': 'var(--pill-invalid-background)',
+	'pill-invalid-dismiss-icon': 'var(--pill-invalid-dismiss-icon)',
+	'pill-invalid-dismiss-icon-hover': 'var(--pill-invalid-dismiss-icon-hover)',
 	'pill-focus-ring': 'var(--pill-focus-ring)',
 	'badge-primary-outlined-background':
 		'var(--badge-primary-outlined-background)',
