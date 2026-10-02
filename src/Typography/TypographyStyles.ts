@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Fri, 02 Oct 2026 19:15:57 GMT
  *
  * Use these constants to apply complete typography styles in your components
  *
@@ -192,7 +192,7 @@ export const TypographyStyles = {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '16px',
 		fontWeight: '400',
-		lineHeight: '24px',
+		lineHeight: '26px',
 		letterSpacing: '0px',
 	},
 	PARAGRAPH_MEDIUM_500: {

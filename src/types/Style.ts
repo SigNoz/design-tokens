@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 29 Sep 2026 20:52:13 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:15 GMT
  */
 
 export const Style = {
@@ -87,6 +87,12 @@ export const Style = {
 	WARNING_LINK_HOVER: 'var(--warning-link-hover)',
 	DANGER_LINK: 'var(--danger-link)',
 	DANGER_LINK_HOVER: 'var(--danger-link-hover)',
+	INFO_LINK: 'var(--info-link)',
+	INFO_LINK_HOVER: 'var(--info-link-hover)',
+	ARCHIVE_LINK: 'var(--archive-link)',
+	ARCHIVE_LINK_HOVER: 'var(--archive-link-hover)',
+	HIGHLIGHT_DANGER_LINK: 'var(--highlight-danger-link)',
+	HIGHLIGHT_DANGER_LINK_HOVER: 'var(--highlight-danger-link-hover)',
 	L1_BACKGROUND_TRANSPARENT: 'var(--l1-background-transparent)',
 	L1_BACKGROUND_60: 'var(--l1-background-60)',
 	L2_BACKGROUND_TRANSPARENT: 'var(--l2-background-transparent)',
@@ -101,24 +107,63 @@ export const Style = {
 	ALERT_STRIP_BUTTON_BACKGROUND: 'var(--alert-strip-button-background)',
 	CALLOUT_PRIMARY_BACKGROUND: 'var(--callout-primary-background)',
 	CALLOUT_PRIMARY_BORDER: 'var(--callout-primary-border)',
+	CALLOUT_PRIMARY_BACKGROUND_HOVER: 'var(--callout-primary-background-hover)',
 	CALLOUT_PRIMARY_TITLE: 'var(--callout-primary-title)',
 	CALLOUT_PRIMARY_DESCRIPTION: 'var(--callout-primary-description)',
 	CALLOUT_PRIMARY_ICON: 'var(--callout-primary-icon)',
 	CALLOUT_SUCCESS_BACKGROUND: 'var(--callout-success-background)',
 	CALLOUT_SUCCESS_BORDER: 'var(--callout-success-border)',
+	CALLOUT_SUCCESS_BACKGROUND_HOVER: 'var(--callout-success-background-hover)',
 	CALLOUT_SUCCESS_TITLE: 'var(--callout-success-title)',
 	CALLOUT_SUCCESS_DESCRIPTION: 'var(--callout-success-description)',
 	CALLOUT_SUCCESS_ICON: 'var(--callout-success-icon)',
 	CALLOUT_WARNING_BACKGROUND: 'var(--callout-warning-background)',
 	CALLOUT_WARNING_BORDER: 'var(--callout-warning-border)',
+	CALLOUT_WARNING_BACKGROUND_HOVER: 'var(--callout-warning-background-hover)',
 	CALLOUT_WARNING_TITLE: 'var(--callout-warning-title)',
 	CALLOUT_WARNING_DESCRIPTION: 'var(--callout-warning-description)',
 	CALLOUT_WARNING_ICON: 'var(--callout-warning-icon)',
+	CALLOUT_DANGER_BACKGROUND: 'var(--callout-danger-background)',
+	CALLOUT_DANGER_BORDER: 'var(--callout-danger-border)',
+	CALLOUT_DANGER_BACKGROUND_HOVER: 'var(--callout-danger-background-hover)',
+	CALLOUT_DANGER_TITLE: 'var(--callout-danger-title)',
+	CALLOUT_DANGER_DESCRIPTION: 'var(--callout-danger-description)',
+	CALLOUT_DANGER_ICON: 'var(--callout-danger-icon)',
 	CALLOUT_ERROR_BACKGROUND: 'var(--callout-error-background)',
 	CALLOUT_ERROR_BORDER: 'var(--callout-error-border)',
 	CALLOUT_ERROR_TITLE: 'var(--callout-error-title)',
 	CALLOUT_ERROR_DESCRIPTION: 'var(--callout-error-description)',
 	CALLOUT_ERROR_ICON: 'var(--callout-error-icon)',
+	CALLOUT_INFO_BACKGROUND: 'var(--callout-info-background)',
+	CALLOUT_INFO_BORDER: 'var(--callout-info-border)',
+	CALLOUT_INFO_BACKGROUND_HOVER: 'var(--callout-info-background-hover)',
+	CALLOUT_INFO_TITLE: 'var(--callout-info-title)',
+	CALLOUT_INFO_DESCRIPTION: 'var(--callout-info-description)',
+	CALLOUT_INFO_ICON: 'var(--callout-info-icon)',
+	CALLOUT_ARCHIVE_BACKGROUND: 'var(--callout-archive-background)',
+	CALLOUT_ARCHIVE_BORDER: 'var(--callout-archive-border)',
+	CALLOUT_ARCHIVE_BACKGROUND_HOVER: 'var(--callout-archive-background-hover)',
+	CALLOUT_ARCHIVE_TITLE: 'var(--callout-archive-title)',
+	CALLOUT_ARCHIVE_DESCRIPTION: 'var(--callout-archive-description)',
+	CALLOUT_ARCHIVE_ICON: 'var(--callout-archive-icon)',
+	CALLOUT_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--callout-highlight-danger-background)',
+	CALLOUT_HIGHLIGHT_DANGER_BORDER: 'var(--callout-highlight-danger-border)',
+	CALLOUT_HIGHLIGHT_DANGER_BACKGROUND_HOVER:
+		'var(--callout-highlight-danger-background-hover)',
+	CALLOUT_HIGHLIGHT_DANGER_TITLE: 'var(--callout-highlight-danger-title)',
+	CALLOUT_HIGHLIGHT_DANGER_DESCRIPTION:
+		'var(--callout-highlight-danger-description)',
+	CALLOUT_HIGHLIGHT_DANGER_ICON: 'var(--callout-highlight-danger-icon)',
+	CALLOUT_SECONDARY_BACKGROUND: 'var(--callout-secondary-background)',
+	CALLOUT_SECONDARY_BORDER: 'var(--callout-secondary-border)',
+	CALLOUT_SECONDARY_BACKGROUND_HOVER:
+		'var(--callout-secondary-background-hover)',
+	CALLOUT_SECONDARY_TITLE: 'var(--callout-secondary-title)',
+	CALLOUT_SECONDARY_DESCRIPTION: 'var(--callout-secondary-description)',
+	CALLOUT_SECONDARY_ICON: 'var(--callout-secondary-icon)',
+	SIZE_ICON_CALLOUT_SM: 'var(--size-icon-callout-sm)',
+	SIZE_ICON_CALLOUT_MD: 'var(--size-icon-callout-md)',
 	ACCENT_PRIMARY: 'var(--accent-primary)',
 	ACCENT_PRIMARY_HOVER: 'var(--accent-primary-hover)',
 	ACCENT_PRIMARY_FOREGROUND: 'var(--accent-primary-foreground)',
@@ -151,16 +196,34 @@ export const Style = {
 	ACTION_BORDER_HOVER: 'var(--action-border-hover)',
 	ACTION_FOREGROUND: 'var(--action-foreground)',
 	ACTION_FOREGROUND_HOVER: 'var(--action-foreground-hover)',
-	CALLOUT_SIENNA_BACKGROUND: 'var(--callout-sienna-background)',
-	CALLOUT_SIENNA_BORDER: 'var(--callout-sienna-border)',
-	CALLOUT_SIENNA_TITLE: 'var(--callout-sienna-title)',
-	CALLOUT_SIENNA_DESCRIPTION: 'var(--callout-sienna-description)',
-	CALLOUT_SIENNA_ICON: 'var(--callout-sienna-icon)',
-	CALLOUT_AQUA_BACKGROUND: 'var(--callout-aqua-background)',
-	CALLOUT_AQUA_BORDER: 'var(--callout-aqua-border)',
-	CALLOUT_AQUA_TITLE: 'var(--callout-aqua-title)',
-	CALLOUT_AQUA_DESCRIPTION: 'var(--callout-aqua-description)',
-	CALLOUT_AQUA_ICON: 'var(--callout-aqua-icon)',
+	ANNOUNCEMENT_BANNER_WARNING_BACKGROUND:
+		'var(--announcement-banner-warning-background)',
+	ANNOUNCEMENT_BANNER_WARNING_BORDER:
+		'var(--announcement-banner-warning-border)',
+	ANNOUNCEMENT_BANNER_WARNING_TITLE: 'var(--announcement-banner-warning-title)',
+	ANNOUNCEMENT_BANNER_WARNING_DESCRIPTION:
+		'var(--announcement-banner-warning-description)',
+	ANNOUNCEMENT_BANNER_PRIMARY_BACKGROUND:
+		'var(--announcement-banner-primary-background)',
+	ANNOUNCEMENT_BANNER_PRIMARY_BORDER:
+		'var(--announcement-banner-primary-border)',
+	ANNOUNCEMENT_BANNER_PRIMARY_TITLE: 'var(--announcement-banner-primary-title)',
+	ANNOUNCEMENT_BANNER_PRIMARY_DESCRIPTION:
+		'var(--announcement-banner-primary-description)',
+	ANNOUNCEMENT_BANNER_ERROR_BACKGROUND:
+		'var(--announcement-banner-error-background)',
+	ANNOUNCEMENT_BANNER_ERROR_BORDER: 'var(--announcement-banner-error-border)',
+	ANNOUNCEMENT_BANNER_ERROR_TITLE: 'var(--announcement-banner-error-title)',
+	ANNOUNCEMENT_BANNER_ERROR_DESCRIPTION:
+		'var(--announcement-banner-error-description)',
+	ANNOUNCEMENT_BANNER_SUCCESS_BACKGROUND:
+		'var(--announcement-banner-success-background)',
+	ANNOUNCEMENT_BANNER_SUCCESS_BORDER:
+		'var(--announcement-banner-success-border)',
+	ANNOUNCEMENT_BANNER_SUCCESS_TITLE: 'var(--announcement-banner-success-title)',
+	ANNOUNCEMENT_BANNER_SUCCESS_DESCRIPTION:
+		'var(--announcement-banner-success-description)',
+	KBD_ACTIVE_BACKGROUND: 'var(--kbd-active-background)',
 	CONTROL_ICON_FOREGROUND: 'var(--control-icon-foreground)',
 	CONTROL_ICON_FOREGROUND_CONTRAST: 'var(--control-icon-foreground-contrast)',
 	SHADOW_SIDEBAR: 'var(--shadow-sidebar)',

@@ -187,6 +187,10 @@
 		"24": {
 			"value": "24px",
 			"type": "typography"
+		},
+		"26": {
+			"value": "26px",
+			"type": "typography"
 		}
 	},
 	"letterSpacing": {
@@ -789,7 +793,7 @@
 					"type": "typography"
 				},
 				"lineHeight": {
-					"value": "24px",
+					"value": "26px",
 					"type": "typography"
 				},
 				"letterSpacing": {
