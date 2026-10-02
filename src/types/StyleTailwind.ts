@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:32 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:44 GMT
  */
 
 export const StyleTailwind = {
@@ -631,6 +631,18 @@ export const StyleTailwind = {
 	'toast-action-divider': 'var(--toast-action-divider)',
 	'toast-focus-ring': 'var(--toast-focus-ring)',
 	'size-icon-toast': 'var(--size-icon-toast)',
+	'progress-track': 'var(--progress-track)',
+	'progress-value': 'var(--progress-value)',
+	'progress-primary-indicator': 'var(--progress-primary-indicator)',
+	'progress-secondary-indicator': 'var(--progress-secondary-indicator)',
+	'progress-success-indicator': 'var(--progress-success-indicator)',
+	'progress-danger-indicator': 'var(--progress-danger-indicator)',
+	'progress-warning-indicator': 'var(--progress-warning-indicator)',
+	'progress-info-indicator': 'var(--progress-info-indicator)',
+	'progress-archive-indicator': 'var(--progress-archive-indicator)',
+	'progress-highlight-danger-indicator':
+		'var(--progress-highlight-danger-indicator)',
+	'progress-active-stripe': 'var(--progress-active-stripe)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',

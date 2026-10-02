@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:32 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:44 GMT
  */
 
 [data-theme='default'] {
@@ -757,6 +757,21 @@
 	--toast-action-divider: var(--l2-border);
 	--toast-focus-ring: var(--ring);
 	--size-icon-toast: 16px;
+	--progress-track: var(--l3-background);
+	--progress-value: var(--l1-foreground);
+	--progress-primary-indicator: var(--primary-background);
+	--progress-secondary-indicator: var(--l3-foreground);
+	--progress-success-indicator: var(--success-background);
+	--progress-danger-indicator: var(--danger-background);
+	--progress-warning-indicator: var(--warning-background);
+	--progress-info-indicator: var(--bg-aqua-500);
+	--progress-archive-indicator: var(--bg-sienna-500);
+	--progress-highlight-danger-indicator: var(--bg-sakura-500);
+	--progress-active-stripe: color-mix(
+		in srgb,
+		var(--bg-vanilla-100),
+		transparent 75%
+	);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1508,6 +1523,21 @@
 	--toast-action-divider: var(--l2-border);
 	--toast-focus-ring: var(--ring);
 	--size-icon-toast: 16px;
+	--progress-track: var(--l3-background);
+	--progress-value: var(--l1-foreground);
+	--progress-primary-indicator: var(--primary-background);
+	--progress-secondary-indicator: var(--l3-foreground);
+	--progress-success-indicator: var(--success-background);
+	--progress-danger-indicator: var(--danger-background);
+	--progress-warning-indicator: var(--warning-background);
+	--progress-info-indicator: var(--bg-aqua-500);
+	--progress-archive-indicator: var(--bg-sienna-500);
+	--progress-highlight-danger-indicator: var(--bg-sakura-500);
+	--progress-active-stripe: color-mix(
+		in srgb,
+		var(--bg-vanilla-100),
+		transparent 75%
+	);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);

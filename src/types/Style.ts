@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:32 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:44 GMT
  */
 
 export const Style = {
@@ -618,6 +618,18 @@ export const Style = {
 	TOAST_ACTION_DIVIDER: 'var(--toast-action-divider)',
 	TOAST_FOCUS_RING: 'var(--toast-focus-ring)',
 	SIZE_ICON_TOAST: 'var(--size-icon-toast)',
+	PROGRESS_TRACK: 'var(--progress-track)',
+	PROGRESS_VALUE: 'var(--progress-value)',
+	PROGRESS_PRIMARY_INDICATOR: 'var(--progress-primary-indicator)',
+	PROGRESS_SECONDARY_INDICATOR: 'var(--progress-secondary-indicator)',
+	PROGRESS_SUCCESS_INDICATOR: 'var(--progress-success-indicator)',
+	PROGRESS_DANGER_INDICATOR: 'var(--progress-danger-indicator)',
+	PROGRESS_WARNING_INDICATOR: 'var(--progress-warning-indicator)',
+	PROGRESS_INFO_INDICATOR: 'var(--progress-info-indicator)',
+	PROGRESS_ARCHIVE_INDICATOR: 'var(--progress-archive-indicator)',
+	PROGRESS_HIGHLIGHT_DANGER_INDICATOR:
+		'var(--progress-highlight-danger-indicator)',
+	PROGRESS_ACTIVE_STRIPE: 'var(--progress-active-stripe)',
 	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',

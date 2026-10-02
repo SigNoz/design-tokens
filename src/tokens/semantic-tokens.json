@@ -3330,6 +3330,72 @@
 					"category": "size",
 					"group": "toast"
 				},
+				"progress-track": {
+					"value": "var(--l3-background)",
+					"description": "Track of a progress bar, the part the fill has not reached",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-value": {
+					"value": "var(--l1-foreground)",
+					"description": "Value text next to a progress bar",
+					"category": "foreground",
+					"group": "progress"
+				},
+				"progress-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a primary progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill of a secondary progress bar, provisional until design picks a neutral fill",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill of a success progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a warning progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an info progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an archive progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a highlight danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-active-stripe": {
+					"value": "color-mix(in srgb, var(--bg-vanilla-100), transparent 75%)",
+					"description": "Moving stripes over the fill of an active progress bar",
+					"category": "background",
+					"group": "progress"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -6679,6 +6745,72 @@
 					"description": "Icon size for toasts",
 					"category": "size",
 					"group": "toast"
+				},
+				"progress-track": {
+					"value": "var(--l3-background)",
+					"description": "Track of a progress bar, the part the fill has not reached",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-value": {
+					"value": "var(--l1-foreground)",
+					"description": "Value text next to a progress bar",
+					"category": "foreground",
+					"group": "progress"
+				},
+				"progress-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a primary progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill of a secondary progress bar, provisional until design picks a neutral fill",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill of a success progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a warning progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an info progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an archive progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a highlight danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-active-stripe": {
+					"value": "color-mix(in srgb, var(--bg-vanilla-100), transparent 75%)",
+					"description": "Moving stripes over the fill of an active progress bar",
+					"category": "background",
+					"group": "progress"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
