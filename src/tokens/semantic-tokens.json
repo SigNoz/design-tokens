@@ -3234,6 +3234,102 @@
 					"category": "shadow",
 					"group": "tooltip"
 				},
+				"toast-background": {
+					"value": "var(--surface-2)",
+					"description": "Fill of a toast",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a toast",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-shadow": {
+					"value": "var(--shadow-toast)",
+					"description": "Shadow a toast casts over the page",
+					"category": "shadow",
+					"group": "toast"
+				},
+				"toast-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-info-icon": {
+					"value": "var(--primary-background)",
+					"description": "Icon of an info toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-success-icon": {
+					"value": "var(--success-background)",
+					"description": "Icon of a success toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "Icon of a warning toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "Icon of a danger toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-loading-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Spinner of a loading toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of the button of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the button of a toast on hover",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Fill of the button of a toast on hover",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-action-divider": {
+					"value": "var(--l2-border)",
+					"description": "Line between the message of a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"size-icon-toast": {
+					"value": "16px",
+					"description": "Icon size for toasts",
+					"category": "size",
+					"group": "toast"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -6487,6 +6583,102 @@
 					"description": "Shadow under a tooltip",
 					"category": "shadow",
 					"group": "tooltip"
+				},
+				"toast-background": {
+					"value": "var(--surface-2)",
+					"description": "Fill of a toast",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a toast",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-shadow": {
+					"value": "var(--shadow-toast)",
+					"description": "Shadow a toast casts over the page",
+					"category": "shadow",
+					"group": "toast"
+				},
+				"toast-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-info-icon": {
+					"value": "var(--primary-background)",
+					"description": "Icon of an info toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-success-icon": {
+					"value": "var(--success-background)",
+					"description": "Icon of a success toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "Icon of a warning toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "Icon of a danger toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-loading-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Spinner of a loading toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of the button of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the button of a toast on hover",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Fill of the button of a toast on hover",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-action-divider": {
+					"value": "var(--l2-border)",
+					"description": "Line between the message of a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"size-icon-toast": {
+					"value": "16px",
+					"description": "Icon size for toasts",
+					"category": "size",
+					"group": "toast"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",

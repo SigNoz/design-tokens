@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:15 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:32 GMT
  */
 
 [data-theme='default'] {
@@ -741,6 +741,22 @@
 	--tooltip-border: var(--l3-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--toast-background: var(--surface-2);
+	--toast-border: var(--l2-border);
+	--toast-shadow: var(--shadow-toast);
+	--toast-title: var(--l1-foreground);
+	--toast-description: var(--l2-foreground);
+	--toast-info-icon: var(--primary-background);
+	--toast-success-icon: var(--success-background);
+	--toast-warning-icon: var(--warning-background);
+	--toast-danger-icon: var(--danger-background);
+	--toast-loading-icon: var(--l2-foreground);
+	--toast-action-label: var(--l2-foreground);
+	--toast-action-label-hover: var(--l1-foreground-hover);
+	--toast-action-background-hover: var(--l3-background-30);
+	--toast-action-divider: var(--l2-border);
+	--toast-focus-ring: var(--ring);
+	--size-icon-toast: 16px;
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1476,6 +1492,22 @@
 	--tooltip-border: var(--l2-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--toast-background: var(--surface-2);
+	--toast-border: var(--l2-border);
+	--toast-shadow: var(--shadow-toast);
+	--toast-title: var(--l1-foreground);
+	--toast-description: var(--l2-foreground);
+	--toast-info-icon: var(--primary-background);
+	--toast-success-icon: var(--success-background);
+	--toast-warning-icon: var(--warning-background);
+	--toast-danger-icon: var(--danger-background);
+	--toast-loading-icon: var(--l2-foreground);
+	--toast-action-label: var(--l2-foreground);
+	--toast-action-label-hover: var(--l1-foreground-hover);
+	--toast-action-background-hover: var(--l3-background-30);
+	--toast-action-divider: var(--l2-border);
+	--toast-focus-ring: var(--ring);
+	--size-icon-toast: 16px;
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);

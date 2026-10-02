@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:15 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:32 GMT
  */
 
 export const Style = {
@@ -602,6 +602,22 @@ export const Style = {
 	TOOLTIP_BORDER: 'var(--tooltip-border)',
 	TOOLTIP_DIVIDER: 'var(--tooltip-divider)',
 	TOOLTIP_SHADOW: 'var(--tooltip-shadow)',
+	TOAST_BACKGROUND: 'var(--toast-background)',
+	TOAST_BORDER: 'var(--toast-border)',
+	TOAST_SHADOW: 'var(--toast-shadow)',
+	TOAST_TITLE: 'var(--toast-title)',
+	TOAST_DESCRIPTION: 'var(--toast-description)',
+	TOAST_INFO_ICON: 'var(--toast-info-icon)',
+	TOAST_SUCCESS_ICON: 'var(--toast-success-icon)',
+	TOAST_WARNING_ICON: 'var(--toast-warning-icon)',
+	TOAST_DANGER_ICON: 'var(--toast-danger-icon)',
+	TOAST_LOADING_ICON: 'var(--toast-loading-icon)',
+	TOAST_ACTION_LABEL: 'var(--toast-action-label)',
+	TOAST_ACTION_LABEL_HOVER: 'var(--toast-action-label-hover)',
+	TOAST_ACTION_BACKGROUND_HOVER: 'var(--toast-action-background-hover)',
+	TOAST_ACTION_DIVIDER: 'var(--toast-action-divider)',
+	TOAST_FOCUS_RING: 'var(--toast-focus-ring)',
+	SIZE_ICON_TOAST: 'var(--size-icon-toast)',
 	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',

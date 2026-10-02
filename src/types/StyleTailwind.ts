@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:15 GMT
+ * Generated on Fri, 02 Oct 2026 19:26:32 GMT
  */
 
 export const StyleTailwind = {
@@ -615,6 +615,22 @@ export const StyleTailwind = {
 	'tooltip-border': 'var(--tooltip-border)',
 	'tooltip-divider': 'var(--tooltip-divider)',
 	'tooltip-shadow': 'var(--tooltip-shadow)',
+	'toast-background': 'var(--toast-background)',
+	'toast-border': 'var(--toast-border)',
+	'toast-shadow': 'var(--toast-shadow)',
+	'toast-title': 'var(--toast-title)',
+	'toast-description': 'var(--toast-description)',
+	'toast-info-icon': 'var(--toast-info-icon)',
+	'toast-success-icon': 'var(--toast-success-icon)',
+	'toast-warning-icon': 'var(--toast-warning-icon)',
+	'toast-danger-icon': 'var(--toast-danger-icon)',
+	'toast-loading-icon': 'var(--toast-loading-icon)',
+	'toast-action-label': 'var(--toast-action-label)',
+	'toast-action-label-hover': 'var(--toast-action-label-hover)',
+	'toast-action-background-hover': 'var(--toast-action-background-hover)',
+	'toast-action-divider': 'var(--toast-action-divider)',
+	'toast-focus-ring': 'var(--toast-focus-ring)',
+	'size-icon-toast': 'var(--size-icon-toast)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',
