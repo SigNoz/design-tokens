@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Fri, 02 Oct 2026 19:15:57 GMT
  */
 @theme {
 	/* Colors */
@@ -255,6 +255,7 @@
 	--text-lineheight-18: 18px;
 	--text-lineheight-20: 20px;
 	--text-lineheight-24: 24px;
+	--text-lineheight-26: 26px;
 	--text-lineheight-none: 1;
 	--text-lineheight-tight: 1.25;
 	--text-lineheight-snug: 1.375;
@@ -392,7 +393,7 @@
 	--text-code-small-600-fontfamily: SF Mono, monospace;
 	--text-paragraph-medium-400-fontsize: 16px;
 	--text-paragraph-medium-400-fontweight: 400;
-	--text-paragraph-medium-400-lineheight: 24px;
+	--text-paragraph-medium-400-lineheight: 26px;
 	--text-paragraph-medium-400-letterspacing: 0px;
 	--text-paragraph-medium-400-fontfamily: Inter, sans-serif;
 	--text-paragraph-medium-500-fontsize: 16px;
