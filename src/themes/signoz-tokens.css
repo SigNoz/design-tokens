@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Mon, 05 Oct 2026 19:00:21 GMT
  */
 
 [data-theme='default'] {
@@ -595,6 +595,41 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-trigger-background: transparent;
+	--combobox-trigger-border: var(--l2-border);
+	--combobox-trigger-border-hover: var(--l3-border);
+	--combobox-trigger-focus-ring: var(--primary-background);
+	--combobox-trigger-label: var(--l1-foreground);
+	--combobox-trigger-label-disabled: var(--l3-foreground);
+	--combobox-trigger-placeholder: var(--l3-foreground);
+	--combobox-trigger-icon: var(--l3-foreground);
+	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
+	--combobox-chip-background: var(--secondary-border);
+	--combobox-chip-label: var(--l1-foreground);
+	--combobox-chip-remove-icon: var(--l2-foreground);
+	--combobox-chip-remove-icon-hover: var(--l1-foreground);
+	--combobox-background: var(--surface-3);
+	--combobox-border: var(--l2-border);
+	--combobox-shadow: var(--shadow-dropdown);
+	--combobox-item-label: var(--l2-foreground);
+	--combobox-item-label-hover: var(--l1-foreground-hover);
+	--combobox-item-label-disabled: var(--l3-foreground);
+	--combobox-item-background: transparent;
+	--combobox-item-background-hover: var(--l3-background-60);
+	--combobox-item-icon: var(--l2-foreground);
+	--combobox-item-icon-hover: var(--l1-foreground-hover);
+	--combobox-item-indicator: var(--primary-background);
+	--combobox-item-control-border: var(--l3-foreground);
+	--combobox-item-control-border-hover: var(--primary-background-hover);
+	--combobox-item-control-checked-background: var(--primary-background);
+	--combobox-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-group-label: var(--l3-foreground);
+	--combobox-separator: var(--l2-border);
+	--combobox-search-placeholder: var(--l3-foreground);
+	--combobox-search-icon: var(--l3-foreground);
+	--combobox-search-border: var(--l2-border);
+	--combobox-loading-label: var(--l1-foreground);
+	--combobox-empty-label: var(--l3-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);
@@ -1361,6 +1396,41 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-trigger-background: transparent;
+	--combobox-trigger-border: var(--l2-border);
+	--combobox-trigger-border-hover: var(--l3-border);
+	--combobox-trigger-focus-ring: var(--primary-background);
+	--combobox-trigger-label: var(--l1-foreground);
+	--combobox-trigger-label-disabled: var(--l3-foreground);
+	--combobox-trigger-placeholder: var(--l3-foreground);
+	--combobox-trigger-icon: var(--l3-foreground);
+	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
+	--combobox-chip-background: var(--secondary-border);
+	--combobox-chip-label: var(--l1-foreground);
+	--combobox-chip-remove-icon: var(--l2-foreground);
+	--combobox-chip-remove-icon-hover: var(--l1-foreground);
+	--combobox-background: var(--surface-3);
+	--combobox-border: var(--l2-border);
+	--combobox-shadow: var(--shadow-dropdown);
+	--combobox-item-label: var(--l2-foreground);
+	--combobox-item-label-hover: var(--l1-foreground-hover);
+	--combobox-item-label-disabled: var(--l3-foreground);
+	--combobox-item-background: transparent;
+	--combobox-item-background-hover: var(--l3-background-60);
+	--combobox-item-icon: var(--l2-foreground);
+	--combobox-item-icon-hover: var(--l1-foreground-hover);
+	--combobox-item-indicator: var(--primary-background);
+	--combobox-item-control-border: var(--l3-foreground);
+	--combobox-item-control-border-hover: var(--primary-background-hover);
+	--combobox-item-control-checked-background: var(--primary-background);
+	--combobox-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-group-label: var(--l3-foreground);
+	--combobox-separator: var(--l2-border);
+	--combobox-search-placeholder: var(--l3-foreground);
+	--combobox-search-icon: var(--l3-foreground);
+	--combobox-search-border: var(--l2-border);
+	--combobox-loading-label: var(--l1-foreground);
+	--combobox-empty-label: var(--l3-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);

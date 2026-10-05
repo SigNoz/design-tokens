@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Mon, 05 Oct 2026 19:00:21 GMT
  */
 
 export const StyleTailwind = {
@@ -466,6 +466,44 @@ export const StyleTailwind = {
 		'var(--dropdown-item-control-checked-background)',
 	'dropdown-item-control-checked-foreground':
 		'var(--dropdown-item-control-checked-foreground)',
+	'combobox-trigger-background': 'var(--combobox-trigger-background)',
+	'combobox-trigger-border': 'var(--combobox-trigger-border)',
+	'combobox-trigger-border-hover': 'var(--combobox-trigger-border-hover)',
+	'combobox-trigger-focus-ring': 'var(--combobox-trigger-focus-ring)',
+	'combobox-trigger-label': 'var(--combobox-trigger-label)',
+	'combobox-trigger-label-disabled': 'var(--combobox-trigger-label-disabled)',
+	'combobox-trigger-placeholder': 'var(--combobox-trigger-placeholder)',
+	'combobox-trigger-icon': 'var(--combobox-trigger-icon)',
+	'combobox-trigger-icon-hover': 'var(--combobox-trigger-icon-hover)',
+	'combobox-chip-background': 'var(--combobox-chip-background)',
+	'combobox-chip-label': 'var(--combobox-chip-label)',
+	'combobox-chip-remove-icon': 'var(--combobox-chip-remove-icon)',
+	'combobox-chip-remove-icon-hover': 'var(--combobox-chip-remove-icon-hover)',
+	'combobox-background': 'var(--combobox-background)',
+	'combobox-border': 'var(--combobox-border)',
+	'combobox-shadow': 'var(--combobox-shadow)',
+	'combobox-item-label': 'var(--combobox-item-label)',
+	'combobox-item-label-hover': 'var(--combobox-item-label-hover)',
+	'combobox-item-label-disabled': 'var(--combobox-item-label-disabled)',
+	'combobox-item-background': 'var(--combobox-item-background)',
+	'combobox-item-background-hover': 'var(--combobox-item-background-hover)',
+	'combobox-item-icon': 'var(--combobox-item-icon)',
+	'combobox-item-icon-hover': 'var(--combobox-item-icon-hover)',
+	'combobox-item-indicator': 'var(--combobox-item-indicator)',
+	'combobox-item-control-border': 'var(--combobox-item-control-border)',
+	'combobox-item-control-border-hover':
+		'var(--combobox-item-control-border-hover)',
+	'combobox-item-control-checked-background':
+		'var(--combobox-item-control-checked-background)',
+	'combobox-item-control-checked-foreground':
+		'var(--combobox-item-control-checked-foreground)',
+	'combobox-group-label': 'var(--combobox-group-label)',
+	'combobox-separator': 'var(--combobox-separator)',
+	'combobox-search-placeholder': 'var(--combobox-search-placeholder)',
+	'combobox-search-icon': 'var(--combobox-search-icon)',
+	'combobox-search-border': 'var(--combobox-search-border)',
+	'combobox-loading-label': 'var(--combobox-loading-label)',
+	'combobox-empty-label': 'var(--combobox-empty-label)',
 	'calendar-background': 'var(--calendar-background)',
 	'calendar-button-background': 'var(--calendar-button-background)',
 	'calendar-button-background-hover': 'var(--calendar-button-background-hover)',

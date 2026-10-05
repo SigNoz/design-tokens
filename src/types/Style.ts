@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Mon, 05 Oct 2026 19:00:21 GMT
  */
 
 export const Style = {
@@ -455,6 +455,44 @@ export const Style = {
 		'var(--dropdown-item-control-checked-background)',
 	DROPDOWN_ITEM_CONTROL_CHECKED_FOREGROUND:
 		'var(--dropdown-item-control-checked-foreground)',
+	COMBOBOX_TRIGGER_BACKGROUND: 'var(--combobox-trigger-background)',
+	COMBOBOX_TRIGGER_BORDER: 'var(--combobox-trigger-border)',
+	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
+	COMBOBOX_TRIGGER_FOCUS_RING: 'var(--combobox-trigger-focus-ring)',
+	COMBOBOX_TRIGGER_LABEL: 'var(--combobox-trigger-label)',
+	COMBOBOX_TRIGGER_LABEL_DISABLED: 'var(--combobox-trigger-label-disabled)',
+	COMBOBOX_TRIGGER_PLACEHOLDER: 'var(--combobox-trigger-placeholder)',
+	COMBOBOX_TRIGGER_ICON: 'var(--combobox-trigger-icon)',
+	COMBOBOX_TRIGGER_ICON_HOVER: 'var(--combobox-trigger-icon-hover)',
+	COMBOBOX_CHIP_BACKGROUND: 'var(--combobox-chip-background)',
+	COMBOBOX_CHIP_LABEL: 'var(--combobox-chip-label)',
+	COMBOBOX_CHIP_REMOVE_ICON: 'var(--combobox-chip-remove-icon)',
+	COMBOBOX_CHIP_REMOVE_ICON_HOVER: 'var(--combobox-chip-remove-icon-hover)',
+	COMBOBOX_BACKGROUND: 'var(--combobox-background)',
+	COMBOBOX_BORDER: 'var(--combobox-border)',
+	COMBOBOX_SHADOW: 'var(--combobox-shadow)',
+	COMBOBOX_ITEM_LABEL: 'var(--combobox-item-label)',
+	COMBOBOX_ITEM_LABEL_HOVER: 'var(--combobox-item-label-hover)',
+	COMBOBOX_ITEM_LABEL_DISABLED: 'var(--combobox-item-label-disabled)',
+	COMBOBOX_ITEM_BACKGROUND: 'var(--combobox-item-background)',
+	COMBOBOX_ITEM_BACKGROUND_HOVER: 'var(--combobox-item-background-hover)',
+	COMBOBOX_ITEM_ICON: 'var(--combobox-item-icon)',
+	COMBOBOX_ITEM_ICON_HOVER: 'var(--combobox-item-icon-hover)',
+	COMBOBOX_ITEM_INDICATOR: 'var(--combobox-item-indicator)',
+	COMBOBOX_ITEM_CONTROL_BORDER: 'var(--combobox-item-control-border)',
+	COMBOBOX_ITEM_CONTROL_BORDER_HOVER:
+		'var(--combobox-item-control-border-hover)',
+	COMBOBOX_ITEM_CONTROL_CHECKED_BACKGROUND:
+		'var(--combobox-item-control-checked-background)',
+	COMBOBOX_ITEM_CONTROL_CHECKED_FOREGROUND:
+		'var(--combobox-item-control-checked-foreground)',
+	COMBOBOX_GROUP_LABEL: 'var(--combobox-group-label)',
+	COMBOBOX_SEPARATOR: 'var(--combobox-separator)',
+	COMBOBOX_SEARCH_PLACEHOLDER: 'var(--combobox-search-placeholder)',
+	COMBOBOX_SEARCH_ICON: 'var(--combobox-search-icon)',
+	COMBOBOX_SEARCH_BORDER: 'var(--combobox-search-border)',
+	COMBOBOX_LOADING_LABEL: 'var(--combobox-loading-label)',
+	COMBOBOX_EMPTY_LABEL: 'var(--combobox-empty-label)',
 	CALENDAR_BACKGROUND: 'var(--calendar-background)',
 	CALENDAR_BUTTON_BACKGROUND: 'var(--calendar-button-background)',
 	CALENDAR_BUTTON_BACKGROUND_HOVER: 'var(--calendar-button-background-hover)',

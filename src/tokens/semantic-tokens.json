@@ -2502,6 +2502,216 @@
 					"category": "foreground",
 					"group": "dropdown"
 				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
 				"calendar-background": {
 					"value": "var(--background)",
 					"description": "Fill behind the month grid",
@@ -5917,6 +6127,216 @@
 					"description": "Check mark or dot of a checked control inside a dropdown row",
 					"category": "foreground",
 					"group": "dropdown"
+				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
 				},
 				"calendar-background": {
 					"value": "var(--background)",
