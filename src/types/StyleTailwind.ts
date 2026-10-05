@@ -714,6 +714,15 @@ export const StyleTailwind = {
 	'progress-highlight-danger-indicator':
 		'var(--progress-highlight-danger-indicator)',
 	'progress-active-stripe': 'var(--progress-active-stripe)',
+	'slider-primary-indicator': 'var(--slider-primary-indicator)',
+	'slider-secondary-indicator': 'var(--slider-secondary-indicator)',
+	'slider-success-indicator': 'var(--slider-success-indicator)',
+	'slider-danger-indicator': 'var(--slider-danger-indicator)',
+	'slider-warning-indicator': 'var(--slider-warning-indicator)',
+	'slider-info-indicator': 'var(--slider-info-indicator)',
+	'slider-archive-indicator': 'var(--slider-archive-indicator)',
+	'slider-highlight-danger-indicator':
+		'var(--slider-highlight-danger-indicator)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',

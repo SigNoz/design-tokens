@@ -838,6 +838,14 @@
 		var(--bg-vanilla-100),
 		transparent 75%
 	);
+	--slider-primary-indicator: var(--primary-background);
+	--slider-secondary-indicator: var(--l3-foreground);
+	--slider-success-indicator: var(--success-background);
+	--slider-danger-indicator: var(--danger-background);
+	--slider-warning-indicator: var(--warning-background);
+	--slider-info-indicator: var(--bg-aqua-500);
+	--slider-archive-indicator: var(--bg-sienna-500);
+	--slider-highlight-danger-indicator: var(--bg-sakura-500);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1670,6 +1678,14 @@
 		var(--bg-vanilla-100),
 		transparent 75%
 	);
+	--slider-primary-indicator: var(--primary-background);
+	--slider-secondary-indicator: var(--l3-foreground);
+	--slider-success-indicator: var(--success-background);
+	--slider-danger-indicator: var(--danger-background);
+	--slider-warning-indicator: var(--warning-background);
+	--slider-info-indicator: var(--bg-aqua-500);
+	--slider-archive-indicator: var(--bg-sienna-500);
+	--slider-highlight-danger-indicator: var(--bg-sakura-500);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);

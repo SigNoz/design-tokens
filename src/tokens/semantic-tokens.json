@@ -3792,6 +3792,54 @@
 					"category": "background",
 					"group": "progress"
 				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -7603,6 +7651,54 @@
 					"description": "Moving stripes over the fill of an active progress bar",
 					"category": "background",
 					"group": "progress"
+				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
