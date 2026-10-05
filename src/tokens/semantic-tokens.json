@@ -2712,6 +2712,192 @@
 					"category": "foreground",
 					"group": "combobox"
 				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
 				"calendar-background": {
 					"value": "var(--background)",
 					"description": "Fill behind the month grid",
@@ -6337,6 +6523,192 @@
 					"description": "Empty row of the combobox popup",
 					"category": "foreground",
 					"group": "combobox"
+				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
 				},
 				"calendar-background": {
 					"value": "var(--background)",
