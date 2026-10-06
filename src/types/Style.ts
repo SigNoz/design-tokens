@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 05 Oct 2026 19:00:21 GMT
+ * Generated on Tue, 06 Oct 2026 17:41:13 GMT
  */
 
 export const Style = {
@@ -709,6 +709,22 @@ export const Style = {
 	SLIDER_INFO_INDICATOR: 'var(--slider-info-indicator)',
 	SLIDER_ARCHIVE_INDICATOR: 'var(--slider-archive-indicator)',
 	SLIDER_HIGHLIGHT_DANGER_INDICATOR: 'var(--slider-highlight-danger-indicator)',
+	COMMAND_BACKGROUND: 'var(--command-background)',
+	COMMAND_BACKDROP: 'var(--command-backdrop)',
+	COMMAND_BORDER: 'var(--command-border)',
+	COMMAND_SHADOW: 'var(--command-shadow)',
+	COMMAND_ITEM_LABEL: 'var(--command-item-label)',
+	COMMAND_ITEM_LABEL_HOVER: 'var(--command-item-label-hover)',
+	COMMAND_ITEM_LABEL_DISABLED: 'var(--command-item-label-disabled)',
+	COMMAND_ITEM_BACKGROUND: 'var(--command-item-background)',
+	COMMAND_ITEM_BACKGROUND_HOVER: 'var(--command-item-background-hover)',
+	COMMAND_ITEM_ICON: 'var(--command-item-icon)',
+	COMMAND_ITEM_ICON_HOVER: 'var(--command-item-icon-hover)',
+	COMMAND_GROUP_LABEL: 'var(--command-group-label)',
+	COMMAND_SEARCH_PLACEHOLDER: 'var(--command-search-placeholder)',
+	COMMAND_SEARCH_ICON: 'var(--command-search-icon)',
+	COMMAND_SEARCH_BORDER: 'var(--command-search-border)',
+	COMMAND_EMPTY_LABEL: 'var(--command-empty-label)',
 	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',

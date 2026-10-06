@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 05 Oct 2026 19:00:21 GMT
+ * Generated on Tue, 06 Oct 2026 17:41:13 GMT
  */
 
 [data-theme='default'] {
@@ -846,6 +846,22 @@
 	--slider-info-indicator: var(--bg-aqua-500);
 	--slider-archive-indicator: var(--bg-sienna-500);
 	--slider-highlight-danger-indicator: var(--bg-sakura-500);
+	--command-background: var(--surface-3);
+	--command-backdrop: rgba(0, 0, 0, 0.5);
+	--command-border: var(--l2-border);
+	--command-shadow: var(--shadow-dropdown);
+	--command-item-label: var(--l2-foreground);
+	--command-item-label-hover: var(--l1-foreground-hover);
+	--command-item-label-disabled: var(--l3-foreground);
+	--command-item-background: transparent;
+	--command-item-background-hover: var(--l3-background-60);
+	--command-item-icon: var(--l2-foreground);
+	--command-item-icon-hover: var(--l1-foreground-hover);
+	--command-group-label: var(--l3-foreground);
+	--command-search-placeholder: var(--l3-foreground);
+	--command-search-icon: var(--l3-foreground);
+	--command-search-border: var(--l2-border);
+	--command-empty-label: var(--l3-foreground);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1686,6 +1702,22 @@
 	--slider-info-indicator: var(--bg-aqua-500);
 	--slider-archive-indicator: var(--bg-sienna-500);
 	--slider-highlight-danger-indicator: var(--bg-sakura-500);
+	--command-background: var(--surface-3);
+	--command-backdrop: rgba(0, 0, 0, 0.6);
+	--command-border: var(--l2-border);
+	--command-shadow: var(--shadow-dropdown);
+	--command-item-label: var(--l2-foreground);
+	--command-item-label-hover: var(--l1-foreground-hover);
+	--command-item-label-disabled: var(--l3-foreground);
+	--command-item-background: transparent;
+	--command-item-background-hover: var(--l3-background-60);
+	--command-item-icon: var(--l2-foreground);
+	--command-item-icon-hover: var(--l1-foreground-hover);
+	--command-group-label: var(--l3-foreground);
+	--command-search-placeholder: var(--l3-foreground);
+	--command-search-icon: var(--l3-foreground);
+	--command-search-border: var(--l2-border);
+	--command-empty-label: var(--l3-foreground);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);

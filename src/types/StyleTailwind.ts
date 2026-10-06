@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 05 Oct 2026 19:00:21 GMT
+ * Generated on Tue, 06 Oct 2026 17:41:13 GMT
  */
 
 export const StyleTailwind = {
@@ -723,6 +723,22 @@ export const StyleTailwind = {
 	'slider-archive-indicator': 'var(--slider-archive-indicator)',
 	'slider-highlight-danger-indicator':
 		'var(--slider-highlight-danger-indicator)',
+	'command-background': 'var(--command-background)',
+	'command-backdrop': 'var(--command-backdrop)',
+	'command-border': 'var(--command-border)',
+	'command-shadow': 'var(--command-shadow)',
+	'command-item-label': 'var(--command-item-label)',
+	'command-item-label-hover': 'var(--command-item-label-hover)',
+	'command-item-label-disabled': 'var(--command-item-label-disabled)',
+	'command-item-background': 'var(--command-item-background)',
+	'command-item-background-hover': 'var(--command-item-background-hover)',
+	'command-item-icon': 'var(--command-item-icon)',
+	'command-item-icon-hover': 'var(--command-item-icon-hover)',
+	'command-group-label': 'var(--command-group-label)',
+	'command-search-placeholder': 'var(--command-search-placeholder)',
+	'command-search-icon': 'var(--command-search-icon)',
+	'command-search-border': 'var(--command-search-border)',
+	'command-empty-label': 'var(--command-empty-label)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',

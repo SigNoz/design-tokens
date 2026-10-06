@@ -3840,6 +3840,102 @@
 					"category": "background",
 					"group": "slider"
 				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.5)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -7699,6 +7795,102 @@
 					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
 					"category": "background",
 					"group": "slider"
+				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.6)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
