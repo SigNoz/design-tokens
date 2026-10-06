@@ -739,6 +739,8 @@ export const StyleTailwind = {
 	'command-search-icon': 'var(--command-search-icon)',
 	'command-search-border': 'var(--command-search-border)',
 	'command-empty-label': 'var(--command-empty-label)',
+	'divider-border': 'var(--divider-border)',
+	'divider-label': 'var(--divider-label)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',

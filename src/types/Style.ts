@@ -725,6 +725,8 @@ export const Style = {
 	COMMAND_SEARCH_ICON: 'var(--command-search-icon)',
 	COMMAND_SEARCH_BORDER: 'var(--command-search-border)',
 	COMMAND_EMPTY_LABEL: 'var(--command-empty-label)',
+	DIVIDER_BORDER: 'var(--divider-border)',
+	DIVIDER_LABEL: 'var(--divider-label)',
 	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',

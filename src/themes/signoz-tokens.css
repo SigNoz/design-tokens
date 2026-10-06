@@ -862,6 +862,8 @@
 	--command-search-icon: var(--l3-foreground);
 	--command-search-border: var(--l2-border);
 	--command-empty-label: var(--l3-foreground);
+	--divider-border: var(--l2-border);
+	--divider-label: var(--l2-foreground);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1718,6 +1720,8 @@
 	--command-search-icon: var(--l3-foreground);
 	--command-search-border: var(--l2-border);
 	--command-empty-label: var(--l3-foreground);
+	--divider-border: var(--l2-border);
+	--divider-label: var(--l2-foreground);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);

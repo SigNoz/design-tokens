@@ -3936,6 +3936,18 @@
 					"category": "foreground",
 					"group": "command"
 				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -7891,6 +7903,18 @@
 					"description": "Empty row of the command palette",
 					"category": "foreground",
 					"group": "command"
+				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
