@@ -3419,6 +3419,188 @@
 					"description": "Focus ring around a breadcrumb link",
 					"category": "border",
 					"group": "breadcrumb"
+				},
+				"input-background": {
+					"value": "transparent",
+					"description": "Field background in the resting state, transparent so the input sits on any surface",
+					"usage": "Use for the bordered frame of Input and its members",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-border": {
+					"value": "var(--l2-border)",
+					"description": "Field border in the resting state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Field border under the pointer",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-foreground": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "The typed value",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder": {
+					"value": "var(--l2-foreground)",
+					"description": "Placeholder text, rendered at 60% opacity by the component",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Placeholder text under the pointer",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icon tint",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "The 1px outline drawn outside the field on keyboard focus",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-background": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
+					"description": "Field background tint in the success state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-success-border": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Field border in the success state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The trailing status icon in the success state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-warning-background": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
+					"description": "Field background tint in the warning state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-warning-border": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Field border in the warning state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The trailing status icon in the warning state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Field background tint in the danger state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Field border in the danger state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The trailing status icon in the danger state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"field-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Field label in the resting state",
+					"usage": "Use for the label row Field renders above its control",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Field label while the control is under the pointer",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "The optional icon before the label text",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-required-marker": {
+					"value": "var(--danger-background)",
+					"description": "The asterisk marking a required field",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-label": {
+					"value": "var(--bg-forest-600)",
+					"description": "Field label in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-message": {
+					"value": "var(--bg-forest-600)",
+					"description": "The validation message in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The solid icon beside the success message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Field label in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-message": {
+					"value": "var(--bg-amber-700)",
+					"description": "The validation message in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The solid icon beside the warning message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Field label in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-message": {
+					"value": "var(--bg-cherry-600)",
+					"description": "The validation message in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The solid icon beside the danger message",
+					"category": "foreground",
+					"group": "fields"
 				}
 			}
 		},
@@ -6835,6 +7017,188 @@
 					"description": "Focus ring around a breadcrumb link",
 					"category": "border",
 					"group": "breadcrumb"
+				},
+				"input-background": {
+					"value": "transparent",
+					"description": "Field background in the resting state, transparent so the input sits on any surface",
+					"usage": "Use for the bordered frame of Input and its members",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-border": {
+					"value": "var(--l2-border)",
+					"description": "Field border in the resting state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Field border under the pointer",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-foreground": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "The typed value",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder": {
+					"value": "var(--l2-foreground)",
+					"description": "Placeholder text, rendered at 60% opacity by the component",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Placeholder text under the pointer",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icon tint",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "The 1px outline drawn outside the field on keyboard focus",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-background": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
+					"description": "Field background tint in the success state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-success-border": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Field border in the success state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The trailing status icon in the success state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-warning-background": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
+					"description": "Field background tint in the warning state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-warning-border": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Field border in the warning state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The trailing status icon in the warning state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Field background tint in the danger state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Field border in the danger state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The trailing status icon in the danger state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"field-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Field label in the resting state",
+					"usage": "Use for the label row Field renders above its control",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Field label while the control is under the pointer",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "The optional icon before the label text",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-required-marker": {
+					"value": "var(--danger-background)",
+					"description": "The asterisk marking a required field",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-label": {
+					"value": "var(--bg-forest-300)",
+					"description": "Field label in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-message": {
+					"value": "var(--bg-forest-300)",
+					"description": "The validation message in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The solid icon beside the success message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-label": {
+					"value": "var(--bg-amber-300)",
+					"description": "Field label in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-message": {
+					"value": "var(--bg-amber-300)",
+					"description": "The validation message in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The solid icon beside the warning message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-label": {
+					"value": "var(--bg-cherry-300)",
+					"description": "Field label in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-message": {
+					"value": "var(--bg-cherry-300)",
+					"description": "The validation message in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The solid icon beside the danger message",
+					"category": "foreground",
+					"group": "fields"
 				}
 			}
 		}

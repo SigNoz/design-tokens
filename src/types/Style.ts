@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Tue, 06 Oct 2026 11:42:25 GMT
  */
 
 export const Style = {
@@ -634,6 +634,36 @@ export const Style = {
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',
 	BREADCRUMB_FOCUS_RING: 'var(--breadcrumb-focus-ring)',
+	INPUT_BACKGROUND: 'var(--input-background)',
+	INPUT_BORDER: 'var(--input-border)',
+	INPUT_BORDER_HOVER: 'var(--input-border-hover)',
+	INPUT_FOREGROUND: 'var(--input-foreground)',
+	INPUT_PLACEHOLDER: 'var(--input-placeholder)',
+	INPUT_PLACEHOLDER_HOVER: 'var(--input-placeholder-hover)',
+	INPUT_ICON: 'var(--input-icon)',
+	INPUT_FOCUS_RING: 'var(--input-focus-ring)',
+	INPUT_SUCCESS_BACKGROUND: 'var(--input-success-background)',
+	INPUT_SUCCESS_BORDER: 'var(--input-success-border)',
+	INPUT_SUCCESS_ICON: 'var(--input-success-icon)',
+	INPUT_WARNING_BACKGROUND: 'var(--input-warning-background)',
+	INPUT_WARNING_BORDER: 'var(--input-warning-border)',
+	INPUT_WARNING_ICON: 'var(--input-warning-icon)',
+	INPUT_DANGER_BACKGROUND: 'var(--input-danger-background)',
+	INPUT_DANGER_BORDER: 'var(--input-danger-border)',
+	INPUT_DANGER_ICON: 'var(--input-danger-icon)',
+	FIELD_LABEL: 'var(--field-label)',
+	FIELD_LABEL_HOVER: 'var(--field-label-hover)',
+	FIELD_LABEL_ICON: 'var(--field-label-icon)',
+	FIELD_REQUIRED_MARKER: 'var(--field-required-marker)',
+	FIELD_SUCCESS_LABEL: 'var(--field-success-label)',
+	FIELD_SUCCESS_MESSAGE: 'var(--field-success-message)',
+	FIELD_SUCCESS_ICON: 'var(--field-success-icon)',
+	FIELD_WARNING_LABEL: 'var(--field-warning-label)',
+	FIELD_WARNING_MESSAGE: 'var(--field-warning-message)',
+	FIELD_WARNING_ICON: 'var(--field-warning-icon)',
+	FIELD_DANGER_LABEL: 'var(--field-danger-label)',
+	FIELD_DANGER_MESSAGE: 'var(--field-danger-message)',
+	FIELD_DANGER_ICON: 'var(--field-danger-icon)',
 } as const;
 
 export type StyleType = typeof Style;

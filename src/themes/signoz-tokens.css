@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Tue, 06 Oct 2026 11:42:25 GMT
  */
 
 [data-theme='default'] {
@@ -776,6 +776,60 @@
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--input-background: transparent;
+	--input-border: var(--l2-border);
+	--input-border-hover: var(--l3-border);
+	--input-foreground: var(--l1-foreground-hover);
+	--input-placeholder: var(--l2-foreground);
+	--input-placeholder-hover: var(--l1-foreground);
+	--input-icon: var(--l2-foreground);
+	--input-focus-ring: var(--primary-background);
+	--input-success-background: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 90%
+	);
+	--input-success-border: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 80%
+	);
+	--input-success-icon: var(--success-background);
+	--input-warning-background: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 90%
+	);
+	--input-warning-border: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 80%
+	);
+	--input-warning-icon: var(--warning-background);
+	--input-danger-background: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
+	--input-danger-border: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--input-danger-icon: var(--danger-background);
+	--field-label: var(--l2-foreground);
+	--field-label-hover: var(--l1-foreground);
+	--field-label-icon: var(--l2-foreground);
+	--field-required-marker: var(--danger-background);
+	--field-success-label: var(--bg-forest-600);
+	--field-success-message: var(--bg-forest-600);
+	--field-success-icon: var(--success-background);
+	--field-warning-label: var(--bg-amber-700);
+	--field-warning-message: var(--bg-amber-700);
+	--field-warning-icon: var(--warning-background);
+	--field-danger-label: var(--bg-cherry-600);
+	--field-danger-message: var(--bg-cherry-600);
+	--field-danger-icon: var(--danger-background);
 }
 
 [data-theme='default'].dark {
@@ -1542,4 +1596,58 @@
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--input-background: transparent;
+	--input-border: var(--l2-border);
+	--input-border-hover: var(--l3-border);
+	--input-foreground: var(--l1-foreground-hover);
+	--input-placeholder: var(--l2-foreground);
+	--input-placeholder-hover: var(--l1-foreground);
+	--input-icon: var(--l2-foreground);
+	--input-focus-ring: var(--primary-background);
+	--input-success-background: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 90%
+	);
+	--input-success-border: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 80%
+	);
+	--input-success-icon: var(--success-background);
+	--input-warning-background: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 90%
+	);
+	--input-warning-border: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 80%
+	);
+	--input-warning-icon: var(--warning-background);
+	--input-danger-background: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
+	--input-danger-border: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--input-danger-icon: var(--danger-background);
+	--field-label: var(--l2-foreground);
+	--field-label-hover: var(--l1-foreground);
+	--field-label-icon: var(--l2-foreground);
+	--field-required-marker: var(--danger-background);
+	--field-success-label: var(--bg-forest-300);
+	--field-success-message: var(--bg-forest-300);
+	--field-success-icon: var(--success-background);
+	--field-warning-label: var(--bg-amber-300);
+	--field-warning-message: var(--bg-amber-300);
+	--field-warning-icon: var(--warning-background);
+	--field-danger-label: var(--bg-cherry-300);
+	--field-danger-message: var(--bg-cherry-300);
+	--field-danger-icon: var(--danger-background);
 }

@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:26:44 GMT
+ * Generated on Tue, 06 Oct 2026 11:42:25 GMT
  */
 
 export const StyleTailwind = {
@@ -647,6 +647,36 @@ export const StyleTailwind = {
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',
 	'breadcrumb-focus-ring': 'var(--breadcrumb-focus-ring)',
+	'input-background': 'var(--input-background)',
+	'input-border': 'var(--input-border)',
+	'input-border-hover': 'var(--input-border-hover)',
+	'input-foreground': 'var(--input-foreground)',
+	'input-placeholder': 'var(--input-placeholder)',
+	'input-placeholder-hover': 'var(--input-placeholder-hover)',
+	'input-icon': 'var(--input-icon)',
+	'input-focus-ring': 'var(--input-focus-ring)',
+	'input-success-background': 'var(--input-success-background)',
+	'input-success-border': 'var(--input-success-border)',
+	'input-success-icon': 'var(--input-success-icon)',
+	'input-warning-background': 'var(--input-warning-background)',
+	'input-warning-border': 'var(--input-warning-border)',
+	'input-warning-icon': 'var(--input-warning-icon)',
+	'input-danger-background': 'var(--input-danger-background)',
+	'input-danger-border': 'var(--input-danger-border)',
+	'input-danger-icon': 'var(--input-danger-icon)',
+	'field-label': 'var(--field-label)',
+	'field-label-hover': 'var(--field-label-hover)',
+	'field-label-icon': 'var(--field-label-icon)',
+	'field-required-marker': 'var(--field-required-marker)',
+	'field-success-label': 'var(--field-success-label)',
+	'field-success-message': 'var(--field-success-message)',
+	'field-success-icon': 'var(--field-success-icon)',
+	'field-warning-label': 'var(--field-warning-label)',
+	'field-warning-message': 'var(--field-warning-message)',
+	'field-warning-icon': 'var(--field-warning-icon)',
+	'field-danger-label': 'var(--field-danger-label)',
+	'field-danger-message': 'var(--field-danger-message)',
+	'field-danger-icon': 'var(--field-danger-icon)',
 } as const;
 
 export type StyleTailwindType =
