@@ -2502,6 +2502,402 @@
 					"category": "foreground",
 					"group": "dropdown"
 				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
 				"calendar-background": {
 					"value": "var(--background)",
 					"description": "Fill behind the month grid",
@@ -3395,6 +3791,162 @@
 					"description": "Moving stripes over the fill of an active progress bar",
 					"category": "background",
 					"group": "progress"
+				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.5)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
@@ -6100,6 +6652,402 @@
 					"category": "foreground",
 					"group": "dropdown"
 				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
 				"calendar-background": {
 					"value": "var(--background)",
 					"description": "Fill behind the month grid",
@@ -6993,6 +7941,162 @@
 					"description": "Moving stripes over the fill of an active progress bar",
 					"category": "background",
 					"group": "progress"
+				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.6)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
