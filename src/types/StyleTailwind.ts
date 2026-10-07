@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 18:48:16 GMT
+ * Generated on Wed, 07 Oct 2026 19:10:53 GMT
  */
 
 export const StyleTailwind = {
@@ -741,6 +741,18 @@ export const StyleTailwind = {
 	'command-empty-label': 'var(--command-empty-label)',
 	'divider-border': 'var(--divider-border)',
 	'divider-label': 'var(--divider-label)',
+	'radio-cards-background': 'var(--radio-cards-background)',
+	'radio-cards-background-hover': 'var(--radio-cards-background-hover)',
+	'radio-cards-border': 'var(--radio-cards-border)',
+	'radio-cards-label': 'var(--radio-cards-label)',
+	'radio-cards-label-hover': 'var(--radio-cards-label-hover)',
+	'radio-cards-icon': 'var(--radio-cards-icon)',
+	'radio-cards-icon-hover': 'var(--radio-cards-icon-hover)',
+	'radio-cards-checked-background': 'var(--radio-cards-checked-background)',
+	'radio-cards-checked-border': 'var(--radio-cards-checked-border)',
+	'radio-cards-checked-label': 'var(--radio-cards-checked-label)',
+	'radio-cards-checked-icon': 'var(--radio-cards-checked-icon)',
+	'radio-cards-focus-ring': 'var(--radio-cards-focus-ring)',
 	'breadcrumb-label': 'var(--breadcrumb-label)',
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',

@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 18:48:16 GMT
+ * Generated on Wed, 07 Oct 2026 19:10:53 GMT
  */
 
 export const Style = {
@@ -727,6 +727,18 @@ export const Style = {
 	COMMAND_EMPTY_LABEL: 'var(--command-empty-label)',
 	DIVIDER_BORDER: 'var(--divider-border)',
 	DIVIDER_LABEL: 'var(--divider-label)',
+	RADIO_CARDS_BACKGROUND: 'var(--radio-cards-background)',
+	RADIO_CARDS_BACKGROUND_HOVER: 'var(--radio-cards-background-hover)',
+	RADIO_CARDS_BORDER: 'var(--radio-cards-border)',
+	RADIO_CARDS_LABEL: 'var(--radio-cards-label)',
+	RADIO_CARDS_LABEL_HOVER: 'var(--radio-cards-label-hover)',
+	RADIO_CARDS_ICON: 'var(--radio-cards-icon)',
+	RADIO_CARDS_ICON_HOVER: 'var(--radio-cards-icon-hover)',
+	RADIO_CARDS_CHECKED_BACKGROUND: 'var(--radio-cards-checked-background)',
+	RADIO_CARDS_CHECKED_BORDER: 'var(--radio-cards-checked-border)',
+	RADIO_CARDS_CHECKED_LABEL: 'var(--radio-cards-checked-label)',
+	RADIO_CARDS_CHECKED_ICON: 'var(--radio-cards-checked-icon)',
+	RADIO_CARDS_FOCUS_RING: 'var(--radio-cards-focus-ring)',
 	BREADCRUMB_LABEL: 'var(--breadcrumb-label)',
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',

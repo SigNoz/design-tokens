@@ -3948,6 +3948,78 @@
 					"category": "foreground",
 					"group": "divider"
 				},
+				"radio-cards-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an unchecked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of an unchecked radio card under the pointer",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an unchecked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Prefix and suffix icons of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Prefix and suffix icons of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-background": {
+					"value": "var(--callout-primary-background)",
+					"description": "Fill of a checked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-border": {
+					"value": "var(--callout-primary-border)",
+					"description": "Border of a checked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-label": {
+					"value": "var(--callout-primary-title)",
+					"description": "Label of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-icon": {
+					"value": "var(--callout-primary-icon)",
+					"description": "Icons and check of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Keyboard focus ring around a radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -8097,6 +8169,78 @@
 					"description": "Label in the middle of a horizontal divider",
 					"category": "foreground",
 					"group": "divider"
+				},
+				"radio-cards-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an unchecked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of an unchecked radio card under the pointer",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an unchecked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Prefix and suffix icons of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Prefix and suffix icons of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-background": {
+					"value": "var(--callout-primary-background)",
+					"description": "Fill of a checked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-border": {
+					"value": "var(--callout-primary-border)",
+					"description": "Border of a checked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-label": {
+					"value": "var(--callout-primary-title)",
+					"description": "Label of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-icon": {
+					"value": "var(--callout-primary-icon)",
+					"description": "Icons and check of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Keyboard focus ring around a radio card",
+					"category": "border",
+					"group": "radio-cards"
 				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",

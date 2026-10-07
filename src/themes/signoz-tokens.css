@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 18:48:16 GMT
+ * Generated on Wed, 07 Oct 2026 19:10:53 GMT
  */
 
 [data-theme='default'] {
@@ -864,6 +864,18 @@
 	--command-empty-label: var(--l3-foreground);
 	--divider-border: var(--l2-border);
 	--divider-label: var(--l2-foreground);
+	--radio-cards-background: var(--secondary-background);
+	--radio-cards-background-hover: var(--secondary-background-hover);
+	--radio-cards-border: var(--secondary-border);
+	--radio-cards-label: var(--secondary-foreground);
+	--radio-cards-label-hover: var(--secondary-foreground-hover);
+	--radio-cards-icon: var(--secondary-foreground);
+	--radio-cards-icon-hover: var(--secondary-foreground-hover);
+	--radio-cards-checked-background: var(--callout-primary-background);
+	--radio-cards-checked-border: var(--callout-primary-border);
+	--radio-cards-checked-label: var(--callout-primary-title);
+	--radio-cards-checked-icon: var(--callout-primary-icon);
+	--radio-cards-focus-ring: var(--ring);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
@@ -1776,6 +1788,18 @@
 	--command-empty-label: var(--l3-foreground);
 	--divider-border: var(--l2-border);
 	--divider-label: var(--l2-foreground);
+	--radio-cards-background: var(--secondary-background);
+	--radio-cards-background-hover: var(--secondary-background-hover);
+	--radio-cards-border: var(--secondary-border);
+	--radio-cards-label: var(--secondary-foreground);
+	--radio-cards-label-hover: var(--secondary-foreground-hover);
+	--radio-cards-icon: var(--secondary-foreground);
+	--radio-cards-icon-hover: var(--secondary-foreground-hover);
+	--radio-cards-checked-background: var(--callout-primary-background);
+	--radio-cards-checked-border: var(--callout-primary-border);
+	--radio-cards-checked-label: var(--callout-primary-title);
+	--radio-cards-checked-icon: var(--callout-primary-icon);
+	--radio-cards-focus-ring: var(--ring);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
