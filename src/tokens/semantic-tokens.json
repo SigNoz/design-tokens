@@ -2071,7 +2071,7 @@
 					"group": "switches"
 				},
 				"switch-success-hover-background": {
-					"value": "var(--success-background-hover)",
+					"value": "var(--bg-forest-700)",
 					"description": "Track fill for hovered checked success switches",
 					"category": "background",
 					"group": "switches"
@@ -2107,7 +2107,7 @@
 					"group": "switches"
 				},
 				"switch-info-hover-background": {
-					"value": "var(--bg-aqua-400)",
+					"value": "var(--bg-aqua-600)",
 					"description": "Track fill for hovered checked info switches",
 					"category": "background",
 					"group": "switches"
@@ -2119,7 +2119,7 @@
 					"group": "switches"
 				},
 				"switch-archive-hover-background": {
-					"value": "var(--bg-sienna-400)",
+					"value": "var(--bg-sienna-600)",
 					"description": "Track fill for hovered checked archive switches",
 					"category": "background",
 					"group": "switches"
@@ -2131,7 +2131,7 @@
 					"group": "switches"
 				},
 				"switch-highlight-danger-hover-background": {
-					"value": "var(--bg-sakura-400)",
+					"value": "var(--bg-sakura-600)",
 					"description": "Track fill for hovered checked highlight-danger switches",
 					"category": "background",
 					"group": "switches"
