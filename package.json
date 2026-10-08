@@ -17,6 +17,8 @@
 		"prepare": "husky install",
 		"lint": "eslint . --config eslint.config.js",
 		"format": "prettier --write .",
+		"fmt": "prettier --check .",
+		"type-check": "tsc --noEmit",
 		"pre-commit": "lint-staged",
 		"generate-tokens": "tsx ./scripts/generate-types-from-json.ts && style-dictionary build && tsx ./scripts/generate-semantic-tokens.ts && tsx ./scripts/generate-typography-styles.ts"
 	},
