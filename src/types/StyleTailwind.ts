@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 14:54:44 GMT
+ * Generated on Thu, 08 Oct 2026 19:54:25 GMT
  */
 
 export const StyleTailwind = {
@@ -227,36 +227,6 @@ export const StyleTailwind = {
 	'action-border-hover': 'var(--action-border-hover)',
 	'action-foreground': 'var(--action-foreground)',
 	'action-foreground-hover': 'var(--action-foreground-hover)',
-	'announcement-banner-warning-background':
-		'var(--announcement-banner-warning-background)',
-	'announcement-banner-warning-border':
-		'var(--announcement-banner-warning-border)',
-	'announcement-banner-warning-title':
-		'var(--announcement-banner-warning-title)',
-	'announcement-banner-warning-description':
-		'var(--announcement-banner-warning-description)',
-	'announcement-banner-primary-background':
-		'var(--announcement-banner-primary-background)',
-	'announcement-banner-primary-border':
-		'var(--announcement-banner-primary-border)',
-	'announcement-banner-primary-title':
-		'var(--announcement-banner-primary-title)',
-	'announcement-banner-primary-description':
-		'var(--announcement-banner-primary-description)',
-	'announcement-banner-error-background':
-		'var(--announcement-banner-error-background)',
-	'announcement-banner-error-border': 'var(--announcement-banner-error-border)',
-	'announcement-banner-error-title': 'var(--announcement-banner-error-title)',
-	'announcement-banner-error-description':
-		'var(--announcement-banner-error-description)',
-	'announcement-banner-success-background':
-		'var(--announcement-banner-success-background)',
-	'announcement-banner-success-border':
-		'var(--announcement-banner-success-border)',
-	'announcement-banner-success-title':
-		'var(--announcement-banner-success-title)',
-	'announcement-banner-success-description':
-		'var(--announcement-banner-success-description)',
 	'kbd-active-background': 'var(--kbd-active-background)',
 	'control-icon-foreground': 'var(--control-icon-foreground)',
 	'control-icon-foreground-contrast': 'var(--control-icon-foreground-contrast)',

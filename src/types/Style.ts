@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 14:54:44 GMT
+ * Generated on Thu, 08 Oct 2026 19:54:25 GMT
  */
 
 export const Style = {
@@ -227,33 +227,6 @@ export const Style = {
 	ACTION_BORDER_HOVER: 'var(--action-border-hover)',
 	ACTION_FOREGROUND: 'var(--action-foreground)',
 	ACTION_FOREGROUND_HOVER: 'var(--action-foreground-hover)',
-	ANNOUNCEMENT_BANNER_WARNING_BACKGROUND:
-		'var(--announcement-banner-warning-background)',
-	ANNOUNCEMENT_BANNER_WARNING_BORDER:
-		'var(--announcement-banner-warning-border)',
-	ANNOUNCEMENT_BANNER_WARNING_TITLE: 'var(--announcement-banner-warning-title)',
-	ANNOUNCEMENT_BANNER_WARNING_DESCRIPTION:
-		'var(--announcement-banner-warning-description)',
-	ANNOUNCEMENT_BANNER_PRIMARY_BACKGROUND:
-		'var(--announcement-banner-primary-background)',
-	ANNOUNCEMENT_BANNER_PRIMARY_BORDER:
-		'var(--announcement-banner-primary-border)',
-	ANNOUNCEMENT_BANNER_PRIMARY_TITLE: 'var(--announcement-banner-primary-title)',
-	ANNOUNCEMENT_BANNER_PRIMARY_DESCRIPTION:
-		'var(--announcement-banner-primary-description)',
-	ANNOUNCEMENT_BANNER_ERROR_BACKGROUND:
-		'var(--announcement-banner-error-background)',
-	ANNOUNCEMENT_BANNER_ERROR_BORDER: 'var(--announcement-banner-error-border)',
-	ANNOUNCEMENT_BANNER_ERROR_TITLE: 'var(--announcement-banner-error-title)',
-	ANNOUNCEMENT_BANNER_ERROR_DESCRIPTION:
-		'var(--announcement-banner-error-description)',
-	ANNOUNCEMENT_BANNER_SUCCESS_BACKGROUND:
-		'var(--announcement-banner-success-background)',
-	ANNOUNCEMENT_BANNER_SUCCESS_BORDER:
-		'var(--announcement-banner-success-border)',
-	ANNOUNCEMENT_BANNER_SUCCESS_TITLE: 'var(--announcement-banner-success-title)',
-	ANNOUNCEMENT_BANNER_SUCCESS_DESCRIPTION:
-		'var(--announcement-banner-success-description)',
 	KBD_ACTIVE_BACKGROUND: 'var(--kbd-active-background)',
 	CONTROL_ICON_FOREGROUND: 'var(--control-icon-foreground)',
 	CONTROL_ICON_FOREGROUND_CONTRAST: 'var(--control-icon-foreground-contrast)',

@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 14:54:44 GMT
+ * Generated on Thu, 08 Oct 2026 19:54:25 GMT
  */
 
 [data-theme='default'] {
@@ -337,54 +337,6 @@
 	--action-border-hover: var(--bg-vanilla-400);
 	--action-foreground: var(--bg-slate-50);
 	--action-foreground-hover: var(--bg-slate-300);
-	--announcement-banner-warning-background: color-mix(
-		in srgb,
-		var(--bg-amber-600),
-		transparent 90%
-	);
-	--announcement-banner-warning-border: color-mix(
-		in srgb,
-		var(--bg-amber-600),
-		transparent 80%
-	);
-	--announcement-banner-warning-title: var(--bg-amber-700);
-	--announcement-banner-warning-description: var(--bg-amber-700);
-	--announcement-banner-primary-background: color-mix(
-		in srgb,
-		var(--bg-robin-500),
-		transparent 90%
-	);
-	--announcement-banner-primary-border: color-mix(
-		in srgb,
-		var(--bg-robin-500),
-		transparent 80%
-	);
-	--announcement-banner-primary-title: var(--bg-robin-600);
-	--announcement-banner-primary-description: var(--bg-robin-600);
-	--announcement-banner-error-background: color-mix(
-		in srgb,
-		var(--bg-cherry-500),
-		transparent 90%
-	);
-	--announcement-banner-error-border: color-mix(
-		in srgb,
-		var(--bg-cherry-500),
-		transparent 80%
-	);
-	--announcement-banner-error-title: var(--bg-cherry-600);
-	--announcement-banner-error-description: var(--bg-cherry-600);
-	--announcement-banner-success-background: color-mix(
-		in srgb,
-		var(--bg-forest-600),
-		transparent 90%
-	);
-	--announcement-banner-success-border: color-mix(
-		in srgb,
-		var(--bg-forest-600),
-		transparent 80%
-	);
-	--announcement-banner-success-title: var(--bg-forest-600);
-	--announcement-banner-success-description: var(--bg-forest-600);
 	--kbd-active-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),
@@ -1304,54 +1256,6 @@
 	--action-border-hover: var(--bg-slate-300);
 	--action-foreground: var(--bg-vanilla-400);
 	--action-foreground-hover: var(--bg-vanilla-100);
-	--announcement-banner-warning-background: color-mix(
-		in srgb,
-		var(--bg-amber-500),
-		transparent 90%
-	);
-	--announcement-banner-warning-border: color-mix(
-		in srgb,
-		var(--bg-amber-500),
-		transparent 80%
-	);
-	--announcement-banner-warning-title: var(--bg-amber-100);
-	--announcement-banner-warning-description: var(--bg-amber-300);
-	--announcement-banner-primary-background: color-mix(
-		in srgb,
-		var(--bg-robin-500),
-		transparent 90%
-	);
-	--announcement-banner-primary-border: color-mix(
-		in srgb,
-		var(--bg-robin-500),
-		transparent 80%
-	);
-	--announcement-banner-primary-title: var(--bg-robin-100);
-	--announcement-banner-primary-description: var(--bg-robin-300);
-	--announcement-banner-error-background: color-mix(
-		in srgb,
-		var(--bg-cherry-500),
-		transparent 90%
-	);
-	--announcement-banner-error-border: color-mix(
-		in srgb,
-		var(--bg-cherry-500),
-		transparent 80%
-	);
-	--announcement-banner-error-title: var(--bg-cherry-100);
-	--announcement-banner-error-description: var(--bg-cherry-300);
-	--announcement-banner-success-background: color-mix(
-		in srgb,
-		var(--bg-forest-500),
-		transparent 90%
-	);
-	--announcement-banner-success-border: color-mix(
-		in srgb,
-		var(--bg-forest-500),
-		transparent 80%
-	);
-	--announcement-banner-success-title: var(--bg-forest-100);
-	--announcement-banner-success-description: var(--bg-forest-300);
 	--kbd-active-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),
