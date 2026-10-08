@@ -2803,7 +2803,7 @@
 					"group": "combobox"
 				},
 				"combobox-item-indicator": {
-					"value": "var(--primary-background)",
+					"value": "var(--l1-foreground)",
 					"description": "Check of the selected row in a single combobox",
 					"category": "foreground",
 					"group": "combobox"
@@ -3007,7 +3007,7 @@
 					"group": "select"
 				},
 				"select-item-indicator": {
-					"value": "var(--primary-background)",
+					"value": "var(--l1-foreground)",
 					"description": "Check of the selected row in a single select",
 					"category": "foreground",
 					"group": "select"
@@ -7193,7 +7193,7 @@
 					"group": "combobox"
 				},
 				"combobox-item-indicator": {
-					"value": "var(--primary-background)",
+					"value": "var(--l1-foreground)",
 					"description": "Check of the selected row in a single combobox",
 					"category": "foreground",
 					"group": "combobox"
@@ -7397,7 +7397,7 @@
 					"group": "select"
 				},
 				"select-item-indicator": {
-					"value": "var(--primary-background)",
+					"value": "var(--l1-foreground)",
 					"description": "Check of the selected row in a single select",
 					"category": "foreground",
 					"group": "select"

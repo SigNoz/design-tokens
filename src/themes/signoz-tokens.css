@@ -649,7 +649,7 @@
 	--combobox-item-background-hover: var(--l3-background-60);
 	--combobox-item-icon: var(--l2-foreground);
 	--combobox-item-icon-hover: var(--l1-foreground-hover);
-	--combobox-item-indicator: var(--primary-background);
+	--combobox-item-indicator: var(--l1-foreground);
 	--combobox-item-control-border: var(--l3-foreground);
 	--combobox-item-control-border-hover: var(--primary-background-hover);
 	--combobox-item-control-checked-background: var(--primary-background);
@@ -683,7 +683,7 @@
 	--select-item-background-hover: var(--l3-background-60);
 	--select-item-icon: var(--l2-foreground);
 	--select-item-icon-hover: var(--l1-foreground-hover);
-	--select-item-indicator: var(--primary-background);
+	--select-item-indicator: var(--l1-foreground);
 	--select-item-control-border: var(--l3-foreground);
 	--select-item-control-border-hover: var(--primary-background-hover);
 	--select-item-control-checked-background: var(--primary-background);
@@ -1613,7 +1613,7 @@
 	--combobox-item-background-hover: var(--l3-background-60);
 	--combobox-item-icon: var(--l2-foreground);
 	--combobox-item-icon-hover: var(--l1-foreground-hover);
-	--combobox-item-indicator: var(--primary-background);
+	--combobox-item-indicator: var(--l1-foreground);
 	--combobox-item-control-border: var(--l3-foreground);
 	--combobox-item-control-border-hover: var(--primary-background-hover);
 	--combobox-item-control-checked-background: var(--primary-background);
@@ -1647,7 +1647,7 @@
 	--select-item-background-hover: var(--l3-background-60);
 	--select-item-icon: var(--l2-foreground);
 	--select-item-icon-hover: var(--l1-foreground-hover);
-	--select-item-indicator: var(--primary-background);
+	--select-item-indicator: var(--l1-foreground);
 	--select-item-control-border: var(--l3-foreground);
 	--select-item-control-border-hover: var(--primary-background-hover);
 	--select-item-control-checked-background: var(--primary-background);
