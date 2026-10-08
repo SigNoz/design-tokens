@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 19:10:53 GMT
+ * Generated on Thu, 08 Oct 2026 14:54:44 GMT
  */
 
 [data-theme='default'] {
@@ -139,6 +139,37 @@
 		var(--bg-ink-400),
 		transparent 40%
 	);
+	--alert-strip-button-background-hover: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 20%
+	);
+	--alert-strip-button-foreground: var(--text-neutral-dark-50);
+	--alert-strip-decoration: var(--bg-neutral-dark-1000);
+	--alert-strip-primary-background: var(--bg-robin-500);
+	--alert-strip-primary-foreground: var(--text-neutral-light-1000);
+	--alert-strip-primary-link-hover: var(--text-base-white);
+	--alert-strip-secondary-background: var(--bg-neutral-light-700);
+	--alert-strip-secondary-foreground: var(--text-neutral-light-100);
+	--alert-strip-secondary-link-hover: var(--text-base-black);
+	--alert-strip-success-background: var(--bg-forest-600);
+	--alert-strip-success-foreground: var(--text-neutral-light-950);
+	--alert-strip-success-link-hover: var(--text-neutral-light-1000);
+	--alert-strip-danger-background: var(--bg-cherry-500);
+	--alert-strip-danger-foreground: var(--text-neutral-light-1000);
+	--alert-strip-danger-link-hover: var(--text-base-white);
+	--alert-strip-warning-background: var(--bg-amber-500);
+	--alert-strip-warning-foreground: var(--text-neutral-light-50);
+	--alert-strip-warning-link-hover: var(--text-base-black);
+	--alert-strip-info-background: var(--bg-aqua-500);
+	--alert-strip-info-foreground: var(--text-neutral-light-950);
+	--alert-strip-info-link-hover: var(--text-base-black);
+	--alert-strip-archive-background: var(--bg-sienna-500);
+	--alert-strip-archive-foreground: var(--text-neutral-light-950);
+	--alert-strip-archive-link-hover: var(--text-base-black);
+	--alert-strip-highlight-danger-background: var(--bg-sakura-500);
+	--alert-strip-highlight-danger-foreground: var(--text-neutral-light-950);
+	--alert-strip-highlight-danger-link-hover: var(--text-base-black);
 	--callout-primary-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),
@@ -1066,6 +1097,46 @@
 	--surface-2: var(--l2-background);
 	--surface-3: var(--l3-background-60);
 	--surface-static: var(--l3-background-60);
+	--alert-strip-button-background: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 40%
+	);
+	--alert-strip-button-background-hover: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 20%
+	);
+	--alert-strip-button-foreground: var(--text-neutral-dark-50);
+	--alert-strip-decoration: var(--bg-neutral-dark-1000);
+	--alert-strip-primary-background: var(--bg-robin-500);
+	--alert-strip-primary-foreground: var(--text-neutral-dark-50);
+	--alert-strip-primary-link-hover: var(--text-base-white);
+	--alert-strip-secondary-background: color-mix(
+		in srgb,
+		var(--bg-neutral-dark-800),
+		transparent 40%
+	);
+	--alert-strip-secondary-foreground: var(--text-neutral-dark-100);
+	--alert-strip-secondary-link-hover: var(--text-base-white);
+	--alert-strip-success-background: var(--bg-forest-500);
+	--alert-strip-success-foreground: var(--text-neutral-dark-1000);
+	--alert-strip-success-link-hover: var(--text-base-black);
+	--alert-strip-danger-background: var(--bg-cherry-500);
+	--alert-strip-danger-foreground: var(--text-neutral-dark-50);
+	--alert-strip-danger-link-hover: var(--text-base-white);
+	--alert-strip-warning-background: var(--bg-amber-500);
+	--alert-strip-warning-foreground: var(--text-neutral-dark-1000);
+	--alert-strip-warning-link-hover: var(--text-base-black);
+	--alert-strip-info-background: var(--bg-aqua-500);
+	--alert-strip-info-foreground: var(--text-ink-500);
+	--alert-strip-info-link-hover: var(--text-base-black);
+	--alert-strip-archive-background: var(--bg-sienna-500);
+	--alert-strip-archive-foreground: var(--text-ink-500);
+	--alert-strip-archive-link-hover: var(--text-base-black);
+	--alert-strip-highlight-danger-background: var(--bg-sakura-500);
+	--alert-strip-highlight-danger-foreground: var(--text-ink-500);
+	--alert-strip-highlight-danger-link-hover: var(--text-base-black);
 	--callout-primary-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),

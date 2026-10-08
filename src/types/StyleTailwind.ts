@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 19:10:53 GMT
+ * Generated on Thu, 08 Oct 2026 14:54:44 GMT
  */
 
 export const StyleTailwind = {
@@ -105,6 +105,37 @@ export const StyleTailwind = {
 	'surface-3': 'var(--surface-3)',
 	'surface-static': 'var(--surface-static)',
 	'alert-strip-button-background': 'var(--alert-strip-button-background)',
+	'alert-strip-button-background-hover':
+		'var(--alert-strip-button-background-hover)',
+	'alert-strip-button-foreground': 'var(--alert-strip-button-foreground)',
+	'alert-strip-decoration': 'var(--alert-strip-decoration)',
+	'alert-strip-primary-background': 'var(--alert-strip-primary-background)',
+	'alert-strip-primary-foreground': 'var(--alert-strip-primary-foreground)',
+	'alert-strip-primary-link-hover': 'var(--alert-strip-primary-link-hover)',
+	'alert-strip-secondary-background': 'var(--alert-strip-secondary-background)',
+	'alert-strip-secondary-foreground': 'var(--alert-strip-secondary-foreground)',
+	'alert-strip-secondary-link-hover': 'var(--alert-strip-secondary-link-hover)',
+	'alert-strip-success-background': 'var(--alert-strip-success-background)',
+	'alert-strip-success-foreground': 'var(--alert-strip-success-foreground)',
+	'alert-strip-success-link-hover': 'var(--alert-strip-success-link-hover)',
+	'alert-strip-danger-background': 'var(--alert-strip-danger-background)',
+	'alert-strip-danger-foreground': 'var(--alert-strip-danger-foreground)',
+	'alert-strip-danger-link-hover': 'var(--alert-strip-danger-link-hover)',
+	'alert-strip-warning-background': 'var(--alert-strip-warning-background)',
+	'alert-strip-warning-foreground': 'var(--alert-strip-warning-foreground)',
+	'alert-strip-warning-link-hover': 'var(--alert-strip-warning-link-hover)',
+	'alert-strip-info-background': 'var(--alert-strip-info-background)',
+	'alert-strip-info-foreground': 'var(--alert-strip-info-foreground)',
+	'alert-strip-info-link-hover': 'var(--alert-strip-info-link-hover)',
+	'alert-strip-archive-background': 'var(--alert-strip-archive-background)',
+	'alert-strip-archive-foreground': 'var(--alert-strip-archive-foreground)',
+	'alert-strip-archive-link-hover': 'var(--alert-strip-archive-link-hover)',
+	'alert-strip-highlight-danger-background':
+		'var(--alert-strip-highlight-danger-background)',
+	'alert-strip-highlight-danger-foreground':
+		'var(--alert-strip-highlight-danger-foreground)',
+	'alert-strip-highlight-danger-link-hover':
+		'var(--alert-strip-highlight-danger-link-hover)',
 	'callout-primary-background': 'var(--callout-primary-background)',
 	'callout-primary-border': 'var(--callout-primary-border)',
 	'callout-primary-background-hover': 'var(--callout-primary-background-hover)',

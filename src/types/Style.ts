@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 07 Oct 2026 19:10:53 GMT
+ * Generated on Thu, 08 Oct 2026 14:54:44 GMT
  */
 
 export const Style = {
@@ -105,6 +105,37 @@ export const Style = {
 	SURFACE_3: 'var(--surface-3)',
 	SURFACE_STATIC: 'var(--surface-static)',
 	ALERT_STRIP_BUTTON_BACKGROUND: 'var(--alert-strip-button-background)',
+	ALERT_STRIP_BUTTON_BACKGROUND_HOVER:
+		'var(--alert-strip-button-background-hover)',
+	ALERT_STRIP_BUTTON_FOREGROUND: 'var(--alert-strip-button-foreground)',
+	ALERT_STRIP_DECORATION: 'var(--alert-strip-decoration)',
+	ALERT_STRIP_PRIMARY_BACKGROUND: 'var(--alert-strip-primary-background)',
+	ALERT_STRIP_PRIMARY_FOREGROUND: 'var(--alert-strip-primary-foreground)',
+	ALERT_STRIP_PRIMARY_LINK_HOVER: 'var(--alert-strip-primary-link-hover)',
+	ALERT_STRIP_SECONDARY_BACKGROUND: 'var(--alert-strip-secondary-background)',
+	ALERT_STRIP_SECONDARY_FOREGROUND: 'var(--alert-strip-secondary-foreground)',
+	ALERT_STRIP_SECONDARY_LINK_HOVER: 'var(--alert-strip-secondary-link-hover)',
+	ALERT_STRIP_SUCCESS_BACKGROUND: 'var(--alert-strip-success-background)',
+	ALERT_STRIP_SUCCESS_FOREGROUND: 'var(--alert-strip-success-foreground)',
+	ALERT_STRIP_SUCCESS_LINK_HOVER: 'var(--alert-strip-success-link-hover)',
+	ALERT_STRIP_DANGER_BACKGROUND: 'var(--alert-strip-danger-background)',
+	ALERT_STRIP_DANGER_FOREGROUND: 'var(--alert-strip-danger-foreground)',
+	ALERT_STRIP_DANGER_LINK_HOVER: 'var(--alert-strip-danger-link-hover)',
+	ALERT_STRIP_WARNING_BACKGROUND: 'var(--alert-strip-warning-background)',
+	ALERT_STRIP_WARNING_FOREGROUND: 'var(--alert-strip-warning-foreground)',
+	ALERT_STRIP_WARNING_LINK_HOVER: 'var(--alert-strip-warning-link-hover)',
+	ALERT_STRIP_INFO_BACKGROUND: 'var(--alert-strip-info-background)',
+	ALERT_STRIP_INFO_FOREGROUND: 'var(--alert-strip-info-foreground)',
+	ALERT_STRIP_INFO_LINK_HOVER: 'var(--alert-strip-info-link-hover)',
+	ALERT_STRIP_ARCHIVE_BACKGROUND: 'var(--alert-strip-archive-background)',
+	ALERT_STRIP_ARCHIVE_FOREGROUND: 'var(--alert-strip-archive-foreground)',
+	ALERT_STRIP_ARCHIVE_LINK_HOVER: 'var(--alert-strip-archive-link-hover)',
+	ALERT_STRIP_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--alert-strip-highlight-danger-background)',
+	ALERT_STRIP_HIGHLIGHT_DANGER_FOREGROUND:
+		'var(--alert-strip-highlight-danger-foreground)',
+	ALERT_STRIP_HIGHLIGHT_DANGER_LINK_HOVER:
+		'var(--alert-strip-highlight-danger-link-hover)',
 	CALLOUT_PRIMARY_BACKGROUND: 'var(--callout-primary-background)',
 	CALLOUT_PRIMARY_BORDER: 'var(--callout-primary-border)',
 	CALLOUT_PRIMARY_BACKGROUND_HOVER: 'var(--callout-primary-background-hover)',

@@ -623,8 +623,170 @@
 				},
 				"alert-strip-button-background": {
 					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
-					"description": "",
+					"description": "Fill of the action button and the close button of an alert strip, the same on every colour",
 					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 20%)",
+					"description": "Fill of the action button and the close button of an alert strip under the pointer",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Label and icons of the action button and the close button of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-decoration": {
+					"value": "var(--bg-neutral-dark-1000)",
+					"description": "Dots on the tapered ends of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Fill of the primary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-primary-foreground": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Message and links of the primary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the primary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-background": {
+					"value": "var(--bg-neutral-light-700)",
+					"description": "Fill of the secondary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-foreground": {
+					"value": "var(--text-neutral-light-100)",
+					"description": "Message and links of the secondary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the secondary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Fill of the success alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-success-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the success alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-link-hover": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Links of the success alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Fill of the danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-danger-foreground": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Message and links of the danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Fill of the warning alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-warning-foreground": {
+					"value": "var(--text-neutral-light-50)",
+					"description": "Message and links of the warning alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the warning alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of the info alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-info-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the info alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the info alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of the archive alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-archive-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the archive alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the archive alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of the highlight danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the highlight danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the highlight danger alert strip under the pointer",
+					"category": "foreground",
 					"group": "alerts"
 				},
 				"callout-primary-background": {
@@ -4848,6 +5010,174 @@
 					"description": "Static dark surface that stays same across themes",
 					"category": "background",
 					"group": "surfaces"
+				},
+				"alert-strip-button-background": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
+					"description": "Fill of the action button and the close button of an alert strip, the same on every colour",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 20%)",
+					"description": "Fill of the action button and the close button of an alert strip under the pointer",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Label and icons of the action button and the close button of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-decoration": {
+					"value": "var(--bg-neutral-dark-1000)",
+					"description": "Dots on the tapered ends of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Fill of the primary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-primary-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Message and links of the primary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the primary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-background": {
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-800), transparent 40%)",
+					"description": "Fill of the secondary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-foreground": {
+					"value": "var(--text-neutral-dark-100)",
+					"description": "Message and links of the secondary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the secondary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Fill of the success alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-success-foreground": {
+					"value": "var(--text-neutral-dark-1000)",
+					"description": "Message and links of the success alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the success alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Fill of the danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-danger-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Message and links of the danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Fill of the warning alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-warning-foreground": {
+					"value": "var(--text-neutral-dark-1000)",
+					"description": "Message and links of the warning alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the warning alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of the info alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the info alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the info alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of the archive alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the archive alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the archive alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of the highlight danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the highlight danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the highlight danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
 				},
 				"callout-primary-background": {
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
