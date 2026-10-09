@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 29 Sep 2026 20:52:13 GMT
+ * Generated on Thu, 08 Oct 2026 19:54:25 GMT
  */
 
 [data-theme='default'] {
@@ -89,6 +89,12 @@
 	--warning-link-hover: var(--bg-amber-900);
 	--danger-link: var(--bg-cherry-600);
 	--danger-link-hover: var(--bg-cherry-700);
+	--info-link: var(--bg-aqua-700);
+	--info-link-hover: var(--bg-aqua-800);
+	--archive-link: var(--bg-sienna-700);
+	--archive-link-hover: var(--bg-sienna-800);
+	--highlight-danger-link: var(--bg-sakura-700);
+	--highlight-danger-link-hover: var(--bg-sakura-800);
 	--l1-background-transparent: color-mix(
 		in srgb,
 		var(--bg-neutral-light-1000),
@@ -133,6 +139,37 @@
 		var(--bg-ink-400),
 		transparent 40%
 	);
+	--alert-strip-button-background-hover: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 20%
+	);
+	--alert-strip-button-foreground: var(--text-neutral-dark-50);
+	--alert-strip-decoration: var(--bg-neutral-dark-1000);
+	--alert-strip-primary-background: var(--bg-robin-500);
+	--alert-strip-primary-foreground: var(--text-neutral-light-1000);
+	--alert-strip-primary-link-hover: var(--text-base-white);
+	--alert-strip-secondary-background: var(--bg-neutral-light-700);
+	--alert-strip-secondary-foreground: var(--text-neutral-light-100);
+	--alert-strip-secondary-link-hover: var(--text-base-black);
+	--alert-strip-success-background: var(--bg-forest-600);
+	--alert-strip-success-foreground: var(--text-neutral-light-950);
+	--alert-strip-success-link-hover: var(--text-neutral-light-1000);
+	--alert-strip-danger-background: var(--bg-cherry-500);
+	--alert-strip-danger-foreground: var(--text-neutral-light-1000);
+	--alert-strip-danger-link-hover: var(--text-base-white);
+	--alert-strip-warning-background: var(--bg-amber-500);
+	--alert-strip-warning-foreground: var(--text-neutral-light-50);
+	--alert-strip-warning-link-hover: var(--text-base-black);
+	--alert-strip-info-background: var(--bg-aqua-500);
+	--alert-strip-info-foreground: var(--text-neutral-light-950);
+	--alert-strip-info-link-hover: var(--text-base-black);
+	--alert-strip-archive-background: var(--bg-sienna-500);
+	--alert-strip-archive-foreground: var(--text-neutral-light-950);
+	--alert-strip-archive-link-hover: var(--text-base-black);
+	--alert-strip-highlight-danger-background: var(--bg-sakura-500);
+	--alert-strip-highlight-danger-foreground: var(--text-neutral-light-950);
+	--alert-strip-highlight-danger-link-hover: var(--text-base-black);
 	--callout-primary-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),
@@ -143,17 +180,27 @@
 		var(--bg-robin-500),
 		transparent 80%
 	);
+	--callout-primary-background-hover: color-mix(
+		in srgb,
+		var(--bg-robin-500),
+		transparent 80%
+	);
 	--callout-primary-title: var(--bg-robin-600);
 	--callout-primary-description: var(--bg-robin-600);
 	--callout-primary-icon: var(--bg-robin-600);
 	--callout-success-background: color-mix(
 		in srgb,
-		var(--bg-forest-600),
+		var(--bg-forest-500),
 		transparent 90%
 	);
 	--callout-success-border: color-mix(
 		in srgb,
-		var(--bg-forest-600),
+		var(--bg-forest-500),
+		transparent 80%
+	);
+	--callout-success-background-hover: color-mix(
+		in srgb,
+		var(--bg-forest-500),
 		transparent 80%
 	);
 	--callout-success-title: var(--bg-forest-600);
@@ -161,30 +208,103 @@
 	--callout-success-icon: var(--bg-forest-700);
 	--callout-warning-background: color-mix(
 		in srgb,
-		var(--bg-amber-600),
+		var(--bg-amber-500),
 		transparent 90%
 	);
 	--callout-warning-border: color-mix(
 		in srgb,
-		var(--bg-amber-600),
+		var(--bg-amber-500),
+		transparent 80%
+	);
+	--callout-warning-background-hover: color-mix(
+		in srgb,
+		var(--bg-amber-500),
 		transparent 80%
 	);
 	--callout-warning-title: var(--bg-amber-700);
 	--callout-warning-description: var(--bg-amber-700);
 	--callout-warning-icon: var(--bg-amber-800);
-	--callout-error-background: color-mix(
+	--callout-danger-background: color-mix(
 		in srgb,
 		var(--bg-cherry-500),
 		transparent 90%
 	);
-	--callout-error-border: color-mix(
+	--callout-danger-border: color-mix(
 		in srgb,
 		var(--bg-cherry-500),
 		transparent 80%
 	);
-	--callout-error-title: var(--bg-cherry-600);
-	--callout-error-description: var(--bg-cherry-600);
-	--callout-error-icon: var(--bg-cherry-700);
+	--callout-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--callout-danger-title: var(--bg-cherry-600);
+	--callout-danger-description: var(--bg-cherry-600);
+	--callout-danger-icon: var(--bg-cherry-700);
+	--callout-error-background: var(--callout-danger-background);
+	--callout-error-border: var(--callout-danger-border);
+	--callout-error-title: var(--callout-danger-title);
+	--callout-error-description: var(--callout-danger-description);
+	--callout-error-icon: var(--callout-danger-icon);
+	--callout-info-background: color-mix(
+		in srgb,
+		var(--bg-aqua-500),
+		transparent 90%
+	);
+	--callout-info-border: color-mix(in srgb, var(--bg-aqua-500), transparent 80%);
+	--callout-info-background-hover: color-mix(
+		in srgb,
+		var(--bg-aqua-500),
+		transparent 80%
+	);
+	--callout-info-title: var(--bg-aqua-900);
+	--callout-info-description: var(--bg-aqua-700);
+	--callout-info-icon: var(--bg-aqua-800);
+	--callout-archive-background: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 90%
+	);
+	--callout-archive-border: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 80%
+	);
+	--callout-archive-background-hover: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 80%
+	);
+	--callout-archive-title: var(--bg-sienna-900);
+	--callout-archive-description: var(--bg-sienna-700);
+	--callout-archive-icon: var(--bg-sienna-800);
+	--callout-highlight-danger-background: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 90%
+	);
+	--callout-highlight-danger-border: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 80%
+	);
+	--callout-highlight-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 80%
+	);
+	--callout-highlight-danger-title: var(--bg-sakura-900);
+	--callout-highlight-danger-description: var(--bg-sakura-700);
+	--callout-highlight-danger-icon: var(--bg-sakura-800);
+	--callout-secondary-background: var(--secondary-background);
+	--callout-secondary-border: var(--secondary-border);
+	--callout-secondary-background-hover: var(--secondary-background-hover);
+	--callout-secondary-title: var(--l1-foreground);
+	--callout-secondary-description: var(--l2-foreground);
+	--callout-secondary-icon: var(--l3-foreground);
+	--size-icon-callout-sm: 12px;
+	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
 	--accent-primary-hover: var(--bg-robin-400);
 	--accent-primary-foreground: var(--text-vanilla-100);
@@ -217,28 +337,11 @@
 	--action-border-hover: var(--bg-vanilla-400);
 	--action-foreground: var(--bg-slate-50);
 	--action-foreground-hover: var(--bg-slate-300);
-	--callout-sienna-background: color-mix(
+	--kbd-active-background: color-mix(
 		in srgb,
-		var(--bg-sienna-500) 10%,
-		transparent
+		var(--bg-robin-500),
+		transparent 90%
 	);
-	--callout-sienna-border: color-mix(
-		in srgb,
-		var(--bg-sienna-500) 20%,
-		transparent
-	);
-	--callout-sienna-title: var(--bg-sienna-600);
-	--callout-sienna-description: var(--bg-sienna-600);
-	--callout-sienna-icon: var(--bg-sienna-600);
-	--callout-aqua-background: color-mix(
-		in srgb,
-		var(--bg-aqua-500) 10%,
-		transparent
-	);
-	--callout-aqua-border: color-mix(in srgb, var(--bg-aqua-500) 20%, transparent);
-	--callout-aqua-title: var(--bg-aqua-700);
-	--callout-aqua-description: var(--bg-aqua-700);
-	--callout-aqua-icon: var(--bg-aqua-600);
 	--control-icon-foreground: var(--text-base-white);
 	--control-icon-foreground-contrast: var(--text-base-black);
 	--shadow-sidebar:
@@ -391,17 +494,17 @@
 	--switch-secondary-background: var(--l2-foreground);
 	--switch-secondary-hover-background: var(--l1-foreground-hover);
 	--switch-success-background: var(--success-background);
-	--switch-success-hover-background: var(--success-background-hover);
+	--switch-success-hover-background: var(--bg-forest-700);
 	--switch-warning-background: var(--warning-background);
 	--switch-warning-hover-background: var(--warning-background-hover);
 	--switch-danger-background: var(--danger-background);
 	--switch-danger-hover-background: var(--danger-background-hover);
 	--switch-info-background: var(--bg-aqua-500);
-	--switch-info-hover-background: var(--bg-aqua-400);
+	--switch-info-hover-background: var(--bg-aqua-600);
 	--switch-archive-background: var(--bg-sienna-500);
-	--switch-archive-hover-background: var(--bg-sienna-400);
+	--switch-archive-hover-background: var(--bg-sienna-600);
 	--switch-highlight-danger-background: var(--bg-sakura-500);
-	--switch-highlight-danger-hover-background: var(--bg-sakura-400);
+	--switch-highlight-danger-hover-background: var(--bg-sakura-600);
 	--switch-thumb-background: var(--primary-foreground);
 	--switch-label: var(--l1-foreground);
 	--switch-description: var(--l2-foreground);
@@ -456,7 +559,11 @@
 	--dropdown-item-background-hover: var(--l3-background-60);
 	--dropdown-item-danger-label: var(--danger-background-hover);
 	--dropdown-item-danger-label-hover: var(--danger-background-hover);
-	--dropdown-item-danger-background-hover: var(--callout-error-background);
+	--dropdown-item-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
 	--dropdown-item-icon: var(--l2-foreground);
 	--dropdown-item-icon-hover: var(--l1-foreground-hover);
 	--dropdown-group-label: var(--l3-foreground);
@@ -471,6 +578,72 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-trigger-background: transparent;
+	--combobox-trigger-border: var(--l2-border);
+	--combobox-trigger-border-hover: var(--l3-border);
+	--combobox-trigger-focus-ring: var(--primary-background);
+	--combobox-trigger-label: var(--l1-foreground);
+	--combobox-trigger-label-disabled: var(--l3-foreground);
+	--combobox-trigger-placeholder: var(--l3-foreground);
+	--combobox-trigger-icon: var(--l3-foreground);
+	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
+	--combobox-chip-background: var(--secondary-border);
+	--combobox-chip-label: var(--l1-foreground);
+	--combobox-chip-remove-icon: var(--l2-foreground);
+	--combobox-chip-remove-icon-hover: var(--l1-foreground);
+	--combobox-background: var(--surface-3);
+	--combobox-border: var(--l2-border);
+	--combobox-shadow: var(--shadow-dropdown);
+	--combobox-item-label: var(--l2-foreground);
+	--combobox-item-label-hover: var(--l1-foreground-hover);
+	--combobox-item-label-disabled: var(--l3-foreground);
+	--combobox-item-background: transparent;
+	--combobox-item-background-hover: var(--l3-background-60);
+	--combobox-item-icon: var(--l2-foreground);
+	--combobox-item-icon-hover: var(--l1-foreground-hover);
+	--combobox-item-indicator: var(--l1-foreground);
+	--combobox-item-control-border: var(--l3-foreground);
+	--combobox-item-control-border-hover: var(--primary-background-hover);
+	--combobox-item-control-checked-background: var(--primary-background);
+	--combobox-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-group-label: var(--l3-foreground);
+	--combobox-separator: var(--l2-border);
+	--combobox-search-placeholder: var(--l3-foreground);
+	--combobox-search-icon: var(--l3-foreground);
+	--combobox-search-border: var(--l2-border);
+	--combobox-loading-label: var(--l1-foreground);
+	--combobox-empty-label: var(--l3-foreground);
+	--select-trigger-background: transparent;
+	--select-trigger-border: var(--l2-border);
+	--select-trigger-border-hover: var(--l3-border);
+	--select-trigger-focus-ring: var(--primary-background);
+	--select-trigger-label: var(--l1-foreground);
+	--select-trigger-label-disabled: var(--l3-foreground);
+	--select-trigger-placeholder: var(--l3-foreground);
+	--select-trigger-icon: var(--l3-foreground);
+	--select-chip-background: var(--secondary-border);
+	--select-chip-label: var(--l1-foreground);
+	--select-chip-remove-icon: var(--l2-foreground);
+	--select-chip-remove-icon-hover: var(--l1-foreground);
+	--select-background: var(--surface-3);
+	--select-border: var(--l2-border);
+	--select-shadow: var(--shadow-dropdown);
+	--select-item-label: var(--l2-foreground);
+	--select-item-label-hover: var(--l1-foreground-hover);
+	--select-item-label-disabled: var(--l3-foreground);
+	--select-item-background: transparent;
+	--select-item-background-hover: var(--l3-background-60);
+	--select-item-icon: var(--l2-foreground);
+	--select-item-icon-hover: var(--l1-foreground-hover);
+	--select-item-indicator: var(--l1-foreground);
+	--select-item-control-border: var(--l3-foreground);
+	--select-item-control-border-hover: var(--primary-background-hover);
+	--select-item-control-checked-background: var(--primary-background);
+	--select-item-control-checked-foreground: var(--primary-foreground);
+	--select-group-label: var(--l3-foreground);
+	--select-separator: var(--l2-border);
+	--select-loading-label: var(--l1-foreground);
+	--select-empty-label: var(--l3-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);
@@ -617,10 +790,133 @@
 	--tooltip-border: var(--l3-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--toast-background: var(--surface-2);
+	--toast-border: var(--l2-border);
+	--toast-shadow: var(--shadow-toast);
+	--toast-title: var(--l1-foreground);
+	--toast-description: var(--l2-foreground);
+	--toast-info-icon: var(--primary-background);
+	--toast-success-icon: var(--success-background);
+	--toast-warning-icon: var(--warning-background);
+	--toast-danger-icon: var(--danger-background);
+	--toast-loading-icon: var(--l2-foreground);
+	--toast-action-label: var(--l2-foreground);
+	--toast-action-label-hover: var(--l1-foreground-hover);
+	--toast-action-background-hover: var(--l3-background-30);
+	--toast-action-divider: var(--l2-border);
+	--toast-focus-ring: var(--ring);
+	--size-icon-toast: 16px;
+	--progress-track: var(--l3-background);
+	--progress-value: var(--l1-foreground);
+	--progress-primary-indicator: var(--primary-background);
+	--progress-secondary-indicator: var(--l3-foreground);
+	--progress-success-indicator: var(--success-background);
+	--progress-danger-indicator: var(--danger-background);
+	--progress-warning-indicator: var(--warning-background);
+	--progress-info-indicator: var(--bg-aqua-500);
+	--progress-archive-indicator: var(--bg-sienna-500);
+	--progress-highlight-danger-indicator: var(--bg-sakura-500);
+	--progress-active-stripe: color-mix(
+		in srgb,
+		var(--bg-vanilla-100),
+		transparent 75%
+	);
+	--slider-primary-indicator: var(--primary-background);
+	--slider-secondary-indicator: var(--l3-foreground);
+	--slider-success-indicator: var(--success-background);
+	--slider-danger-indicator: var(--danger-background);
+	--slider-warning-indicator: var(--warning-background);
+	--slider-info-indicator: var(--bg-aqua-500);
+	--slider-archive-indicator: var(--bg-sienna-500);
+	--slider-highlight-danger-indicator: var(--bg-sakura-500);
+	--command-background: var(--surface-3);
+	--command-backdrop: rgba(0, 0, 0, 0.5);
+	--command-border: var(--l2-border);
+	--command-shadow: var(--shadow-dropdown);
+	--command-item-label: var(--l2-foreground);
+	--command-item-label-hover: var(--l1-foreground-hover);
+	--command-item-label-disabled: var(--l3-foreground);
+	--command-item-background: transparent;
+	--command-item-background-hover: var(--l3-background-60);
+	--command-item-icon: var(--l2-foreground);
+	--command-item-icon-hover: var(--l1-foreground-hover);
+	--command-group-label: var(--l3-foreground);
+	--command-search-placeholder: var(--l3-foreground);
+	--command-search-icon: var(--l3-foreground);
+	--command-search-border: var(--l2-border);
+	--command-empty-label: var(--l3-foreground);
+	--divider-border: var(--l2-border);
+	--divider-label: var(--l2-foreground);
+	--radio-cards-background: var(--secondary-background);
+	--radio-cards-background-hover: var(--secondary-background-hover);
+	--radio-cards-border: var(--secondary-border);
+	--radio-cards-label: var(--secondary-foreground);
+	--radio-cards-label-hover: var(--secondary-foreground-hover);
+	--radio-cards-icon: var(--secondary-foreground);
+	--radio-cards-icon-hover: var(--secondary-foreground-hover);
+	--radio-cards-checked-background: var(--callout-primary-background);
+	--radio-cards-checked-border: var(--callout-primary-border);
+	--radio-cards-checked-label: var(--callout-primary-title);
+	--radio-cards-checked-icon: var(--callout-primary-icon);
+	--radio-cards-focus-ring: var(--ring);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--input-background: transparent;
+	--input-border: var(--l2-border);
+	--input-border-hover: var(--l3-border);
+	--input-foreground: var(--l1-foreground-hover);
+	--input-placeholder: var(--l2-foreground);
+	--input-placeholder-hover: var(--l1-foreground);
+	--input-icon: var(--l2-foreground);
+	--input-focus-ring: var(--primary-background);
+	--input-success-background: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 90%
+	);
+	--input-success-border: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 80%
+	);
+	--input-success-icon: var(--success-background);
+	--input-warning-background: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 90%
+	);
+	--input-warning-border: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 80%
+	);
+	--input-warning-icon: var(--warning-background);
+	--input-danger-background: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
+	--input-danger-border: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--input-danger-icon: var(--danger-background);
+	--field-label: var(--l2-foreground);
+	--field-label-hover: var(--l1-foreground);
+	--field-label-icon: var(--l2-foreground);
+	--field-required-marker: var(--danger-background);
+	--field-success-label: var(--bg-forest-600);
+	--field-success-message: var(--bg-forest-600);
+	--field-success-icon: var(--success-background);
+	--field-warning-label: var(--bg-amber-700);
+	--field-warning-message: var(--bg-amber-700);
+	--field-warning-icon: var(--warning-background);
+	--field-danger-label: var(--bg-cherry-600);
+	--field-danger-message: var(--bg-cherry-600);
+	--field-danger-icon: var(--danger-background);
 }
 
 [data-theme='default'].dark {
@@ -708,6 +1004,12 @@
 	--warning-link-hover: var(--bg-amber-500);
 	--danger-link: var(--bg-cherry-400);
 	--danger-link-hover: var(--bg-cherry-500);
+	--info-link: var(--bg-aqua-400);
+	--info-link-hover: var(--bg-aqua-500);
+	--archive-link: var(--bg-sienna-400);
+	--archive-link-hover: var(--bg-sienna-500);
+	--highlight-danger-link: var(--bg-sakura-400);
+	--highlight-danger-link-hover: var(--bg-sakura-500);
 	--l1-background-transparent: color-mix(
 		in srgb,
 		var(--bg-neutral-dark-1000),
@@ -747,12 +1049,57 @@
 	--surface-2: var(--l2-background);
 	--surface-3: var(--l3-background-60);
 	--surface-static: var(--l3-background-60);
+	--alert-strip-button-background: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 40%
+	);
+	--alert-strip-button-background-hover: color-mix(
+		in srgb,
+		var(--bg-ink-400),
+		transparent 20%
+	);
+	--alert-strip-button-foreground: var(--text-neutral-dark-50);
+	--alert-strip-decoration: var(--bg-neutral-dark-1000);
+	--alert-strip-primary-background: var(--bg-robin-500);
+	--alert-strip-primary-foreground: var(--text-neutral-dark-50);
+	--alert-strip-primary-link-hover: var(--text-base-white);
+	--alert-strip-secondary-background: color-mix(
+		in srgb,
+		var(--bg-neutral-dark-800),
+		transparent 40%
+	);
+	--alert-strip-secondary-foreground: var(--text-neutral-dark-100);
+	--alert-strip-secondary-link-hover: var(--text-base-white);
+	--alert-strip-success-background: var(--bg-forest-500);
+	--alert-strip-success-foreground: var(--text-neutral-dark-1000);
+	--alert-strip-success-link-hover: var(--text-base-black);
+	--alert-strip-danger-background: var(--bg-cherry-500);
+	--alert-strip-danger-foreground: var(--text-neutral-dark-50);
+	--alert-strip-danger-link-hover: var(--text-base-white);
+	--alert-strip-warning-background: var(--bg-amber-500);
+	--alert-strip-warning-foreground: var(--text-neutral-dark-1000);
+	--alert-strip-warning-link-hover: var(--text-base-black);
+	--alert-strip-info-background: var(--bg-aqua-500);
+	--alert-strip-info-foreground: var(--text-ink-500);
+	--alert-strip-info-link-hover: var(--text-base-black);
+	--alert-strip-archive-background: var(--bg-sienna-500);
+	--alert-strip-archive-foreground: var(--text-ink-500);
+	--alert-strip-archive-link-hover: var(--text-base-black);
+	--alert-strip-highlight-danger-background: var(--bg-sakura-500);
+	--alert-strip-highlight-danger-foreground: var(--text-ink-500);
+	--alert-strip-highlight-danger-link-hover: var(--text-base-black);
 	--callout-primary-background: color-mix(
 		in srgb,
 		var(--bg-robin-500),
 		transparent 90%
 	);
 	--callout-primary-border: color-mix(
+		in srgb,
+		var(--bg-robin-500),
+		transparent 80%
+	);
+	--callout-primary-background-hover: color-mix(
 		in srgb,
 		var(--bg-robin-500),
 		transparent 80%
@@ -770,6 +1117,11 @@
 		var(--bg-forest-500),
 		transparent 80%
 	);
+	--callout-success-background-hover: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 80%
+	);
 	--callout-success-title: var(--bg-forest-100);
 	--callout-success-description: var(--bg-forest-300);
 	--callout-success-icon: var(--bg-forest-200);
@@ -783,22 +1135,95 @@
 		var(--bg-amber-500),
 		transparent 80%
 	);
+	--callout-warning-background-hover: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 80%
+	);
 	--callout-warning-title: var(--bg-amber-100);
 	--callout-warning-description: var(--bg-amber-300);
 	--callout-warning-icon: var(--bg-amber-200);
-	--callout-error-background: color-mix(
+	--callout-danger-background: color-mix(
 		in srgb,
 		var(--bg-cherry-500),
 		transparent 90%
 	);
-	--callout-error-border: color-mix(
+	--callout-danger-border: color-mix(
 		in srgb,
 		var(--bg-cherry-500),
 		transparent 80%
 	);
-	--callout-error-title: var(--bg-cherry-100);
-	--callout-error-description: var(--bg-cherry-300);
-	--callout-error-icon: var(--bg-cherry-200);
+	--callout-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--callout-danger-title: var(--bg-cherry-100);
+	--callout-danger-description: var(--bg-cherry-300);
+	--callout-danger-icon: var(--bg-cherry-200);
+	--callout-error-background: var(--callout-danger-background);
+	--callout-error-border: var(--callout-danger-border);
+	--callout-error-title: var(--callout-danger-title);
+	--callout-error-description: var(--callout-danger-description);
+	--callout-error-icon: var(--callout-danger-icon);
+	--callout-info-background: color-mix(
+		in srgb,
+		var(--bg-aqua-500),
+		transparent 90%
+	);
+	--callout-info-border: color-mix(in srgb, var(--bg-aqua-500), transparent 80%);
+	--callout-info-background-hover: color-mix(
+		in srgb,
+		var(--bg-aqua-500),
+		transparent 80%
+	);
+	--callout-info-title: var(--bg-aqua-100);
+	--callout-info-description: var(--bg-aqua-300);
+	--callout-info-icon: var(--bg-aqua-200);
+	--callout-archive-background: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 90%
+	);
+	--callout-archive-border: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 80%
+	);
+	--callout-archive-background-hover: color-mix(
+		in srgb,
+		var(--bg-sienna-500),
+		transparent 80%
+	);
+	--callout-archive-title: var(--bg-sienna-100);
+	--callout-archive-description: var(--bg-sienna-300);
+	--callout-archive-icon: var(--bg-sienna-200);
+	--callout-highlight-danger-background: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 90%
+	);
+	--callout-highlight-danger-border: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 80%
+	);
+	--callout-highlight-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-sakura-500),
+		transparent 80%
+	);
+	--callout-highlight-danger-title: var(--bg-sakura-100);
+	--callout-highlight-danger-description: var(--bg-sakura-300);
+	--callout-highlight-danger-icon: var(--bg-sakura-200);
+	--callout-secondary-background: var(--secondary-background);
+	--callout-secondary-border: var(--secondary-border);
+	--callout-secondary-background-hover: var(--secondary-background-hover);
+	--callout-secondary-title: var(--l1-foreground);
+	--callout-secondary-description: var(--l2-foreground);
+	--callout-secondary-icon: var(--l3-foreground);
+	--size-icon-callout-sm: 12px;
+	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
 	--accent-primary-hover: var(--bg-robin-400);
 	--accent-primary-foreground: var(--text-ink-500);
@@ -831,28 +1256,11 @@
 	--action-border-hover: var(--bg-slate-300);
 	--action-foreground: var(--bg-vanilla-400);
 	--action-foreground-hover: var(--bg-vanilla-100);
-	--callout-sienna-background: color-mix(
+	--kbd-active-background: color-mix(
 		in srgb,
-		var(--bg-sienna-500) 10%,
-		transparent
+		var(--bg-robin-500),
+		transparent 90%
 	);
-	--callout-sienna-border: color-mix(
-		in srgb,
-		var(--bg-sienna-500) 20%,
-		transparent
-	);
-	--callout-sienna-title: var(--bg-sienna-100);
-	--callout-sienna-description: var(--bg-sienna-300);
-	--callout-sienna-icon: var(--bg-sienna-300);
-	--callout-aqua-background: color-mix(
-		in srgb,
-		var(--bg-aqua-500) 10%,
-		transparent
-	);
-	--callout-aqua-border: color-mix(in srgb, var(--bg-aqua-500) 20%, transparent);
-	--callout-aqua-title: var(--bg-aqua-100);
-	--callout-aqua-description: var(--bg-aqua-300);
-	--callout-aqua-icon: var(--bg-aqua-300);
 	--control-icon-foreground: var(--text-base-white);
 	--control-icon-foreground-contrast: var(--text-base-black);
 	--shadow-sidebar:
@@ -1067,7 +1475,11 @@
 	--dropdown-item-background-hover: var(--l3-background-60);
 	--dropdown-item-danger-label: var(--danger-background-hover);
 	--dropdown-item-danger-label-hover: var(--danger-background-hover);
-	--dropdown-item-danger-background-hover: var(--callout-error-background);
+	--dropdown-item-danger-background-hover: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
 	--dropdown-item-icon: var(--l2-foreground);
 	--dropdown-item-icon-hover: var(--l1-foreground-hover);
 	--dropdown-group-label: var(--l3-foreground);
@@ -1082,6 +1494,72 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-trigger-background: transparent;
+	--combobox-trigger-border: var(--l2-border);
+	--combobox-trigger-border-hover: var(--l3-border);
+	--combobox-trigger-focus-ring: var(--primary-background);
+	--combobox-trigger-label: var(--l1-foreground);
+	--combobox-trigger-label-disabled: var(--l3-foreground);
+	--combobox-trigger-placeholder: var(--l3-foreground);
+	--combobox-trigger-icon: var(--l3-foreground);
+	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
+	--combobox-chip-background: var(--secondary-border);
+	--combobox-chip-label: var(--l1-foreground);
+	--combobox-chip-remove-icon: var(--l2-foreground);
+	--combobox-chip-remove-icon-hover: var(--l1-foreground);
+	--combobox-background: var(--surface-3);
+	--combobox-border: var(--l2-border);
+	--combobox-shadow: var(--shadow-dropdown);
+	--combobox-item-label: var(--l2-foreground);
+	--combobox-item-label-hover: var(--l1-foreground-hover);
+	--combobox-item-label-disabled: var(--l3-foreground);
+	--combobox-item-background: transparent;
+	--combobox-item-background-hover: var(--l3-background-60);
+	--combobox-item-icon: var(--l2-foreground);
+	--combobox-item-icon-hover: var(--l1-foreground-hover);
+	--combobox-item-indicator: var(--l1-foreground);
+	--combobox-item-control-border: var(--l3-foreground);
+	--combobox-item-control-border-hover: var(--primary-background-hover);
+	--combobox-item-control-checked-background: var(--primary-background);
+	--combobox-item-control-checked-foreground: var(--primary-foreground);
+	--combobox-group-label: var(--l3-foreground);
+	--combobox-separator: var(--l2-border);
+	--combobox-search-placeholder: var(--l3-foreground);
+	--combobox-search-icon: var(--l3-foreground);
+	--combobox-search-border: var(--l2-border);
+	--combobox-loading-label: var(--l1-foreground);
+	--combobox-empty-label: var(--l3-foreground);
+	--select-trigger-background: transparent;
+	--select-trigger-border: var(--l2-border);
+	--select-trigger-border-hover: var(--l3-border);
+	--select-trigger-focus-ring: var(--primary-background);
+	--select-trigger-label: var(--l1-foreground);
+	--select-trigger-label-disabled: var(--l3-foreground);
+	--select-trigger-placeholder: var(--l3-foreground);
+	--select-trigger-icon: var(--l3-foreground);
+	--select-chip-background: var(--secondary-border);
+	--select-chip-label: var(--l1-foreground);
+	--select-chip-remove-icon: var(--l2-foreground);
+	--select-chip-remove-icon-hover: var(--l1-foreground);
+	--select-background: var(--surface-3);
+	--select-border: var(--l2-border);
+	--select-shadow: var(--shadow-dropdown);
+	--select-item-label: var(--l2-foreground);
+	--select-item-label-hover: var(--l1-foreground-hover);
+	--select-item-label-disabled: var(--l3-foreground);
+	--select-item-background: transparent;
+	--select-item-background-hover: var(--l3-background-60);
+	--select-item-icon: var(--l2-foreground);
+	--select-item-icon-hover: var(--l1-foreground-hover);
+	--select-item-indicator: var(--l1-foreground);
+	--select-item-control-border: var(--l3-foreground);
+	--select-item-control-border-hover: var(--primary-background-hover);
+	--select-item-control-checked-background: var(--primary-background);
+	--select-item-control-checked-foreground: var(--primary-foreground);
+	--select-group-label: var(--l3-foreground);
+	--select-separator: var(--l2-border);
+	--select-loading-label: var(--l1-foreground);
+	--select-empty-label: var(--l3-foreground);
 	--calendar-background: var(--background);
 	--calendar-button-background: transparent;
 	--calendar-button-background-hover: var(--secondary-background-hover);
@@ -1228,8 +1706,131 @@
 	--tooltip-border: var(--l2-border);
 	--tooltip-divider: var(--l2-border);
 	--tooltip-shadow: var(--shadow-tooltip);
+	--toast-background: var(--surface-2);
+	--toast-border: var(--l2-border);
+	--toast-shadow: var(--shadow-toast);
+	--toast-title: var(--l1-foreground);
+	--toast-description: var(--l2-foreground);
+	--toast-info-icon: var(--primary-background);
+	--toast-success-icon: var(--success-background);
+	--toast-warning-icon: var(--warning-background);
+	--toast-danger-icon: var(--danger-background);
+	--toast-loading-icon: var(--l2-foreground);
+	--toast-action-label: var(--l2-foreground);
+	--toast-action-label-hover: var(--l1-foreground-hover);
+	--toast-action-background-hover: var(--l3-background-30);
+	--toast-action-divider: var(--l2-border);
+	--toast-focus-ring: var(--ring);
+	--size-icon-toast: 16px;
+	--progress-track: var(--l3-background);
+	--progress-value: var(--l1-foreground);
+	--progress-primary-indicator: var(--primary-background);
+	--progress-secondary-indicator: var(--l3-foreground);
+	--progress-success-indicator: var(--success-background);
+	--progress-danger-indicator: var(--danger-background);
+	--progress-warning-indicator: var(--warning-background);
+	--progress-info-indicator: var(--bg-aqua-500);
+	--progress-archive-indicator: var(--bg-sienna-500);
+	--progress-highlight-danger-indicator: var(--bg-sakura-500);
+	--progress-active-stripe: color-mix(
+		in srgb,
+		var(--bg-vanilla-100),
+		transparent 75%
+	);
+	--slider-primary-indicator: var(--primary-background);
+	--slider-secondary-indicator: var(--l3-foreground);
+	--slider-success-indicator: var(--success-background);
+	--slider-danger-indicator: var(--danger-background);
+	--slider-warning-indicator: var(--warning-background);
+	--slider-info-indicator: var(--bg-aqua-500);
+	--slider-archive-indicator: var(--bg-sienna-500);
+	--slider-highlight-danger-indicator: var(--bg-sakura-500);
+	--command-background: var(--surface-3);
+	--command-backdrop: rgba(0, 0, 0, 0.6);
+	--command-border: var(--l2-border);
+	--command-shadow: var(--shadow-dropdown);
+	--command-item-label: var(--l2-foreground);
+	--command-item-label-hover: var(--l1-foreground-hover);
+	--command-item-label-disabled: var(--l3-foreground);
+	--command-item-background: transparent;
+	--command-item-background-hover: var(--l3-background-60);
+	--command-item-icon: var(--l2-foreground);
+	--command-item-icon-hover: var(--l1-foreground-hover);
+	--command-group-label: var(--l3-foreground);
+	--command-search-placeholder: var(--l3-foreground);
+	--command-search-icon: var(--l3-foreground);
+	--command-search-border: var(--l2-border);
+	--command-empty-label: var(--l3-foreground);
+	--divider-border: var(--l2-border);
+	--divider-label: var(--l2-foreground);
+	--radio-cards-background: var(--secondary-background);
+	--radio-cards-background-hover: var(--secondary-background-hover);
+	--radio-cards-border: var(--secondary-border);
+	--radio-cards-label: var(--secondary-foreground);
+	--radio-cards-label-hover: var(--secondary-foreground-hover);
+	--radio-cards-icon: var(--secondary-foreground);
+	--radio-cards-icon-hover: var(--secondary-foreground-hover);
+	--radio-cards-checked-background: var(--callout-primary-background);
+	--radio-cards-checked-border: var(--callout-primary-border);
+	--radio-cards-checked-label: var(--callout-primary-title);
+	--radio-cards-checked-icon: var(--callout-primary-icon);
+	--radio-cards-focus-ring: var(--ring);
 	--breadcrumb-label: var(--l1-foreground);
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--input-background: transparent;
+	--input-border: var(--l2-border);
+	--input-border-hover: var(--l3-border);
+	--input-foreground: var(--l1-foreground-hover);
+	--input-placeholder: var(--l2-foreground);
+	--input-placeholder-hover: var(--l1-foreground);
+	--input-icon: var(--l2-foreground);
+	--input-focus-ring: var(--primary-background);
+	--input-success-background: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 90%
+	);
+	--input-success-border: color-mix(
+		in srgb,
+		var(--bg-forest-500),
+		transparent 80%
+	);
+	--input-success-icon: var(--success-background);
+	--input-warning-background: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 90%
+	);
+	--input-warning-border: color-mix(
+		in srgb,
+		var(--bg-amber-500),
+		transparent 80%
+	);
+	--input-warning-icon: var(--warning-background);
+	--input-danger-background: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 90%
+	);
+	--input-danger-border: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
+	--input-danger-icon: var(--danger-background);
+	--field-label: var(--l2-foreground);
+	--field-label-hover: var(--l1-foreground);
+	--field-label-icon: var(--l2-foreground);
+	--field-required-marker: var(--danger-background);
+	--field-success-label: var(--bg-forest-300);
+	--field-success-message: var(--bg-forest-300);
+	--field-success-icon: var(--success-background);
+	--field-warning-label: var(--bg-amber-300);
+	--field-warning-message: var(--bg-amber-300);
+	--field-warning-icon: var(--warning-background);
+	--field-danger-label: var(--bg-cherry-300);
+	--field-danger-message: var(--bg-cherry-300);
+	--field-danger-icon: var(--danger-background);
 }

@@ -519,6 +519,42 @@
 					"category": "foreground",
 					"group": "actions"
 				},
+				"info-link": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Link foreground for info. Light: aqua/700, Dark: aqua/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"info-link-hover": {
+					"value": "var(--bg-aqua-800)",
+					"description": "Hover link foreground for info. Light: aqua/800, Dark: aqua/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"archive-link": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Link foreground for archive. Light: sienna/700, Dark: sienna/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"archive-link-hover": {
+					"value": "var(--bg-sienna-800)",
+					"description": "Hover link foreground for archive. Light: sienna/800, Dark: sienna/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"highlight-danger-link": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Link foreground for highlight-danger. Light: sakura/700, Dark: sakura/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-800)",
+					"description": "Hover link foreground for highlight-danger. Light: sakura/800, Dark: sakura/500",
+					"category": "foreground",
+					"group": "actions"
+				},
 				"l1-background-transparent": {
 					"value": "color-mix(in srgb, var(--bg-neutral-light-1000), transparent 100%)",
 					"description": "",
@@ -587,8 +623,170 @@
 				},
 				"alert-strip-button-background": {
 					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
-					"description": "",
+					"description": "Fill of the action button and the close button of an alert strip, the same on every colour",
 					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 20%)",
+					"description": "Fill of the action button and the close button of an alert strip under the pointer",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Label and icons of the action button and the close button of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-decoration": {
+					"value": "var(--bg-neutral-dark-1000)",
+					"description": "Dots on the tapered ends of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Fill of the primary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-primary-foreground": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Message and links of the primary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the primary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-background": {
+					"value": "var(--bg-neutral-light-700)",
+					"description": "Fill of the secondary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-foreground": {
+					"value": "var(--text-neutral-light-100)",
+					"description": "Message and links of the secondary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the secondary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-background": {
+					"value": "var(--bg-forest-600)",
+					"description": "Fill of the success alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-success-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the success alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-link-hover": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Links of the success alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Fill of the danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-danger-foreground": {
+					"value": "var(--text-neutral-light-1000)",
+					"description": "Message and links of the danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Fill of the warning alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-warning-foreground": {
+					"value": "var(--text-neutral-light-50)",
+					"description": "Message and links of the warning alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the warning alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of the info alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-info-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the info alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the info alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of the archive alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-archive-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the archive alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the archive alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of the highlight danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Message and links of the highlight danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the highlight danger alert strip under the pointer",
+					"category": "foreground",
 					"group": "alerts"
 				},
 				"callout-primary-background": {
@@ -602,6 +800,12 @@
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 80%)",
 					"description": "Border for informational callout boxes",
 					"category": "border",
+					"group": "callouts"
+				},
+				"callout-primary-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an informational callout, such as the chevron and the close button",
+					"category": "background",
 					"group": "callouts"
 				},
 				"callout-primary-title": {
@@ -623,16 +827,22 @@
 					"group": "callouts"
 				},
 				"callout-success-background": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
 					"description": "Background for success callout boxes",
 					"usage": "Use for success messages and positive confirmations",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-success-border": {
-					"value": "color-mix(in srgb, var(--bg-forest-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
 					"description": "Border for success callout boxes",
 					"category": "border",
+					"group": "callouts"
+				},
+				"callout-success-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a success callout, such as the chevron and the close button",
+					"category": "background",
 					"group": "callouts"
 				},
 				"callout-success-title": {
@@ -654,16 +864,22 @@
 					"group": "callouts"
 				},
 				"callout-warning-background": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 90%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
 					"description": "Background for warning callout boxes",
 					"usage": "Use for warning messages and cautionary information",
 					"category": "background",
 					"group": "callouts"
 				},
 				"callout-warning-border": {
-					"value": "color-mix(in srgb, var(--bg-amber-600), transparent 80%)",
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
 					"description": "Border for warning callout boxes",
 					"category": "border",
+					"group": "callouts"
+				},
+				"callout-warning-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a warning callout, such as the chevron and the close button",
+					"category": "background",
 					"group": "callouts"
 				},
 				"callout-warning-title": {
@@ -684,35 +900,231 @@
 					"category": "foreground",
 					"group": "callouts"
 				},
-				"callout-error-background": {
+				"callout-danger-background": {
 					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
-					"description": "Background for error callout boxes",
+					"description": "Background for danger callout boxes",
 					"usage": "Use for error messages and critical information",
 					"category": "background",
 					"group": "callouts"
 				},
-				"callout-error-border": {
+				"callout-danger-border": {
 					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
-					"description": "Border for error callout boxes",
+					"description": "Border for danger callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-danger-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a danger callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-danger-title": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Title text color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-danger-description": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Description text color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-danger-icon": {
+					"value": "var(--bg-cherry-700)",
+					"description": "Icon color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-error-background": {
+					"value": "var(--callout-danger-background)",
+					"description": "Deprecated, use callout-danger-background. Aliases callout-danger-background",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-error-border": {
+					"value": "var(--callout-danger-border)",
+					"description": "Deprecated, use callout-danger-border. Aliases callout-danger-border",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-error-title": {
-					"value": "var(--bg-cherry-600)",
-					"description": "Title text color for error callouts",
+					"value": "var(--callout-danger-title)",
+					"description": "Deprecated, use callout-danger-title. Aliases callout-danger-title",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-description": {
-					"value": "var(--bg-cherry-600)",
-					"description": "Description text color for error callouts",
+					"value": "var(--callout-danger-description)",
+					"description": "Deprecated, use callout-danger-description. Aliases callout-danger-description",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-icon": {
-					"value": "var(--bg-cherry-700)",
-					"description": "Icon color for error callouts",
+					"value": "var(--callout-danger-icon)",
+					"description": "Deprecated, use callout-danger-icon. Aliases callout-danger-icon",
 					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-background": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 90%)",
+					"description": "Background for info callout boxes",
+					"usage": "Use for neutral information that sits beside a primary message",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-info-border": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 80%)",
+					"description": "Border for info callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-info-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an info callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-info-title": {
+					"value": "var(--bg-aqua-900)",
+					"description": "Title text color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-description": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Description text color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-icon": {
+					"value": "var(--bg-aqua-800)",
+					"description": "Icon color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-background": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 90%)",
+					"description": "Background for archive callout boxes",
+					"usage": "Use for archived, retired or read-only content",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-archive-border": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 80%)",
+					"description": "Border for archive callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-archive-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an archive callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-archive-title": {
+					"value": "var(--bg-sienna-900)",
+					"description": "Title text color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-description": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Description text color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-icon": {
+					"value": "var(--bg-sienna-800)",
+					"description": "Icon color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 90%)",
+					"description": "Background for highlighted danger callout boxes",
+					"usage": "Use for a danger message that has to stand apart from a regular error",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 80%)",
+					"description": "Border for highlighted danger callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a highlighted danger callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-title": {
+					"value": "var(--bg-sakura-900)",
+					"description": "Title text color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-description": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Description text color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-icon": {
+					"value": "var(--bg-sakura-800)",
+					"description": "Icon color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Background for neutral callout boxes",
+					"usage": "Use for neutral notes that carry no severity",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border for neutral callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered control inside a neutral callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-secondary-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title text color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"size-icon-callout-sm": {
+					"value": "12px",
+					"description": "Icon size for small callouts",
+					"category": "size",
+					"group": "callouts"
+				},
+				"size-icon-callout-md": {
+					"value": "16px",
+					"description": "Icon size for medium callouts",
+					"category": "size",
 					"group": "callouts"
 				},
 				"accent-primary": {
@@ -914,65 +1326,11 @@
 					"category": "foreground",
 					"group": "buttons"
 				},
-				"callout-sienna-background": {
-					"value": "color-mix(in srgb, var(--bg-sienna-500) 10%, transparent)",
-					"description": "Background for sienna callout boxes",
+				"kbd-active-background": {
+					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
+					"description": "Fill of a keyboard key while it is active",
 					"category": "background",
-					"group": "callouts"
-				},
-				"callout-sienna-border": {
-					"value": "color-mix(in srgb, var(--bg-sienna-500) 20%, transparent)",
-					"description": "Border for sienna callout boxes",
-					"category": "border",
-					"group": "callouts"
-				},
-				"callout-sienna-title": {
-					"value": "var(--bg-sienna-600)",
-					"description": "Title text color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-sienna-description": {
-					"value": "var(--bg-sienna-600)",
-					"description": "Description text color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-sienna-icon": {
-					"value": "var(--bg-sienna-600)",
-					"description": "Icon color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-background": {
-					"value": "color-mix(in srgb, var(--bg-aqua-500) 10%, transparent)",
-					"description": "Background for aqua callout boxes",
-					"category": "background",
-					"group": "callouts"
-				},
-				"callout-aqua-border": {
-					"value": "color-mix(in srgb, var(--bg-aqua-500) 20%, transparent)",
-					"description": "Border for aqua callout boxes",
-					"category": "border",
-					"group": "callouts"
-				},
-				"callout-aqua-title": {
-					"value": "var(--bg-aqua-700)",
-					"description": "Title text color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-description": {
-					"value": "var(--bg-aqua-700)",
-					"description": "Description text color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-icon": {
-					"value": "var(--bg-aqua-600)",
-					"description": "Icon color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
+					"group": "kbd"
 				},
 				"control-icon-foreground": {
 					"value": "var(--text-base-white)",
@@ -1779,7 +2137,7 @@
 					"group": "switches"
 				},
 				"switch-success-hover-background": {
-					"value": "var(--success-background-hover)",
+					"value": "var(--bg-forest-700)",
 					"description": "Track fill for hovered checked success switches",
 					"category": "background",
 					"group": "switches"
@@ -1815,7 +2173,7 @@
 					"group": "switches"
 				},
 				"switch-info-hover-background": {
-					"value": "var(--bg-aqua-400)",
+					"value": "var(--bg-aqua-600)",
 					"description": "Track fill for hovered checked info switches",
 					"category": "background",
 					"group": "switches"
@@ -1827,7 +2185,7 @@
 					"group": "switches"
 				},
 				"switch-archive-hover-background": {
-					"value": "var(--bg-sienna-400)",
+					"value": "var(--bg-sienna-600)",
 					"description": "Track fill for hovered checked archive switches",
 					"category": "background",
 					"group": "switches"
@@ -1839,7 +2197,7 @@
 					"group": "switches"
 				},
 				"switch-highlight-danger-hover-background": {
-					"value": "var(--bg-sakura-400)",
+					"value": "var(--bg-sakura-600)",
 					"description": "Track fill for hovered checked highlight-danger switches",
 					"category": "background",
 					"group": "switches"
@@ -2121,7 +2479,7 @@
 					"group": "dropdown"
 				},
 				"dropdown-item-danger-background-hover": {
-					"value": "var(--callout-error-background)",
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
 					"description": "Fill of a hovered danger dropdown row",
 					"category": "background",
 					"group": "dropdown"
@@ -2209,6 +2567,402 @@
 					"description": "Check mark or dot of a checked control inside a dropdown row",
 					"category": "foreground",
 					"group": "dropdown"
+				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--l1-foreground)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--l1-foreground)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
 				},
 				"calendar-background": {
 					"value": "var(--background)",
@@ -2942,6 +3696,396 @@
 					"category": "shadow",
 					"group": "tooltip"
 				},
+				"toast-background": {
+					"value": "var(--surface-2)",
+					"description": "Fill of a toast",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a toast",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-shadow": {
+					"value": "var(--shadow-toast)",
+					"description": "Shadow a toast casts over the page",
+					"category": "shadow",
+					"group": "toast"
+				},
+				"toast-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-info-icon": {
+					"value": "var(--primary-background)",
+					"description": "Icon of an info toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-success-icon": {
+					"value": "var(--success-background)",
+					"description": "Icon of a success toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "Icon of a warning toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "Icon of a danger toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-loading-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Spinner of a loading toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of the button of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the button of a toast on hover",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Fill of the button of a toast on hover",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-action-divider": {
+					"value": "var(--l2-border)",
+					"description": "Line between the message of a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"size-icon-toast": {
+					"value": "16px",
+					"description": "Icon size for toasts",
+					"category": "size",
+					"group": "toast"
+				},
+				"progress-track": {
+					"value": "var(--l3-background)",
+					"description": "Track of a progress bar, the part the fill has not reached",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-value": {
+					"value": "var(--l1-foreground)",
+					"description": "Value text next to a progress bar",
+					"category": "foreground",
+					"group": "progress"
+				},
+				"progress-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a primary progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill of a secondary progress bar, provisional until design picks a neutral fill",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill of a success progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a warning progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an info progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an archive progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a highlight danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-active-stripe": {
+					"value": "color-mix(in srgb, var(--bg-vanilla-100), transparent 75%)",
+					"description": "Moving stripes over the fill of an active progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.5)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
+				},
+				"radio-cards-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an unchecked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of an unchecked radio card under the pointer",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an unchecked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Prefix and suffix icons of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Prefix and suffix icons of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-background": {
+					"value": "var(--callout-primary-background)",
+					"description": "Fill of a checked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-border": {
+					"value": "var(--callout-primary-border)",
+					"description": "Border of a checked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-label": {
+					"value": "var(--callout-primary-title)",
+					"description": "Label of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-icon": {
+					"value": "var(--callout-primary-icon)",
+					"description": "Icons and check of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Keyboard focus ring around a radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -2965,6 +4109,188 @@
 					"description": "Focus ring around a breadcrumb link",
 					"category": "border",
 					"group": "breadcrumb"
+				},
+				"input-background": {
+					"value": "transparent",
+					"description": "Field background in the resting state, transparent so the input sits on any surface",
+					"usage": "Use for the bordered frame of Input and its members",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-border": {
+					"value": "var(--l2-border)",
+					"description": "Field border in the resting state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Field border under the pointer",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-foreground": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "The typed value",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder": {
+					"value": "var(--l2-foreground)",
+					"description": "Placeholder text, rendered at 60% opacity by the component",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Placeholder text under the pointer",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icon tint",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "The 1px outline drawn outside the field on keyboard focus",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-background": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
+					"description": "Field background tint in the success state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-success-border": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Field border in the success state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The trailing status icon in the success state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-warning-background": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
+					"description": "Field background tint in the warning state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-warning-border": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Field border in the warning state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The trailing status icon in the warning state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Field background tint in the danger state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Field border in the danger state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The trailing status icon in the danger state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"field-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Field label in the resting state",
+					"usage": "Use for the label row Field renders above its control",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Field label while the control is under the pointer",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "The optional icon before the label text",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-required-marker": {
+					"value": "var(--danger-background)",
+					"description": "The asterisk marking a required field",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-label": {
+					"value": "var(--bg-forest-600)",
+					"description": "Field label in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-message": {
+					"value": "var(--bg-forest-600)",
+					"description": "The validation message in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The solid icon beside the success message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-label": {
+					"value": "var(--bg-amber-700)",
+					"description": "Field label in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-message": {
+					"value": "var(--bg-amber-700)",
+					"description": "The validation message in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The solid icon beside the warning message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-label": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Field label in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-message": {
+					"value": "var(--bg-cherry-600)",
+					"description": "The validation message in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The solid icon beside the danger message",
+					"category": "foreground",
+					"group": "fields"
 				}
 			}
 		},
@@ -3487,6 +4813,42 @@
 					"category": "foreground",
 					"group": "actions"
 				},
+				"info-link": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Link foreground for info. Light: aqua/700, Dark: aqua/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"info-link-hover": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Hover link foreground for info. Light: aqua/800, Dark: aqua/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"archive-link": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Link foreground for archive. Light: sienna/700, Dark: sienna/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"archive-link-hover": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Hover link foreground for archive. Light: sienna/800, Dark: sienna/500",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"highlight-danger-link": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Link foreground for highlight-danger. Light: sakura/700, Dark: sakura/400",
+					"category": "foreground",
+					"group": "actions"
+				},
+				"highlight-danger-link-hover": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Hover link foreground for highlight-danger. Light: sakura/800, Dark: sakura/500",
+					"category": "foreground",
+					"group": "actions"
+				},
 				"l1-background-transparent": {
 					"value": "color-mix(in srgb, var(--bg-neutral-dark-1000), transparent 100%)",
 					"description": "",
@@ -3553,6 +4915,174 @@
 					"category": "background",
 					"group": "surfaces"
 				},
+				"alert-strip-button-background": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 40%)",
+					"description": "Fill of the action button and the close button of an alert strip, the same on every colour",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-ink-400), transparent 20%)",
+					"description": "Fill of the action button and the close button of an alert strip under the pointer",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-button-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Label and icons of the action button and the close button of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-decoration": {
+					"value": "var(--bg-neutral-dark-1000)",
+					"description": "Dots on the tapered ends of an alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-background": {
+					"value": "var(--bg-robin-500)",
+					"description": "Fill of the primary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-primary-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Message and links of the primary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-primary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the primary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-background": {
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-800), transparent 40%)",
+					"description": "Fill of the secondary alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-foreground": {
+					"value": "var(--text-neutral-dark-100)",
+					"description": "Message and links of the secondary alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-secondary-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the secondary alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-background": {
+					"value": "var(--bg-forest-500)",
+					"description": "Fill of the success alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-success-foreground": {
+					"value": "var(--text-neutral-dark-1000)",
+					"description": "Message and links of the success alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-success-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the success alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-background": {
+					"value": "var(--bg-cherry-500)",
+					"description": "Fill of the danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-danger-foreground": {
+					"value": "var(--text-neutral-dark-50)",
+					"description": "Message and links of the danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-danger-link-hover": {
+					"value": "var(--text-base-white)",
+					"description": "Links of the danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-background": {
+					"value": "var(--bg-amber-500)",
+					"description": "Fill of the warning alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-warning-foreground": {
+					"value": "var(--text-neutral-dark-1000)",
+					"description": "Message and links of the warning alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-warning-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the warning alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of the info alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the info alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-info-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the info alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of the archive alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the archive alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-archive-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the archive alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of the highlight danger alert strip",
+					"category": "background",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Message and links of the highlight danger alert strip",
+					"category": "foreground",
+					"group": "alerts"
+				},
+				"alert-strip-highlight-danger-link-hover": {
+					"value": "var(--text-base-black)",
+					"description": "Links of the highlight danger alert strip under the pointer",
+					"category": "foreground",
+					"group": "alerts"
+				},
 				"callout-primary-background": {
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
 					"description": "Background for informational callout boxes",
@@ -3564,6 +5094,12 @@
 					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 80%)",
 					"description": "Border for informational callout boxes",
 					"category": "border",
+					"group": "callouts"
+				},
+				"callout-primary-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an informational callout, such as the chevron and the close button",
+					"category": "background",
 					"group": "callouts"
 				},
 				"callout-primary-title": {
@@ -3597,6 +5133,12 @@
 					"category": "border",
 					"group": "callouts"
 				},
+				"callout-success-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a success callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
 				"callout-success-title": {
 					"value": "var(--bg-forest-100)",
 					"description": "Title text color for success callouts",
@@ -3628,6 +5170,12 @@
 					"category": "border",
 					"group": "callouts"
 				},
+				"callout-warning-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a warning callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
 				"callout-warning-title": {
 					"value": "var(--bg-amber-100)",
 					"description": "Title text color for warning callouts",
@@ -3646,35 +5194,231 @@
 					"category": "foreground",
 					"group": "callouts"
 				},
-				"callout-error-background": {
+				"callout-danger-background": {
 					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
-					"description": "Background for error callout boxes",
+					"description": "Background for danger callout boxes",
 					"usage": "Use for error messages and critical information",
 					"category": "background",
 					"group": "callouts"
 				},
-				"callout-error-border": {
+				"callout-danger-border": {
 					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
-					"description": "Border for error callout boxes",
+					"description": "Border for danger callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-danger-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a danger callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-danger-title": {
+					"value": "var(--bg-cherry-100)",
+					"description": "Title text color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-danger-description": {
+					"value": "var(--bg-cherry-300)",
+					"description": "Description text color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-danger-icon": {
+					"value": "var(--bg-cherry-200)",
+					"description": "Icon color for danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-error-background": {
+					"value": "var(--callout-danger-background)",
+					"description": "Deprecated, use callout-danger-background. Aliases callout-danger-background",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-error-border": {
+					"value": "var(--callout-danger-border)",
+					"description": "Deprecated, use callout-danger-border. Aliases callout-danger-border",
 					"category": "border",
 					"group": "callouts"
 				},
 				"callout-error-title": {
-					"value": "var(--bg-cherry-100)",
-					"description": "Title text color for error callouts",
+					"value": "var(--callout-danger-title)",
+					"description": "Deprecated, use callout-danger-title. Aliases callout-danger-title",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-description": {
-					"value": "var(--bg-cherry-300)",
-					"description": "Description text color for error callouts",
+					"value": "var(--callout-danger-description)",
+					"description": "Deprecated, use callout-danger-description. Aliases callout-danger-description",
 					"category": "foreground",
 					"group": "callouts"
 				},
 				"callout-error-icon": {
-					"value": "var(--bg-cherry-200)",
-					"description": "Icon color for error callouts",
+					"value": "var(--callout-danger-icon)",
+					"description": "Deprecated, use callout-danger-icon. Aliases callout-danger-icon",
 					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-background": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 90%)",
+					"description": "Background for info callout boxes",
+					"usage": "Use for neutral information that sits beside a primary message",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-info-border": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 80%)",
+					"description": "Border for info callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-info-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-aqua-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an info callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-info-title": {
+					"value": "var(--bg-aqua-100)",
+					"description": "Title text color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-description": {
+					"value": "var(--bg-aqua-300)",
+					"description": "Description text color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-info-icon": {
+					"value": "var(--bg-aqua-200)",
+					"description": "Icon color for info callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-background": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 90%)",
+					"description": "Background for archive callout boxes",
+					"usage": "Use for archived, retired or read-only content",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-archive-border": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 80%)",
+					"description": "Border for archive callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-archive-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-sienna-500), transparent 80%)",
+					"description": "Fill of a hovered control inside an archive callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-archive-title": {
+					"value": "var(--bg-sienna-100)",
+					"description": "Title text color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-description": {
+					"value": "var(--bg-sienna-300)",
+					"description": "Description text color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-archive-icon": {
+					"value": "var(--bg-sienna-200)",
+					"description": "Icon color for archive callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 90%)",
+					"description": "Background for highlighted danger callout boxes",
+					"usage": "Use for a danger message that has to stand apart from a regular error",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 80%)",
+					"description": "Border for highlighted danger callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-background-hover": {
+					"value": "color-mix(in srgb, var(--bg-sakura-500), transparent 80%)",
+					"description": "Fill of a hovered control inside a highlighted danger callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-title": {
+					"value": "var(--bg-sakura-100)",
+					"description": "Title text color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-description": {
+					"value": "var(--bg-sakura-300)",
+					"description": "Description text color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-highlight-danger-icon": {
+					"value": "var(--bg-sakura-200)",
+					"description": "Icon color for highlighted danger callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Background for neutral callout boxes",
+					"usage": "Use for neutral notes that carry no severity",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-secondary-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border for neutral callout boxes",
+					"category": "border",
+					"group": "callouts"
+				},
+				"callout-secondary-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of a hovered control inside a neutral callout, such as the chevron and the close button",
+					"category": "background",
+					"group": "callouts"
+				},
+				"callout-secondary-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title text color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description text color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"callout-secondary-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon color for neutral callouts",
+					"category": "foreground",
+					"group": "callouts"
+				},
+				"size-icon-callout-sm": {
+					"value": "12px",
+					"description": "Icon size for small callouts",
+					"category": "size",
+					"group": "callouts"
+				},
+				"size-icon-callout-md": {
+					"value": "16px",
+					"description": "Icon size for medium callouts",
+					"category": "size",
 					"group": "callouts"
 				},
 				"accent-primary": {
@@ -3876,65 +5620,11 @@
 					"category": "foreground",
 					"group": "buttons"
 				},
-				"callout-sienna-background": {
-					"value": "color-mix(in srgb, var(--bg-sienna-500) 10%, transparent)",
-					"description": "Background for sienna callout boxes",
+				"kbd-active-background": {
+					"value": "color-mix(in srgb, var(--bg-robin-500), transparent 90%)",
+					"description": "Fill of a keyboard key while it is active",
 					"category": "background",
-					"group": "callouts"
-				},
-				"callout-sienna-border": {
-					"value": "color-mix(in srgb, var(--bg-sienna-500) 20%, transparent)",
-					"description": "Border for sienna callout boxes",
-					"category": "border",
-					"group": "callouts"
-				},
-				"callout-sienna-title": {
-					"value": "var(--bg-sienna-100)",
-					"description": "Title text color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-sienna-description": {
-					"value": "var(--bg-sienna-300)",
-					"description": "Description text color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-sienna-icon": {
-					"value": "var(--bg-sienna-300)",
-					"description": "Icon color for sienna callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-background": {
-					"value": "color-mix(in srgb, var(--bg-aqua-500) 10%, transparent)",
-					"description": "Background for aqua callout boxes",
-					"category": "background",
-					"group": "callouts"
-				},
-				"callout-aqua-border": {
-					"value": "color-mix(in srgb, var(--bg-aqua-500) 20%, transparent)",
-					"description": "Border for aqua callout boxes",
-					"category": "border",
-					"group": "callouts"
-				},
-				"callout-aqua-title": {
-					"value": "var(--bg-aqua-100)",
-					"description": "Title text color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-description": {
-					"value": "var(--bg-aqua-300)",
-					"description": "Description text color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
-				},
-				"callout-aqua-icon": {
-					"value": "var(--bg-aqua-300)",
-					"description": "Icon color for aqua callouts",
-					"category": "foreground",
-					"group": "callouts"
+					"group": "kbd"
 				},
 				"control-icon-foreground": {
 					"value": "var(--text-base-white)",
@@ -5083,7 +6773,7 @@
 					"group": "dropdown"
 				},
 				"dropdown-item-danger-background-hover": {
-					"value": "var(--callout-error-background)",
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
 					"description": "Fill of a hovered danger dropdown row",
 					"category": "background",
 					"group": "dropdown"
@@ -5171,6 +6861,402 @@
 					"description": "Check mark or dot of a checked control inside a dropdown row",
 					"category": "foreground",
 					"group": "dropdown"
+				},
+				"combobox-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the combobox field",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the combobox field on hover",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the combobox field",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron, spinner and clear icon of the combobox field",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the combobox field on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip on hover",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the combobox popup",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the combobox popup",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the combobox popup",
+					"category": "shadow",
+					"group": "combobox"
+				},
+				"combobox-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-background": {
+					"value": "transparent",
+					"description": "Background of a combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted combobox row",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted combobox row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-indicator": {
+					"value": "var(--l1-foreground)",
+					"description": "Check of the selected row in a single combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple combobox",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple combobox",
+					"category": "background",
+					"group": "combobox"
+				},
+				"combobox-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple combobox",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between combobox rows",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the combobox search row",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the combobox search row and over the footer action",
+					"category": "border",
+					"group": "combobox"
+				},
+				"combobox-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"combobox-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the combobox popup",
+					"category": "foreground",
+					"group": "combobox"
+				},
+				"select-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the select field",
+					"category": "background",
+					"group": "select"
+				},
+				"select-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the select field on hover and while open",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the select field",
+					"category": "border",
+					"group": "select"
+				},
+				"select-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Selected value in the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value and placeholder of a disabled select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and spinner of the select field",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-background": {
+					"value": "var(--secondary-border)",
+					"description": "Background of a selected value chip in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-chip-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-chip-remove-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Remove icon of a selected value chip in a multiple select on hover",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the select popup",
+					"category": "background",
+					"group": "select"
+				},
+				"select-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the select popup",
+					"category": "border",
+					"group": "select"
+				},
+				"select-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the select popup",
+					"category": "shadow",
+					"group": "select"
+				},
+				"select-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-background": {
+					"value": "transparent",
+					"description": "Background of a select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted select row",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted select row",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-indicator": {
+					"value": "var(--l1-foreground)",
+					"description": "Check of the selected row in a single select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-item-control-border": {
+					"value": "var(--l3-foreground)",
+					"description": "Checkbox border of a row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-border-hover": {
+					"value": "var(--primary-background-hover)",
+					"description": "Checkbox border of the highlighted row in a multiple select",
+					"category": "border",
+					"group": "select"
+				},
+				"select-item-control-checked-background": {
+					"value": "var(--primary-background)",
+					"description": "Checkbox fill of a selected row in a multiple select",
+					"category": "background",
+					"group": "select"
+				},
+				"select-item-control-checked-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Check mark of a selected row in a multiple select",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-separator": {
+					"value": "var(--l2-border)",
+					"description": "Separator between select rows",
+					"category": "border",
+					"group": "select"
+				},
+				"select-loading-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Loading row of the select popup",
+					"category": "foreground",
+					"group": "select"
+				},
+				"select-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the select popup",
+					"category": "foreground",
+					"group": "select"
 				},
 				"calendar-background": {
 					"value": "var(--background)",
@@ -5904,6 +7990,396 @@
 					"category": "shadow",
 					"group": "tooltip"
 				},
+				"toast-background": {
+					"value": "var(--surface-2)",
+					"description": "Fill of a toast",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of a toast",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-shadow": {
+					"value": "var(--shadow-toast)",
+					"description": "Shadow a toast casts over the page",
+					"category": "shadow",
+					"group": "toast"
+				},
+				"toast-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the title of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-info-icon": {
+					"value": "var(--primary-background)",
+					"description": "Icon of an info toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-success-icon": {
+					"value": "var(--success-background)",
+					"description": "Icon of a success toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "Icon of a warning toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "Icon of a danger toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-loading-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Spinner of a loading toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of the button of a toast",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the button of a toast on hover",
+					"category": "foreground",
+					"group": "toast"
+				},
+				"toast-action-background-hover": {
+					"value": "var(--l3-background-30)",
+					"description": "Fill of the button of a toast on hover",
+					"category": "background",
+					"group": "toast"
+				},
+				"toast-action-divider": {
+					"value": "var(--l2-border)",
+					"description": "Line between the message of a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"toast-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a toast and its button",
+					"category": "border",
+					"group": "toast"
+				},
+				"size-icon-toast": {
+					"value": "16px",
+					"description": "Icon size for toasts",
+					"category": "size",
+					"group": "toast"
+				},
+				"progress-track": {
+					"value": "var(--l3-background)",
+					"description": "Track of a progress bar, the part the fill has not reached",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-value": {
+					"value": "var(--l1-foreground)",
+					"description": "Value text next to a progress bar",
+					"category": "foreground",
+					"group": "progress"
+				},
+				"progress-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill of a primary progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill of a secondary progress bar, provisional until design picks a neutral fill",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill of a success progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill of a danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill of a warning progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill of an info progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill of an archive progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill of a highlight danger progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"progress-active-stripe": {
+					"value": "color-mix(in srgb, var(--bg-vanilla-100), transparent 75%)",
+					"description": "Moving stripes over the fill of an active progress bar",
+					"category": "background",
+					"group": "progress"
+				},
+				"slider-primary-indicator": {
+					"value": "var(--primary-background)",
+					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-secondary-indicator": {
+					"value": "var(--l3-foreground)",
+					"description": "Fill, thumb border and active mark dots of a secondary slider, provisional until design picks a neutral fill. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-success-indicator": {
+					"value": "var(--success-background)",
+					"description": "Fill, thumb border and active mark dots of a success slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-danger-indicator": {
+					"value": "var(--danger-background)",
+					"description": "Fill, thumb border and active mark dots of a danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-warning-indicator": {
+					"value": "var(--warning-background)",
+					"description": "Fill, thumb border and active mark dots of a warning slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-info-indicator": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill, thumb border and active mark dots of an info slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-archive-indicator": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill, thumb border and active mark dots of an archive slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"slider-highlight-danger-indicator": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill, thumb border and active mark dots of a highlight danger slider. The track and the other mark dots are tints of it",
+					"category": "background",
+					"group": "slider"
+				},
+				"command-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-backdrop": {
+					"value": "rgba(0, 0, 0, 0.6)",
+					"description": "Dimmed page behind the command palette",
+					"category": "background",
+					"group": "command"
+				},
+				"command-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the command palette",
+					"category": "border",
+					"group": "command"
+				},
+				"command-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the command palette",
+					"category": "shadow",
+					"group": "command"
+				},
+				"command-item-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a command palette row, and the query in its search field",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Label of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Label of a disabled command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-background": {
+					"value": "transparent",
+					"description": "Background of a command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-background-hover": {
+					"value": "var(--l3-background-60)",
+					"description": "Background of the highlighted command palette row",
+					"category": "background",
+					"group": "command"
+				},
+				"command-item-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icons of a command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-item-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Prefix and suffix icons of the highlighted command palette row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-group-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Group heading in the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Icon of the command palette search row",
+					"category": "foreground",
+					"group": "command"
+				},
+				"command-search-border": {
+					"value": "var(--l2-border)",
+					"description": "Divider under the command palette search row",
+					"category": "border",
+					"group": "command"
+				},
+				"command-empty-label": {
+					"value": "var(--l3-foreground)",
+					"description": "Empty row of the command palette",
+					"category": "foreground",
+					"group": "command"
+				},
+				"divider-border": {
+					"value": "var(--l2-border)",
+					"description": "Line of a divider, solid or dashed, horizontal or vertical",
+					"category": "border",
+					"group": "divider"
+				},
+				"divider-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Label in the middle of a horizontal divider",
+					"category": "foreground",
+					"group": "divider"
+				},
+				"radio-cards-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of an unchecked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-background-hover": {
+					"value": "var(--secondary-background-hover)",
+					"description": "Fill of an unchecked radio card under the pointer",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of an unchecked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-label": {
+					"value": "var(--secondary-foreground)",
+					"description": "Label of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-label-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Label of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon": {
+					"value": "var(--secondary-foreground)",
+					"description": "Prefix and suffix icons of an unchecked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-icon-hover": {
+					"value": "var(--secondary-foreground-hover)",
+					"description": "Prefix and suffix icons of an unchecked radio card under the pointer",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-background": {
+					"value": "var(--callout-primary-background)",
+					"description": "Fill of a checked radio card",
+					"category": "background",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-border": {
+					"value": "var(--callout-primary-border)",
+					"description": "Border of a checked radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-label": {
+					"value": "var(--callout-primary-title)",
+					"description": "Label of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-checked-icon": {
+					"value": "var(--callout-primary-icon)",
+					"description": "Icons and check of a checked radio card",
+					"category": "foreground",
+					"group": "radio-cards"
+				},
+				"radio-cards-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Keyboard focus ring around a radio card",
+					"category": "border",
+					"group": "radio-cards"
+				},
 				"breadcrumb-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Links, current page, separators and the overflow trigger of a breadcrumb",
@@ -5927,6 +8403,188 @@
 					"description": "Focus ring around a breadcrumb link",
 					"category": "border",
 					"group": "breadcrumb"
+				},
+				"input-background": {
+					"value": "transparent",
+					"description": "Field background in the resting state, transparent so the input sits on any surface",
+					"usage": "Use for the bordered frame of Input and its members",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-border": {
+					"value": "var(--l2-border)",
+					"description": "Field border in the resting state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Field border under the pointer",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-foreground": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "The typed value",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder": {
+					"value": "var(--l2-foreground)",
+					"description": "Placeholder text, rendered at 60% opacity by the component",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-placeholder-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Placeholder text under the pointer",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "Prefix and suffix icon tint",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "The 1px outline drawn outside the field on keyboard focus",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-background": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 90%)",
+					"description": "Field background tint in the success state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-success-border": {
+					"value": "color-mix(in srgb, var(--bg-forest-500), transparent 80%)",
+					"description": "Field border in the success state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The trailing status icon in the success state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-warning-background": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 90%)",
+					"description": "Field background tint in the warning state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-warning-border": {
+					"value": "color-mix(in srgb, var(--bg-amber-500), transparent 80%)",
+					"description": "Field border in the warning state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The trailing status icon in the warning state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"input-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Field background tint in the danger state",
+					"category": "background",
+					"group": "inputs"
+				},
+				"input-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Field border in the danger state",
+					"category": "border",
+					"group": "inputs"
+				},
+				"input-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The trailing status icon in the danger state",
+					"category": "foreground",
+					"group": "inputs"
+				},
+				"field-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Field label in the resting state",
+					"usage": "Use for the label row Field renders above its control",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Field label while the control is under the pointer",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-label-icon": {
+					"value": "var(--l2-foreground)",
+					"description": "The optional icon before the label text",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-required-marker": {
+					"value": "var(--danger-background)",
+					"description": "The asterisk marking a required field",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-label": {
+					"value": "var(--bg-forest-300)",
+					"description": "Field label in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-message": {
+					"value": "var(--bg-forest-300)",
+					"description": "The validation message in the success state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-success-icon": {
+					"value": "var(--success-background)",
+					"description": "The solid icon beside the success message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-label": {
+					"value": "var(--bg-amber-300)",
+					"description": "Field label in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-message": {
+					"value": "var(--bg-amber-300)",
+					"description": "The validation message in the warning state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-warning-icon": {
+					"value": "var(--warning-background)",
+					"description": "The solid icon beside the warning message",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-label": {
+					"value": "var(--bg-cherry-300)",
+					"description": "Field label in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-message": {
+					"value": "var(--bg-cherry-300)",
+					"description": "The validation message in the danger state",
+					"category": "foreground",
+					"group": "fields"
+				},
+				"field-danger-icon": {
+					"value": "var(--danger-background)",
+					"description": "The solid icon beside the danger message",
+					"category": "foreground",
+					"group": "fields"
 				}
 			}
 		}

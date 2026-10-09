@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Sep 2026 08:20:36 GMT
+ * Generated on Fri, 02 Oct 2026 19:15:57 GMT
  */
 
 export const Typography = {
@@ -43,6 +43,7 @@ export const Typography = {
 	LINEHEIGHT_18: '18px',
 	LINEHEIGHT_20: '20px',
 	LINEHEIGHT_24: '24px',
+	LINEHEIGHT_26: '26px',
 	LINEHEIGHT_NONE: '1',
 	LINEHEIGHT_TIGHT: '1.25',
 	LINEHEIGHT_SNUG: '1.375',
@@ -180,7 +181,7 @@ export const Typography = {
 	CODE_SMALL_600_FONTFAMILY: 'SF Mono, monospace',
 	PARAGRAPH_MEDIUM_400_FONTSIZE: '16px',
 	PARAGRAPH_MEDIUM_400_FONTWEIGHT: '400',
-	PARAGRAPH_MEDIUM_400_LINEHEIGHT: '24px',
+	PARAGRAPH_MEDIUM_400_LINEHEIGHT: '26px',
 	PARAGRAPH_MEDIUM_400_LETTERSPACING: '0px',
 	PARAGRAPH_MEDIUM_400_FONTFAMILY: 'Inter, sans-serif',
 	PARAGRAPH_MEDIUM_500_FONTSIZE: '16px',
