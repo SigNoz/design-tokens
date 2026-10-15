@@ -37,7 +37,7 @@
 					"group": "legacy"
 				},
 				"popover-foreground": {
-					"value": "var(--text-ink-400)",
+					"value": "var(--l1-foreground)",
 					"description": "",
 					"category": "foreground",
 					"group": "legacy"
@@ -2568,6 +2568,24 @@
 					"category": "foreground",
 					"group": "dropdown"
 				},
+				"popover-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the popover popup",
+					"category": "background",
+					"group": "popover"
+				},
+				"popover-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the popover popup",
+					"category": "border",
+					"group": "popover"
+				},
+				"popover-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the popover popup casts over the page",
+					"category": "shadow",
+					"group": "popover"
+				},
 				"combobox-trigger-background": {
 					"value": "transparent",
 					"description": "Background of the combobox field",
@@ -4331,7 +4349,7 @@
 					"group": "legacy"
 				},
 				"popover-foreground": {
-					"value": "var(--text-vanilla-100)",
+					"value": "var(--l1-foreground)",
 					"description": "",
 					"category": "foreground",
 					"group": "legacy"
@@ -6861,6 +6879,24 @@
 					"description": "Check mark or dot of a checked control inside a dropdown row",
 					"category": "foreground",
 					"group": "dropdown"
+				},
+				"popover-background": {
+					"value": "var(--surface-3)",
+					"description": "Fill of the popover popup",
+					"category": "background",
+					"group": "popover"
+				},
+				"popover-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the popover popup",
+					"category": "border",
+					"group": "popover"
+				},
+				"popover-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow the popover popup casts over the page",
+					"category": "shadow",
+					"group": "popover"
 				},
 				"combobox-trigger-background": {
 					"value": "transparent",
