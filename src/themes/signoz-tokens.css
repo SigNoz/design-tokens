@@ -12,7 +12,7 @@
 	--card: var(--bg-vanilla-100);
 	--card-foreground: var(--text-ink-400);
 	--popover: var(--bg-vanilla-100);
-	--popover-foreground: var(--text-ink-400);
+	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
 	--secondary: var(--bg-vanilla-300);
 	--muted: var(--bg-vanilla-300);
@@ -578,6 +578,9 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--popover-background: var(--surface-3);
+	--popover-border: var(--l2-border);
+	--popover-shadow: var(--shadow-dropdown);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);
@@ -927,7 +930,7 @@
 	--card: var(--bg-ink-400);
 	--card-foreground: var(--text-vanilla-100);
 	--popover: var(--bg-ink-400);
-	--popover-foreground: var(--text-vanilla-100);
+	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
 	--secondary: var(--bg-slate-500);
 	--muted: var(--bg-slate-500);
@@ -1494,6 +1497,9 @@
 	--dropdown-item-control-border-hover: var(--primary-background-hover);
 	--dropdown-item-control-checked-background: var(--primary-background);
 	--dropdown-item-control-checked-foreground: var(--primary-foreground);
+	--popover-background: var(--surface-3);
+	--popover-border: var(--l2-border);
+	--popover-shadow: var(--shadow-dropdown);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);
