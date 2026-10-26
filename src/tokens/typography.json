@@ -253,6 +253,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -275,6 +279,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"600": {
@@ -296,6 +304,10 @@
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -321,6 +333,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -343,6 +359,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"600": {
@@ -364,6 +384,10 @@
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -383,11 +407,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -405,11 +433,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -427,11 +459,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -457,6 +493,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -479,6 +519,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"600": {
@@ -500,6 +544,10 @@
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -521,11 +569,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -543,11 +595,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -565,11 +621,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			}
@@ -589,11 +649,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -611,11 +675,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -633,11 +701,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			}
@@ -665,6 +737,10 @@
 				"fontFamily": {
 					"value": "SF Mono, monospace",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -687,6 +763,10 @@
 				"fontFamily": {
 					"value": "SF Mono, monospace",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"600": {
@@ -708,6 +788,10 @@
 				},
 				"fontFamily": {
 					"value": "SF Mono, monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -733,6 +817,10 @@
 				"fontFamily": {
 					"value": "SF Mono, monospace",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -755,6 +843,10 @@
 				"fontFamily": {
 					"value": "SF Mono, monospace",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"600": {
@@ -776,6 +868,10 @@
 				},
 				"fontFamily": {
 					"value": "SF Mono, monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -803,6 +899,10 @@
 				"fontFamily": {
 					"value": "Inter, sans-serif",
 					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
+					"type": "typography"
 				}
 			},
 			"500": {
@@ -815,7 +915,7 @@
 					"type": "typography"
 				},
 				"lineHeight": {
-					"value": "24px",
+					"value": "26px",
 					"type": "typography"
 				},
 				"letterSpacing": {
@@ -824,6 +924,10 @@
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -837,7 +941,7 @@
 					"type": "typography"
 				},
 				"lineHeight": {
-					"value": "24px",
+					"value": "26px",
 					"type": "typography"
 				},
 				"letterSpacing": {
@@ -846,6 +950,10 @@
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -865,11 +973,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -887,11 +999,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -909,11 +1025,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -933,11 +1053,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -955,11 +1079,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -977,11 +1105,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
 					"value": "Inter, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}

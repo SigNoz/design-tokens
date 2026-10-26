@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 02 Oct 2026 19:15:57 GMT
+ * Generated on Mon, 26 Oct 2026 15:53:29 GMT
  *
  * Use these constants to apply complete typography styles in your components
  *
@@ -17,6 +17,7 @@ export interface TypographyStyle {
 	fontWeight: string;
 	lineHeight: string;
 	letterSpacing: string;
+	textTransform: string;
 }
 
 export const TypographyStyles = {
@@ -26,6 +27,7 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_LARGE_500: {
 		fontFamily: 'Inter, sans-serif',
@@ -33,6 +35,7 @@ export const TypographyStyles = {
 		fontWeight: '500',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_LARGE_600: {
 		fontFamily: 'Inter, sans-serif',
@@ -40,6 +43,7 @@ export const TypographyStyles = {
 		fontWeight: '600',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_MEDIUM_400: {
 		fontFamily: 'Inter, sans-serif',
@@ -47,6 +51,7 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_MEDIUM_500: {
 		fontFamily: 'Inter, sans-serif',
@@ -54,6 +59,7 @@ export const TypographyStyles = {
 		fontWeight: '500',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_MEDIUM_600: {
 		fontFamily: 'Inter, sans-serif',
@@ -61,27 +67,31 @@ export const TypographyStyles = {
 		fontWeight: '600',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_BASE_400: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '400',
 		lineHeight: '1',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	LABEL_BASE_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '500',
 		lineHeight: '1',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	LABEL_BASE_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '600',
 		lineHeight: '1',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	LABEL_SMALL_400: {
 		fontFamily: 'Inter, sans-serif',
@@ -89,6 +99,7 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_SMALL_500: {
 		fontFamily: 'Inter, sans-serif',
@@ -96,6 +107,7 @@ export const TypographyStyles = {
 		fontWeight: '500',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	LABEL_SMALL_600: {
 		fontFamily: 'Inter, sans-serif',
@@ -103,48 +115,55 @@ export const TypographyStyles = {
 		fontWeight: '600',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	UPPERCASE_BASE_400: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '400',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	UPPERCASE_BASE_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '500',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	UPPERCASE_BASE_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '600',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	UPPERCASE_SMALL_400: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '400',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	UPPERCASE_SMALL_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '500',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	UPPERCASE_SMALL_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '600',
 		lineHeight: '1',
-		letterSpacing: '4px',
+		letterSpacing: '0.04em',
+		textTransform: 'uppercase',
 	},
 	CODE_BASE_400: {
 		fontFamily: 'SF Mono, monospace',
@@ -152,6 +171,7 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	CODE_BASE_500: {
 		fontFamily: 'SF Mono, monospace',
@@ -159,6 +179,7 @@ export const TypographyStyles = {
 		fontWeight: '500',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	CODE_BASE_600: {
 		fontFamily: 'SF Mono, monospace',
@@ -166,6 +187,7 @@ export const TypographyStyles = {
 		fontWeight: '600',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	CODE_SMALL_400: {
 		fontFamily: 'SF Mono, monospace',
@@ -173,6 +195,7 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	CODE_SMALL_500: {
 		fontFamily: 'SF Mono, monospace',
@@ -180,6 +203,7 @@ export const TypographyStyles = {
 		fontWeight: '500',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	CODE_SMALL_600: {
 		fontFamily: 'SF Mono, monospace',
@@ -187,6 +211,7 @@ export const TypographyStyles = {
 		fontWeight: '600',
 		lineHeight: '1',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	PARAGRAPH_MEDIUM_400: {
 		fontFamily: 'Inter, sans-serif',
@@ -194,62 +219,71 @@ export const TypographyStyles = {
 		fontWeight: '400',
 		lineHeight: '26px',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	PARAGRAPH_MEDIUM_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '16px',
 		fontWeight: '500',
-		lineHeight: '24px',
+		lineHeight: '26px',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	PARAGRAPH_MEDIUM_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '16px',
 		fontWeight: '600',
-		lineHeight: '24px',
+		lineHeight: '26px',
 		letterSpacing: '0px',
+		textTransform: 'none',
 	},
 	PARAGRAPH_BASE_400: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '400',
 		lineHeight: '20px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	PARAGRAPH_BASE_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '500',
 		lineHeight: '20px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	PARAGRAPH_BASE_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '13px',
 		fontWeight: '600',
 		lineHeight: '20px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	PARAGRAPH_SMALL_400: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '400',
 		lineHeight: '18px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	PARAGRAPH_SMALL_500: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '500',
 		lineHeight: '18px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 	PARAGRAPH_SMALL_600: {
 		fontFamily: 'Inter, sans-serif',
 		fontSize: '11px',
 		fontWeight: '600',
 		lineHeight: '18px',
-		letterSpacing: '-0.5px',
+		letterSpacing: '-0.005em',
+		textTransform: 'none',
 	},
 } as const;
 

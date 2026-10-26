@@ -4309,6 +4309,72 @@
 					"description": "The solid icon beside the danger message",
 					"category": "foreground",
 					"group": "fields"
+				},
+				"typography-main": {
+					"value": "var(--l1-foreground)",
+					"description": "Body text, headings and the most important text on a page",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-secondary": {
+					"value": "var(--l2-foreground)",
+					"description": "Secondary text, the same color as the label of a secondary badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-tertiary": {
+					"value": "var(--l3-foreground)",
+					"description": "The least important text: hints, captions and disabled labels",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-primary": {
+					"value": "var(--bg-robin-600)",
+					"description": "Text in the primary color, the same as the label of an outlined primary badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-success": {
+					"value": "var(--bg-forest-700)",
+					"description": "Text in the success color, the same as the label of an outlined success badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-danger": {
+					"value": "var(--bg-cherry-600)",
+					"description": "Text in the danger color, the same as the label of an outlined danger badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-warning": {
+					"value": "var(--bg-amber-700)",
+					"description": "Text in the warning color, the same as the label of an outlined warning badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-info": {
+					"value": "var(--bg-aqua-700)",
+					"description": "Text in the info color, the same as the label of an outlined info badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-archive": {
+					"value": "var(--bg-sienna-700)",
+					"description": "Text in the archive color, the same as the label of an outlined archive badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-highlight-danger": {
+					"value": "var(--bg-sakura-700)",
+					"description": "Text in the highlight-danger color, the same as the label of an outlined highlight-danger badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-link": {
+					"value": "var(--bg-robin-600)",
+					"description": "Color of a Typography.Link, in a sentence or next to text",
+					"category": "foreground",
+					"group": "typography"
 				}
 			}
 		},
@@ -8621,6 +8687,72 @@
 					"description": "The solid icon beside the danger message",
 					"category": "foreground",
 					"group": "fields"
+				},
+				"typography-main": {
+					"value": "var(--l1-foreground)",
+					"description": "Body text, headings and the most important text on a page",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-secondary": {
+					"value": "var(--l2-foreground)",
+					"description": "Secondary text, the same color as the label of a secondary badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-tertiary": {
+					"value": "var(--l3-foreground)",
+					"description": "The least important text: hints, captions and disabled labels",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-primary": {
+					"value": "var(--bg-robin-400)",
+					"description": "Text in the primary color, the same as the label of an outlined primary badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-success": {
+					"value": "var(--bg-forest-400)",
+					"description": "Text in the success color, the same as the label of an outlined success badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-danger": {
+					"value": "var(--bg-cherry-400)",
+					"description": "Text in the danger color, the same as the label of an outlined danger badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-warning": {
+					"value": "var(--bg-amber-400)",
+					"description": "Text in the warning color, the same as the label of an outlined warning badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-info": {
+					"value": "var(--bg-aqua-400)",
+					"description": "Text in the info color, the same as the label of an outlined info badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-archive": {
+					"value": "var(--bg-sienna-400)",
+					"description": "Text in the archive color, the same as the label of an outlined archive badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-highlight-danger": {
+					"value": "var(--bg-sakura-400)",
+					"description": "Text in the highlight-danger color, the same as the label of an outlined highlight-danger badge",
+					"category": "foreground",
+					"group": "typography"
+				},
+				"typography-link": {
+					"value": "var(--bg-robin-400)",
+					"description": "Color of a Typography.Link, in a sentence or next to text",
+					"category": "foreground",
+					"group": "typography"
 				}
 			}
 		}

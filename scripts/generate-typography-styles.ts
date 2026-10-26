@@ -20,6 +20,7 @@ interface TypographyStyle {
 	lineHeight: string;
 	letterSpacing: string;
 	fontFamily: string;
+	textTransform: string;
 }
 
 interface TypographyGroup {
@@ -50,6 +51,7 @@ function generateCSSClass(
 	font-weight: ${props.fontWeight};
 	line-height: ${props.lineHeight};
 	letter-spacing: ${props.letterSpacing};
+	text-transform: ${props.textTransform};
 }`;
 }
 
@@ -74,6 +76,7 @@ function generateConstantValue(props: TypographyStyle): string {
 		fontWeight: '${props.fontWeight}',
 		lineHeight: '${props.lineHeight}',
 		letterSpacing: '${props.letterSpacing}',
+		textTransform: '${props.textTransform}',
 	}`;
 }
 
@@ -119,7 +122,7 @@ async function generateTypographyStyles(): Promise<void> {
  * Generated on ${timestamp}
  *
  * These classes apply complete typography styles including:
- * font-family, font-size, font-weight, line-height, letter-spacing
+ * font-family, font-size, font-weight, line-height, letter-spacing, text-transform
  *
  * Usage in HTML:
  * <p class="typography-paragraph-medium-400">Your text here</p>
@@ -156,6 +159,7 @@ export interface TypographyStyle {
 	fontWeight: string;
 	lineHeight: string;
 	letterSpacing: string;
+	textTransform: string;
 }
 
 export const TypographyStyles = {

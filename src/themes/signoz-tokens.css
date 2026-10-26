@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 19:54:25 GMT
+ * Generated on Mon, 26 Oct 2026 15:53:29 GMT
  */
 
 [data-theme='default'] {
@@ -920,6 +920,17 @@
 	--field-danger-label: var(--bg-cherry-600);
 	--field-danger-message: var(--bg-cherry-600);
 	--field-danger-icon: var(--danger-background);
+	--typography-main: var(--l1-foreground);
+	--typography-secondary: var(--l2-foreground);
+	--typography-tertiary: var(--l3-foreground);
+	--typography-primary: var(--bg-robin-600);
+	--typography-success: var(--bg-forest-700);
+	--typography-danger: var(--bg-cherry-600);
+	--typography-warning: var(--bg-amber-700);
+	--typography-info: var(--bg-aqua-700);
+	--typography-archive: var(--bg-sienna-700);
+	--typography-highlight-danger: var(--bg-sakura-700);
+	--typography-link: var(--bg-robin-600);
 }
 
 [data-theme='default'].dark {
@@ -1839,4 +1850,15 @@
 	--field-danger-label: var(--bg-cherry-300);
 	--field-danger-message: var(--bg-cherry-300);
 	--field-danger-icon: var(--danger-background);
+	--typography-main: var(--l1-foreground);
+	--typography-secondary: var(--l2-foreground);
+	--typography-tertiary: var(--l3-foreground);
+	--typography-primary: var(--bg-robin-400);
+	--typography-success: var(--bg-forest-400);
+	--typography-danger: var(--bg-cherry-400);
+	--typography-warning: var(--bg-amber-400);
+	--typography-info: var(--bg-aqua-400);
+	--typography-archive: var(--bg-sienna-400);
+	--typography-highlight-danger: var(--bg-sakura-400);
+	--typography-link: var(--bg-robin-400);
 }

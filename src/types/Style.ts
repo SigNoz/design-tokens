@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 19:54:25 GMT
+ * Generated on Mon, 26 Oct 2026 15:53:29 GMT
  */
 
 export const Style = {
@@ -459,6 +459,9 @@ export const Style = {
 		'var(--dropdown-item-control-checked-background)',
 	DROPDOWN_ITEM_CONTROL_CHECKED_FOREGROUND:
 		'var(--dropdown-item-control-checked-foreground)',
+	POPOVER_BACKGROUND: 'var(--popover-background)',
+	POPOVER_BORDER: 'var(--popover-border)',
+	POPOVER_SHADOW: 'var(--popover-shadow)',
 	COMBOBOX_TRIGGER_BACKGROUND: 'var(--combobox-trigger-background)',
 	COMBOBOX_TRIGGER_BORDER: 'var(--combobox-trigger-border)',
 	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
@@ -777,6 +780,17 @@ export const Style = {
 	FIELD_DANGER_LABEL: 'var(--field-danger-label)',
 	FIELD_DANGER_MESSAGE: 'var(--field-danger-message)',
 	FIELD_DANGER_ICON: 'var(--field-danger-icon)',
+	TYPOGRAPHY_MAIN: 'var(--typography-main)',
+	TYPOGRAPHY_SECONDARY: 'var(--typography-secondary)',
+	TYPOGRAPHY_TERTIARY: 'var(--typography-tertiary)',
+	TYPOGRAPHY_PRIMARY: 'var(--typography-primary)',
+	TYPOGRAPHY_SUCCESS: 'var(--typography-success)',
+	TYPOGRAPHY_DANGER: 'var(--typography-danger)',
+	TYPOGRAPHY_WARNING: 'var(--typography-warning)',
+	TYPOGRAPHY_INFO: 'var(--typography-info)',
+	TYPOGRAPHY_ARCHIVE: 'var(--typography-archive)',
+	TYPOGRAPHY_HIGHLIGHT_DANGER: 'var(--typography-highlight-danger)',
+	TYPOGRAPHY_LINK: 'var(--typography-link)',
 } as const;
 
 export type StyleType = typeof Style;
