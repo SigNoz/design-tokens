@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 26 Oct 2026 15:53:29 GMT
+ * Generated on Tue, 27 Oct 2026 18:21:48 GMT
  *
  * These classes apply complete typography styles including:
  * font-family, font-size, font-weight, line-height, letter-spacing, text-transform
@@ -16,7 +16,14 @@
  */
 
 .typography-label-large-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1;
@@ -25,7 +32,14 @@
 }
 
 .typography-label-large-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 1;
@@ -34,7 +48,14 @@
 }
 
 .typography-label-large-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1;
@@ -43,7 +64,14 @@
 }
 
 .typography-label-medium-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1;
@@ -52,7 +80,14 @@
 }
 
 .typography-label-medium-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1;
@@ -61,7 +96,14 @@
 }
 
 .typography-label-medium-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1;
@@ -70,7 +112,14 @@
 }
 
 .typography-label-base-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1;
@@ -79,7 +128,14 @@
 }
 
 .typography-label-base-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 1;
@@ -88,7 +144,14 @@
 }
 
 .typography-label-base-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 600;
 	line-height: 1;
@@ -97,7 +160,14 @@
 }
 
 .typography-label-small-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 1;
@@ -106,7 +176,14 @@
 }
 
 .typography-label-small-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 500;
 	line-height: 1;
@@ -115,7 +192,14 @@
 }
 
 .typography-label-small-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 600;
 	line-height: 1;
@@ -124,7 +208,14 @@
 }
 
 .typography-uppercase-base-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1;
@@ -133,7 +224,14 @@
 }
 
 .typography-uppercase-base-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 1;
@@ -142,7 +240,14 @@
 }
 
 .typography-uppercase-base-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 600;
 	line-height: 1;
@@ -151,7 +256,14 @@
 }
 
 .typography-uppercase-small-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 1;
@@ -160,7 +272,14 @@
 }
 
 .typography-uppercase-small-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 500;
 	line-height: 1;
@@ -169,7 +288,14 @@
 }
 
 .typography-uppercase-small-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 600;
 	line-height: 1;
@@ -179,7 +305,7 @@
 
 .typography-code-base-400 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 13px;
 	font-weight: 400;
@@ -190,7 +316,7 @@
 
 .typography-code-base-500 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 13px;
 	font-weight: 500;
@@ -201,7 +327,7 @@
 
 .typography-code-base-600 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 13px;
 	font-weight: 600;
@@ -212,7 +338,7 @@
 
 .typography-code-small-400 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 11px;
 	font-weight: 400;
@@ -223,7 +349,7 @@
 
 .typography-code-small-500 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 11px;
 	font-weight: 500;
@@ -234,7 +360,7 @@
 
 .typography-code-small-600 {
 	font-family:
-		SF Mono,
+		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
 		monospace;
 	font-size: 11px;
 	font-weight: 600;
@@ -244,7 +370,14 @@
 }
 
 .typography-paragraph-medium-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
@@ -253,7 +386,14 @@
 }
 
 .typography-paragraph-medium-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 26px;
@@ -262,7 +402,14 @@
 }
 
 .typography-paragraph-medium-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 26px;
@@ -271,7 +418,14 @@
 }
 
 .typography-paragraph-base-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 20px;
@@ -280,7 +434,14 @@
 }
 
 .typography-paragraph-base-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 20px;
@@ -289,7 +450,14 @@
 }
 
 .typography-paragraph-base-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 13px;
 	font-weight: 600;
 	line-height: 20px;
@@ -298,28 +466,49 @@
 }
 
 .typography-paragraph-small-400 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 18px;
-	letter-spacing: -0.005em;
+	letter-spacing: 0px;
 	text-transform: none;
 }
 
 .typography-paragraph-small-500 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 500;
 	line-height: 18px;
-	letter-spacing: -0.005em;
+	letter-spacing: 0px;
 	text-transform: none;
 }
 
 .typography-paragraph-small-600 {
-	font-family: Inter, sans-serif;
+	font-family:
+		'Inter',
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Arial,
+		sans-serif;
 	font-size: 11px;
 	font-weight: 600;
 	line-height: 18px;
-	letter-spacing: -0.005em;
+	letter-spacing: 0px;
 	text-transform: none;
 }
