@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 19:54:25 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 [data-theme='default'] {
@@ -38,9 +38,6 @@
 	--sidebar-accent-foreground: var(--text-slate-400);
 	--sidebar-border: var(--bg-slate-400);
 	--sidebar-ring: var(--bg-robin-500);
-	--font-sans: 'Inter';
-	--font-serif: 'Open Sans';
-	--font-mono: 'Geist Mono';
 	--base-white: var(--text-base-white);
 	--base-black: var(--text-base-black);
 	--l1-background: var(--bg-neutral-light-1000);
@@ -920,6 +917,17 @@
 	--field-danger-label: var(--bg-cherry-600);
 	--field-danger-message: var(--bg-cherry-600);
 	--field-danger-icon: var(--danger-background);
+	--typography-main: var(--l1-foreground);
+	--typography-secondary: var(--l2-foreground);
+	--typography-tertiary: var(--l3-foreground);
+	--typography-primary: var(--bg-robin-600);
+	--typography-success: var(--bg-forest-700);
+	--typography-danger: var(--bg-cherry-600);
+	--typography-warning: var(--bg-amber-700);
+	--typography-info: var(--bg-aqua-700);
+	--typography-archive: var(--bg-sienna-700);
+	--typography-highlight-danger: var(--bg-sakura-700);
+	--typography-link: var(--bg-robin-600);
 }
 
 [data-theme='default'].dark {
@@ -956,9 +964,6 @@
 	--sidebar-accent-foreground: var(--text-vanilla-400);
 	--sidebar-border: var(--bg-slate-500);
 	--sidebar-ring: var(--bg-robin-500);
-	--font-sans: 'Inter';
-	--font-serif: 'Open Sans';
-	--font-mono: 'Geist Mono';
 	--base-white: var(--text-base-white);
 	--base-black: var(--text-base-black);
 	--l1-background: var(--bg-neutral-dark-1000);
@@ -1839,4 +1844,15 @@
 	--field-danger-label: var(--bg-cherry-300);
 	--field-danger-message: var(--bg-cherry-300);
 	--field-danger-icon: var(--danger-background);
+	--typography-main: var(--l1-foreground);
+	--typography-secondary: var(--l2-foreground);
+	--typography-tertiary: var(--l3-foreground);
+	--typography-primary: var(--bg-robin-400);
+	--typography-success: var(--bg-forest-400);
+	--typography-danger: var(--bg-cherry-400);
+	--typography-warning: var(--bg-amber-400);
+	--typography-info: var(--bg-aqua-400);
+	--typography-archive: var(--bg-sienna-400);
+	--typography-highlight-danger: var(--bg-sakura-400);
+	--typography-link: var(--bg-robin-400);
 }

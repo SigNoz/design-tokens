@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 19:54:25 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 export const Style = {
@@ -36,9 +36,6 @@ export const Style = {
 	SIDEBAR_ACCENT_FOREGROUND: 'var(--sidebar-accent-foreground)',
 	SIDEBAR_BORDER: 'var(--sidebar-border)',
 	SIDEBAR_RING: 'var(--sidebar-ring)',
-	FONT_SANS: 'var(--font-sans)',
-	FONT_SERIF: 'var(--font-serif)',
-	FONT_MONO: 'var(--font-mono)',
 	BASE_WHITE: 'var(--base-white)',
 	BASE_BLACK: 'var(--base-black)',
 	L1_BACKGROUND: 'var(--l1-background)',
@@ -459,6 +456,9 @@ export const Style = {
 		'var(--dropdown-item-control-checked-background)',
 	DROPDOWN_ITEM_CONTROL_CHECKED_FOREGROUND:
 		'var(--dropdown-item-control-checked-foreground)',
+	POPOVER_BACKGROUND: 'var(--popover-background)',
+	POPOVER_BORDER: 'var(--popover-border)',
+	POPOVER_SHADOW: 'var(--popover-shadow)',
 	COMBOBOX_TRIGGER_BACKGROUND: 'var(--combobox-trigger-background)',
 	COMBOBOX_TRIGGER_BORDER: 'var(--combobox-trigger-border)',
 	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
@@ -777,6 +777,17 @@ export const Style = {
 	FIELD_DANGER_LABEL: 'var(--field-danger-label)',
 	FIELD_DANGER_MESSAGE: 'var(--field-danger-message)',
 	FIELD_DANGER_ICON: 'var(--field-danger-icon)',
+	TYPOGRAPHY_MAIN: 'var(--typography-main)',
+	TYPOGRAPHY_SECONDARY: 'var(--typography-secondary)',
+	TYPOGRAPHY_TERTIARY: 'var(--typography-tertiary)',
+	TYPOGRAPHY_PRIMARY: 'var(--typography-primary)',
+	TYPOGRAPHY_SUCCESS: 'var(--typography-success)',
+	TYPOGRAPHY_DANGER: 'var(--typography-danger)',
+	TYPOGRAPHY_WARNING: 'var(--typography-warning)',
+	TYPOGRAPHY_INFO: 'var(--typography-info)',
+	TYPOGRAPHY_ARCHIVE: 'var(--typography-archive)',
+	TYPOGRAPHY_HIGHLIGHT_DANGER: 'var(--typography-highlight-danger)',
+	TYPOGRAPHY_LINK: 'var(--typography-link)',
 } as const;
 
 export type StyleType = typeof Style;

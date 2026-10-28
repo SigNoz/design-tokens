@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 08 Oct 2026 19:54:25 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 export const StyleTailwind = {
@@ -36,9 +36,6 @@ export const StyleTailwind = {
 	'sidebar-accent-foreground': 'var(--sidebar-accent-foreground)',
 	'sidebar-border': 'var(--sidebar-border)',
 	'sidebar-ring': 'var(--sidebar-ring)',
-	'font-sans': 'var(--font-sans)',
-	'font-serif': 'var(--font-serif)',
-	'font-mono': 'var(--font-mono)',
 	'base-white': 'var(--base-white)',
 	'base-black': 'var(--base-black)',
 	'l1-background': 'var(--l1-background)',
@@ -467,6 +464,9 @@ export const StyleTailwind = {
 		'var(--dropdown-item-control-checked-background)',
 	'dropdown-item-control-checked-foreground':
 		'var(--dropdown-item-control-checked-foreground)',
+	'popover-background': 'var(--popover-background)',
+	'popover-border': 'var(--popover-border)',
+	'popover-shadow': 'var(--popover-shadow)',
 	'combobox-trigger-background': 'var(--combobox-trigger-background)',
 	'combobox-trigger-border': 'var(--combobox-trigger-border)',
 	'combobox-trigger-border-hover': 'var(--combobox-trigger-border-hover)',
@@ -788,6 +788,17 @@ export const StyleTailwind = {
 	'field-danger-label': 'var(--field-danger-label)',
 	'field-danger-message': 'var(--field-danger-message)',
 	'field-danger-icon': 'var(--field-danger-icon)',
+	'typography-main': 'var(--typography-main)',
+	'typography-secondary': 'var(--typography-secondary)',
+	'typography-tertiary': 'var(--typography-tertiary)',
+	'typography-primary': 'var(--typography-primary)',
+	'typography-success': 'var(--typography-success)',
+	'typography-danger': 'var(--typography-danger)',
+	'typography-warning': 'var(--typography-warning)',
+	'typography-info': 'var(--typography-info)',
+	'typography-archive': 'var(--typography-archive)',
+	'typography-highlight-danger': 'var(--typography-highlight-danger)',
+	'typography-link': 'var(--typography-link)',
 } as const;
 
 export type StyleTailwindType =

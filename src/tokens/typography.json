@@ -1,236 +1,4 @@
 {
-	"periscope": {
-		"lineHeightMedium": {
-			"value": "24px",
-			"type": "typography"
-		},
-		"lineHeightBase": {
-			"value": "20px",
-			"type": "typography"
-		},
-		"fontFamilySans": {
-			"value": "Inter, sans-serif",
-			"type": "typography"
-		},
-		"fontFamilySerif": {
-			"value": "Lora, serif",
-			"type": "typography"
-		},
-		"fontFamilyMono": {
-			"value": "SF Mono, monospace",
-			"type": "typography"
-		},
-		"fontWeightRegular": {
-			"value": "400",
-			"type": "typography"
-		},
-		"fontWeightMedium": {
-			"value": "500",
-			"type": "typography"
-		},
-		"fontWeightBold": {
-			"value": "600",
-			"type": "typography"
-		},
-		"fontSizeLarge": {
-			"value": "18px",
-			"type": "typography"
-		},
-		"fontSizeMedium": {
-			"value": "16px",
-			"type": "typography"
-		},
-		"fontSizeBase": {
-			"value": "13px",
-			"type": "typography"
-		},
-		"fontSizeSmall": {
-			"value": "11px",
-			"type": "typography"
-		}
-	},
-	"fontFamily": {
-		"inter": {
-			"value": "Inter, sans-serif",
-			"type": "typography"
-		},
-		"sfMono": {
-			"value": "SF Mono, monospace",
-			"type": "typography"
-		}
-	},
-	"fontSize": {
-		"xs": {
-			"value": "0.75rem",
-			"type": "typography"
-		},
-		"sm": {
-			"value": "0.875rem",
-			"type": "typography"
-		},
-		"base": {
-			"value": "1rem",
-			"type": "typography"
-		},
-		"lg": {
-			"value": "1.125rem",
-			"type": "typography"
-		},
-		"xl": {
-			"value": "1.25rem",
-			"type": "typography"
-		},
-		"2xl": {
-			"value": "1.5rem",
-			"type": "typography"
-		},
-		"3xl": {
-			"value": "1.875rem",
-			"type": "typography"
-		},
-		"4xl": {
-			"value": "2.25rem",
-			"type": "typography"
-		},
-		"5xl": {
-			"value": "3rem",
-			"type": "typography"
-		},
-		"6xl": {
-			"value": "3.75rem",
-			"type": "typography"
-		},
-		"7xl": {
-			"value": "4.5rem",
-			"type": "typography"
-		},
-		"8xl": {
-			"value": "6rem",
-			"type": "typography"
-		},
-		"9xl": {
-			"value": "8rem",
-			"type": "typography"
-		}
-	},
-	"fontWeight": {
-		"thin": {
-			"value": "100",
-			"type": "typography"
-		},
-		"extralight": {
-			"value": "200",
-			"type": "typography"
-		},
-		"light": {
-			"value": "300",
-			"type": "typography"
-		},
-		"normal": {
-			"value": "400",
-			"type": "typography"
-		},
-		"medium": {
-			"value": "500",
-			"type": "typography"
-		},
-		"semibold": {
-			"value": "600",
-			"type": "typography"
-		},
-		"bold": {
-			"value": "700",
-			"type": "typography"
-		},
-		"extrabold": {
-			"value": "800",
-			"type": "typography"
-		},
-		"black": {
-			"value": "900",
-			"type": "typography"
-		}
-	},
-	"lineHeight": {
-		"none": {
-			"value": "1",
-			"type": "typography"
-		},
-		"tight": {
-			"value": "1.25",
-			"type": "typography"
-		},
-		"snug": {
-			"value": "1.375",
-			"type": "typography"
-		},
-		"normal": {
-			"value": "1.5",
-			"type": "typography"
-		},
-		"relaxed": {
-			"value": "1.625",
-			"type": "typography"
-		},
-		"loose": {
-			"value": "2",
-			"type": "typography"
-		},
-		"18": {
-			"value": "18px",
-			"type": "typography"
-		},
-		"20": {
-			"value": "20px",
-			"type": "typography"
-		},
-		"24": {
-			"value": "24px",
-			"type": "typography"
-		},
-		"26": {
-			"value": "26px",
-			"type": "typography"
-		}
-	},
-	"letterSpacing": {
-		"tighter": {
-			"value": "-0.05em",
-			"type": "typography"
-		},
-		"tight": {
-			"value": "-0.025em",
-			"type": "typography"
-		},
-		"normal": {
-			"value": "0em",
-			"type": "typography"
-		},
-		"wide": {
-			"value": "0.025em",
-			"type": "typography"
-		},
-		"wider": {
-			"value": "0.05em",
-			"type": "typography"
-		},
-		"widest": {
-			"value": "0.1em",
-			"type": "typography"
-		},
-		"-0.5": {
-			"value": "-0.5px",
-			"type": "typography"
-		},
-		"0": {
-			"value": "0px",
-			"type": "typography"
-		},
-		"4": {
-			"value": "4px",
-			"type": "typography"
-		}
-	},
 	"label": {
 		"large": {
 			"400": {
@@ -251,7 +19,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -273,7 +45,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -295,7 +71,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -319,7 +99,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -341,7 +125,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -363,7 +151,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -383,11 +175,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -405,11 +201,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -427,11 +227,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -455,7 +259,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -477,7 +285,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -499,7 +311,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -521,11 +337,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -543,11 +363,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -565,11 +389,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			}
@@ -589,11 +417,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -611,11 +443,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			},
@@ -633,11 +469,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "4px",
+					"value": "0.04em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "uppercase",
 					"type": "typography"
 				}
 			}
@@ -663,7 +503,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -685,7 +529,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -707,7 +555,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -731,7 +583,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -753,7 +609,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -775,7 +635,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "SF Mono, monospace",
+					"value": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -801,7 +665,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -815,7 +683,7 @@
 					"type": "typography"
 				},
 				"lineHeight": {
-					"value": "24px",
+					"value": "26px",
 					"type": "typography"
 				},
 				"letterSpacing": {
@@ -823,7 +691,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -837,7 +709,7 @@
 					"type": "typography"
 				},
 				"lineHeight": {
-					"value": "24px",
+					"value": "26px",
 					"type": "typography"
 				},
 				"letterSpacing": {
@@ -845,7 +717,11 @@
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -865,11 +741,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -887,11 +767,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -909,11 +793,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "-0.005em",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
@@ -933,11 +821,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "0px",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -955,11 +847,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "0px",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			},
@@ -977,11 +873,15 @@
 					"type": "typography"
 				},
 				"letterSpacing": {
-					"value": "-0.5px",
+					"value": "0px",
 					"type": "typography"
 				},
 				"fontFamily": {
-					"value": "Inter, sans-serif",
+					"value": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+					"type": "typography"
+				},
+				"textTransform": {
+					"value": "none",
 					"type": "typography"
 				}
 			}
