@@ -192,24 +192,6 @@
 					"category": "border",
 					"group": "sidebar"
 				},
-				"font-sans": {
-					"value": "'Inter'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
-				},
-				"font-serif": {
-					"value": "'Open Sans'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
-				},
-				"font-mono": {
-					"value": "'Geist Mono'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
-				},
 				"base-white": {
 					"value": "var(--text-base-white)",
 					"description": "",
@@ -4569,24 +4551,6 @@
 					"description": "",
 					"category": "border",
 					"group": "sidebar"
-				},
-				"font-sans": {
-					"value": "'Inter'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
-				},
-				"font-serif": {
-					"value": "'Open Sans'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
-				},
-				"font-mono": {
-					"value": "'Geist Mono'",
-					"description": "",
-					"category": "typography",
-					"group": "fonts"
 				},
 				"base-white": {
 					"value": "var(--text-base-white)",

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 27 Oct 2026 18:21:46 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 @theme {
 	/* Colors */
@@ -216,69 +216,6 @@
 	--spacing-spacing-64: 128px;
 
 	/* Typography */
-	--text-periscope-lineheightmedium: 24px;
-	--text-periscope-lineheightbase: 20px;
-	--text-periscope-fontfamilysans:
-		'Inter', -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-		sans-serif;
-	--text-periscope-fontfamilyserif: 'Lora', Georgia, 'Times New Roman', serif;
-	--text-periscope-fontfamilymono:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
-	--text-periscope-fontweightregular: 400;
-	--text-periscope-fontweightmedium: 500;
-	--text-periscope-fontweightbold: 600;
-	--text-periscope-fontsizelarge: 18px;
-	--text-periscope-fontsizemedium: 16px;
-	--text-periscope-fontsizebase: 13px;
-	--text-periscope-fontsizesmall: 11px;
-	--text-fontfamily-inter:
-		'Inter', -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-		sans-serif;
-	--text-fontfamily-sfmono:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
-	--text-fontsize-xs: 0.75rem;
-	--text-fontsize-sm: 0.875rem;
-	--text-fontsize-base: 1rem;
-	--text-fontsize-lg: 1.125rem;
-	--text-fontsize-xl: 1.25rem;
-	--text-fontsize-2xl: 1.5rem;
-	--text-fontsize-3xl: 1.875rem;
-	--text-fontsize-4xl: 2.25rem;
-	--text-fontsize-5xl: 3rem;
-	--text-fontsize-6xl: 3.75rem;
-	--text-fontsize-7xl: 4.5rem;
-	--text-fontsize-8xl: 6rem;
-	--text-fontsize-9xl: 8rem;
-	--text-fontweight-thin: 100;
-	--text-fontweight-extralight: 200;
-	--text-fontweight-light: 300;
-	--text-fontweight-normal: 400;
-	--text-fontweight-medium: 500;
-	--text-fontweight-semibold: 600;
-	--text-fontweight-bold: 700;
-	--text-fontweight-extrabold: 800;
-	--text-fontweight-black: 900;
-	--text-lineheight-18: 18px;
-	--text-lineheight-20: 20px;
-	--text-lineheight-24: 24px;
-	--text-lineheight-26: 26px;
-	--text-lineheight-none: 1;
-	--text-lineheight-tight: 1.25;
-	--text-lineheight-snug: 1.375;
-	--text-lineheight-normal: 1.5;
-	--text-lineheight-relaxed: 1.625;
-	--text-lineheight-loose: 2;
-	--text-letterspacing-0: 0px;
-	--text-letterspacing-4: 4px;
-	--text-letterspacing-tighter: -0.05em;
-	--text-letterspacing-tight: -0.025em;
-	--text-letterspacing-normal: 0em;
-	--text-letterspacing-wide: 0.025em;
-	--text-letterspacing-wider: 0.05em;
-	--text-letterspacing-widest: 0.1em;
-	--text-letterspacing--0.5: -0.5px;
 	--text-label-large-400-fontsize: 18px;
 	--text-label-large-400-fontweight: 400;
 	--text-label-large-400-lineheight: 1;

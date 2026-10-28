@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 26 Oct 2026 15:53:29 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 export const Style = {
@@ -36,9 +36,6 @@ export const Style = {
 	SIDEBAR_ACCENT_FOREGROUND: 'var(--sidebar-accent-foreground)',
 	SIDEBAR_BORDER: 'var(--sidebar-border)',
 	SIDEBAR_RING: 'var(--sidebar-ring)',
-	FONT_SANS: 'var(--font-sans)',
-	FONT_SERIF: 'var(--font-serif)',
-	FONT_MONO: 'var(--font-mono)',
 	BASE_WHITE: 'var(--base-white)',
 	BASE_BLACK: 'var(--base-black)',
 	L1_BACKGROUND: 'var(--l1-background)',

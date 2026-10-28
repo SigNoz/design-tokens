@@ -37,7 +37,7 @@ import { Color, Spacing, Typography } from '@signozhq/design-tokens';
 const backgroundColor = Color.BG_ROBIN_100;
 const color = Color.BG_ROBIN_500;
 const padding = Spacing.PADDING_4;
-const fontSize = Typography.FONTSIZE_BASE;
+const fontSize = Typography.LABEL_BASE_400_FONTSIZE;
 ```
 
 Additionally, you can import the generated CSS files that contain all the variables:
@@ -123,8 +123,12 @@ Enable theme switching by importing the theme files and setting the `data-theme`
 
 #### Typography
 
-- `Typography.FONTSIZE_SM`
-- `Typography.FONTWEIGHT_BOLD`
+Typography has only the 33 text styles of Periscope (`label`, `paragraph`, `uppercase` and
+`code`), each split into font family, size, weight, line height, letter spacing and text
+transform. There is no separate font size or weight scale.
+
+- `Typography.LABEL_BASE_500_FONTSIZE`
+- `Typography.PARAGRAPH_SMALL_400_LINEHEIGHT`
 - ... (and many more)
 
 ### Tailwind CSS v4

@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 26 Oct 2026 15:53:29 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 [data-theme='default'] {
@@ -38,9 +38,6 @@
 	--sidebar-accent-foreground: var(--text-slate-400);
 	--sidebar-border: var(--bg-slate-400);
 	--sidebar-ring: var(--bg-robin-500);
-	--font-sans: 'Inter';
-	--font-serif: 'Open Sans';
-	--font-mono: 'Geist Mono';
 	--base-white: var(--text-base-white);
 	--base-black: var(--text-base-black);
 	--l1-background: var(--bg-neutral-light-1000);
@@ -967,9 +964,6 @@
 	--sidebar-accent-foreground: var(--text-vanilla-400);
 	--sidebar-border: var(--bg-slate-500);
 	--sidebar-ring: var(--bg-robin-500);
-	--font-sans: 'Inter';
-	--font-serif: 'Open Sans';
-	--font-mono: 'Geist Mono';
 	--base-white: var(--text-base-white);
 	--base-black: var(--text-base-black);
 	--l1-background: var(--bg-neutral-dark-1000);

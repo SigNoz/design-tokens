@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 26 Oct 2026 15:53:29 GMT
+ * Generated on Tue, 27 Oct 2026 21:07:25 GMT
  */
 
 export const StyleTailwind = {
@@ -36,9 +36,6 @@ export const StyleTailwind = {
 	'sidebar-accent-foreground': 'var(--sidebar-accent-foreground)',
 	'sidebar-border': 'var(--sidebar-border)',
 	'sidebar-ring': 'var(--sidebar-ring)',
-	'font-sans': 'var(--font-sans)',
-	'font-serif': 'var(--font-serif)',
-	'font-mono': 'var(--font-mono)',
 	'base-white': 'var(--base-white)',
 	'base-black': 'var(--base-black)',
 	'l1-background': 'var(--l1-background)',
