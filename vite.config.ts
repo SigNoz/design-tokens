@@ -26,6 +26,26 @@ const processCSSFile = (inputPath: string, outputPath: string) => {
 	});
 };
 
+const FONT_FILES = [
+	'InterVariable-latin.woff2',
+	'InterVariable-rest.woff2',
+	'LICENSE.txt',
+];
+
+const copyFonts = () => {
+	const fontsDir = resolve(__dirname, 'src/fonts');
+	const outputDir = resolve(__dirname, 'dist/fonts');
+
+	fs.mkdirSync(outputDir, { recursive: true });
+	FONT_FILES.forEach((file) => {
+		fs.copyFileSync(resolve(fontsDir, file), resolve(outputDir, file));
+	});
+	processCSSFile(
+		resolve(fontsDir, 'inter.css'),
+		resolve(outputDir, 'inter.css'),
+	);
+};
+
 export default defineConfig({
 	build: {
 		lib: {
@@ -63,6 +83,8 @@ export default defineConfig({
 					resolve(__dirname, 'src/Typography/typography-styles.css'),
 					resolve(__dirname, 'dist/Typography/typography-styles.css'),
 				);
+				// Opt-in Inter faces, loaded only by a consumer that imports inter.css
+				copyFonts();
 			},
 		},
 	],

@@ -106,6 +106,36 @@ Enable theme switching by importing the theme files and setting the `data-theme`
 @import '@signozhq/design-tokens/dist/themes/blue-tokens.css';
 ```
 
+### Fonts
+
+The text styles use the font family `Inter`, and the package ships it as an opt-in stylesheet.
+Nothing loads until you import it:
+
+```css
+@import '@signozhq/design-tokens/dist/fonts/inter.css';
+```
+
+The stylesheet declares two upright faces of `Inter` 4.1, both with `font-display: swap` and a
+variable weight from 100 to 900:
+
+- `InterVariable-latin.woff2` (74 KB) covers Latin, the common punctuation and arrows, and the
+  symbols the UI draws.
+- `InterVariable-rest.woff2` (204 KB) covers the other scripts Inter supports, such as Cyrillic,
+  Greek and Vietnamese.
+
+Each `@font-face` has a `unicode-range`, so a page with Latin text downloads only the first file.
+Both files keep the OpenType layout features of Inter that Google Fonts drops, such as `ss01`
+(open digits), `zero` (slashed zero), `case`, `tnum` and `pnum`. Turn them on with
+`font-feature-settings: 'ss01' 1` or with `font-variant-numeric`. The optical size axis is pinned
+at 14, so the files have a weight axis only and `font-optical-sizing` has no effect: every size
+renders like the Figma text styles. There is no italic face; set `font-synthesis: none` to stop
+the browser from slanting upright text.
+
+The files are in `dist/fonts/`, next to `LICENSE.txt`, the SIL Open Font License 1.1 text of
+Inter. The package is MIT licensed, but the font files stay under the OFL. Keep `LICENSE.txt`
+when you copy the fonts somewhere else. To regenerate the files from the Inter release, run
+`uv run scripts/subset-inter.py`.
+
 ### Available Tokens
 
 #### Colors
