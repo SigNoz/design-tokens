@@ -1,11 +1,11 @@
 ---
-'@signozhq/design-tokens': major
+'@signozhq/design-tokens': minor
 ---
 
 Remove the typography primitives and the theme font families. The 33 text styles are the only
 typography tokens left.
 
-Breaking: every text takes its font from one style, so a component sets
+Every text takes its font from one style, so a component sets
 `var(--label-base-500-font-size)` and the other five properties of the same style (font family,
 weight, line height, letter spacing and text transform). Removed:
 
