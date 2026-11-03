@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 27 Oct 2026 21:07:25 GMT
+ * Generated on Tue, 03 Nov 2026 17:58:14 GMT
  */
 
 export const StyleTailwind = {
@@ -758,6 +758,14 @@ export const StyleTailwind = {
 	'breadcrumb-label-hover': 'var(--breadcrumb-label-hover)',
 	'breadcrumb-background-hover': 'var(--breadcrumb-background-hover)',
 	'breadcrumb-focus-ring': 'var(--breadcrumb-focus-ring)',
+	'pagination-label': 'var(--pagination-label)',
+	'pagination-label-hover': 'var(--pagination-label-hover)',
+	'pagination-page-current-background':
+		'var(--pagination-page-current-background)',
+	'pagination-page-current-label': 'var(--pagination-page-current-label)',
+	'pagination-separator': 'var(--pagination-separator)',
+	'pagination-divider': 'var(--pagination-divider)',
+	'pagination-focus-ring': 'var(--pagination-focus-ring)',
 	'input-background': 'var(--input-background)',
 	'input-border': 'var(--input-border)',
 	'input-border-hover': 'var(--input-border-hover)',
