@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 17:58:14 GMT
+ * Generated on Tue, 03 Nov 2026 21:49:35 GMT
  */
 
 export const Style = {
@@ -705,6 +705,8 @@ export const Style = {
 	PROGRESS_HIGHLIGHT_DANGER_INDICATOR:
 		'var(--progress-highlight-danger-indicator)',
 	PROGRESS_ACTIVE_STRIPE: 'var(--progress-active-stripe)',
+	SKELETON_BACKGROUND: 'var(--skeleton-background)',
+	SKELETON_HIGHLIGHT: 'var(--skeleton-highlight)',
 	SLIDER_PRIMARY_INDICATOR: 'var(--slider-primary-indicator)',
 	SLIDER_SECONDARY_INDICATOR: 'var(--slider-secondary-indicator)',
 	SLIDER_SUCCESS_INDICATOR: 'var(--slider-success-indicator)',

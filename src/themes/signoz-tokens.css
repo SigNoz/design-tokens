@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 18:32:46 GMT
+ * Generated on Tue, 03 Nov 2026 21:49:35 GMT
  */
 
 [data-theme='default'] {
@@ -820,6 +820,16 @@
 		in srgb,
 		var(--bg-vanilla-100),
 		transparent 75%
+	);
+	--skeleton-background: color-mix(
+		in srgb,
+		var(--bg-base-black),
+		transparent 94%
+	);
+	--skeleton-highlight: color-mix(
+		in srgb,
+		var(--bg-base-black),
+		transparent 85%
 	);
 	--slider-primary-indicator: var(--primary-background);
 	--slider-secondary-indicator: var(--l3-foreground);
@@ -1754,6 +1764,16 @@
 		in srgb,
 		var(--bg-vanilla-100),
 		transparent 75%
+	);
+	--skeleton-background: color-mix(
+		in srgb,
+		var(--bg-base-white),
+		transparent 88%
+	);
+	--skeleton-highlight: color-mix(
+		in srgb,
+		var(--bg-base-white),
+		transparent 82%
 	);
 	--slider-primary-indicator: var(--primary-background);
 	--slider-secondary-indicator: var(--l3-foreground);
