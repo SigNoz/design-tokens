@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 21:49:35 GMT
+ * Generated on Thu, 05 Nov 2026 19:08:18 GMT
  */
 
 export const Style = {
@@ -279,6 +279,24 @@ export const Style = {
 	PILL_INVALID_DISMISS_ICON: 'var(--pill-invalid-dismiss-icon)',
 	PILL_INVALID_DISMISS_ICON_HOVER: 'var(--pill-invalid-dismiss-icon-hover)',
 	PILL_FOCUS_RING: 'var(--pill-focus-ring)',
+	AVATAR_PRIMARY_BACKGROUND: 'var(--avatar-primary-background)',
+	AVATAR_PRIMARY_FOREGROUND: 'var(--avatar-primary-foreground)',
+	AVATAR_SECONDARY_BACKGROUND: 'var(--avatar-secondary-background)',
+	AVATAR_SECONDARY_FOREGROUND: 'var(--avatar-secondary-foreground)',
+	AVATAR_DANGER_BACKGROUND: 'var(--avatar-danger-background)',
+	AVATAR_DANGER_FOREGROUND: 'var(--avatar-danger-foreground)',
+	AVATAR_WARNING_BACKGROUND: 'var(--avatar-warning-background)',
+	AVATAR_WARNING_FOREGROUND: 'var(--avatar-warning-foreground)',
+	AVATAR_SUCCESS_BACKGROUND: 'var(--avatar-success-background)',
+	AVATAR_SUCCESS_FOREGROUND: 'var(--avatar-success-foreground)',
+	AVATAR_INFO_BACKGROUND: 'var(--avatar-info-background)',
+	AVATAR_INFO_FOREGROUND: 'var(--avatar-info-foreground)',
+	AVATAR_ARCHIVE_BACKGROUND: 'var(--avatar-archive-background)',
+	AVATAR_ARCHIVE_FOREGROUND: 'var(--avatar-archive-foreground)',
+	AVATAR_HIGHLIGHT_DANGER_BACKGROUND:
+		'var(--avatar-highlight-danger-background)',
+	AVATAR_HIGHLIGHT_DANGER_FOREGROUND:
+		'var(--avatar-highlight-danger-foreground)',
 	BADGE_PRIMARY_OUTLINED_BACKGROUND: 'var(--badge-primary-outlined-background)',
 	BADGE_PRIMARY_OUTLINED_BORDER: 'var(--badge-primary-outlined-border)',
 	BADGE_PRIMARY_OUTLINED_LABEL: 'var(--badge-primary-outlined-label)',

@@ -1632,6 +1632,102 @@
 					"category": "border",
 					"group": "pills"
 				},
+				"avatar-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill behind the initials and icon of a primary avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Initials and icon of a primary avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill behind the initials and icon of a secondary avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Initials and icon of a secondary avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill behind the initials and icon of a danger avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Initials and icon of a danger avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill behind the initials and icon of a warning avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Initials and icon of a warning avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill behind the initials and icon of a success avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Initials and icon of a success avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill behind the initials and icon of a info avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-info-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Initials and icon of a info avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill behind the initials and icon of a archive avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-archive-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Initials and icon of a archive avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill behind the initials and icon of a highlight danger avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-highlight-danger-foreground": {
+					"value": "var(--text-neutral-light-950)",
+					"description": "Initials and icon of a highlight danger avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
 				"badge-primary-outlined-background": {
 					"value": "var(--bg-robin-500)",
 					"description": "Background color for outlined primary badges",
@@ -6045,6 +6141,102 @@
 					"description": "Focus ring around a pill and its close button",
 					"category": "border",
 					"group": "pills"
+				},
+				"avatar-primary-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill behind the initials and icon of a primary avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-primary-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Initials and icon of a primary avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-secondary-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill behind the initials and icon of a secondary avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-secondary-foreground": {
+					"value": "var(--secondary-foreground)",
+					"description": "Initials and icon of a secondary avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-danger-background": {
+					"value": "var(--danger-background)",
+					"description": "Fill behind the initials and icon of a danger avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-danger-foreground": {
+					"value": "var(--danger-foreground)",
+					"description": "Initials and icon of a danger avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-warning-background": {
+					"value": "var(--warning-background)",
+					"description": "Fill behind the initials and icon of a warning avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-warning-foreground": {
+					"value": "var(--warning-foreground)",
+					"description": "Initials and icon of a warning avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-success-background": {
+					"value": "var(--success-background)",
+					"description": "Fill behind the initials and icon of a success avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-success-foreground": {
+					"value": "var(--success-foreground)",
+					"description": "Initials and icon of a success avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-info-background": {
+					"value": "var(--bg-aqua-500)",
+					"description": "Fill behind the initials and icon of a info avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-info-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Initials and icon of a info avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-archive-background": {
+					"value": "var(--bg-sienna-500)",
+					"description": "Fill behind the initials and icon of a archive avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-archive-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Initials and icon of a archive avatar",
+					"category": "foreground",
+					"group": "avatar"
+				},
+				"avatar-highlight-danger-background": {
+					"value": "var(--bg-sakura-500)",
+					"description": "Fill behind the initials and icon of a highlight danger avatar",
+					"category": "background",
+					"group": "avatar"
+				},
+				"avatar-highlight-danger-foreground": {
+					"value": "var(--text-ink-500)",
+					"description": "Initials and icon of a highlight danger avatar",
+					"category": "foreground",
+					"group": "avatar"
 				},
 				"badge-primary-outlined-background": {
 					"value": "var(--bg-robin-500)",
