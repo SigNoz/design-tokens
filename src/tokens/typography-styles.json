@@ -2,261 +2,294 @@
 	"label": {
 		"large": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "18px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "18px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "18px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		},
 		"medium": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		},
 		"base": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			}
 		},
 		"small": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		}
 	},
 	"uppercase": {
 		"base": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			}
 		},
 		"small": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "4px"
+				"letterSpacing": "0.04em",
+				"textTransform": "uppercase"
 			}
 		}
 	},
 	"code": {
 		"base": {
 			"400": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "13px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "13px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "13px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		},
 		"small": {
 			"400": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "11px",
 				"fontWeight": "400",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "11px",
 				"fontWeight": "500",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "SF Mono, monospace",
+				"fontFamily": "\"SF Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
 				"fontSize": "11px",
 				"fontWeight": "600",
 				"lineHeight": "1",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		}
 	},
 	"paragraph": {
 		"medium": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "400",
 				"lineHeight": "26px",
-				"letterSpacing": "0px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "500",
-				"lineHeight": "24px",
-				"letterSpacing": "0px"
+				"lineHeight": "26px",
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "16px",
 				"fontWeight": "600",
-				"lineHeight": "24px",
-				"letterSpacing": "0px"
+				"lineHeight": "26px",
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		},
 		"base": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "400",
 				"lineHeight": "20px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "500",
 				"lineHeight": "20px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "13px",
 				"fontWeight": "600",
 				"lineHeight": "20px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "-0.005em",
+				"textTransform": "none"
 			}
 		},
 		"small": {
 			"400": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "400",
 				"lineHeight": "18px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"500": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "500",
 				"lineHeight": "18px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			},
 			"600": {
-				"fontFamily": "Inter, sans-serif",
+				"fontFamily": "\"Inter\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
 				"fontSize": "11px",
 				"fontWeight": "600",
 				"lineHeight": "18px",
-				"letterSpacing": "-0.5px"
+				"letterSpacing": "0px",
+				"textTransform": "none"
 			}
 		}
 	}
