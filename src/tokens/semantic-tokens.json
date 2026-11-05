@@ -3858,6 +3858,18 @@
 					"category": "background",
 					"group": "progress"
 				},
+				"skeleton-background": {
+					"value": "color-mix(in srgb, var(--bg-base-black), transparent 94%)",
+					"description": "Fill of a skeleton bar. Translucent, so it shows on any surface",
+					"category": "background",
+					"group": "skeleton"
+				},
+				"skeleton-highlight": {
+					"value": "color-mix(in srgb, var(--bg-base-black), transparent 85%)",
+					"description": "Lighter band that sweeps across an active skeleton bar",
+					"category": "background",
+					"group": "skeleton"
+				},
 				"slider-primary-indicator": {
 					"value": "var(--primary-background)",
 					"description": "Fill, thumb border and active mark dots of a primary slider. The track and the other mark dots are tints of it",
@@ -8259,6 +8271,18 @@
 					"description": "Moving stripes over the fill of an active progress bar",
 					"category": "background",
 					"group": "progress"
+				},
+				"skeleton-background": {
+					"value": "color-mix(in srgb, var(--bg-base-white), transparent 88%)",
+					"description": "Fill of a skeleton bar. Translucent, so it shows on any surface",
+					"category": "background",
+					"group": "skeleton"
+				},
+				"skeleton-highlight": {
+					"value": "color-mix(in srgb, var(--bg-base-white), transparent 82%)",
+					"description": "Lighter band that sweeps across an active skeleton bar",
+					"category": "background",
+					"group": "skeleton"
 				},
 				"slider-primary-indicator": {
 					"value": "var(--primary-background)",

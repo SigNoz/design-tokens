@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 17:58:14 GMT
+ * Generated on Tue, 03 Nov 2026 21:49:35 GMT
  */
 
 export const StyleTailwind = {
@@ -715,6 +715,8 @@ export const StyleTailwind = {
 	'progress-highlight-danger-indicator':
 		'var(--progress-highlight-danger-indicator)',
 	'progress-active-stripe': 'var(--progress-active-stripe)',
+	'skeleton-background': 'var(--skeleton-background)',
+	'skeleton-highlight': 'var(--skeleton-highlight)',
 	'slider-primary-indicator': 'var(--slider-primary-indicator)',
 	'slider-secondary-indicator': 'var(--slider-secondary-indicator)',
 	'slider-success-indicator': 'var(--slider-success-indicator)',
