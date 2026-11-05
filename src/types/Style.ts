@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 27 Oct 2026 21:07:25 GMT
+ * Generated on Tue, 03 Nov 2026 17:58:14 GMT
  */
 
 export const Style = {
@@ -747,6 +747,14 @@ export const Style = {
 	BREADCRUMB_LABEL_HOVER: 'var(--breadcrumb-label-hover)',
 	BREADCRUMB_BACKGROUND_HOVER: 'var(--breadcrumb-background-hover)',
 	BREADCRUMB_FOCUS_RING: 'var(--breadcrumb-focus-ring)',
+	PAGINATION_LABEL: 'var(--pagination-label)',
+	PAGINATION_LABEL_HOVER: 'var(--pagination-label-hover)',
+	PAGINATION_PAGE_CURRENT_BACKGROUND:
+		'var(--pagination-page-current-background)',
+	PAGINATION_PAGE_CURRENT_LABEL: 'var(--pagination-page-current-label)',
+	PAGINATION_SEPARATOR: 'var(--pagination-separator)',
+	PAGINATION_DIVIDER: 'var(--pagination-divider)',
+	PAGINATION_FOCUS_RING: 'var(--pagination-focus-ring)',
 	INPUT_BACKGROUND: 'var(--input-background)',
 	INPUT_BORDER: 'var(--input-border)',
 	INPUT_BORDER_HOVER: 'var(--input-border-hover)',

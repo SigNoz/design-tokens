@@ -4110,6 +4110,48 @@
 					"category": "border",
 					"group": "breadcrumb"
 				},
+				"pagination-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Position label, page numbers, arrows and page size label of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-label-hover": {
+					"value": "var(--l2-foreground-hover)",
+					"description": "Hovered page number or arrow of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-page-current-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of the current page of a pagination bar",
+					"category": "background",
+					"group": "pagination"
+				},
+				"pagination-page-current-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Number of the current page of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-separator": {
+					"value": "var(--l1-foreground)",
+					"description": "Line that stands for the skipped pages of a pagination bar",
+					"category": "border",
+					"group": "pagination"
+				},
+				"pagination-divider": {
+					"value": "var(--secondary-border)",
+					"description": "Rule between Previous and Next in the compact pagination controls",
+					"category": "border",
+					"group": "pagination"
+				},
+				"pagination-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a page number or arrow of a pagination bar",
+					"category": "border",
+					"group": "pagination"
+				},
 				"input-background": {
 					"value": "transparent",
 					"description": "Field background in the resting state, transparent so the input sits on any surface",
@@ -8469,6 +8511,48 @@
 					"description": "Focus ring around a breadcrumb link",
 					"category": "border",
 					"group": "breadcrumb"
+				},
+				"pagination-label": {
+					"value": "var(--l2-foreground)",
+					"description": "Position label, page numbers, arrows and page size label of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-label-hover": {
+					"value": "var(--l2-foreground-hover)",
+					"description": "Hovered page number or arrow of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-page-current-background": {
+					"value": "var(--primary-background)",
+					"description": "Fill of the current page of a pagination bar",
+					"category": "background",
+					"group": "pagination"
+				},
+				"pagination-page-current-label": {
+					"value": "var(--primary-foreground)",
+					"description": "Number of the current page of a pagination bar",
+					"category": "foreground",
+					"group": "pagination"
+				},
+				"pagination-separator": {
+					"value": "var(--l1-foreground)",
+					"description": "Line that stands for the skipped pages of a pagination bar",
+					"category": "border",
+					"group": "pagination"
+				},
+				"pagination-divider": {
+					"value": "var(--secondary-border)",
+					"description": "Rule between Previous and Next in the compact pagination controls",
+					"category": "border",
+					"group": "pagination"
+				},
+				"pagination-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring around a page number or arrow of a pagination bar",
+					"category": "border",
+					"group": "pagination"
 				},
 				"input-background": {
 					"value": "transparent",

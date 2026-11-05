@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 27 Oct 2026 21:07:25 GMT
+ * Generated on Tue, 03 Nov 2026 18:32:46 GMT
  */
 
 [data-theme='default'] {
@@ -863,6 +863,13 @@
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--pagination-label: var(--l2-foreground);
+	--pagination-label-hover: var(--l2-foreground-hover);
+	--pagination-page-current-background: var(--primary-background);
+	--pagination-page-current-label: var(--primary-foreground);
+	--pagination-separator: var(--l1-foreground);
+	--pagination-divider: var(--secondary-border);
+	--pagination-focus-ring: var(--ring);
 	--input-background: transparent;
 	--input-border: var(--l2-border);
 	--input-border-hover: var(--l3-border);
@@ -1790,6 +1797,13 @@
 	--breadcrumb-label-hover: var(--l1-foreground-hover);
 	--breadcrumb-background-hover: var(--l1-background-hover);
 	--breadcrumb-focus-ring: var(--ring);
+	--pagination-label: var(--l2-foreground);
+	--pagination-label-hover: var(--l2-foreground-hover);
+	--pagination-page-current-background: var(--primary-background);
+	--pagination-page-current-label: var(--primary-foreground);
+	--pagination-separator: var(--l1-foreground);
+	--pagination-divider: var(--secondary-border);
+	--pagination-focus-ring: var(--ring);
 	--input-background: transparent;
 	--input-border: var(--l2-border);
 	--input-border-hover: var(--l3-border);
