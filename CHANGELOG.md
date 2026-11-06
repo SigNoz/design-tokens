@@ -1,5 +1,14 @@
 # @signoz/design-tokens
 
+## 2.6.0
+
+### Minor Changes
+
+- 3617f90: Add `avatar-{color}-background` and `avatar-{color}-foreground` for the reworked Avatar, in both themes,
+  for primary, secondary, danger, warning, success, info, archive and highlight-danger. The avatar initials
+  sit on one of eight colors. Seven of them match the solid Badge palette, and secondary matches the secondary
+  Button. The values are copied from those tokens, so the avatar can diverge later.
+
 ## 2.5.0
 
 ### Minor Changes
