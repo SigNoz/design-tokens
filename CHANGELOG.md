@@ -1,5 +1,84 @@
 # @signoz/design-tokens
 
+## 2.5.0
+
+### Minor Changes
+
+- 69ab8b6: Add an opt-in stylesheet that loads Inter, `dist/fonts/inter.css`, with the font files next to it.
+
+  ```css
+  @import '@signozhq/design-tokens/dist/fonts/inter.css';
+  ```
+
+  The text styles name `Inter` as their font family but the package did not ship the font, so each
+  app loaded its own build and the digits and features differed between them. The stylesheet declares
+  two upright faces of `Inter` (Inter 4.1), `latin` and `rest` (Cyrillic, Greek, Vietnamese and the
+  rest), each a variable weight face from 100 to 900 with `font-display: swap`. A browser downloads
+  the `rest` file only for text outside the `latin` unicode range, and nothing loads unless the
+  stylesheet is imported. The files keep the OpenType features that Google Fonts drops (`ss01`,
+  `zero`, `case`, `tnum`) and have the optical size axis pinned at 14, so every size renders the
+  same as the Figma text styles.
+
+  There is no italic face. `dist/fonts/LICENSE.txt` is the SIL Open Font License 1.1 text of Inter.
+  The files are regenerated with `uv run scripts/subset-inter.py`.
+
+  The package now declares `"license": "MIT AND OFL-1.1"` in `package.json`: MIT for the package, the
+  SIL Open Font License 1.1 for the files in `dist/fonts/`.
+
+- dd2180f: Add a `pagination-*` set for the reworked Pagination, in both themes. `pagination-label` is the
+  text of the bar (`l2-foreground`) and `pagination-label-hover` a hovered page or arrow
+  (`l2-foreground-hover`). The current page is `pagination-page-current-background` (`primary-background`)
+  with `pagination-page-current-label` (`primary-foreground`). `pagination-separator` is the line
+  for the skipped pages (`l1-foreground`), `pagination-divider` the rule between Previous and Next
+  (`secondary-border`) and `pagination-focus-ring` the focus ring (`ring`).
+- 6585b48: Remove the typography primitives and the theme font families. The 33 text styles are the only
+  typography tokens left.
+
+  Every text takes its font from one style, so a component sets
+  `var(--label-base-500-font-size)` and the other five properties of the same style (font family,
+  weight, line height, letter spacing and text transform). Removed:
+
+  - the Periscope primitives: `--periscope-font-size-*`, `--periscope-font-weight-*`,
+    `--periscope-line-height-*` and `--periscope-font-family-*`;
+  - the older scale: `--font-family-inter`, `--font-family-sf-mono`, `--font-size-xs` to
+    `--font-size-9xl`, `--font-weight-thin` to `--font-weight-black`, `--line-height-*` and
+    `--letter-spacing-*`;
+  - the same keys in `Typography`, in `typographyTokens`, and the matching `--text-*` variables of
+    `tailwind-theme.css`;
+  - the theme font families `--font-sans`, `--font-serif` and `--font-mono` (`Style.FONT_SANS`,
+    `FONT_SERIF`, `FONT_MONO` and the `font-*` keys of `StyleTailwind`). Read the family from a text
+    style, `--paragraph-base-400-font-family` for text and `--code-base-400-font-family` for code.
+
+- 13edb5d: Add `skeleton-background` and `skeleton-highlight` for the reworked Skeleton, in both themes. Both are
+  translucent, black in light and white in dark, so a skeleton bar reads on any surface it sits on.
+  The alphas match the Ant Design 5 skeleton the app renders today: the fill is 6% black in light and
+  12% white in dark, the shimmer band 15% black in light and 18% white in dark.
+- 6585b48: Align the 33 text styles with the Periscope type tokens page, and add a `typography-*` set for the
+  reworked Typography, in both themes.
+
+  The text styles change in four places:
+
+  - Letter spacing is a percent of the font size, as in Figma: `-0.5px` is now `-0.005em` (label base
+    and paragraph base) and `4px` is now `0.04em` (uppercase). At 11px, uppercase text was about 9
+    times wider than Figma. Paragraph small is now `0`.
+  - The font families have fallback stacks: Inter falls back to the system UI font, SF Mono to
+    `ui-monospace`, Menlo, Consolas and Liberation Mono, and Lora to Georgia.
+  - `paragraph-medium-500` and `paragraph-medium-600` have a 26px line height, the same as
+    `paragraph-medium-400`. They had 24px.
+  - Every style has a `text-transform`: `uppercase` on the six uppercase styles, `none` on the rest.
+    The CSS classes and `TypographyStyles` carry it as well.
+
+  The new tokens are the text colors of Typography. `typography-main`, `typography-secondary` and
+  `typography-tertiary` follow the `l1` to `l3` foregrounds. The seven hues (`primary`, `success`,
+  `danger`, `warning`, `info`, `archive`, `highlight-danger`) take the label color of an outlined
+  badge of the same color, and `typography-link` the primary link color.
+
+### Patch Changes
+
+- dd2180f: Add the `popover-background`, `popover-border` and `popover-shadow` entries to `Style` and
+  `StyleTailwind`. 2.4.0 shipped the CSS variables without regenerating the type files, so they had
+  no `Style.POPOVER_*` constant or Tailwind key.
+
 ## 2.4.0
 
 ### Minor Changes
