@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 21:49:35 GMT
+ * Generated on Thu, 05 Nov 2026 19:08:18 GMT
  */
 
 [data-theme='default'] {
@@ -410,6 +410,22 @@
 	--pill-invalid-dismiss-icon: var(--destructive);
 	--pill-invalid-dismiss-icon-hover: var(--destructive);
 	--pill-focus-ring: var(--ring);
+	--avatar-primary-background: var(--primary-background);
+	--avatar-primary-foreground: var(--primary-foreground);
+	--avatar-secondary-background: var(--secondary-background);
+	--avatar-secondary-foreground: var(--secondary-foreground);
+	--avatar-danger-background: var(--danger-background);
+	--avatar-danger-foreground: var(--danger-foreground);
+	--avatar-warning-background: var(--warning-background);
+	--avatar-warning-foreground: var(--warning-foreground);
+	--avatar-success-background: var(--success-background);
+	--avatar-success-foreground: var(--success-foreground);
+	--avatar-info-background: var(--bg-aqua-500);
+	--avatar-info-foreground: var(--text-neutral-light-950);
+	--avatar-archive-background: var(--bg-sienna-500);
+	--avatar-archive-foreground: var(--text-neutral-light-950);
+	--avatar-highlight-danger-background: var(--bg-sakura-500);
+	--avatar-highlight-danger-foreground: var(--text-neutral-light-950);
 	--badge-primary-outlined-background: var(--bg-robin-500);
 	--badge-primary-outlined-border: var(--bg-robin-500);
 	--badge-primary-outlined-label: var(--bg-robin-600);
@@ -1358,6 +1374,22 @@
 	--pill-invalid-dismiss-icon: var(--destructive);
 	--pill-invalid-dismiss-icon-hover: var(--destructive);
 	--pill-focus-ring: var(--ring);
+	--avatar-primary-background: var(--primary-background);
+	--avatar-primary-foreground: var(--primary-foreground);
+	--avatar-secondary-background: var(--secondary-background);
+	--avatar-secondary-foreground: var(--secondary-foreground);
+	--avatar-danger-background: var(--danger-background);
+	--avatar-danger-foreground: var(--danger-foreground);
+	--avatar-warning-background: var(--warning-background);
+	--avatar-warning-foreground: var(--warning-foreground);
+	--avatar-success-background: var(--success-background);
+	--avatar-success-foreground: var(--success-foreground);
+	--avatar-info-background: var(--bg-aqua-500);
+	--avatar-info-foreground: var(--text-ink-500);
+	--avatar-archive-background: var(--bg-sienna-500);
+	--avatar-archive-foreground: var(--text-ink-500);
+	--avatar-highlight-danger-background: var(--bg-sakura-500);
+	--avatar-highlight-danger-foreground: var(--text-ink-500);
 	--badge-primary-outlined-background: var(--bg-robin-500);
 	--badge-primary-outlined-border: var(--bg-robin-500);
 	--badge-primary-outlined-label: var(--bg-robin-400);
