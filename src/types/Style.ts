@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 03 Nov 2026 21:49:35 GMT
+ * Generated on Fri, 06 Nov 2026 07:21:49 GMT
  */
 
 export const Style = {
@@ -459,6 +459,10 @@ export const Style = {
 	POPOVER_BACKGROUND: 'var(--popover-background)',
 	POPOVER_BORDER: 'var(--popover-border)',
 	POPOVER_SHADOW: 'var(--popover-shadow)',
+	DRAWER_BACKGROUND: 'var(--drawer-background)',
+	DRAWER_BORDER: 'var(--drawer-border)',
+	DRAWER_SHADOW: 'var(--drawer-shadow)',
+	DRAWER_BACKDROP: 'var(--drawer-backdrop)',
 	COMBOBOX_TRIGGER_BACKGROUND: 'var(--combobox-trigger-background)',
 	COMBOBOX_TRIGGER_BORDER: 'var(--combobox-trigger-border)',
 	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
