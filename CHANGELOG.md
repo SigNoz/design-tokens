@@ -1,5 +1,22 @@
 # @signoz/design-tokens
 
+## 2.6.0
+
+### Minor Changes
+
+- 3617f90: Add `avatar-{color}-background` and `avatar-{color}-foreground` for the reworked Avatar, in both themes,
+  for primary, secondary, danger, warning, success, info, archive and highlight-danger. The avatar initials
+  sit on one of eight colors. Seven of them match the solid Badge palette, and secondary matches the secondary
+  Button. The values are copied from those tokens, so the avatar can diverge later.
+- 8e87454: Add a `drawer-*` set for the reworked Drawer, in both themes. `drawer-background` is the panel
+  fill (`surface-2`), `drawer-border` its hairline and the lines under its header and over its footer
+  (`l2-border`), and `drawer-shadow` the lift (`shadow-drawer`). `drawer-backdrop` is the scrim
+  behind a task drawer, black at 40% in both themes, the value the Dialog backdrop hard-codes today.
+
+  The dark `shadow-drawer` is repointed to the Figma `dark/shadow-drawer` effect, a shadow cast to the
+  left of the panel. It was the light value's vertical shape with heavier alphas, which no
+  component read. The light value is unchanged.
+
 ## 2.5.0
 
 ### Minor Changes
