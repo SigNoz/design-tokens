@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 06 Nov 2026 07:21:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:11:49 GMT
  */
 
 [data-theme='default'] {
@@ -9,8 +9,6 @@
 
 	--background: var(--bg-vanilla-200);
 	--foreground: var(--text-ink-400);
-	--card: var(--bg-vanilla-100);
-	--card-foreground: var(--text-ink-400);
 	--popover: var(--bg-vanilla-100);
 	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
@@ -598,6 +596,8 @@
 	--drawer-border: var(--l2-border);
 	--drawer-shadow: var(--shadow-drawer);
 	--drawer-backdrop: color-mix(in srgb, var(--bg-base-black), transparent 60%);
+	--card-background: var(--surface-2);
+	--card-border: var(--l2-border);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);
@@ -972,8 +972,6 @@
 
 	--background: var(--bg-ink-500);
 	--foreground: var(--text-vanilla-400);
-	--card: var(--bg-ink-400);
-	--card-foreground: var(--text-vanilla-100);
 	--popover: var(--bg-ink-400);
 	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
@@ -1561,6 +1559,8 @@
 	--drawer-border: var(--l2-border);
 	--drawer-shadow: var(--shadow-drawer);
 	--drawer-backdrop: color-mix(in srgb, var(--bg-base-black), transparent 60%);
+	--card-background: var(--surface-2);
+	--card-border: var(--l2-border);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);

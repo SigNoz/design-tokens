@@ -1,14 +1,12 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 06 Nov 2026 07:21:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:11:49 GMT
  */
 
 export const Style = {
 	BACKGROUND: 'var(--background)',
 	FOREGROUND: 'var(--foreground)',
-	CARD: 'var(--card)',
-	CARD_FOREGROUND: 'var(--card-foreground)',
 	POPOVER: 'var(--popover)',
 	POPOVER_FOREGROUND: 'var(--popover-foreground)',
 	PRIMARY: 'var(--primary)',
@@ -481,6 +479,8 @@ export const Style = {
 	DRAWER_BORDER: 'var(--drawer-border)',
 	DRAWER_SHADOW: 'var(--drawer-shadow)',
 	DRAWER_BACKDROP: 'var(--drawer-backdrop)',
+	CARD_BACKGROUND: 'var(--card-background)',
+	CARD_BORDER: 'var(--card-border)',
 	COMBOBOX_TRIGGER_BACKGROUND: 'var(--combobox-trigger-background)',
 	COMBOBOX_TRIGGER_BORDER: 'var(--combobox-trigger-border)',
 	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
