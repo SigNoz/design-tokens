@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:57:26 GMT
+ * Generated on Wed, 11 Nov 2026 21:07:12 GMT
  */
 
 [data-theme='default'] {
@@ -306,6 +306,24 @@
 	--collapse-icon: var(--l3-foreground);
 	--collapse-icon-hover: var(--l1-foreground);
 	--collapse-focus-ring: var(--ring);
+	--date-picker-trigger-background: transparent;
+	--date-picker-trigger-border: var(--l2-border);
+	--date-picker-trigger-border-hover: var(--l3-border);
+	--date-picker-trigger-focus-ring: var(--primary-background);
+	--date-picker-trigger-label: var(--l1-foreground);
+	--date-picker-trigger-label-disabled: var(--l3-foreground);
+	--date-picker-trigger-placeholder: var(--l3-foreground);
+	--date-picker-trigger-icon: var(--l3-foreground);
+	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
+	--date-picker-background: var(--surface-3);
+	--date-picker-border: var(--l2-border);
+	--date-picker-shadow: var(--shadow-dropdown);
+	--date-picker-separator: var(--l2-border);
+	--date-picker-time-field-border: var(--l2-border);
+	--date-picker-time-field-border-hover: var(--l3-border);
+	--date-picker-time-field-focus-ring: var(--primary-background);
+	--date-picker-time-field-label: var(--l1-foreground);
+	--date-picker-time-separator: var(--l3-foreground);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -1281,6 +1299,24 @@
 	--collapse-icon: var(--l3-foreground);
 	--collapse-icon-hover: var(--l1-foreground);
 	--collapse-focus-ring: var(--ring);
+	--date-picker-trigger-background: transparent;
+	--date-picker-trigger-border: var(--l2-border);
+	--date-picker-trigger-border-hover: var(--l3-border);
+	--date-picker-trigger-focus-ring: var(--primary-background);
+	--date-picker-trigger-label: var(--l1-foreground);
+	--date-picker-trigger-label-disabled: var(--l3-foreground);
+	--date-picker-trigger-placeholder: var(--l3-foreground);
+	--date-picker-trigger-icon: var(--l3-foreground);
+	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
+	--date-picker-background: var(--surface-3);
+	--date-picker-border: var(--l2-border);
+	--date-picker-shadow: var(--shadow-dropdown);
+	--date-picker-separator: var(--l2-border);
+	--date-picker-time-field-border: var(--l2-border);
+	--date-picker-time-field-border-hover: var(--l3-border);
+	--date-picker-time-field-focus-ring: var(--primary-background);
+	--date-picker-time-field-label: var(--l1-foreground);
+	--date-picker-time-separator: var(--l3-foreground);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
