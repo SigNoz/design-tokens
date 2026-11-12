@@ -1133,6 +1133,114 @@
 					"category": "border",
 					"group": "collapse"
 				},
+				"date-picker-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the date picker field",
+					"category": "background",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the date picker field",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the date picker field on hover",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the date picker field",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Value shown in the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value of a disabled date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Calendar and clear icons of the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the date picker field on hover",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the date picker popup",
+					"category": "background",
+					"group": "date-picker"
+				},
+				"date-picker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the date picker popup",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the date picker popup",
+					"category": "shadow",
+					"group": "date-picker"
+				},
+				"date-picker-separator": {
+					"value": "var(--l2-border)",
+					"description": "Line between the calendar and the footer of the date picker popup",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the hour and minute fields",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the hour and minute fields on hover",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the hour and minute fields",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Digits of the hour and minute fields",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-time-separator": {
+					"value": "var(--l3-foreground)",
+					"description": "Colon between the hour and minute fields",
+					"category": "foreground",
+					"group": "date-picker"
+				},
 				"size-icon-callout-sm": {
 					"value": "12px",
 					"description": "Icon size for small callouts",
@@ -5714,6 +5822,114 @@
 					"description": "Focus ring of the collapse header",
 					"category": "border",
 					"group": "collapse"
+				},
+				"date-picker-trigger-background": {
+					"value": "transparent",
+					"description": "Background of the date picker field",
+					"category": "background",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the date picker field",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the date picker field on hover",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the date picker field",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Value shown in the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-label-disabled": {
+					"value": "var(--l3-foreground)",
+					"description": "Value of a disabled date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-placeholder": {
+					"value": "var(--l3-foreground)",
+					"description": "Placeholder of the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Calendar and clear icons of the date picker field",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-trigger-icon-hover": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Clear icon of the date picker field on hover",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the date picker popup",
+					"category": "background",
+					"group": "date-picker"
+				},
+				"date-picker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the date picker popup",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the date picker popup",
+					"category": "shadow",
+					"group": "date-picker"
+				},
+				"date-picker-separator": {
+					"value": "var(--l2-border)",
+					"description": "Line between the calendar and the footer of the date picker popup",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the hour and minute fields",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-border-hover": {
+					"value": "var(--l3-border)",
+					"description": "Border of the hour and minute fields on hover",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the hour and minute fields",
+					"category": "border",
+					"group": "date-picker"
+				},
+				"date-picker-time-field-label": {
+					"value": "var(--l1-foreground)",
+					"description": "Digits of the hour and minute fields",
+					"category": "foreground",
+					"group": "date-picker"
+				},
+				"date-picker-time-separator": {
+					"value": "var(--l3-foreground)",
+					"description": "Colon between the hour and minute fields",
+					"category": "foreground",
+					"group": "date-picker"
 				},
 				"size-icon-callout-sm": {
 					"value": "12px",
