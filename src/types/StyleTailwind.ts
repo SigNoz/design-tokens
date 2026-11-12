@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 20:00:52 GMT
+ * Generated on Thu, 12 Nov 2026 17:53:27 GMT
  */
 
 export const StyleTailwind = {
@@ -241,6 +241,30 @@ export const StyleTailwind = {
 		'var(--color-picker-clear-background-hover)',
 	'color-picker-clear-focus-ring': 'var(--color-picker-clear-focus-ring)',
 	'color-picker-footer-foreground': 'var(--color-picker-footer-foreground)',
+	'steps-marker-waiting-background': 'var(--steps-marker-waiting-background)',
+	'steps-marker-waiting-border': 'var(--steps-marker-waiting-border)',
+	'steps-marker-waiting-foreground': 'var(--steps-marker-waiting-foreground)',
+	'steps-marker-current-background': 'var(--steps-marker-current-background)',
+	'steps-marker-current-border': 'var(--steps-marker-current-border)',
+	'steps-marker-current-foreground': 'var(--steps-marker-current-foreground)',
+	'steps-marker-done-background': 'var(--steps-marker-done-background)',
+	'steps-marker-done-border': 'var(--steps-marker-done-border)',
+	'steps-marker-done-foreground': 'var(--steps-marker-done-foreground)',
+	'steps-label-waiting-foreground': 'var(--steps-label-waiting-foreground)',
+	'steps-label-current-foreground': 'var(--steps-label-current-foreground)',
+	'steps-label-done-foreground': 'var(--steps-label-done-foreground)',
+	'steps-description-foreground': 'var(--steps-description-foreground)',
+	'steps-connector': 'var(--steps-connector)',
+	'steps-connector-done': 'var(--steps-connector-done)',
+	'steps-text-focus-ring': 'var(--steps-text-focus-ring)',
+	'steps-list-marker-background': 'var(--steps-list-marker-background)',
+	'steps-list-marker-border': 'var(--steps-list-marker-border)',
+	'steps-list-marker-foreground': 'var(--steps-list-marker-foreground)',
+	'steps-list-connector': 'var(--steps-list-connector)',
+	'steps-list-label-foreground': 'var(--steps-list-label-foreground)',
+	'steps-list-content-foreground': 'var(--steps-list-content-foreground)',
+	'steps-list-footer-marker-background':
+		'var(--steps-list-footer-marker-background)',
 	'size-icon-callout-sm': 'var(--size-icon-callout-sm)',
 	'size-icon-callout-md': 'var(--size-icon-callout-md)',
 	'accent-primary': 'var(--accent-primary)',

@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 20:00:52 GMT
+ * Generated on Thu, 12 Nov 2026 17:53:27 GMT
  */
 
 export const Style = {
@@ -239,6 +239,30 @@ export const Style = {
 		'var(--color-picker-clear-background-hover)',
 	COLOR_PICKER_CLEAR_FOCUS_RING: 'var(--color-picker-clear-focus-ring)',
 	COLOR_PICKER_FOOTER_FOREGROUND: 'var(--color-picker-footer-foreground)',
+	STEPS_MARKER_WAITING_BACKGROUND: 'var(--steps-marker-waiting-background)',
+	STEPS_MARKER_WAITING_BORDER: 'var(--steps-marker-waiting-border)',
+	STEPS_MARKER_WAITING_FOREGROUND: 'var(--steps-marker-waiting-foreground)',
+	STEPS_MARKER_CURRENT_BACKGROUND: 'var(--steps-marker-current-background)',
+	STEPS_MARKER_CURRENT_BORDER: 'var(--steps-marker-current-border)',
+	STEPS_MARKER_CURRENT_FOREGROUND: 'var(--steps-marker-current-foreground)',
+	STEPS_MARKER_DONE_BACKGROUND: 'var(--steps-marker-done-background)',
+	STEPS_MARKER_DONE_BORDER: 'var(--steps-marker-done-border)',
+	STEPS_MARKER_DONE_FOREGROUND: 'var(--steps-marker-done-foreground)',
+	STEPS_LABEL_WAITING_FOREGROUND: 'var(--steps-label-waiting-foreground)',
+	STEPS_LABEL_CURRENT_FOREGROUND: 'var(--steps-label-current-foreground)',
+	STEPS_LABEL_DONE_FOREGROUND: 'var(--steps-label-done-foreground)',
+	STEPS_DESCRIPTION_FOREGROUND: 'var(--steps-description-foreground)',
+	STEPS_CONNECTOR: 'var(--steps-connector)',
+	STEPS_CONNECTOR_DONE: 'var(--steps-connector-done)',
+	STEPS_TEXT_FOCUS_RING: 'var(--steps-text-focus-ring)',
+	STEPS_LIST_MARKER_BACKGROUND: 'var(--steps-list-marker-background)',
+	STEPS_LIST_MARKER_BORDER: 'var(--steps-list-marker-border)',
+	STEPS_LIST_MARKER_FOREGROUND: 'var(--steps-list-marker-foreground)',
+	STEPS_LIST_CONNECTOR: 'var(--steps-list-connector)',
+	STEPS_LIST_LABEL_FOREGROUND: 'var(--steps-list-label-foreground)',
+	STEPS_LIST_CONTENT_FOREGROUND: 'var(--steps-list-content-foreground)',
+	STEPS_LIST_FOOTER_MARKER_BACKGROUND:
+		'var(--steps-list-footer-marker-background)',
 	SIZE_ICON_CALLOUT_SM: 'var(--size-icon-callout-sm)',
 	SIZE_ICON_CALLOUT_MD: 'var(--size-icon-callout-md)',
 	ACCENT_PRIMARY: 'var(--accent-primary)',
