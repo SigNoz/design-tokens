@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:11:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:57:26 GMT
  */
 
 export const StyleTailwind = {
@@ -188,6 +188,14 @@ export const StyleTailwind = {
 	'callout-secondary-title': 'var(--callout-secondary-title)',
 	'callout-secondary-description': 'var(--callout-secondary-description)',
 	'callout-secondary-icon': 'var(--callout-secondary-icon)',
+	'collapse-background': 'var(--collapse-background)',
+	'collapse-border': 'var(--collapse-border)',
+	'collapse-title': 'var(--collapse-title)',
+	'collapse-description': 'var(--collapse-description)',
+	'collapse-content': 'var(--collapse-content)',
+	'collapse-icon': 'var(--collapse-icon)',
+	'collapse-icon-hover': 'var(--collapse-icon-hover)',
+	'collapse-focus-ring': 'var(--collapse-focus-ring)',
 	'size-icon-callout-sm': 'var(--size-icon-callout-sm)',
 	'size-icon-callout-md': 'var(--size-icon-callout-md)',
 	'accent-primary': 'var(--accent-primary)',
