@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 21:07:12 GMT
+ * Generated on Thu, 12 Nov 2026 13:19:49 GMT
  */
 
 export const StyleTailwind = {
@@ -201,8 +201,6 @@ export const StyleTailwind = {
 	'date-picker-trigger-border-hover': 'var(--date-picker-trigger-border-hover)',
 	'date-picker-trigger-focus-ring': 'var(--date-picker-trigger-focus-ring)',
 	'date-picker-trigger-label': 'var(--date-picker-trigger-label)',
-	'date-picker-trigger-label-disabled':
-		'var(--date-picker-trigger-label-disabled)',
 	'date-picker-trigger-placeholder': 'var(--date-picker-trigger-placeholder)',
 	'date-picker-trigger-icon': 'var(--date-picker-trigger-icon)',
 	'date-picker-trigger-icon-hover': 'var(--date-picker-trigger-icon-hover)',
@@ -523,7 +521,6 @@ export const StyleTailwind = {
 	'combobox-trigger-border-hover': 'var(--combobox-trigger-border-hover)',
 	'combobox-trigger-focus-ring': 'var(--combobox-trigger-focus-ring)',
 	'combobox-trigger-label': 'var(--combobox-trigger-label)',
-	'combobox-trigger-label-disabled': 'var(--combobox-trigger-label-disabled)',
 	'combobox-trigger-placeholder': 'var(--combobox-trigger-placeholder)',
 	'combobox-trigger-icon': 'var(--combobox-trigger-icon)',
 	'combobox-trigger-icon-hover': 'var(--combobox-trigger-icon-hover)',
@@ -561,7 +558,6 @@ export const StyleTailwind = {
 	'select-trigger-border-hover': 'var(--select-trigger-border-hover)',
 	'select-trigger-focus-ring': 'var(--select-trigger-focus-ring)',
 	'select-trigger-label': 'var(--select-trigger-label)',
-	'select-trigger-label-disabled': 'var(--select-trigger-label-disabled)',
 	'select-trigger-placeholder': 'var(--select-trigger-placeholder)',
 	'select-trigger-icon': 'var(--select-trigger-icon)',
 	'select-chip-background': 'var(--select-chip-background)',

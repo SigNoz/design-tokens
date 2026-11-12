@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 21:07:12 GMT
+ * Generated on Thu, 12 Nov 2026 13:19:49 GMT
  */
 
 export const Style = {
@@ -201,8 +201,6 @@ export const Style = {
 	DATE_PICKER_TRIGGER_BORDER_HOVER: 'var(--date-picker-trigger-border-hover)',
 	DATE_PICKER_TRIGGER_FOCUS_RING: 'var(--date-picker-trigger-focus-ring)',
 	DATE_PICKER_TRIGGER_LABEL: 'var(--date-picker-trigger-label)',
-	DATE_PICKER_TRIGGER_LABEL_DISABLED:
-		'var(--date-picker-trigger-label-disabled)',
 	DATE_PICKER_TRIGGER_PLACEHOLDER: 'var(--date-picker-trigger-placeholder)',
 	DATE_PICKER_TRIGGER_ICON: 'var(--date-picker-trigger-icon)',
 	DATE_PICKER_TRIGGER_ICON_HOVER: 'var(--date-picker-trigger-icon-hover)',
@@ -514,7 +512,6 @@ export const Style = {
 	COMBOBOX_TRIGGER_BORDER_HOVER: 'var(--combobox-trigger-border-hover)',
 	COMBOBOX_TRIGGER_FOCUS_RING: 'var(--combobox-trigger-focus-ring)',
 	COMBOBOX_TRIGGER_LABEL: 'var(--combobox-trigger-label)',
-	COMBOBOX_TRIGGER_LABEL_DISABLED: 'var(--combobox-trigger-label-disabled)',
 	COMBOBOX_TRIGGER_PLACEHOLDER: 'var(--combobox-trigger-placeholder)',
 	COMBOBOX_TRIGGER_ICON: 'var(--combobox-trigger-icon)',
 	COMBOBOX_TRIGGER_ICON_HOVER: 'var(--combobox-trigger-icon-hover)',
@@ -552,7 +549,6 @@ export const Style = {
 	SELECT_TRIGGER_BORDER_HOVER: 'var(--select-trigger-border-hover)',
 	SELECT_TRIGGER_FOCUS_RING: 'var(--select-trigger-focus-ring)',
 	SELECT_TRIGGER_LABEL: 'var(--select-trigger-label)',
-	SELECT_TRIGGER_LABEL_DISABLED: 'var(--select-trigger-label-disabled)',
 	SELECT_TRIGGER_PLACEHOLDER: 'var(--select-trigger-placeholder)',
 	SELECT_TRIGGER_ICON: 'var(--select-trigger-icon)',
 	SELECT_CHIP_BACKGROUND: 'var(--select-chip-background)',
