@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Mon, 16 Nov 2026 19:59:36 GMT
+ * Generated on Mon, 16 Nov 2026 20:06:16 GMT
  *
  * These classes apply complete typography styles including:
  * font-family, font-size, font-weight, line-height, letter-spacing, text-transform
@@ -305,8 +305,8 @@
 
 .typography-code-base-400 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1;
@@ -316,8 +316,8 @@
 
 .typography-code-base-500 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 1;
@@ -327,8 +327,8 @@
 
 .typography-code-base-600 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 13px;
 	font-weight: 600;
 	line-height: 1;
@@ -338,8 +338,8 @@
 
 .typography-code-small-400 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 1;
@@ -349,8 +349,8 @@
 
 .typography-code-small-500 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 11px;
 	font-weight: 500;
 	line-height: 1;
@@ -360,8 +360,8 @@
 
 .typography-code-small-600 {
 	font-family:
-		'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
-		monospace;
+		'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 11px;
 	font-weight: 600;
 	line-height: 1;
