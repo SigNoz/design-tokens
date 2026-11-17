@@ -32,6 +32,7 @@ const FONT_FILES = [
 	'LICENSE.txt',
 	'GeistMonoVariable-latin.woff2',
 	'GeistMonoVariable-rest.woff2',
+	'InterVariable-keys.woff2',
 	'LICENSE-GeistMono.txt',
 ];
 

@@ -5,6 +5,15 @@
 	font-style: normal;
 	font-weight: 100 900;
 	font-display: swap;
+	src: url('./InterVariable-keys.woff2') format('woff2');
+	unicode-range: U+2303, U+2318, U+2325, U+238B;
+}
+
+@font-face {
+	font-family: 'Geist Mono';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
 	src: url('./GeistMonoVariable-rest.woff2') format('woff2');
 	unicode-range:
 		U+0100-0130, U+0134-0151, U+0154-01E9, U+0218-0237, U+0259, U+02B9,
