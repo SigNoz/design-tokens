@@ -1235,6 +1235,138 @@
 					"category": "foreground",
 					"group": "date-picker"
 				},
+				"color-picker-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Text in the color picker popup",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the color picker popup",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the color picker popup",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the color picker popup",
+					"category": "shadow",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-border": {
+					"value": "var(--base-white)",
+					"description": "Ring of the saturation and hue thumbs",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-rim": {
+					"value": "color-mix(in srgb, var(--base-black) 40%, transparent)",
+					"description": "Dark rim on both sides of the thumb ring, so the thumb shows over any color",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the saturation and hue thumbs",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-preview-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the color preview swatch",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-preview-empty-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the preview swatch when no color is set",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-preview-empty-line": {
+					"value": "var(--destructive)",
+					"description": "Diagonal line across the preview swatch when no color is set",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-field-background": {
+					"value": "var(--l3-background)",
+					"description": "Background of the hex field inside the popup",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-field-background-invalid": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 90%)",
+					"description": "Background of the hex field when the typed value is not a color",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-field-border": {
+					"value": "var(--l3-border)",
+					"description": "Border of the hex field inside the popup",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-border-invalid": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 80%)",
+					"description": "Border of the hex field when the typed value is not a color",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the hex field",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-prefix": {
+					"value": "var(--l3-foreground)",
+					"description": "The # in front of the hex field value",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-field-value": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Value typed in the hex field",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-icon": {
+					"value": "var(--danger-background)",
+					"description": "Clear button icon in the hex field",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-icon-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Clear button icon on hover",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-background-hover": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 90%)",
+					"description": "Clear button background on hover",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-clear-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the clear button",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-footer-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Footer text under the hex field",
+					"category": "foreground",
+					"group": "color-picker"
+				},
 				"size-icon-callout-sm": {
 					"value": "12px",
 					"description": "Icon size for small callouts",
@@ -5906,6 +6038,138 @@
 					"description": "Colon between the hour and minute fields",
 					"category": "foreground",
 					"group": "date-picker"
+				},
+				"color-picker-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Text in the color picker popup",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-background": {
+					"value": "var(--surface-3)",
+					"description": "Background of the color picker popup",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the color picker popup",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-shadow": {
+					"value": "var(--shadow-dropdown)",
+					"description": "Shadow of the color picker popup",
+					"category": "shadow",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-border": {
+					"value": "var(--base-white)",
+					"description": "Ring of the saturation and hue thumbs",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-rim": {
+					"value": "color-mix(in srgb, var(--base-black) 40%, transparent)",
+					"description": "Dark rim on both sides of the thumb ring, so the thumb shows over any color",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-thumb-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the saturation and hue thumbs",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-preview-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the color preview swatch",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-preview-empty-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the preview swatch when no color is set",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-preview-empty-line": {
+					"value": "var(--destructive)",
+					"description": "Diagonal line across the preview swatch when no color is set",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-field-background": {
+					"value": "var(--l3-background)",
+					"description": "Background of the hex field inside the popup",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-field-background-invalid": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 90%)",
+					"description": "Background of the hex field when the typed value is not a color",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-field-border": {
+					"value": "var(--l3-border)",
+					"description": "Border of the hex field inside the popup",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-border-invalid": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 80%)",
+					"description": "Border of the hex field when the typed value is not a color",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-focus-ring": {
+					"value": "var(--primary-background)",
+					"description": "Focus ring of the hex field",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-field-prefix": {
+					"value": "var(--l3-foreground)",
+					"description": "The # in front of the hex field value",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-field-value": {
+					"value": "var(--l1-foreground-hover)",
+					"description": "Value typed in the hex field",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-icon": {
+					"value": "var(--danger-background)",
+					"description": "Clear button icon in the hex field",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-icon-hover": {
+					"value": "var(--danger-background-hover)",
+					"description": "Clear button icon on hover",
+					"category": "foreground",
+					"group": "color-picker"
+				},
+				"color-picker-clear-background-hover": {
+					"value": "color-mix(in srgb, var(--danger-background), transparent 90%)",
+					"description": "Clear button background on hover",
+					"category": "background",
+					"group": "color-picker"
+				},
+				"color-picker-clear-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the clear button",
+					"category": "border",
+					"group": "color-picker"
+				},
+				"color-picker-footer-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Footer text under the hex field",
+					"category": "foreground",
+					"group": "color-picker"
 				},
 				"size-icon-callout-sm": {
 					"value": "12px",

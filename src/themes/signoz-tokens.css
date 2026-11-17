@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 13:19:49 GMT
+ * Generated on Thu, 12 Nov 2026 20:00:52 GMT
  */
 
 [data-theme='default'] {
@@ -323,6 +323,44 @@
 	--date-picker-time-field-focus-ring: var(--primary-background);
 	--date-picker-time-field-label: var(--l1-foreground);
 	--date-picker-time-separator: var(--l3-foreground);
+	--color-picker-foreground: var(--l1-foreground);
+	--color-picker-background: var(--surface-3);
+	--color-picker-border: var(--l2-border);
+	--color-picker-shadow: var(--shadow-dropdown);
+	--color-picker-thumb-border: var(--base-white);
+	--color-picker-thumb-rim: color-mix(
+		in srgb,
+		var(--base-black) 40%,
+		transparent
+	);
+	--color-picker-thumb-focus-ring: var(--ring);
+	--color-picker-preview-border: var(--l2-border);
+	--color-picker-preview-empty-background: var(--l2-background);
+	--color-picker-preview-empty-line: var(--destructive);
+	--color-picker-field-background: var(--l3-background);
+	--color-picker-field-background-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-field-border: var(--l3-border);
+	--color-picker-field-border-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 80%
+	);
+	--color-picker-field-focus-ring: var(--primary-background);
+	--color-picker-field-prefix: var(--l3-foreground);
+	--color-picker-field-value: var(--l1-foreground-hover);
+	--color-picker-clear-icon: var(--danger-background);
+	--color-picker-clear-icon-hover: var(--danger-background-hover);
+	--color-picker-clear-background-hover: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-clear-focus-ring: var(--ring);
+	--color-picker-footer-foreground: var(--l2-foreground);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -1313,6 +1351,44 @@
 	--date-picker-time-field-focus-ring: var(--primary-background);
 	--date-picker-time-field-label: var(--l1-foreground);
 	--date-picker-time-separator: var(--l3-foreground);
+	--color-picker-foreground: var(--l1-foreground);
+	--color-picker-background: var(--surface-3);
+	--color-picker-border: var(--l2-border);
+	--color-picker-shadow: var(--shadow-dropdown);
+	--color-picker-thumb-border: var(--base-white);
+	--color-picker-thumb-rim: color-mix(
+		in srgb,
+		var(--base-black) 40%,
+		transparent
+	);
+	--color-picker-thumb-focus-ring: var(--ring);
+	--color-picker-preview-border: var(--l2-border);
+	--color-picker-preview-empty-background: var(--l2-background);
+	--color-picker-preview-empty-line: var(--destructive);
+	--color-picker-field-background: var(--l3-background);
+	--color-picker-field-background-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-field-border: var(--l3-border);
+	--color-picker-field-border-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 80%
+	);
+	--color-picker-field-focus-ring: var(--primary-background);
+	--color-picker-field-prefix: var(--l3-foreground);
+	--color-picker-field-value: var(--l1-foreground-hover);
+	--color-picker-clear-icon: var(--danger-background);
+	--color-picker-clear-icon-hover: var(--danger-background-hover);
+	--color-picker-clear-background-hover: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-clear-focus-ring: var(--ring);
+	--color-picker-footer-foreground: var(--l2-foreground);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);

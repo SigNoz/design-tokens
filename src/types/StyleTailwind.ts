@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 13:19:49 GMT
+ * Generated on Thu, 12 Nov 2026 20:00:52 GMT
  */
 
 export const StyleTailwind = {
@@ -215,6 +215,32 @@ export const StyleTailwind = {
 		'var(--date-picker-time-field-focus-ring)',
 	'date-picker-time-field-label': 'var(--date-picker-time-field-label)',
 	'date-picker-time-separator': 'var(--date-picker-time-separator)',
+	'color-picker-foreground': 'var(--color-picker-foreground)',
+	'color-picker-background': 'var(--color-picker-background)',
+	'color-picker-border': 'var(--color-picker-border)',
+	'color-picker-shadow': 'var(--color-picker-shadow)',
+	'color-picker-thumb-border': 'var(--color-picker-thumb-border)',
+	'color-picker-thumb-rim': 'var(--color-picker-thumb-rim)',
+	'color-picker-thumb-focus-ring': 'var(--color-picker-thumb-focus-ring)',
+	'color-picker-preview-border': 'var(--color-picker-preview-border)',
+	'color-picker-preview-empty-background':
+		'var(--color-picker-preview-empty-background)',
+	'color-picker-preview-empty-line': 'var(--color-picker-preview-empty-line)',
+	'color-picker-field-background': 'var(--color-picker-field-background)',
+	'color-picker-field-background-invalid':
+		'var(--color-picker-field-background-invalid)',
+	'color-picker-field-border': 'var(--color-picker-field-border)',
+	'color-picker-field-border-invalid':
+		'var(--color-picker-field-border-invalid)',
+	'color-picker-field-focus-ring': 'var(--color-picker-field-focus-ring)',
+	'color-picker-field-prefix': 'var(--color-picker-field-prefix)',
+	'color-picker-field-value': 'var(--color-picker-field-value)',
+	'color-picker-clear-icon': 'var(--color-picker-clear-icon)',
+	'color-picker-clear-icon-hover': 'var(--color-picker-clear-icon-hover)',
+	'color-picker-clear-background-hover':
+		'var(--color-picker-clear-background-hover)',
+	'color-picker-clear-focus-ring': 'var(--color-picker-clear-focus-ring)',
+	'color-picker-footer-foreground': 'var(--color-picker-footer-foreground)',
 	'size-icon-callout-sm': 'var(--size-icon-callout-sm)',
 	'size-icon-callout-md': 'var(--size-icon-callout-md)',
 	'accent-primary': 'var(--accent-primary)',

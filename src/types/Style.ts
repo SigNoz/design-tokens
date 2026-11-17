@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 13:19:49 GMT
+ * Generated on Thu, 12 Nov 2026 20:00:52 GMT
  */
 
 export const Style = {
@@ -214,6 +214,31 @@ export const Style = {
 	DATE_PICKER_TIME_FIELD_FOCUS_RING: 'var(--date-picker-time-field-focus-ring)',
 	DATE_PICKER_TIME_FIELD_LABEL: 'var(--date-picker-time-field-label)',
 	DATE_PICKER_TIME_SEPARATOR: 'var(--date-picker-time-separator)',
+	COLOR_PICKER_FOREGROUND: 'var(--color-picker-foreground)',
+	COLOR_PICKER_BACKGROUND: 'var(--color-picker-background)',
+	COLOR_PICKER_BORDER: 'var(--color-picker-border)',
+	COLOR_PICKER_SHADOW: 'var(--color-picker-shadow)',
+	COLOR_PICKER_THUMB_BORDER: 'var(--color-picker-thumb-border)',
+	COLOR_PICKER_THUMB_RIM: 'var(--color-picker-thumb-rim)',
+	COLOR_PICKER_THUMB_FOCUS_RING: 'var(--color-picker-thumb-focus-ring)',
+	COLOR_PICKER_PREVIEW_BORDER: 'var(--color-picker-preview-border)',
+	COLOR_PICKER_PREVIEW_EMPTY_BACKGROUND:
+		'var(--color-picker-preview-empty-background)',
+	COLOR_PICKER_PREVIEW_EMPTY_LINE: 'var(--color-picker-preview-empty-line)',
+	COLOR_PICKER_FIELD_BACKGROUND: 'var(--color-picker-field-background)',
+	COLOR_PICKER_FIELD_BACKGROUND_INVALID:
+		'var(--color-picker-field-background-invalid)',
+	COLOR_PICKER_FIELD_BORDER: 'var(--color-picker-field-border)',
+	COLOR_PICKER_FIELD_BORDER_INVALID: 'var(--color-picker-field-border-invalid)',
+	COLOR_PICKER_FIELD_FOCUS_RING: 'var(--color-picker-field-focus-ring)',
+	COLOR_PICKER_FIELD_PREFIX: 'var(--color-picker-field-prefix)',
+	COLOR_PICKER_FIELD_VALUE: 'var(--color-picker-field-value)',
+	COLOR_PICKER_CLEAR_ICON: 'var(--color-picker-clear-icon)',
+	COLOR_PICKER_CLEAR_ICON_HOVER: 'var(--color-picker-clear-icon-hover)',
+	COLOR_PICKER_CLEAR_BACKGROUND_HOVER:
+		'var(--color-picker-clear-background-hover)',
+	COLOR_PICKER_CLEAR_FOCUS_RING: 'var(--color-picker-clear-focus-ring)',
+	COLOR_PICKER_FOOTER_FOREGROUND: 'var(--color-picker-footer-foreground)',
 	SIZE_ICON_CALLOUT_SM: 'var(--size-icon-callout-sm)',
 	SIZE_ICON_CALLOUT_MD: 'var(--size-icon-callout-md)',
 	ACCENT_PRIMARY: 'var(--accent-primary)',
