@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:57:26 GMT
+ * Generated on Wed, 11 Nov 2026 21:07:12 GMT
  */
 
 export const StyleTailwind = {
@@ -196,6 +196,27 @@ export const StyleTailwind = {
 	'collapse-icon': 'var(--collapse-icon)',
 	'collapse-icon-hover': 'var(--collapse-icon-hover)',
 	'collapse-focus-ring': 'var(--collapse-focus-ring)',
+	'date-picker-trigger-background': 'var(--date-picker-trigger-background)',
+	'date-picker-trigger-border': 'var(--date-picker-trigger-border)',
+	'date-picker-trigger-border-hover': 'var(--date-picker-trigger-border-hover)',
+	'date-picker-trigger-focus-ring': 'var(--date-picker-trigger-focus-ring)',
+	'date-picker-trigger-label': 'var(--date-picker-trigger-label)',
+	'date-picker-trigger-label-disabled':
+		'var(--date-picker-trigger-label-disabled)',
+	'date-picker-trigger-placeholder': 'var(--date-picker-trigger-placeholder)',
+	'date-picker-trigger-icon': 'var(--date-picker-trigger-icon)',
+	'date-picker-trigger-icon-hover': 'var(--date-picker-trigger-icon-hover)',
+	'date-picker-background': 'var(--date-picker-background)',
+	'date-picker-border': 'var(--date-picker-border)',
+	'date-picker-shadow': 'var(--date-picker-shadow)',
+	'date-picker-separator': 'var(--date-picker-separator)',
+	'date-picker-time-field-border': 'var(--date-picker-time-field-border)',
+	'date-picker-time-field-border-hover':
+		'var(--date-picker-time-field-border-hover)',
+	'date-picker-time-field-focus-ring':
+		'var(--date-picker-time-field-focus-ring)',
+	'date-picker-time-field-label': 'var(--date-picker-time-field-label)',
+	'date-picker-time-separator': 'var(--date-picker-time-separator)',
 	'size-icon-callout-sm': 'var(--size-icon-callout-sm)',
 	'size-icon-callout-md': 'var(--size-icon-callout-md)',
 	'accent-primary': 'var(--accent-primary)',

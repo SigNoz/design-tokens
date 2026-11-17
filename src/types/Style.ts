@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:57:26 GMT
+ * Generated on Wed, 11 Nov 2026 21:07:12 GMT
  */
 
 export const Style = {
@@ -196,6 +196,26 @@ export const Style = {
 	COLLAPSE_ICON: 'var(--collapse-icon)',
 	COLLAPSE_ICON_HOVER: 'var(--collapse-icon-hover)',
 	COLLAPSE_FOCUS_RING: 'var(--collapse-focus-ring)',
+	DATE_PICKER_TRIGGER_BACKGROUND: 'var(--date-picker-trigger-background)',
+	DATE_PICKER_TRIGGER_BORDER: 'var(--date-picker-trigger-border)',
+	DATE_PICKER_TRIGGER_BORDER_HOVER: 'var(--date-picker-trigger-border-hover)',
+	DATE_PICKER_TRIGGER_FOCUS_RING: 'var(--date-picker-trigger-focus-ring)',
+	DATE_PICKER_TRIGGER_LABEL: 'var(--date-picker-trigger-label)',
+	DATE_PICKER_TRIGGER_LABEL_DISABLED:
+		'var(--date-picker-trigger-label-disabled)',
+	DATE_PICKER_TRIGGER_PLACEHOLDER: 'var(--date-picker-trigger-placeholder)',
+	DATE_PICKER_TRIGGER_ICON: 'var(--date-picker-trigger-icon)',
+	DATE_PICKER_TRIGGER_ICON_HOVER: 'var(--date-picker-trigger-icon-hover)',
+	DATE_PICKER_BACKGROUND: 'var(--date-picker-background)',
+	DATE_PICKER_BORDER: 'var(--date-picker-border)',
+	DATE_PICKER_SHADOW: 'var(--date-picker-shadow)',
+	DATE_PICKER_SEPARATOR: 'var(--date-picker-separator)',
+	DATE_PICKER_TIME_FIELD_BORDER: 'var(--date-picker-time-field-border)',
+	DATE_PICKER_TIME_FIELD_BORDER_HOVER:
+		'var(--date-picker-time-field-border-hover)',
+	DATE_PICKER_TIME_FIELD_FOCUS_RING: 'var(--date-picker-time-field-focus-ring)',
+	DATE_PICKER_TIME_FIELD_LABEL: 'var(--date-picker-time-field-label)',
+	DATE_PICKER_TIME_SEPARATOR: 'var(--date-picker-time-separator)',
 	SIZE_ICON_CALLOUT_SM: 'var(--size-icon-callout-sm)',
 	SIZE_ICON_CALLOUT_MD: 'var(--size-icon-callout-md)',
 	ACCENT_PRIMARY: 'var(--accent-primary)',
