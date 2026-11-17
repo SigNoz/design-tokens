@@ -1163,12 +1163,6 @@
 					"category": "foreground",
 					"group": "date-picker"
 				},
-				"date-picker-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value of a disabled date picker field",
-					"category": "foreground",
-					"group": "date-picker"
-				},
 				"date-picker-trigger-placeholder": {
 					"value": "var(--l3-foreground)",
 					"description": "Placeholder of the date picker field",
@@ -2874,12 +2868,6 @@
 					"category": "foreground",
 					"group": "combobox"
 				},
-				"combobox-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value and placeholder of a disabled combobox field",
-					"category": "foreground",
-					"group": "combobox"
-				},
 				"combobox-trigger-placeholder": {
 					"value": "var(--l3-foreground)",
 					"description": "Placeholder of the combobox field",
@@ -3081,12 +3069,6 @@
 				"select-trigger-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Selected value in the select field",
-					"category": "foreground",
-					"group": "select"
-				},
-				"select-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value and placeholder of a disabled select field",
 					"category": "foreground",
 					"group": "select"
 				},
@@ -5853,12 +5835,6 @@
 					"category": "foreground",
 					"group": "date-picker"
 				},
-				"date-picker-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value of a disabled date picker field",
-					"category": "foreground",
-					"group": "date-picker"
-				},
 				"date-picker-trigger-placeholder": {
 					"value": "var(--l3-foreground)",
 					"description": "Placeholder of the date picker field",
@@ -7564,12 +7540,6 @@
 					"category": "foreground",
 					"group": "combobox"
 				},
-				"combobox-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value and placeholder of a disabled combobox field",
-					"category": "foreground",
-					"group": "combobox"
-				},
 				"combobox-trigger-placeholder": {
 					"value": "var(--l3-foreground)",
 					"description": "Placeholder of the combobox field",
@@ -7771,12 +7741,6 @@
 				"select-trigger-label": {
 					"value": "var(--l1-foreground)",
 					"description": "Selected value in the select field",
-					"category": "foreground",
-					"group": "select"
-				},
-				"select-trigger-label-disabled": {
-					"value": "var(--l3-foreground)",
-					"description": "Value and placeholder of a disabled select field",
 					"category": "foreground",
 					"group": "select"
 				},

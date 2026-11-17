@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 21:07:12 GMT
+ * Generated on Thu, 12 Nov 2026 13:19:49 GMT
  */
 
 [data-theme='default'] {
@@ -311,7 +311,6 @@
 	--date-picker-trigger-border-hover: var(--l3-border);
 	--date-picker-trigger-focus-ring: var(--primary-background);
 	--date-picker-trigger-label: var(--l1-foreground);
-	--date-picker-trigger-label-disabled: var(--l3-foreground);
 	--date-picker-trigger-placeholder: var(--l3-foreground);
 	--date-picker-trigger-icon: var(--l3-foreground);
 	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
@@ -629,7 +628,6 @@
 	--combobox-trigger-border-hover: var(--l3-border);
 	--combobox-trigger-focus-ring: var(--primary-background);
 	--combobox-trigger-label: var(--l1-foreground);
-	--combobox-trigger-label-disabled: var(--l3-foreground);
 	--combobox-trigger-placeholder: var(--l3-foreground);
 	--combobox-trigger-icon: var(--l3-foreground);
 	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
@@ -664,7 +662,6 @@
 	--select-trigger-border-hover: var(--l3-border);
 	--select-trigger-focus-ring: var(--primary-background);
 	--select-trigger-label: var(--l1-foreground);
-	--select-trigger-label-disabled: var(--l3-foreground);
 	--select-trigger-placeholder: var(--l3-foreground);
 	--select-trigger-icon: var(--l3-foreground);
 	--select-chip-background: var(--secondary-border);
@@ -1304,7 +1301,6 @@
 	--date-picker-trigger-border-hover: var(--l3-border);
 	--date-picker-trigger-focus-ring: var(--primary-background);
 	--date-picker-trigger-label: var(--l1-foreground);
-	--date-picker-trigger-label-disabled: var(--l3-foreground);
 	--date-picker-trigger-placeholder: var(--l3-foreground);
 	--date-picker-trigger-icon: var(--l3-foreground);
 	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
@@ -1618,7 +1614,6 @@
 	--combobox-trigger-border-hover: var(--l3-border);
 	--combobox-trigger-focus-ring: var(--primary-background);
 	--combobox-trigger-label: var(--l1-foreground);
-	--combobox-trigger-label-disabled: var(--l3-foreground);
 	--combobox-trigger-placeholder: var(--l3-foreground);
 	--combobox-trigger-icon: var(--l3-foreground);
 	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
@@ -1653,7 +1648,6 @@
 	--select-trigger-border-hover: var(--l3-border);
 	--select-trigger-focus-ring: var(--primary-background);
 	--select-trigger-label: var(--l1-foreground);
-	--select-trigger-label-disabled: var(--l3-foreground);
 	--select-trigger-placeholder: var(--l3-foreground);
 	--select-trigger-icon: var(--l3-foreground);
 	--select-chip-background: var(--secondary-border);
