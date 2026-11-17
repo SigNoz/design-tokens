@@ -1085,6 +1085,54 @@
 					"category": "foreground",
 					"group": "callouts"
 				},
+				"collapse-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of the outlined collapse",
+					"category": "background",
+					"group": "collapse"
+				},
+				"collapse-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of the outlined collapse, and the line between its header and its panel",
+					"category": "border",
+					"group": "collapse"
+				},
+				"collapse-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of the collapse header",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the collapse title",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-content": {
+					"value": "var(--l2-foreground)",
+					"description": "Text of the collapse panel",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and prefix icon of the collapse header",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the collapse header on hover",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the collapse header",
+					"category": "border",
+					"group": "collapse"
+				},
 				"size-icon-callout-sm": {
 					"value": "12px",
 					"description": "Icon size for small callouts",
@@ -5618,6 +5666,54 @@
 					"description": "Icon color for neutral callouts",
 					"category": "foreground",
 					"group": "callouts"
+				},
+				"collapse-background": {
+					"value": "var(--secondary-background)",
+					"description": "Fill of the outlined collapse",
+					"category": "background",
+					"group": "collapse"
+				},
+				"collapse-border": {
+					"value": "var(--secondary-border)",
+					"description": "Border of the outlined collapse, and the line between its header and its panel",
+					"category": "border",
+					"group": "collapse"
+				},
+				"collapse-title": {
+					"value": "var(--l1-foreground)",
+					"description": "Title of the collapse header",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-description": {
+					"value": "var(--l2-foreground)",
+					"description": "Description under the collapse title",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-content": {
+					"value": "var(--l2-foreground)",
+					"description": "Text of the collapse panel",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-icon": {
+					"value": "var(--l3-foreground)",
+					"description": "Chevron and prefix icon of the collapse header",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-icon-hover": {
+					"value": "var(--l1-foreground)",
+					"description": "Chevron of the collapse header on hover",
+					"category": "foreground",
+					"group": "collapse"
+				},
+				"collapse-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of the collapse header",
+					"category": "border",
+					"group": "collapse"
 				},
 				"size-icon-callout-sm": {
 					"value": "12px",

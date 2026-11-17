@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:11:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:57:26 GMT
  */
 
 [data-theme='default'] {
@@ -298,6 +298,14 @@
 	--callout-secondary-title: var(--l1-foreground);
 	--callout-secondary-description: var(--l2-foreground);
 	--callout-secondary-icon: var(--l3-foreground);
+	--collapse-background: var(--secondary-background);
+	--collapse-border: var(--secondary-border);
+	--collapse-title: var(--l1-foreground);
+	--collapse-description: var(--l2-foreground);
+	--collapse-content: var(--l2-foreground);
+	--collapse-icon: var(--l3-foreground);
+	--collapse-icon-hover: var(--l1-foreground);
+	--collapse-focus-ring: var(--ring);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -1265,6 +1273,14 @@
 	--callout-secondary-title: var(--l1-foreground);
 	--callout-secondary-description: var(--l2-foreground);
 	--callout-secondary-icon: var(--l3-foreground);
+	--collapse-background: var(--secondary-background);
+	--collapse-border: var(--secondary-border);
+	--collapse-title: var(--l1-foreground);
+	--collapse-description: var(--l2-foreground);
+	--collapse-content: var(--l2-foreground);
+	--collapse-icon: var(--l3-foreground);
+	--collapse-icon-hover: var(--l1-foreground);
+	--collapse-focus-ring: var(--ring);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);

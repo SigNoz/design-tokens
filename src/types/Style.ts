@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Wed, 11 Nov 2026 20:11:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:57:26 GMT
  */
 
 export const Style = {
@@ -188,6 +188,14 @@ export const Style = {
 	CALLOUT_SECONDARY_TITLE: 'var(--callout-secondary-title)',
 	CALLOUT_SECONDARY_DESCRIPTION: 'var(--callout-secondary-description)',
 	CALLOUT_SECONDARY_ICON: 'var(--callout-secondary-icon)',
+	COLLAPSE_BACKGROUND: 'var(--collapse-background)',
+	COLLAPSE_BORDER: 'var(--collapse-border)',
+	COLLAPSE_TITLE: 'var(--collapse-title)',
+	COLLAPSE_DESCRIPTION: 'var(--collapse-description)',
+	COLLAPSE_CONTENT: 'var(--collapse-content)',
+	COLLAPSE_ICON: 'var(--collapse-icon)',
+	COLLAPSE_ICON_HOVER: 'var(--collapse-icon-hover)',
+	COLLAPSE_FOCUS_RING: 'var(--collapse-focus-ring)',
 	SIZE_ICON_CALLOUT_SM: 'var(--size-icon-callout-sm)',
 	SIZE_ICON_CALLOUT_MD: 'var(--size-icon-callout-md)',
 	ACCENT_PRIMARY: 'var(--accent-primary)',
