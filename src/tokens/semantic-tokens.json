@@ -1367,6 +1367,144 @@
 					"category": "foreground",
 					"group": "color-picker"
 				},
+				"steps-marker-waiting-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the marker of a step not reached yet",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-waiting-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the marker of a step not reached yet",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-waiting-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Number in the marker of a step not reached yet",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-marker-current-background": {
+					"value": "var(--primary-background)",
+					"description": "Background of the marker of the current step",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-current-border": {
+					"value": "var(--primary-background)",
+					"description": "Border of the marker of the current step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-current-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Number in the marker of the current step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-marker-done-background": {
+					"value": "var(--l1-background)",
+					"description": "Background of the marker of a finished step",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-done-border": {
+					"value": "var(--primary-background)",
+					"description": "Border of the marker of a finished step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-done-foreground": {
+					"value": "var(--primary-background)",
+					"description": "Check mark in the marker of a finished step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-waiting-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a step not reached yet",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-current-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the current step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-done-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a finished step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-description-foreground": {
+					"value": "var(--l3-foreground)",
+					"description": "Description under a step label",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-connector": {
+					"value": "var(--l2-border)",
+					"description": "Line after a step that is not finished",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-connector-done": {
+					"value": "var(--primary-background)",
+					"description": "Line after a finished step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-text-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of a truncated label or description",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-marker-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the marker of a vertical list item",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-list-marker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the marker of a vertical list item",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-marker-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Number in the marker of a vertical list item",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-connector": {
+					"value": "var(--l2-border)",
+					"description": "Line between the markers of a vertical list",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-label-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a vertical list item",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-content-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Content under a vertical list item label",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-footer-marker-background": {
+					"value": "var(--l2-border)",
+					"description": "Dot at the end of the line before the list footer",
+					"category": "background",
+					"group": "steps"
+				},
 				"size-icon-callout-sm": {
 					"value": "12px",
 					"description": "Icon size for small callouts",
@@ -6170,6 +6308,144 @@
 					"description": "Footer text under the hex field",
 					"category": "foreground",
 					"group": "color-picker"
+				},
+				"steps-marker-waiting-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the marker of a step not reached yet",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-waiting-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the marker of a step not reached yet",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-waiting-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Number in the marker of a step not reached yet",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-marker-current-background": {
+					"value": "var(--primary-background)",
+					"description": "Background of the marker of the current step",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-current-border": {
+					"value": "var(--primary-background)",
+					"description": "Border of the marker of the current step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-current-foreground": {
+					"value": "var(--primary-foreground)",
+					"description": "Number in the marker of the current step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-marker-done-background": {
+					"value": "var(--l1-background)",
+					"description": "Background of the marker of a finished step",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-marker-done-border": {
+					"value": "var(--primary-background)",
+					"description": "Border of the marker of a finished step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-marker-done-foreground": {
+					"value": "var(--primary-background)",
+					"description": "Check mark in the marker of a finished step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-waiting-foreground": {
+					"value": "var(--l2-foreground)",
+					"description": "Label of a step not reached yet",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-current-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of the current step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-label-done-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a finished step",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-description-foreground": {
+					"value": "var(--l3-foreground)",
+					"description": "Description under a step label",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-connector": {
+					"value": "var(--l2-border)",
+					"description": "Line after a step that is not finished",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-connector-done": {
+					"value": "var(--primary-background)",
+					"description": "Line after a finished step",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-text-focus-ring": {
+					"value": "var(--ring)",
+					"description": "Focus ring of a truncated label or description",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-marker-background": {
+					"value": "var(--l2-background)",
+					"description": "Background of the marker of a vertical list item",
+					"category": "background",
+					"group": "steps"
+				},
+				"steps-list-marker-border": {
+					"value": "var(--l2-border)",
+					"description": "Border of the marker of a vertical list item",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-marker-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Number in the marker of a vertical list item",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-connector": {
+					"value": "var(--l2-border)",
+					"description": "Line between the markers of a vertical list",
+					"category": "border",
+					"group": "steps"
+				},
+				"steps-list-label-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Label of a vertical list item",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-content-foreground": {
+					"value": "var(--l1-foreground)",
+					"description": "Content under a vertical list item label",
+					"category": "foreground",
+					"group": "steps"
+				},
+				"steps-list-footer-marker-background": {
+					"value": "var(--l2-border)",
+					"description": "Dot at the end of the line before the list footer",
+					"category": "background",
+					"group": "steps"
 				},
 				"size-icon-callout-sm": {
 					"value": "12px",

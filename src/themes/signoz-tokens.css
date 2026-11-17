@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 20:00:52 GMT
+ * Generated on Thu, 12 Nov 2026 17:53:27 GMT
  */
 
 [data-theme='default'] {
@@ -361,6 +361,29 @@
 	);
 	--color-picker-clear-focus-ring: var(--ring);
 	--color-picker-footer-foreground: var(--l2-foreground);
+	--steps-marker-waiting-background: var(--l2-background);
+	--steps-marker-waiting-border: var(--l2-border);
+	--steps-marker-waiting-foreground: var(--l2-foreground);
+	--steps-marker-current-background: var(--primary-background);
+	--steps-marker-current-border: var(--primary-background);
+	--steps-marker-current-foreground: var(--primary-foreground);
+	--steps-marker-done-background: var(--l1-background);
+	--steps-marker-done-border: var(--primary-background);
+	--steps-marker-done-foreground: var(--primary-background);
+	--steps-label-waiting-foreground: var(--l2-foreground);
+	--steps-label-current-foreground: var(--l1-foreground);
+	--steps-label-done-foreground: var(--l1-foreground);
+	--steps-description-foreground: var(--l3-foreground);
+	--steps-connector: var(--l2-border);
+	--steps-connector-done: var(--primary-background);
+	--steps-text-focus-ring: var(--ring);
+	--steps-list-marker-background: var(--l2-background);
+	--steps-list-marker-border: var(--l2-border);
+	--steps-list-marker-foreground: var(--l1-foreground);
+	--steps-list-connector: var(--l2-border);
+	--steps-list-label-foreground: var(--l1-foreground);
+	--steps-list-content-foreground: var(--l1-foreground);
+	--steps-list-footer-marker-background: var(--l2-border);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -1389,6 +1412,29 @@
 	);
 	--color-picker-clear-focus-ring: var(--ring);
 	--color-picker-footer-foreground: var(--l2-foreground);
+	--steps-marker-waiting-background: var(--l2-background);
+	--steps-marker-waiting-border: var(--l2-border);
+	--steps-marker-waiting-foreground: var(--l2-foreground);
+	--steps-marker-current-background: var(--primary-background);
+	--steps-marker-current-border: var(--primary-background);
+	--steps-marker-current-foreground: var(--primary-foreground);
+	--steps-marker-done-background: var(--l1-background);
+	--steps-marker-done-border: var(--primary-background);
+	--steps-marker-done-foreground: var(--primary-background);
+	--steps-label-waiting-foreground: var(--l2-foreground);
+	--steps-label-current-foreground: var(--l1-foreground);
+	--steps-label-done-foreground: var(--l1-foreground);
+	--steps-description-foreground: var(--l3-foreground);
+	--steps-connector: var(--l2-border);
+	--steps-connector-done: var(--primary-background);
+	--steps-text-focus-ring: var(--ring);
+	--steps-list-marker-background: var(--l2-background);
+	--steps-list-marker-border: var(--l2-border);
+	--steps-list-marker-foreground: var(--l1-foreground);
+	--steps-list-connector: var(--l2-border);
+	--steps-list-label-foreground: var(--l1-foreground);
+	--steps-list-content-foreground: var(--l1-foreground);
+	--steps-list-footer-marker-background: var(--l2-border);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
