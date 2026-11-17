@@ -1,14 +1,12 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 06 Nov 2026 07:21:49 GMT
+ * Generated on Wed, 11 Nov 2026 20:11:49 GMT
  */
 
 export const StyleTailwind = {
 	background: 'var(--background)',
 	foreground: 'var(--foreground)',
-	card: 'var(--card)',
-	'card-foreground': 'var(--card-foreground)',
 	popover: 'var(--popover)',
 	'popover-foreground': 'var(--popover-foreground)',
 	primary: 'var(--primary)',
@@ -489,6 +487,8 @@ export const StyleTailwind = {
 	'drawer-border': 'var(--drawer-border)',
 	'drawer-shadow': 'var(--drawer-shadow)',
 	'drawer-backdrop': 'var(--drawer-backdrop)',
+	'card-background': 'var(--card-background)',
+	'card-border': 'var(--card-border)',
 	'combobox-trigger-background': 'var(--combobox-trigger-background)',
 	'combobox-trigger-border': 'var(--combobox-trigger-border)',
 	'combobox-trigger-border-hover': 'var(--combobox-trigger-border-hover)',
