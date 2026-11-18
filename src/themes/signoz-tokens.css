@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Fri, 06 Nov 2026 07:21:49 GMT
+ * Generated on Thu, 12 Nov 2026 17:53:27 GMT
  */
 
 [data-theme='default'] {
@@ -9,8 +9,6 @@
 
 	--background: var(--bg-vanilla-200);
 	--foreground: var(--text-ink-400);
-	--card: var(--bg-vanilla-100);
-	--card-foreground: var(--text-ink-400);
 	--popover: var(--bg-vanilla-100);
 	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
@@ -300,6 +298,92 @@
 	--callout-secondary-title: var(--l1-foreground);
 	--callout-secondary-description: var(--l2-foreground);
 	--callout-secondary-icon: var(--l3-foreground);
+	--collapse-background: var(--secondary-background);
+	--collapse-border: var(--secondary-border);
+	--collapse-title: var(--l1-foreground);
+	--collapse-description: var(--l2-foreground);
+	--collapse-content: var(--l2-foreground);
+	--collapse-icon: var(--l3-foreground);
+	--collapse-icon-hover: var(--l1-foreground);
+	--collapse-focus-ring: var(--ring);
+	--date-picker-trigger-background: transparent;
+	--date-picker-trigger-border: var(--l2-border);
+	--date-picker-trigger-border-hover: var(--l3-border);
+	--date-picker-trigger-focus-ring: var(--primary-background);
+	--date-picker-trigger-label: var(--l1-foreground);
+	--date-picker-trigger-placeholder: var(--l3-foreground);
+	--date-picker-trigger-icon: var(--l3-foreground);
+	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
+	--date-picker-background: var(--surface-3);
+	--date-picker-border: var(--l2-border);
+	--date-picker-shadow: var(--shadow-dropdown);
+	--date-picker-separator: var(--l2-border);
+	--date-picker-time-field-border: var(--l2-border);
+	--date-picker-time-field-border-hover: var(--l3-border);
+	--date-picker-time-field-focus-ring: var(--primary-background);
+	--date-picker-time-field-label: var(--l1-foreground);
+	--date-picker-time-separator: var(--l3-foreground);
+	--color-picker-foreground: var(--l1-foreground);
+	--color-picker-background: var(--surface-3);
+	--color-picker-border: var(--l2-border);
+	--color-picker-shadow: var(--shadow-dropdown);
+	--color-picker-thumb-border: var(--base-white);
+	--color-picker-thumb-rim: color-mix(
+		in srgb,
+		var(--base-black) 40%,
+		transparent
+	);
+	--color-picker-thumb-focus-ring: var(--ring);
+	--color-picker-preview-border: var(--l2-border);
+	--color-picker-preview-empty-background: var(--l2-background);
+	--color-picker-preview-empty-line: var(--destructive);
+	--color-picker-field-background: var(--l3-background);
+	--color-picker-field-background-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-field-border: var(--l3-border);
+	--color-picker-field-border-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 80%
+	);
+	--color-picker-field-focus-ring: var(--primary-background);
+	--color-picker-field-prefix: var(--l3-foreground);
+	--color-picker-field-value: var(--l1-foreground-hover);
+	--color-picker-clear-icon: var(--danger-background);
+	--color-picker-clear-icon-hover: var(--danger-background-hover);
+	--color-picker-clear-background-hover: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-clear-focus-ring: var(--ring);
+	--color-picker-footer-foreground: var(--l2-foreground);
+	--steps-marker-waiting-background: var(--l2-background);
+	--steps-marker-waiting-border: var(--l2-border);
+	--steps-marker-waiting-foreground: var(--l2-foreground);
+	--steps-marker-current-background: var(--primary-background);
+	--steps-marker-current-border: var(--primary-background);
+	--steps-marker-current-foreground: var(--primary-foreground);
+	--steps-marker-done-background: var(--l1-background);
+	--steps-marker-done-border: var(--primary-background);
+	--steps-marker-done-foreground: var(--primary-background);
+	--steps-label-waiting-foreground: var(--l2-foreground);
+	--steps-label-current-foreground: var(--l1-foreground);
+	--steps-label-done-foreground: var(--l1-foreground);
+	--steps-description-foreground: var(--l3-foreground);
+	--steps-connector: var(--l2-border);
+	--steps-connector-done: var(--primary-background);
+	--steps-text-focus-ring: var(--ring);
+	--steps-list-marker-background: var(--l2-background);
+	--steps-list-marker-border: var(--l2-border);
+	--steps-list-marker-foreground: var(--l1-foreground);
+	--steps-list-connector: var(--l2-border);
+	--steps-list-label-foreground: var(--l1-foreground);
+	--steps-list-content-foreground: var(--l1-foreground);
+	--steps-list-footer-marker-background: var(--l2-border);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -598,12 +682,13 @@
 	--drawer-border: var(--l2-border);
 	--drawer-shadow: var(--shadow-drawer);
 	--drawer-backdrop: color-mix(in srgb, var(--bg-base-black), transparent 60%);
+	--card-background: var(--surface-2);
+	--card-border: var(--l2-border);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);
 	--combobox-trigger-focus-ring: var(--primary-background);
 	--combobox-trigger-label: var(--l1-foreground);
-	--combobox-trigger-label-disabled: var(--l3-foreground);
 	--combobox-trigger-placeholder: var(--l3-foreground);
 	--combobox-trigger-icon: var(--l3-foreground);
 	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
@@ -638,7 +723,6 @@
 	--select-trigger-border-hover: var(--l3-border);
 	--select-trigger-focus-ring: var(--primary-background);
 	--select-trigger-label: var(--l1-foreground);
-	--select-trigger-label-disabled: var(--l3-foreground);
 	--select-trigger-placeholder: var(--l3-foreground);
 	--select-trigger-icon: var(--l3-foreground);
 	--select-chip-background: var(--secondary-border);
@@ -972,8 +1056,6 @@
 
 	--background: var(--bg-ink-500);
 	--foreground: var(--text-vanilla-400);
-	--card: var(--bg-ink-400);
-	--card-foreground: var(--text-vanilla-100);
 	--popover: var(--bg-ink-400);
 	--popover-foreground: var(--l1-foreground);
 	--primary: var(--bg-robin-500);
@@ -1267,6 +1349,92 @@
 	--callout-secondary-title: var(--l1-foreground);
 	--callout-secondary-description: var(--l2-foreground);
 	--callout-secondary-icon: var(--l3-foreground);
+	--collapse-background: var(--secondary-background);
+	--collapse-border: var(--secondary-border);
+	--collapse-title: var(--l1-foreground);
+	--collapse-description: var(--l2-foreground);
+	--collapse-content: var(--l2-foreground);
+	--collapse-icon: var(--l3-foreground);
+	--collapse-icon-hover: var(--l1-foreground);
+	--collapse-focus-ring: var(--ring);
+	--date-picker-trigger-background: transparent;
+	--date-picker-trigger-border: var(--l2-border);
+	--date-picker-trigger-border-hover: var(--l3-border);
+	--date-picker-trigger-focus-ring: var(--primary-background);
+	--date-picker-trigger-label: var(--l1-foreground);
+	--date-picker-trigger-placeholder: var(--l3-foreground);
+	--date-picker-trigger-icon: var(--l3-foreground);
+	--date-picker-trigger-icon-hover: var(--l1-foreground-hover);
+	--date-picker-background: var(--surface-3);
+	--date-picker-border: var(--l2-border);
+	--date-picker-shadow: var(--shadow-dropdown);
+	--date-picker-separator: var(--l2-border);
+	--date-picker-time-field-border: var(--l2-border);
+	--date-picker-time-field-border-hover: var(--l3-border);
+	--date-picker-time-field-focus-ring: var(--primary-background);
+	--date-picker-time-field-label: var(--l1-foreground);
+	--date-picker-time-separator: var(--l3-foreground);
+	--color-picker-foreground: var(--l1-foreground);
+	--color-picker-background: var(--surface-3);
+	--color-picker-border: var(--l2-border);
+	--color-picker-shadow: var(--shadow-dropdown);
+	--color-picker-thumb-border: var(--base-white);
+	--color-picker-thumb-rim: color-mix(
+		in srgb,
+		var(--base-black) 40%,
+		transparent
+	);
+	--color-picker-thumb-focus-ring: var(--ring);
+	--color-picker-preview-border: var(--l2-border);
+	--color-picker-preview-empty-background: var(--l2-background);
+	--color-picker-preview-empty-line: var(--destructive);
+	--color-picker-field-background: var(--l3-background);
+	--color-picker-field-background-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-field-border: var(--l3-border);
+	--color-picker-field-border-invalid: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 80%
+	);
+	--color-picker-field-focus-ring: var(--primary-background);
+	--color-picker-field-prefix: var(--l3-foreground);
+	--color-picker-field-value: var(--l1-foreground-hover);
+	--color-picker-clear-icon: var(--danger-background);
+	--color-picker-clear-icon-hover: var(--danger-background-hover);
+	--color-picker-clear-background-hover: color-mix(
+		in srgb,
+		var(--danger-background),
+		transparent 90%
+	);
+	--color-picker-clear-focus-ring: var(--ring);
+	--color-picker-footer-foreground: var(--l2-foreground);
+	--steps-marker-waiting-background: var(--l2-background);
+	--steps-marker-waiting-border: var(--l2-border);
+	--steps-marker-waiting-foreground: var(--l2-foreground);
+	--steps-marker-current-background: var(--primary-background);
+	--steps-marker-current-border: var(--primary-background);
+	--steps-marker-current-foreground: var(--primary-foreground);
+	--steps-marker-done-background: var(--l1-background);
+	--steps-marker-done-border: var(--primary-background);
+	--steps-marker-done-foreground: var(--primary-background);
+	--steps-label-waiting-foreground: var(--l2-foreground);
+	--steps-label-current-foreground: var(--l1-foreground);
+	--steps-label-done-foreground: var(--l1-foreground);
+	--steps-description-foreground: var(--l3-foreground);
+	--steps-connector: var(--l2-border);
+	--steps-connector-done: var(--primary-background);
+	--steps-text-focus-ring: var(--ring);
+	--steps-list-marker-background: var(--l2-background);
+	--steps-list-marker-border: var(--l2-border);
+	--steps-list-marker-foreground: var(--l1-foreground);
+	--steps-list-connector: var(--l2-border);
+	--steps-list-label-foreground: var(--l1-foreground);
+	--steps-list-content-foreground: var(--l1-foreground);
+	--steps-list-footer-marker-background: var(--l2-border);
 	--size-icon-callout-sm: 12px;
 	--size-icon-callout-md: 16px;
 	--accent-primary: var(--bg-robin-500);
@@ -1561,12 +1729,13 @@
 	--drawer-border: var(--l2-border);
 	--drawer-shadow: var(--shadow-drawer);
 	--drawer-backdrop: color-mix(in srgb, var(--bg-base-black), transparent 60%);
+	--card-background: var(--surface-2);
+	--card-border: var(--l2-border);
 	--combobox-trigger-background: transparent;
 	--combobox-trigger-border: var(--l2-border);
 	--combobox-trigger-border-hover: var(--l3-border);
 	--combobox-trigger-focus-ring: var(--primary-background);
 	--combobox-trigger-label: var(--l1-foreground);
-	--combobox-trigger-label-disabled: var(--l3-foreground);
 	--combobox-trigger-placeholder: var(--l3-foreground);
 	--combobox-trigger-icon: var(--l3-foreground);
 	--combobox-trigger-icon-hover: var(--l1-foreground-hover);
@@ -1601,7 +1770,6 @@
 	--select-trigger-border-hover: var(--l3-border);
 	--select-trigger-focus-ring: var(--primary-background);
 	--select-trigger-label: var(--l1-foreground);
-	--select-trigger-label-disabled: var(--l3-foreground);
 	--select-trigger-placeholder: var(--l3-foreground);
 	--select-trigger-icon: var(--l3-foreground);
 	--select-chip-background: var(--secondary-border);
