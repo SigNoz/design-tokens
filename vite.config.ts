@@ -30,7 +30,13 @@ const FONT_FILES = [
 	'InterVariable-latin.woff2',
 	'InterVariable-rest.woff2',
 	'LICENSE.txt',
+	'GeistMonoVariable-latin.woff2',
+	'GeistMonoVariable-rest.woff2',
+	'InterVariable-keys.woff2',
+	'LICENSE-GeistMono.txt',
 ];
+
+const FONT_STYLESHEETS = ['inter.css', 'geist-mono.css'];
 
 const copyFonts = () => {
 	const fontsDir = resolve(__dirname, 'src/fonts');
@@ -40,10 +46,9 @@ const copyFonts = () => {
 	FONT_FILES.forEach((file) => {
 		fs.copyFileSync(resolve(fontsDir, file), resolve(outputDir, file));
 	});
-	processCSSFile(
-		resolve(fontsDir, 'inter.css'),
-		resolve(outputDir, 'inter.css'),
-	);
+	FONT_STYLESHEETS.forEach((file) => {
+		processCSSFile(resolve(fontsDir, file), resolve(outputDir, file));
+	});
 };
 
 export default defineConfig({
@@ -83,7 +88,7 @@ export default defineConfig({
 					resolve(__dirname, 'src/Typography/typography-styles.css'),
 					resolve(__dirname, 'dist/Typography/typography-styles.css'),
 				);
-				// Opt-in Inter faces, loaded only by a consumer that imports inter.css
+				// Opt-in Inter and Geist Mono faces, loaded only by a consumer that imports their stylesheet
 				copyFonts();
 			},
 		},

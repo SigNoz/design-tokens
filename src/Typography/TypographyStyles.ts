@@ -1,7 +1,7 @@
 /**
  * Typography Styles
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Tue, 27 Oct 2026 18:21:48 GMT
+ * Generated on Mon, 16 Nov 2026 20:06:16 GMT
  *
  * Use these constants to apply complete typography styles in your components
  *
@@ -185,7 +185,7 @@ export const TypographyStyles = {
 	},
 	CODE_BASE_400: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '13px',
 		fontWeight: '400',
 		lineHeight: '1',
@@ -194,7 +194,7 @@ export const TypographyStyles = {
 	},
 	CODE_BASE_500: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '13px',
 		fontWeight: '500',
 		lineHeight: '1',
@@ -203,7 +203,7 @@ export const TypographyStyles = {
 	},
 	CODE_BASE_600: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '13px',
 		fontWeight: '600',
 		lineHeight: '1',
@@ -212,7 +212,7 @@ export const TypographyStyles = {
 	},
 	CODE_SMALL_400: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '11px',
 		fontWeight: '400',
 		lineHeight: '1',
@@ -221,7 +221,7 @@ export const TypographyStyles = {
 	},
 	CODE_SMALL_500: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '11px',
 		fontWeight: '500',
 		lineHeight: '1',
@@ -230,7 +230,7 @@ export const TypographyStyles = {
 	},
 	CODE_SMALL_600: {
 		fontFamily:
-			'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+			'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 		fontSize: '11px',
 		fontWeight: '600',
 		lineHeight: '1',

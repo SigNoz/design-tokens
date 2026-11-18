@@ -108,12 +108,15 @@ Enable theme switching by importing the theme files and setting the `data-theme`
 
 ### Fonts
 
-The text styles use the font family `Inter`, and the package ships it as an opt-in stylesheet.
-Nothing loads until you import it:
+The text styles use the font family `Inter`, and the code styles use `Geist Mono`. The package
+ships both as opt-in stylesheets. Nothing loads until you import them:
 
 ```css
 @import '@signozhq/design-tokens/dist/fonts/inter.css';
+@import '@signozhq/design-tokens/dist/fonts/geist-mono.css';
 ```
+
+#### Inter
 
 The stylesheet declares two upright faces of `Inter` 4.1, both with `font-display: swap` and a
 variable weight from 100 to 900:
@@ -135,6 +138,28 @@ The files are in `dist/fonts/`, next to `LICENSE.txt`, the SIL Open Font License
 Inter. The package is MIT licensed, but the font files stay under the OFL. Keep `LICENSE.txt`
 when you copy the fonts somewhere else. To regenerate the files from the Inter release, run
 `uv run scripts/subset-inter.py`.
+
+#### Geist Mono
+
+The code styles name `Geist Mono` first and fall back to the platform mono font (`ui-monospace`,
+Menlo, Consolas, Liberation Mono) until the stylesheet loads, or when it is not imported. The stylesheet declares two upright
+faces of `Geist Mono` 1.9.2, both with `font-display: swap` and a variable weight from 100 to 900:
+
+- `GeistMonoVariable-latin.woff2` (37 KB) covers Latin, the common punctuation and arrows.
+- `GeistMonoVariable-rest.woff2` (41 KB) covers Latin Extended, Cyrillic, Vietnamese and the box
+  drawing and block characters.
+
+Geist Mono has no glyph for four key symbols: ⌃ (control), ⌘ (command), ⌥ (option) and ⎋
+(escape). A third `Geist Mono` face draws these four from `InterVariable-keys.woff2` (3 KB), an Inter
+subset, so a shortcut such as ⌘ ⇧ P does not mix Geist Mono with the platform fallback font. These
+glyphs come from Inter and are not monospace, so they are not as wide as the other characters.
+
+The files keep the OpenType features of Geist Mono, such as its stylistic sets (`ss01` and others).
+There is no italic face.
+
+The license text is `LICENSE-GeistMono.txt`, also the SIL Open Font License 1.1. Keep it next to the
+files when you copy them, together with `LICENSE.txt` for `InterVariable-keys.woff2`. To regenerate the files from the Geist release, run
+`uv run scripts/subset-geist-mono.py`.
 
 ### Available Tokens
 

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 27 Oct 2026 21:07:25 GMT
+ * Generated on Mon, 16 Nov 2026 19:59:36 GMT
  */
 
 export const Typography = {
@@ -135,42 +135,42 @@ export const Typography = {
 	CODE_BASE_400_LINEHEIGHT: '1',
 	CODE_BASE_400_LETTERSPACING: '0px',
 	CODE_BASE_400_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_BASE_400_TEXTTRANSFORM: 'none',
 	CODE_BASE_500_FONTSIZE: '13px',
 	CODE_BASE_500_FONTWEIGHT: '500',
 	CODE_BASE_500_LINEHEIGHT: '1',
 	CODE_BASE_500_LETTERSPACING: '0px',
 	CODE_BASE_500_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_BASE_500_TEXTTRANSFORM: 'none',
 	CODE_BASE_600_FONTSIZE: '13px',
 	CODE_BASE_600_FONTWEIGHT: '600',
 	CODE_BASE_600_LINEHEIGHT: '1',
 	CODE_BASE_600_LETTERSPACING: '0px',
 	CODE_BASE_600_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_BASE_600_TEXTTRANSFORM: 'none',
 	CODE_SMALL_400_FONTSIZE: '11px',
 	CODE_SMALL_400_FONTWEIGHT: '400',
 	CODE_SMALL_400_LINEHEIGHT: '1',
 	CODE_SMALL_400_LETTERSPACING: '0px',
 	CODE_SMALL_400_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_SMALL_400_TEXTTRANSFORM: 'none',
 	CODE_SMALL_500_FONTSIZE: '11px',
 	CODE_SMALL_500_FONTWEIGHT: '500',
 	CODE_SMALL_500_LINEHEIGHT: '1',
 	CODE_SMALL_500_LETTERSPACING: '0px',
 	CODE_SMALL_500_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_SMALL_500_TEXTTRANSFORM: 'none',
 	CODE_SMALL_600_FONTSIZE: '11px',
 	CODE_SMALL_600_FONTWEIGHT: '600',
 	CODE_SMALL_600_LINEHEIGHT: '1',
 	CODE_SMALL_600_LETTERSPACING: '0px',
 	CODE_SMALL_600_FONTFAMILY:
-		'"SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
+		'"Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace',
 	CODE_SMALL_600_TEXTTRANSFORM: 'none',
 	PARAGRAPH_MEDIUM_400_FONTSIZE: '16px',
 	PARAGRAPH_MEDIUM_400_FONTWEIGHT: '400',
