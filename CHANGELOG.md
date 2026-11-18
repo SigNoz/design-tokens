@@ -1,5 +1,72 @@
 # @signoz/design-tokens
 
+## 2.7.0
+
+### Minor Changes
+
+- eff8db5: Add a `card-*` set for the Card component, in both themes. `card-background` is the card fill
+  (`surface-2`) and `card-border` its hairline and the lines under its header and over its footer
+  (`l2-border`). `Style` and `StyleTailwind` get `CARD_BACKGROUND` and `CARD_BORDER`.
+- e25c4cf: Add a `collapse-*` set for the Collapse component, in both themes, on the secondary palette that
+  `Callout` uses. `collapse-background` is the fill of the outlined variant (`secondary-background`)
+  and `collapse-border` its border and the line between header and panel (`secondary-border`).
+  `collapse-title` (`l1-foreground`), `collapse-description` and `collapse-content` (`l2-foreground`)
+  colour the text, `collapse-icon` the chevron and prefix (`l3-foreground`), `collapse-icon-hover`
+  the chevron on hover (`l1-foreground`) and `collapse-focus-ring` the header focus ring (`ring`).
+  `Style` and `StyleTailwind` get the matching keys.
+- a0b0ccc: Add a `color-picker-*` set for the ColorPicker component, in both themes. `color-picker-background`,
+  `color-picker-border`, `color-picker-shadow` and `color-picker-foreground` colour the popup,
+  `color-picker-thumb-*` the area, hue and alpha thumbs, `color-picker-preview-*` the swatch,
+  `color-picker-field-*` the hex, RGB and alpha fields (on the `l3` layer so they stand out on the
+  popup, with an invalid tint), `color-picker-clear-*` the clear button inside them, and
+  `color-picker-footer-foreground` the footer text. `Style` and `StyleTailwind` get the matching keys.
+- 96edf21: Add a `date-picker-*` set for the DatePicker component, in both themes, with the same values as the
+  `combobox-*` field and popup. `date-picker-trigger-*` colours the field (background, border, hover
+  border, focus ring, value, placeholder, icons), `date-picker-background`,
+  `date-picker-border`, `date-picker-shadow` and `date-picker-separator` the popup, and
+  `date-picker-time-field-*` and `date-picker-time-separator` the hour and minute fields.
+  `Style` and `StyleTailwind` get the matching keys.
+- 52df37a: The code text styles now use `Geist Mono` instead of `SF Mono`, and the package ships it as an
+  opt-in stylesheet, `dist/fonts/geist-mono.css`, next to `inter.css`.
+
+  ```css
+  @import '@signozhq/design-tokens/dist/fonts/geist-mono.css';
+  ```
+
+  SF Mono cannot be shipped (Apple's license does not allow redistribution), so the code styles
+  rendered a different mono font on macOS, Windows and Linux. The `code-*` font family stack is now
+  `'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace`.
+
+  The stylesheet declares two upright faces of `Geist Mono` 1.9.2, `latin` (37 KB) and `rest`
+  (41 KB), each a variable weight face from 100 to 900 with `font-display: swap`. The `rest` file
+  loads only for text outside the `latin` unicode range. There is no italic face.
+
+  Geist Mono has no ⌃ ⌘ ⌥ ⎋, so a third `Geist Mono` face draws those four key symbols from
+  `InterVariable-keys.woff2` (3 KB), an Inter subset. Without it a shortcut such as ⌘ ⇧ P drew ⌘ in
+  the platform fallback font and ⇧ in Geist Mono.
+  `dist/fonts/LICENSE-GeistMono.txt` is the SIL Open Font License 1.1 text of Geist. The files are
+  regenerated with `uv run scripts/subset-geist-mono.py`.
+
+- eff8db5: Remove the legacy `--card` and `--card-foreground` tokens, with `Style.CARD`,
+  `Style.CARD_FOREGROUND` and the `card` and `card-foreground` keys of `StyleTailwind`. Replace them
+  with the current semantic tokens:
+
+  - `var(--card)` with `var(--surface-2)`, or `var(--card-background)` on a card. Dark is unchanged
+    (`#121317`); light moves from `#ffffff` to `#fcfcfd`.
+  - `var(--card-foreground)` with `var(--l1-foreground)`.
+
+- 509f3b1: Remove `select-trigger-label-disabled` and `combobox-trigger-label-disabled`, with
+  `Style.SELECT_TRIGGER_LABEL_DISABLED`, `Style.COMBOBOX_TRIGGER_LABEL_DISABLED` and their
+  `StyleTailwind` keys. A disabled Select or Combobox trigger now fades as a whole, like a disabled
+  Input, and keeps its normal label colour. Use `var(--select-trigger-label)` or
+  `var(--combobox-trigger-label)` if you referenced them.
+- fd045ee: Add a `steps-*` set for the Steps component, in both themes. `steps-marker-{waiting,current,done}-*`
+  colour the marker of each status, `steps-label-*-foreground` its label, `steps-description-foreground`
+  the text under it, `steps-connector` and `steps-connector-done` the line between steps, and
+  `steps-text-focus-ring` the focus ring of a truncated text. `steps-list-*` colour the vertical list:
+  its markers, connector, label, content and the dot before the footer. They alias the existing layer
+  and primary tokens, so nothing changes on screen. `Style` and `StyleTailwind` get the matching keys.
+
 ## 2.6.0
 
 ### Minor Changes
