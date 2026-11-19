@@ -5218,21 +5218,21 @@
 					"group": "surface-levels"
 				},
 				"l1-border": {
-					"value": "var(--bg-neutral-dark-900)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 95.5%)",
 					"description": "Border color for elements on l1 backgrounds",
 					"usage": "Use for dividers and borders separating l1 content",
 					"category": "border",
 					"group": "surface-levels"
 				},
 				"l2-border": {
-					"value": "var(--bg-neutral-dark-800)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 90.7%)",
 					"description": "Border color for elements on l2 backgrounds",
 					"usage": "Use for card borders and dividers within cards",
 					"category": "border",
 					"group": "surface-levels"
 				},
 				"l3-border": {
-					"value": "var(--bg-neutral-dark-700)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 87%)",
 					"description": "Border color for elements on l3 backgrounds",
 					"usage": "Use for input borders and nested element dividers",
 					"category": "border",
@@ -5265,14 +5265,14 @@
 					"group": "actions"
 				},
 				"secondary-background": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 96%)",
 					"description": "Secondary action background color",
 					"usage": "Use for secondary buttons and less prominent actions",
 					"category": "background",
 					"group": "actions"
 				},
 				"secondary-background-hover": {
-					"value": "var(--l3-background-hover)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Hover state for secondary action elements",
 					"category": "background",
 					"group": "actions"
@@ -6815,7 +6815,7 @@
 					"group": "pills"
 				},
 				"pill-outlined-background-hover": {
-					"value": "var(--surface-3)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Hover background color for outlined pills",
 					"category": "background",
 					"group": "pills"
@@ -7211,7 +7211,7 @@
 					"group": "badges"
 				},
 				"badge-secondary-background": {
-					"value": "var(--surface-3)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 90.7%)",
 					"description": "Fill of a solid secondary badge",
 					"category": "background",
 					"group": "badges"
@@ -7523,13 +7523,13 @@
 					"group": "radios"
 				},
 				"switch-track-background": {
-					"value": "var(--l3-border)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 80%)",
 					"description": "Track fill for unchecked switches",
 					"category": "background",
 					"group": "switches"
 				},
 				"switch-track-hover-background": {
-					"value": "var(--l3-background-hover)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 72%)",
 					"description": "Track fill for hovered unchecked switches",
 					"category": "background",
 					"group": "switches"
@@ -7673,7 +7673,7 @@
 					"group": "tabs"
 				},
 				"tabs-primary-background-hover": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Container background color for hovered primary tabs",
 					"category": "background",
 					"group": "tabs"
@@ -7691,13 +7691,13 @@
 					"group": "tabs"
 				},
 				"tabs-secondary-background": {
-					"value": "var(--l3-background-30)",
+					"value": "var(--secondary-background)",
 					"description": "Background color for default secondary tabs",
 					"category": "background",
 					"group": "tabs"
 				},
 				"tabs-secondary-background-hover": {
-					"value": "var(--l2-background)",
+					"value": "var(--secondary-background-hover)",
 					"description": "Background color for hovered secondary tabs",
 					"category": "background",
 					"group": "tabs"
@@ -7769,19 +7769,19 @@
 					"group": "toggle-group"
 				},
 				"toggle-group-secondary-outlined-background": {
-					"value": "transparent",
+					"value": "var(--input-background)",
 					"description": "Background of an unpressed segment",
 					"category": "background",
 					"group": "toggle-group"
 				},
 				"toggle-group-secondary-outlined-background-hover": {
-					"value": "var(--l3-background-30)",
+					"value": "var(--secondary-background)",
 					"description": "Background of a hovered segment, half the pressed fill",
 					"category": "background",
 					"group": "toggle-group"
 				},
 				"toggle-group-secondary-outlined-background-active": {
-					"value": "var(--l3-background-60)",
+					"value": "var(--secondary-background-hover)",
 					"description": "Background of the pressed segment",
 					"category": "background",
 					"group": "toggle-group"
@@ -7889,7 +7889,7 @@
 					"group": "dropdown"
 				},
 				"dropdown-item-background-hover": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Fill of a hovered or highlighted dropdown row",
 					"category": "background",
 					"group": "dropdown"
@@ -8051,7 +8051,7 @@
 					"group": "card"
 				},
 				"combobox-trigger-background": {
-					"value": "transparent",
+					"value": "var(--input-background)",
 					"description": "Background of the combobox field",
 					"category": "background",
 					"group": "combobox"
@@ -8165,7 +8165,7 @@
 					"group": "combobox"
 				},
 				"combobox-item-background-hover": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Background of the highlighted combobox row",
 					"category": "background",
 					"group": "combobox"
@@ -8255,7 +8255,7 @@
 					"group": "combobox"
 				},
 				"select-trigger-background": {
-					"value": "transparent",
+					"value": "var(--input-background)",
 					"description": "Background of the select field",
 					"category": "background",
 					"group": "select"
@@ -8363,7 +8363,7 @@
 					"group": "select"
 				},
 				"select-item-background-hover": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Background of the highlighted select row",
 					"category": "background",
 					"group": "select"
@@ -8573,7 +8573,7 @@
 					"group": "calendar"
 				},
 				"calendar-select-border": {
-					"value": "var(--input)",
+					"value": "var(--l2-border)",
 					"description": "Border of the month and year selects in the caption",
 					"category": "border",
 					"group": "calendar"
@@ -9437,7 +9437,7 @@
 					"group": "command"
 				},
 				"command-item-background-hover": {
-					"value": "var(--l3-background-60)",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 93%)",
 					"description": "Background of the highlighted command palette row",
 					"category": "background",
 					"group": "command"
@@ -9635,7 +9635,7 @@
 					"group": "pagination"
 				},
 				"input-background": {
-					"value": "transparent",
+					"value": "color-mix(in srgb, var(--bg-neutral-dark-50), transparent 96.5%)",
 					"description": "Field background in the resting state, transparent so the input sits on any surface",
 					"usage": "Use for the bordered frame of Input and its members",
 					"category": "background",
@@ -9654,13 +9654,13 @@
 					"group": "inputs"
 				},
 				"input-foreground": {
-					"value": "var(--l1-foreground-hover)",
+					"value": "var(--l1-foreground)",
 					"description": "The typed value",
 					"category": "foreground",
 					"group": "inputs"
 				},
 				"input-placeholder": {
-					"value": "var(--l2-foreground)",
+					"value": "var(--l3-foreground)",
 					"description": "Placeholder text, rendered at 60% opacity by the component",
 					"category": "foreground",
 					"group": "inputs"
