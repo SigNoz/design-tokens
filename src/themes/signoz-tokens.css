@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 19 Nov 2026 13:40:40 GMT
+ * Generated on Fri, 20 Nov 2026 15:38:13 GMT
  */
 
 [data-theme='default'] {
@@ -878,11 +878,11 @@
 	);
 	--button-secondary-outlined-label: var(--secondary-foreground);
 	--button-secondary-outlined-label-hover: var(--secondary-foreground-hover);
-	--button-secondary-outlined-border: var(--secondary-border);
+	--button-secondary-outlined-border: var(--l2-border);
 	--button-secondary-outlined-disabled-stripe: var(--secondary-border);
 	--button-secondary-dashed-label: var(--secondary-foreground);
 	--button-secondary-dashed-label-hover: var(--secondary-foreground-hover);
-	--button-secondary-dashed-stroke: var(--secondary-border);
+	--button-secondary-dashed-stroke: var(--l2-border);
 	--button-secondary-dashed-stroke-hover: var(--secondary-background-hover);
 	--button-secondary-ghost-label: var(--secondary-foreground);
 	--button-secondary-ghost-label-hover: var(--secondary-foreground-hover);
@@ -1969,11 +1969,11 @@
 	);
 	--button-secondary-outlined-label: var(--secondary-foreground);
 	--button-secondary-outlined-label-hover: var(--secondary-foreground-hover);
-	--button-secondary-outlined-border: var(--secondary-border);
+	--button-secondary-outlined-border: var(--l2-border);
 	--button-secondary-outlined-disabled-stripe: var(--secondary-border);
 	--button-secondary-dashed-label: var(--secondary-foreground);
 	--button-secondary-dashed-label-hover: var(--secondary-foreground-hover);
-	--button-secondary-dashed-stroke: var(--secondary-border);
+	--button-secondary-dashed-stroke: var(--l2-border);
 	--button-secondary-dashed-stroke-hover: var(--secondary-background-hover);
 	--button-secondary-ghost-label: var(--secondary-foreground);
 	--button-secondary-ghost-label-hover: var(--secondary-foreground-hover);

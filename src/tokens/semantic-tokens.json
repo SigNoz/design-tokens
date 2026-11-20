@@ -4129,7 +4129,7 @@
 					"group": "button"
 				},
 				"button-secondary-outlined-border": {
-					"value": "var(--secondary-border)",
+					"value": "var(--l2-border)",
 					"description": "Border of an outlined button",
 					"category": "border",
 					"group": "button"
@@ -4153,7 +4153,7 @@
 					"group": "button"
 				},
 				"button-secondary-dashed-stroke": {
-					"value": "var(--secondary-border)",
+					"value": "var(--l2-border)",
 					"description": "Dashed border of a dashed button",
 					"category": "border",
 					"group": "button"
@@ -9071,7 +9071,7 @@
 					"group": "button"
 				},
 				"button-secondary-outlined-border": {
-					"value": "var(--secondary-border)",
+					"value": "var(--l2-border)",
 					"description": "Border of an outlined button",
 					"category": "border",
 					"group": "button"
@@ -9095,7 +9095,7 @@
 					"group": "button"
 				},
 				"button-secondary-dashed-stroke": {
-					"value": "var(--secondary-border)",
+					"value": "var(--l2-border)",
 					"description": "Dashed border of a dashed button",
 					"category": "border",
 					"group": "button"
