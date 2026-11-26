@@ -1,7 +1,7 @@
 /**
  * Signoz Theme Tokens
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 26 Nov 2026 18:38:39 GMT
+ * Generated on Thu, 26 Nov 2026 18:51:30 GMT
  */
 
 [data-theme='default'] {
@@ -905,6 +905,11 @@
 		transparent 80%
 	);
 	--tooltip-danger-label: var(--tooltip-label);
+	--tooltip-danger-divider: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
 	--toast-background: var(--surface-2);
 	--toast-border: var(--l2-border);
 	--toast-shadow: var(--shadow-toast);
@@ -2007,6 +2012,11 @@
 		transparent 80%
 	);
 	--tooltip-danger-label: var(--tooltip-label);
+	--tooltip-danger-divider: color-mix(
+		in srgb,
+		var(--bg-cherry-500),
+		transparent 80%
+	);
 	--toast-background: var(--surface-2);
 	--toast-border: var(--l2-border);
 	--toast-shadow: var(--shadow-toast);

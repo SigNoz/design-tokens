@@ -1,7 +1,7 @@
 /**
  * Semantic Token Constants
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 26 Nov 2026 18:38:39 GMT
+ * Generated on Thu, 26 Nov 2026 18:51:30 GMT
  */
 
 export const Style = {
@@ -775,6 +775,7 @@ export const Style = {
 	TOOLTIP_DANGER_BACKGROUND: 'var(--tooltip-danger-background)',
 	TOOLTIP_DANGER_BORDER: 'var(--tooltip-danger-border)',
 	TOOLTIP_DANGER_LABEL: 'var(--tooltip-danger-label)',
+	TOOLTIP_DANGER_DIVIDER: 'var(--tooltip-danger-divider)',
 	TOAST_BACKGROUND: 'var(--toast-background)',
 	TOAST_BORDER: 'var(--toast-border)',
 	TOAST_SHADOW: 'var(--toast-shadow)',

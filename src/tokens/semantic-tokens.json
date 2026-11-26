@@ -4242,6 +4242,12 @@
 					"category": "foreground",
 					"group": "tooltip"
 				},
+				"tooltip-danger-divider": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Divider between the sections of a tooltip that reports a denial or a failure. Same as tooltip-danger-border",
+					"category": "border",
+					"group": "tooltip"
+				},
 				"toast-background": {
 					"value": "var(--surface-2)",
 					"description": "Fill of a toast",
@@ -9200,6 +9206,12 @@
 					"value": "var(--tooltip-label)",
 					"description": "Text of a tooltip that reports a denial or a failure",
 					"category": "foreground",
+					"group": "tooltip"
+				},
+				"tooltip-danger-divider": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Divider between the sections of a tooltip that reports a denial or a failure. Same as tooltip-danger-border",
+					"category": "border",
 					"group": "tooltip"
 				},
 				"toast-background": {
