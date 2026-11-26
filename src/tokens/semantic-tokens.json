@@ -4224,6 +4224,24 @@
 					"category": "shadow",
 					"group": "tooltip"
 				},
+				"tooltip-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Fill of a tooltip that reports a denial or a failure. Same as callout-danger-background",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Border of a tooltip that reports a denial or a failure. Same as callout-danger-border",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-danger-label": {
+					"value": "var(--tooltip-label)",
+					"description": "Text of a tooltip that reports a denial or a failure",
+					"category": "foreground",
+					"group": "tooltip"
+				},
 				"toast-background": {
 					"value": "var(--surface-2)",
 					"description": "Fill of a toast",
@@ -9164,6 +9182,24 @@
 					"value": "var(--shadow-tooltip)",
 					"description": "Shadow under a tooltip",
 					"category": "shadow",
+					"group": "tooltip"
+				},
+				"tooltip-danger-background": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 90%)",
+					"description": "Fill of a tooltip that reports a denial or a failure. Same as callout-danger-background",
+					"category": "background",
+					"group": "tooltip"
+				},
+				"tooltip-danger-border": {
+					"value": "color-mix(in srgb, var(--bg-cherry-500), transparent 80%)",
+					"description": "Border of a tooltip that reports a denial or a failure. Same as callout-danger-border",
+					"category": "border",
+					"group": "tooltip"
+				},
+				"tooltip-danger-label": {
+					"value": "var(--tooltip-label)",
+					"description": "Text of a tooltip that reports a denial or a failure",
+					"category": "foreground",
 					"group": "tooltip"
 				},
 				"toast-background": {

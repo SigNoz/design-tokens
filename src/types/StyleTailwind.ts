@@ -1,7 +1,7 @@
 /**
  * Semantic Token Tailwind Config
  * DO NOT EDIT DIRECTLY - This file is auto-generated
- * Generated on Thu, 12 Nov 2026 17:53:27 GMT
+ * Generated on Thu, 26 Nov 2026 18:38:39 GMT
  */
 
 export const StyleTailwind = {
@@ -784,6 +784,9 @@ export const StyleTailwind = {
 	'tooltip-border': 'var(--tooltip-border)',
 	'tooltip-divider': 'var(--tooltip-divider)',
 	'tooltip-shadow': 'var(--tooltip-shadow)',
+	'tooltip-danger-background': 'var(--tooltip-danger-background)',
+	'tooltip-danger-border': 'var(--tooltip-danger-border)',
+	'tooltip-danger-label': 'var(--tooltip-danger-label)',
 	'toast-background': 'var(--toast-background)',
 	'toast-border': 'var(--toast-border)',
 	'toast-shadow': 'var(--toast-shadow)',
